@@ -13,6 +13,7 @@ module.exports = function(grunt) {
                         'css/src/bootstrap.css',
                         'css/src/community-base-theme.css',
                         'css/src/os-core.css',
+                        'css/src/menu-mobile.css',
                         'css/src/ideas.css'
                     ]
                 }
