@@ -9,7 +9,7 @@ module.exports = function(grunt) {
                     banner: '/* My minified css file */'
                 },
                 files: {
-                    'css/bundle/os-portal-theme.css': [
+                    'css/bundle/os-portal.css': [
                         'css/src/bootstrap.css',
                         'css/src/community-base-theme.css'
                     ]
@@ -22,32 +22,15 @@ module.exports = function(grunt) {
             },
             build: {
                 files: {
-                    'bundle/core.js': [
-                        'src/jquery-1.10.2.min.js',
-                        'src/jQueryMobile1_3_1_Custom.min.js',
-                        'src/jquery.easing.1.3.min.js',
-                        'src/jquery.animate-enhanced.min.js'
+                    'js/bundle/os-portal.js': [
+                        'js/src/jquery-1.10.2.min.js',
+                        'js/src/jQueryMobile1_3_1_Custom.min.js',
+                        'js/src/jquery.easing.1.3.min.js',
+                        'js/src/jquery.animate-enhanced.min.js'
                     ],
-                    'bundle/extra.js': [
-                        'src/jquery.lazyloadxt.extra.min.js',
-                        'src/common.min.js',
-                        'src/os-inspectlet.min.js',
-                        'src/jquery.panelslider.min.js',
-                        'src/home-parallax.min.js',
-                        'src/jquery.powertip.min.js',
-                        'src/os-ws-popup.min.js',
-                        'src/carousel.min.js',
-                        'src/jquery.sticky.min.js',
-                        'src/jquery.actual.min.js',
-                        'src/isotope.pkgd.min.js',
-                        'src/jquery.magnific-popup.min.js',
-                        'src/imagelightbox.min.js',
-                        'src/jquery.ba-hashchange.min.js',
-                        'src/jquery.swiftype.search.min.js',
-                        'src/jquery.swiftype.autocomplete.min.js',
-                        'src/os-swiftype.min.js',
-                        'src/jQuery.succinct.min.js',
-                        'src/jquery.zaccordion.min.js'
+                    'js/bundle/os-portal-extra.js': [
+                        'js/src/jquery.lazyloadxt.extra.min.js',
+                        'js/src/common.min.js'
 
                     ]
                 }
