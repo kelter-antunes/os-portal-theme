@@ -1,0 +1,343 @@
+.filterlabel {
+    width: 108px;
+    display: inline-block;
+}
+
+.CommunityDownloadButton {
+    background: url(/Community/img/CommunityDownloadButton.png) no-repeat;
+    background-position: 1px -1px;
+    width: 312px !important;
+    height: 55px;
+    display: inline-block;
+    color: #FFF !important;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5) !important;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    background-color: transparent !important;
+    border: none;
+    padding-bottom: 8px;
+}
+
+.CommunityDownloadButton:hover {
+    background-position: 1px -61px;
+    background-color: transparent !important;
+}
+
+.radio-checkbox {
+    *margin-right: 0px !important;
+    _margin-right: 0px !important;
+    zoom: 1;
+}
+
+.checkbox {
+    zoom: 1;
+    padding-left: 0px;
+}
+
+.whiteSpaceNoWrap {
+    white-space: nowrap;
+}
+
+.wordBreakWord {
+    word-break: break-word;
+}
+
+.tableofcontents {
+    bottom: 0;
+    display: block;
+    position: relative;
+    right: -644px;
+    top: 0px;
+    font-size: 18px;
+    background: #444444;
+    color: #fcfcfc;
+    width: 30px;
+    height: 362px;
+    overflow-y: auto;
+    opacity: 0.97;
+}
+
+.tableofcontents:hover {
+    width: 300px;
+    right: -374px;
+}
+
+.tableofcontents .tableofcontents-title {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=4);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    font-family: 'myriad-pro', sans-serif;
+    text-rendering: optimizelegibility;
+    font-size: 16px;
+    color: #FCFCFC;
+    width: 191px;
+    position: absolute;
+    right: -80px;
+    top: 145px;
+}
+
+.tableofcontents:hover .tableofcontents-title {
+    right: 190px;
+}
+
+.tableofcontents .tableofcontents-content {
+    font-size: 12px;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 2px;
+    position: absolute;
+    display: none;
+    background-color: #1b1b1b;
+    height: 100%;
+    width: 258px;
+    overflow-y: auto;
+    overflow-x: none;
+}
+
+.tableofcontents:hover .tableofcontents-content {
+    display: block;
+}
+
+.tableofcontents li {
+    list-style: none;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+.social-icons .share a {
+    font-size: 18px;
+}
+
+.footer.social-icons a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #ccc;
+    border: none;
+    -webkit-transition: all ease-in-out .15s;
+    -moz-transition: all ease-in-out .15s;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 308px;
+    display: block;
+    overflow: hidden;
+}
+
+ul.footer.social-icons li {
+    display: inline-block;
+}
+
+ul.footer.social-icons {
+    margin-top: 27px;
+}
+
+.footer a.twitter,
+.footer a.facebook,
+.footer a.google,
+.footer a.linkedin {
+    background: url('/CMS_BackOffice/ResourceLink.aspx?ResourceName=icons&v=26072013') no-repeat;
+    width: 21px;
+    height: 21px;
+    text-indent: -9999px;
+    display: inline-block;
+}
+
+.footer a.twitter {
+    background-position: -29px -551px;
+}
+
+.footer a:hover.twitter {
+    background-position: -29px -581px;
+}
+
+.footer a.facebook {
+    background-position: -1px -551px;
+}
+
+.footer a:hover.facebook {
+    background-position: -1px -581px;
+}
+
+.footer a.google {
+    background-position: -29px -611px;
+}
+
+.footer a:hover.google {
+    background-position: -29px -641px;
+}
+
+.footer a.linkedin {
+    background-position: -1px -611px;
+}
+
+.footer a:hover.linkedin {
+    background-position: -1px -641px;
+}
+
+.footer.social-icons {
+    float: right;
+    margin-top: 10px !important;
+}
+
+.footer.social-icons a:link {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.mobile-top20 {
+    margin-top: 0px;
+}
+
+.mobile-search {
+    display: none;
+}
+
+.social-userexperienceshared a.twitter,
+.social-userexperienceshared a.facebook,
+.social-userexperienceshared a.g-plus,
+.social-userexperienceshared a.linkedin {
+    background: url('/CMS_BackOffice/ResourceLink.aspx?ResourceName=icons&v=26072013') no-repeat;
+    width: 21px;
+    height: 21px;
+    text-indent: -9999px;
+    display: inline-block;
+}
+
+.social-userexperienceshared a.twitter {
+    background-position: -29px -551px;
+}
+
+.social-userexperienceshared a:hover.twitter {
+    background-position: -29px -581px;
+}
+
+.social-userexperienceshared a.facebook {
+    background-position: -1px -551px;
+}
+
+.social-userexperienceshared a:hover.facebook {
+    background-position: -1px -581px;
+}
+
+.social-userexperienceshared a.g-plus {
+    background-position: -29px -611px;
+}
+
+.social-userexperienceshared a:hover.g-plus {
+    background-position: -29px -641px;
+}
+
+.social-userexperienceshared a.linkedin {
+    background-position: -1px -611px;
+}
+
+.social-userexperienceshared a:hover.linkedin {
+    background-position: -1px -641px;
+}
+
+.social-userexperienceshared a {
+    margin-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ccc;
+    border: none;
+    -webkit-transition: all ease-in-out .15s;
+    -moz-transition: all ease-in-out .15s;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 308px;
+    display: block;
+    overflow: hidden;
+}
+
+.mobile-marginleft0 {
+    margin-left: 10px;
+}
+
+
+/**** media *********/
+
+@media (max-width: 979px) {
+    .mobile-search {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .Responsive [class*="ThemeGrid_Width"].HiddenInSmartphone,
+    .Responsive .HiddenInSmartphone,
+    .Responsive .Counter_Message,
+    .Responsive .AppSwitcherContainer {
+        display: none;
+        -servicestudio-display: none!important;
+    }
+    .mobile-top20 {
+        margin-top: 20px;
+        width: 250px !important;
+    }
+    .mobile-search {
+        display: inline-block;
+        margin-top: 5px;
+        width: 90%;
+    }
+    .small-search {
+        width: auto;
+        margin: 10px 10px 0px 10px;
+    }
+    .footer.social-icons {
+        float: none;
+    }
+    input,
+    input[type="text"],
+    input[type="password"],
+    input[type="search"] {
+        font-size: 16px;
+        size
+    }
+    .search-wrapper input.searchBig {
+        font-size: 16px;
+    }
+    .mobile-marginleft0 {
+        margin-left: 0px !important;
+        clear: both !important;
+        width: 250px !important;
+    }
+    .header-logo a:link {
+        display: inline-block;
+    }
+}
+
+.confirmationDiv {
+    width: 450px;
+    margin: 20px 0;
+    color: #606060;
+    border: 1px solid #e1e1e1;
+    background-color: #e1e1e1;
+}
+
+.margin10 {
+    margin: 10px;
+}
+
+.footer-section-wrapper {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !Important;
+}
+
+.prevent-me {
+    cursor: pointer;
+}
+
+.tooltip {
+    display: table !important;
+}

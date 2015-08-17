@@ -11,7 +11,9 @@ module.exports = function(grunt) {
                 files: {
                     'css/bundle/os-portal.css': [
                         'css/src/bootstrap.css',
-                        'css/src/community-base-theme.css'
+                        'css/src/community-base-theme.css',
+                        'css/src/os-core.css',
+                        'css/src/ideas.css'
                     ]
                 }
             }
@@ -23,8 +25,8 @@ module.exports = function(grunt) {
             build: {
                 files: {
                     'js/bundle/os-portal.js': [
-                        'js/src/jquery-1.10.2.min.js',
-                        'js/src/jQueryMobile1_3_1_Custom.min.js',
+                        'js/src/bootstrap.js',
+                        'js/src/portal-common.js',
                         'js/src/jquery.easing.1.3.min.js',
                         'js/src/jquery.animate-enhanced.min.js'
                     ],
