@@ -1,0 +1,434 @@
+/* MenuMobile webblock */
+
+
+/* Menu Styles */
+
+.Header_Menu,
+.Application_Menu {
+    white-space: nowrap;
+    display: none;
+}
+
+.Menu_TopMenuActive {
+    border-bottom: none;
+    /* background: #393939; */
+}
+
+.Menu_TopMenu {
+    margin: 0px;
+}
+
+.Menu_TopMenu [class^=fa] {
+    margin-right: 8px;
+}
+
+.Menu_TopMenu a:link,
+.Menu_TopMenu a:visited,
+.Menu_TopMenu a {
+    color: #C4C4C4;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 12px 20px;
+    display: inline-block;
+}
+
+.Menu_TopMenu:hover,
+.Menu_TopMenu:hover a [class^=fa],
+.Menu_TopMenuActive a:link [class^=fa],
+.Menu_TopMenuActive a:visited [class^=fa],
+a.Menu_SubMenuItemActive:link [class^=fa],
+a.Menu_SubMenuItemActive:visited [class^=fa],
+a.Menu_SubMenuItem:hover [class^=fa] {
+    color: #E83E26;
+    text-decoration: none;
+}
+
+.Menu_TopMenuActive .Menu_DropDownArrow {
+    border-top-color: #555555;
+}
+
+.Menu_DropDownArrow {
+    border-top-color: #C4C4C4;
+    right: 13px;
+}
+
+.menu-active-marker {
+    display: none;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 7.5px 0 7.5px 7px;
+    border-color: transparent transparent transparent #ffffff;
+    position: absolute;
+    top: 15px
+}
+
+.Menu_TopMenuActive .menu-active-marker {
+    display: block;
+}
+
+.Menu_DropDownPanel {
+    margin-top: 0px;
+    border: 1px solid #888;
+}
+
+a.Menu_SubMenuItem,
+a.Menu_SubMenuItem:hover,
+a.Menu_SubMenuItem:link,
+a.Menu_SubMenuItem:visited {
+    background-color: #747474;
+    margin: 0;
+    padding: 7px 20px 7px 20px;
+    border-bottom: 1px solid #555555;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: auto;
+}
+
+a.Menu_SubMenuItem,
+a.Menu_SubMenuItem:hover,
+a.Menu_SubMenuItem:link,
+a.Menu_SubMenuItem:visited {
+    color: #C4C4C4;
+}
+
+.Menu_TopMenuActive a:link,
+.Menu_TopMenuActive a:visited,
+a.Menu_SubMenuItemActive:link,
+a.Menu_SubMenuItemActive:visited,
+a.Menu_SubMenuItem:hover {
+    color: white;
+}
+
+.MenuSlider_Toggler {
+    color: white;
+}
+
+.menu-close {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    display: block;
+    width: 35px;
+    height: 37px;
+    background-color: black;
+    padding-left: 10px;
+    padding-top: 13px;
+}
+
+.menu-back {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+    padding: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.header-glued-bar {
+    display: none;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+}
+
+.Menu_TopMenus {
+    background: inherit;
+    -webkit-overflow-scrolling: touch;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    padding-left: 0;
+    padding-top: 0;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#313131');
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#000000', endColorstr = '#313131')";
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    background-image: -moz-linear-gradient(top, #000000, #313131);
+    background-image: -ms-linear-gradient(top, #000000, #313131);
+    background-image: -o-linear-gradient(top, #000000, #313131);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#000000), to(#313131));
+    background-image: -webkit-linear-gradient(top, #000000, #313131);
+    background-image: linear-gradient(top, #000000, #313131);
+    /*--IE9 DOES NOT SUPPORT CSS3 GRADIENT BACKGROUNDS--*/
+    ;
+    border: 1px solid white;
+    border-top: 0;
+    box-shadow: -1px 0px 10px 1px #000000;
+}
+
+
+/* DropDownMenu webblock */
+
+.Menu_DropDownButton {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    *z-index: 200;
+    /* required for IE7 */
+}
+
+.Menu_DropDownButton.open {
+    z-index: 210;
+    *vertical-align: top;
+}
+
+.Menu_DropDownButton.open .Menu_TopMenu {
+    background-image: none;
+    position: relative;
+    z-index: 210;
+    cursor: pointer;
+    *display: block;
+}
+
+.Menu_DropDownArrow {
+    position: relative;
+    top: -2px;
+    border-style: solid dashed dashed;
+    border-color: transparent;
+    border-top-color: #666;
+    display: -moz-inline-box;
+    display: inline-block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    width: 0;
+    border-width: 3px 3px 0;
+    padding-top: 1px;
+}
+
+.Menu_DropDownPanel {
+    position: absolute;
+    z-index: 200;
+    display: none;
+    list-style: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: -1px 0 0 -1px;
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+.Menu_SubItemsPlaceholder {}
+
+.Menu_DropDownPanel a,
+.Menu_DropDownPanel a:link,
+.Menu_DropDownPanel a:visited {
+    display: block;
+    clear: both;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 2em;
+    color: white;
+    white-space: nowrap;
+    margin: 0;
+    background: none;
+    text-shadow: none;
+    border-width: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    min-width: 0;
+    text-align: left;
+    *width: 140px;
+    min-width: 140px;
+    height: 26px;
+    padding: 12px 35px;
+}
+
+.Menu_DropDownPanel a:hover,
+.Menu_DropDownPanel a:focus {
+    text-decoration: none;
+}
+
+
+/** MenuSlider webblock */
+
+.MenuSlider_IsOpen {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.MenuSlider_Toggler {
+    display: none;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    right: 10px;
+    background-color: black;
+    height: 35px;
+    padding-top: 15px;
+    position: absolute;
+    top: 0px;
+}
+
+.MobileApp .Application_Menu {}
+
+
+/* reset any inherit styles (e.g.: ChicagoMobile -> Chicago) */
+
+div.Menu_DropDownPanel a,
+div.Menu_DropDownPanel a:link,
+div.Menu_DropDownPanel a:visited {
+    height: auto;
+}
+
+div.Application_Menu div.Menu_DropDownPanel a,
+div.Application_Menu div.Menu_DropDownPanel a:link,
+div.Application_Menu div.Menu_DropDownPanel a:visited {
+    display: block;
+}
+
+
+/* Tablet Portrait and Mobile */
+
+@media screen and (max-width: 767px) {
+    .MenuSlider_Toggler {
+        display: inline-block;
+    }
+    .Menu_Container {
+        margin-bottom: 44px;
+        /* iphone bottom toolbar */
+        width: 100%;
+    }
+    .Application_Menu {
+        display: block;
+        position: fixed;
+        right: -800px;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding-left: 45px;
+        /* Animate the menu when opening and closing */
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+        -ms-transition: all .3s ease-out;
+        -o-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+        /* Enable hardware acceleration */
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        /* reduce animation flickering */
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-perspective: 1000;
+        -moz-perspective: 1000;
+        -ms-perspective: 1000;
+        perspective: 1000;
+        font-family: 'myriad-pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .Header .Application_Menu {}
+    .LeftMenu .Application_Menu {
+        left: -270px;
+    }
+    .MenuSlider_IsOpen .Application_Menu {
+        right: -34px;
+        z-index: 2;
+    }
+    .MenuSlider_IsOpen .LeftMenu .Application_Menu {
+        left: 0px;
+    }
+    /* fix for older versions of android */
+    .MenuSlider_IsOpen select {
+        z-index: 0;
+    }
+    .Application_Menu .Menu_TopMenu {
+        width: 100%;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    /* the "body >" rule applies only when in design mode, directy on the web block menu */
+    body > div.Application_Menu .Menu_DropDownButton,
+    .Application_Menu .Menu_DropDownButton {
+        display: block;
+        position: relative;
+    }
+    .Application_Menu a,
+    .Application_Menu a:link,
+    .Application_Menu a:visited {
+        display: inline-block;
+        width: 100%;
+        border: 0px;
+        border-bottom: 1px solid #262626;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+    .Application_Menu .Menu_DropDownPanel {
+        position: static;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+        background-color: #262626;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        border-bottom: 0;
+    }
+    .Application_Menu .Menu_DropDownPanel a,
+    .Application_Menu .Menu_DropDownPanel a:link,
+    .Application_Menu .Menu_DropDownPanel a:visited {
+        border-bottom: 1px solid #3A3A3A;
+    }
+    .Application_Menu .Menu_DropDownArrow {
+        position: relative;
+        left: 8px;
+        top: 0px;
+    }
+    /* create an overlay so that you can close the menu on click (body) */
+    .MenuSlider_Toggler_Overlay {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        display: none;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    }
+    .MenuSlider_IsOpen .MenuSlider_Toggler_Overlay {
+        display: block;
+    }
+    .MenuSlider_IsOpen .content-layout-simplify {
+        height: 100%;
+        overflow: hidden;
+    }
+    .header-hero-wrapper {
+        min-width: 0;
+    }
+}
+
+
+/* The following classes are applied on design time, when editing the menu WB */
+
+body > div.Application_Menu {}
+
+
+/* ExcludeAllFromPickersOutsideBlock */
