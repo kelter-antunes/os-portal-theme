@@ -13,17 +13,13 @@ module.exports = function(grunt) {
                         'css/src/bootstrap.css',
                         'css/src/community-base-theme.css',
                         'css/src/os-core.css',
-<<<<<<< HEAD
                         'css/src/ideas.css',
                         'css/src/forums.css',
                         'css/src/partner-center.css',
                         'css/src/profile.css',
-                        'css/src/search.css'
-=======
+                        'css/src/search.css',
                         'css/src/menu-mobile.css',
-                        'css/src/widgets.css',
-                        'css/src/ideas.css'
->>>>>>> origin/master
+                        'css/src/widgets.css'
                     ]
                 }
             }
