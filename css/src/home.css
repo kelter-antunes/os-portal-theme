@@ -1,0 +1,2842 @@
+/* Home Theme */
+/************* Home  ******************/
+.background-gray {
+    background-color: #E6EAEB;
+    height: 65px;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+.homebox-width{
+    width: 500px !important;
+ }
+ 
+.box {
+    background-color: white;
+}
+
+.box .title {
+    font-family: 'myriad-pro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #808080;
+    font-size: 16px;
+    padding:  20px;
+    border-bottom:  1px solid #d0d0d0;
+}
+
+.box ul {
+    margin: 0;
+    padding: 20px;
+}
+
+.box li {
+    list-style: none;
+}
+
+.box ul a {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.box .details {
+    color: #808080;
+}
+
+/**** Downloads Page ****/
+
+.box.round{
+    border-radius: 10px;
+}
+
+.round-top-left,
+.round-top-left.round-top-right-1step {
+    border-radius: 10px 0 0 0;
+}
+
+.round-top-right {
+    border-radius: 0 10px 0 0;
+}
+
+.box .download-title {
+    font-size: 22px;
+    padding: 20px 20px 10px 25px;
+    font-weight: bolder;
+    display: inline-block;
+    font-family: 'myriad-pro',sans-serif;
+}
+
+.box .download-content {
+    padding-right: 20px;
+    display: inline-block;
+    font-family: Helvetica, Arial ,sans-serif;
+    min-height: 60px;
+}
+
+.box .download-content.highlight {
+    min-height: 140px;
+}
+
+.box .download-server-content {
+    padding-right: 25px;
+    display: inline-block;
+    font-family: 'myriad-pro',sans-serif;
+    margin-left: 25px;
+}
+
+.box .download-button {
+    height: 25px;
+}
+
+
+.box .download-image {
+    height: 150px;
+    padding-left: 25px;
+}
+
+.box .downloadlink {
+    font-size: 14px;
+}
+
+.box .borderleft {
+    border-left: 1px solid white;
+    min-height:165px; 
+}
+
+/****************************/
+.box {
+    position: relative;
+}
+
+
+.box {
+    position: relative;
+}
+.configuration {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    background-color: #CCCCCC;
+    right: 0;
+}
+.buttons {
+    padding: 17px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: #4673A7;
+}
+.picture {
+    height: 98px;
+}
+.row.buttons {
+    margin: 0;
+}
+
+.row.buttons a {
+    color: #C2C2C2;
+    text-align: center;
+}
+
+
+.posts:before {
+    background: url('/CommunityBaseTheme/img/icons.png') no-repeat -4px -841px;
+    width: 18px;
+    height: 17px;
+    display: block;
+    content: "";
+    float: left;
+    margin-right: 7px;
+}
+
+.components:before {
+    background: url('/CommunityBaseTheme/img/icons.png') no-repeat -6px -983px;
+    width: 16px;
+    height: 17px;
+    display: block;
+    content: "";
+    float: left;
+    margin-right: 7px;
+}
+
+.upcoming:before {
+    background: url('/CommunityBaseTheme/img/icons.png') no-repeat -39px -425px;
+    width: 15px;
+    height: 18px;
+    display: block;
+    content: "";
+    float: left;
+    margin-right: 7px;
+}
+
+
+.homepage-block-last-answered-details {
+    max-width: 268px;
+    display: inherit;
+}
+.homepage-row-wrapper {
+    margin: 20px;
+}
+.post-reply-info {
+    color: #808080;
+    font-size: 14px;
+}
+.homepage-block-components-details.pull-left {
+    width: auto;
+}
+
+.post-reply-info {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 268px;
+    display: inherit;
+}
+
+.box.top {
+    min-height: 190px;
+}
+
+.box.bottom {
+    min-height: 322px;
+}
+
+.personal {
+    padding: 55px 0 0 0;
+}
+.steps {
+    background: white;
+    margin: 10px 11px 10px 10px;
+    position: relative
+}
+
+.steps:after {
+    content: ' ';
+    background-image: url(/home/img/steps.png);
+    height: 34px;
+    width: 15px;
+    position: absolute;
+    top: 71px;
+    right: -15px;
+}
+.steps .stepstyle {
+    background-color: #A2B9D3;
+    color: white;
+    text-transform: uppercase;
+    min-height: 0;
+    padding: 2px 10px;
+}
+.steps .stepstyle.active {
+    background-color: #4673A7;
+}
+.steps .stepstyle.active {
+    background: #4673A7;
+}
+
+.steps {
+}
+
+.download-box-content {
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.download-box-image {
+    height: 150px;
+    padding-left: 20px;
+}
+
+.download-box-button {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.document-details {
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.document-details-downs:before {
+    content: "";
+    float: left;
+    background-image: url('/CommunityBaseTheme/img/icons.png');
+    background-position: -5px -586px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 15px;
+    margin: 0 5px 0 0;
+}
+
+.document-big-box {
+    border-top: 1px solid #ECECEC;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+.Infrastructure {
+    background-color: #E6E6E6;
+    margin-bottom: 28px;
+    border: 1px solid #ccc;
+}
+
+a.terms-link {
+    color: #9A9A9A;
+    text-decoration: underline;
+}
+
+a.terms-link:hover {
+    color: #000;
+}
+
+.InfraBox {
+    padding: 20px;
+    min-height: 145px;
+}
+
+.InfraBox .name {
+    min-height: 75px;
+}
+
+.InfraBox .namewrapper {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 330px;
+}
+
+.selectable {
+    cursor: pointer;
+}
+
+.BtnManageApp {
+    width: 150px\9;
+    width: 150px\0/;
+}
+
+.round-top-right-1step{
+    border-radius: 0px;
+}
+
+.moreinfo-button{
+    padding-left: 25px;
+}
+    
+    .mobile-align{
+        text-align: right;
+    }
+    
+    .mobile-displayinline{
+        display: block;
+    }
+    
+    .mobile-margintop10{
+        margin-top: 50px;
+    }
+    
+    .mobile-margintop20{
+        margin-top: 40px;
+    }
+    
+    .mobileInfraInactive{
+    display: inline-block; 
+    padding-left:30px;
+    }
+    
+    .user-exprience-shared-box{
+    background-image: url(img/stopwatch.png);
+    background-position: 98% bottom;
+    background-repeat: no-repeat;
+    background-color: #C2D6EC;
+    border-top: 3px solid #92B7DF;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 20px;
+    }
+    
+    .user-experience-photo-border{
+    border-right:1px solid #e1ebf5;
+    }
+    
+    .user-experience-top{
+    margin-top:-41px;
+    }
+    
+        .mobile-downloadmarginleft{
+        margin-left: 10px
+    }
+    
+    .mobile-downloadmargintop{
+        margin-top: 0px
+    }
+    .mobile-step3margin{
+        margin-left: -50px;
+    }
+    
+    .mobile-padding {
+        margin-bottom: 20px;
+    }
+    
+    .task-done,
+    .task-not-done,
+    .clock-task-done,
+    .clock-task-not-done{
+    line-height: 13px;
+    }
+    .task-done > span.icon {
+    background: url('img/icons_experience.png') no-repeat -2px -3px;
+    width: 17px;
+    height: 14px;
+    display: inline-block;
+    margin-right: 5px;
+    }
+    
+    .task-not-done > span.icon {
+    background: url('img/icons_experience.png') no-repeat -3px -23px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-right: 5px;
+    }
+    
+    .clock-task-done > span.icon {
+    background: url('img/icons_experience.png') no-repeat -22px -21px;
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    margin-right: 5px;
+    }
+    
+    .clock-task-not-done > span.icon{
+    background: url('img/icons_experience.png') no-repeat -22px -1px;
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    margin-right: 5px;
+    }
+    
+/******* media tablet ******/
+
+@media (max-width:979px) {
+    .visible-tablet {
+        display: inline-block !important;
+    }
+    
+    .mobile-padding {
+        padding-right: 20px;
+    }
+    
+    a.btn-small{
+        padding: 4px 5px;
+    } 
+    
+    .InfraBox {
+        min-height: 175px;
+    }
+
+    .InfraBox .name {
+        min-height: 70px;
+    }
+    
+    .InfraBox .namewrapper {
+        max-width: 215px;
+    }
+    
+    .box.top {
+        min-height: 220px;
+    }
+    
+    .box .download-content.highlight {
+        min-height: 200px;
+    }
+    
+    .box .download-content {
+        min-height: 100px;
+    }
+    
+    .arrow-right {
+    border-width: 45px 155px 0px 155px;
+    border-color: white transparent transparent rgba(255, 255, 255, 0);
+    margin: 0 auto;
+    }
+    
+    .mobile-step3margin{
+        margin-left: 0px;
+    }
+}
+
+/******* media mobile ******/
+
+@media (max-width:767px) {
+    /*
+    .visible-phone {
+        display: inline-block !important;
+    }
+    
+    .visible-phone.span2.RequestTrialBox,
+    .visible-phone.span3.RequestTrialBox,
+    .desktop-resize-fix.PersonalHeaderBackgroundNotSelectedSmall,
+    .desktop-resize-fix.span3 {
+        width: 50px !important;
+    }
+    */
+    .homebox-width{
+        width: 100% !important;
+    }
+  
+  .getstarted-what-u-get {
+    width: 100%;
+    padding: 0 20px;
+    padding-top: 20px;
+    height: 100%;
+    box-sizing: inherit;
+    border-top: 1px solid #F2F2F2;
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 0px;
+    }
+    
+    .getstarted-what-cols {
+        margin-left: auto !important;  margin-right: auto !important;  margin-bottom: 30px;  float: none;
+    }
+  
+    .arrow-wrapper{
+    display: inline-block;
+    width: 100%;
+    }
+       
+    .arrow-right {
+    border-width: 45px 155px 0px 155px;
+    border-color: white transparent transparent rgba(255, 255, 255, 0);
+    margin: 0 auto;
+    }
+    
+    .round-top-right{
+    border-radius: 0px;
+    }
+    
+    .round-top-right-1step,
+    .round-top-left.round-top-right-1step{
+    border-radius: 10px 10px 0 0;
+    }
+
+    .download-content.highlight {
+        min-height: 40px !important;
+    }
+    
+    .box .download-content {
+        min-height: 40px;
+    }
+    
+    .box .download-content {
+        padding-left: 20px;
+    }
+    
+     .mobile-paddingleft20{
+        padding-left: 20px;
+    }
+    
+    .mobile-paddingleft25{
+        padding-left: 25px;
+    }
+    
+    .mobile-paddingleft5{
+        padding-left: 5px;
+    }
+    
+    .mobile-align{
+        text-align: left;
+    }
+    
+     .mobile-displayinline{
+        display: inline-block;
+    }
+    
+    .mobile-margintop10{
+        margin-top: 10px;
+    }
+    
+    .mobile-margintop20{
+        margin-top: 20px;
+    }
+    
+    .box .borderleft {
+    border-left: 0px;
+    min-height: 130px;
+    }
+
+    .mobileInfraInactive{
+    display: inline-block; 
+    padding-left:0px;
+    }
+    
+    .user-experience-photo-border{
+    border-right:0px;
+    }
+    
+    .user-experience-top{
+    margin-top:-11px;
+    }
+    
+    .user-exprience-shared-box {
+        border-radius: 10px;
+        border-top: 0px;
+    }
+    
+     .mobile-downloadmarginleft{
+        margin-left: 0px
+    }
+    
+    .mobile-downloadmargintop{
+        margin-top: 10px
+    }
+    
+    .mobile-step3margin{
+        margin-left: 0px;
+    }
+    
+    .mobile-padding {
+        padding-bottom: 0px;
+    }
+}
+
+/* Desktop resizing fixes */
+@media (max-width:1250px) {
+    .SidebarMain {
+        display: none !important;
+    }
+}
+
+.sideBarPadding {
+    padding-right: 10px;   
+}
+.home-get-started-form{
+    margin-left: 28px;
+}
+.marginLeftAndRight20 {
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.marginLeftAndRight10 {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.downloadSubHeaderText {
+    font-weight: 600;
+    font-size: 21px;   
+}
+
+.margin10 {
+    margin: 0px 20px 10px 20px;
+}
+
+.AppsBox {
+    width: 100%;   
+}
+
+.IconCard:hover
+{
+    color: #08C;
+    background-color: transparent;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.IconCardSelected:hover
+{
+    color: #C72500;
+    background-color: transparent;
+}
+
+.titles {
+    color: #333;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+body 
+{
+    font-family: Arial, "Helvetica Neue", Helvetica, Myriad-Pro, sans-serif !important;
+}
+
+.download-content {
+    margin-right: 20px;
+}
+
+.ClosePersonalBox {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.FormTitle {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.FormTitleConfirmIdentity {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.BoxMargins {
+    margin: 10px;
+}
+
+.ErrorBox {
+    background-color: #FFE7E7;
+    border: 1px solid #D8ABAB;
+    background-image: none;
+    padding: 6px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.PersonalWebBlockMargins {
+    margin: 20px 0px 20px 0px;
+}
+
+.HomeWebBlocksBackground
+{
+    background-color: white !Important; 
+}
+
+.HomeMarginLeftDiv {
+    margin-left: 20px;
+}
+
+.DownloadWebBlockMargins
+{
+    margin: 20px 0px 20px 0px;
+}
+
+.CardsSeparator {
+    display: none;   
+}
+
+.CreateApplicationMargin {
+    margin-left: 10px;  
+}
+
+.GetStartedCardsMargin {
+    margin-top: 25px;   
+}
+
+.ManageAppsMargin {
+    margin-left: 10px;
+}
+
+.homeFont  {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.MainContentBox, 
+.RightSideBarBox {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.HomeMarginLeftRightDiv {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.HomeSideBarDiv {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.ProvisioningRightDiv {
+    margin-left: 20px;
+}
+
+@media (max-width:979px) {
+    
+    .MainContentBox {
+        border: none;
+        padding: 20px;
+    }
+    
+    .HomeMarginLeftRightDiv {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    .HomeSideBarDiv {
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    
+    .SelectedBrowseAppsIcon,
+    .SelectedManageAppsIcon {
+        border: 1px solid #F0F0F0;
+        border-radius: 4px;
+        padding: 15px;
+    }
+    
+    .AppsBox {
+        width: 91%  
+    }
+    
+    .CardsSeparator {
+        display: block;   
+    }
+    
+    .CreateApplicationMargin {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+    .ManageAppsMargin {
+        margin-left: 10px;
+        margin-top: 10px;   
+    }
+    
+    .GetStartedCardsMargin {
+        margin-top: 15px;   
+    }
+    
+    .GetStartedActionButtons {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    
+    .span3 {
+       width: 224px;
+    }
+    
+    .AppsBox {
+        width: 94%  
+    }
+    
+    .CardsSeparator {
+        display: block;   
+    }    
+    
+    .CreateApplicationMargin {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+    .ManageAppsMargin {
+        margin-left: 10px;
+        margin-top: 10px; 
+    }
+    
+    .GetStartedCardsMargin {
+        margin-top: 15px;   
+    }
+    
+    .GetStartedActionButtons {
+        display: none;
+    }
+    
+    .PersonalHeaderTransparentBackground {
+        display: none;
+    }
+}
+/* HomeFlow/Personal_Home WebScreen */
+.HomeWebBlocksBackground
+{
+    background-color: white !Important; 
+}
+.DownloadWebBlockMargins
+{
+    margin: 0px 0px 20px 0px;
+}
+
+.UpdateAlertDiv{
+    min-height: 47px;
+    background-color: #ECEFF1;
+    background: #ECEFF1;  border: 1px solid #D9D9D9;  border-radius: 3px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+}
+
+.ClockBackground{
+    background-image: url('/home/img/icon_clock.png'); 
+    background-repeat: no-repeat; 
+    background-position: bottom left;  
+ }
+ 
+.InfoBackground{
+    background-image: url('/home/img/icon_info.png'); 
+    background-repeat: no-repeat; 
+    background-position: bottom left;  
+ }
+
+.AlertContent{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 55px;
+}
+
+.AlertMessage{
+     margin-left: 5px;
+     width: 80%;
+}
+
+.AlertAction {
+  color: #005580;
+}
+  
+.AlertAction:hover {
+    text-decoration:underline;
+}
+
+
+@media (max-width:669px) {
+   .AlertContent{
+        margin-left: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .AlertAction {
+       margin-top: 10px;
+     }
+      
+     .ClockBackground{
+        background-image: none;
+    }
+ 
+    .InfoBackground{
+        background-image: none;
+     }
+     
+     .UpdateAlertDiv{
+         margin-left: 20px;
+         margin-right: 20px;
+     }
+}
+/* HomeFlow/Trial_Home WebScreen */
+.HomeWebBlocksBackground {
+    background-color: white !Important; 
+}
+
+.DownloadWebBlockMargins {
+    margin: 0px 0px 20px 0px;
+}
+/* HomeFlow/DownloadDetails WebBlock */
+.Tabs_Header a,.Tabs_Header span{
+    font-size: 12.5px;
+}
+
+div.Tabs_TabOff,
+li.Tabs_TabOff {
+    font-size: 14px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 8px 0px 0px 8px;
+    background: #AAA;
+    color: #FFF;
+    height: 35px;
+    border-top-left-radius: 5px;
+    margin-right: 13.6px;
+    border: none;
+}
+div.Tabs_TabOff:after,
+li.Tabs_TabOff:after {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 35px;
+    background: #AAA;
+    -webkit-transform: skew(10deg);
+    -ms-transform: skew(10deg);
+    transform: skew(10deg);
+    top: 0px;
+    right: -10px;
+    border-radius: 0 5px 0 0;
+}
+
+
+a.Tabs_TabOff,
+a.Tabs_TabOff:link,
+a.Tabs_TabOff:visited {
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0px 10px 0px 10px;
+    background: transparent;
+}
+a.Tabs_TabOff:hover {
+    background: transparent;
+}
+div.Tabs_TabOn,
+li.Tabs_TabOn {
+    font-size: 14px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 8px 0px 0px 8px;
+    background: #FFF;
+    color: #333;
+    height: 35px;
+    border-top-left-radius: 5px;
+    margin-right: 13.6px;
+}
+div.Tabs_TabOn:after,
+li.Tabs_TabOn:after {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 35px;
+    background: #AAA;
+    -webkit-transform: skew(10deg);
+    -ms-transform: skew(10deg);
+    transform: skew(10deg);
+    top: -1px;
+    right: -10px;
+    border-radius: 0 5px 0 0;
+    background: #FFF;
+    border-top: 1px solid #cccccc;
+    border-left: 0px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 0px;
+    -webkit-backface-visibility: hidden;
+}
+a.Tabs_TabOn,
+a.Tabs_TabOn:link,
+a.Tabs_TabOn:visited,
+a.Tabs_TabOn:hover,
+span.Tabs_TabOn {
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #333;
+    padding: 0px 10px 0px 10px;
+    background: transparent;
+}
+.Tabs_TabBody {
+    margin: 30px 0px 0px 0px;
+    padding: 10px 0px;
+    border: 1px solid #cccccc;
+    _height: 1%;
+    *display: inline-block;
+}
+.partners-download-doc-filter {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.partners-download-doc-filter input[type="checkbox"] {
+    margin: 0px;
+    line-height: normal;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 0;
+}
+
+
+.button-isotype {
+    display: inline-block;
+    padding: 1px 15px;
+    background: #aaa;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-family: myriad-pro;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button-isotype:hover {
+    background-color: gray;
+    color: #fff;
+    text-decoration: none
+}
+
+.button-isotype.is-checked,.button-isotype:active {
+    background-color: #c20
+}
+
+.button-isotype.is-checked {
+    color: #fff
+}
+
+.button-isotype:active {
+    box-shadow: inset 0 1px 10px hsla(0,0%,0%,.8)
+}
+
+/*
+.button-isotype-group:after {
+    content: '';
+    display: block;
+    clear: both
+}
+
+.button-isotype-group .button-isotype {
+    float: left;
+    margin-left: 0;
+    margin-right: 10px
+} */
+/* HomeFlow/Home_Header WebBlock */
+/** TABS **/
+.NavTab {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 5px 0px 10px;
+    background: #AAA;
+    color: #FFF;
+    height: 35px;
+    margin-top: 15px;
+    border-top-left-radius: 5px;
+}
+
+.NavTab:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 35px;
+    background: #AAA;
+    -webkit-transform: skew(10deg);
+    -ms-transform: skew(10deg);
+    transform: skew(10deg);
+    top: 0;
+    right: -6px;
+    border-radius: 0 5px 0 0;
+}
+
+.NavTab .Icon [class*="fa"],
+.NavTab .Icon [class^="osicon"] {
+    width: 5%;
+    font-size: 20px;
+}
+
+.NavTab.Download .Icon {
+    margin-top: 1px;
+}
+
+.NavTab.Download .Icon [class*="fa"],
+.NavTab.Download .Icon [class^="osicon"],
+.NavTab.Download.Active .Icon [class*="fa"],
+.NavTab.Download.Active .Icon [class^="osicon"] {
+    width: 5%;
+    font-size: 16px;
+}
+
+.NavTab.Download .EnvironmentInfo,
+.NavTab.Active.Download .EnvironmentInfo {
+    width: 70% !important;
+}
+
+.NavTab .EnvironmentInfo {
+    width: 85%;
+    margin-left: 10px;
+}
+
+.NavTab.Trial .EnvironmentInfo {
+    width: 235px;
+}
+
+.NavTab.Active.Trial .EnvironmentInfo {
+    width: 260px;
+}
+
+.NavTab:not(.Active) .EnvironmentInfo {
+    margin-top: 2px;
+}
+
+.NavTab.Active .EnvironmentInfo.Label {
+    margin-top: 6px;
+}
+
+.NavTab .InfrastructureNameWrapper {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.InfrastructureName {
+    font-weight: 600;
+}
+
+.NavTab .TopSection {
+    display: none;
+}
+
+.NavTab .InfrastructureType {
+    width: 70%;
+    font-size: 12px;
+    color: #808080;
+    margin-top: 1px;
+}
+
+.NavTab .DaysLeft {
+    width: 28%;
+    font-size: 10px;
+    color: #C61F00;
+    font-weight: 600;
+    margin-top: 1px;
+}
+
+.NavTab.Active {
+    padding: 11px 5px 0px 10px;
+    background: #FFF;
+    color: #333;
+    height: 50px;
+    margin-top: 0;
+}
+
+.NavTab.Active:after {
+    height: 50px;
+    background: #FFF;
+}
+
+.NavTab.Active .TopSection {
+    display: block;
+    line-height: 1;
+}
+
+.NavTab.Active .Icon {
+    margin-top: 5px;
+}
+
+.desktop-resizable {
+    display: inline-block !important;
+}
+
+.desktop-resizable:not(:first-child) {
+    /*margin-left: 30px;*/
+}
+
+/** media tablet **/
+@media (max-width: 967px) {
+    .desktop-resizable .NavTab.Download,
+    .desktop-resizable .NavTab.Download.Active {
+        display: none;
+    }
+    
+    .NavTab.Active .EnvironmentInfo {
+        width: 80% !important;
+    }
+    
+    .NavTab .EnvironmentInfo {
+        width: 185px;
+    }
+    
+    .NavTab .EnvironmentInfo.Label {
+        font-size: 12px;
+    }
+    
+    .NavTab .InfrastructureType {
+        width: 100%;
+    }
+}
+
+/** media phone **/
+@media (max-width: 767px) {    
+    .NavTab.Active .TopSection {
+        display: none;
+    }
+    
+    .NavTab.Active .EnvironmentInfo {
+        margin-top: 6px;
+        width: 80%;
+    }
+    
+    .NavTab .EnvironmentInfo {
+        margin-top: 0;
+    }
+
+    .NavTab:not(.Active) .EnvironmentInfo {
+        display: none;
+    }
+    
+    .NavTab .Download {
+        display: none;
+    }
+    
+    /** desktop resizable widths **/
+    .span4.desktop-resizable,
+    .span3.desktop-resizable,
+    .span2.desktop-resizable {
+        width: auto;
+    }
+    
+    .NavTab {
+        width: 45px;
+    }
+    
+    .NavTab.Active {
+        width: 160px;
+    }
+}
+
+.HeaderLinksGotFeedback {
+    text-transform: uppercase;
+}
+/* HomeFlow/MySubscriptions WebBlock */
+.MySubscriptions {
+    color: #103E65;
+    cursor: pointer;
+}
+
+.SubscriptionName {
+    max-width: 134px;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.SubscriptionTextMarginRight {
+    margin-right: 10px;   
+}
+
+.SubscriptionColors {
+    color: #333;
+    background-color: #FFF;
+}
+
+.SubscriptionIcon {
+    border-right: 1px solid white;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.TrialHeaderBackground
+{
+    background-color: #FFF;
+    width: 265px;
+    height: 50px;
+}
+
+.PersonalEnvironmentTextNotSelected
+{
+    display: none;
+}
+
+.HomeIcon.Trial {
+    color: #333;
+}
+
+.TrialDropdownIcon {
+    font-size: 20px;
+    color: #FFF;
+}
+
+.DaysLeft {
+    font-size: 12px;
+}
+
+.NavTab.Active .TrialDropdownIcon {
+    position: absolute;
+    color: #CCC;
+    top: 20px;
+    right: 10px;
+}
+
+.SubscriptionsPosition .ListRecords a:not(:last-child) > div {
+    border-bottom: 1px solid #CCC;
+}
+
+.AbsoluteSubscriptions {
+    position: absolute;   
+}
+
+.AbsoluteEnvironments {
+    position: absolute;    
+}
+
+.SubscriptionsPosition {
+    position: absolute;
+    top: 122px;
+    z-index: 9999;
+    border: 1px solid #ccc;
+    width: 311px;
+    background: #FFF;
+    padding: 5px 0px;
+}
+
+.SubscriptionsPosition:before {
+    border-bottom-color: #103E65;
+    border-width: 8px;
+    margin-left: -7px;
+}
+
+.SubscriptionsPosition:after {
+    border-bottom-color: #103E65;
+    border-width: 6px;
+    margin-left: -5px;
+}
+
+.MySubscriptionsBottomBorders {
+    border-bottom: 1px solid #CCC;
+}
+
+.MySubscriptionsTopBorders {
+    border-top: 1px solid #87B7E4;
+}
+
+/** media tablet **/
+@media (max-width: 967px) {    
+    .NavTab.Trial.Active .DaysLeft {
+        display: none !important;
+    }
+    
+    .NavTab.Trial.Active .InfrastructureNameWrapper {
+        width: 90%;
+    }
+    
+    .NavTab.Trial.Active .EnvironmentInfo {
+        width: 185px !important;
+    }
+    
+    .NavTab.Trial.Active .InfrastructureType {
+        width: 100%;
+    }
+    
+    .TrialDropdownIcon {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    .NavTab.Trial.Active .EnvironmentInfo {
+        width: 117px !important;
+    }
+    
+    .NavTab.Trial.Active .InfrastructureNameWrapper {
+        width: 100%;
+    }
+    
+    .TrialDropdownIcon {
+        display: none;
+    }
+}
+/* IFrames/GetStarted WebScreen */
+body{
+background-color: transparent;
+}
+/* MainFlow/HomePage_old WebScreen 
+.events-more {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.box.bottom {
+    position: relative;
+}
+
+.forum .homepage-row-wrapper {
+    margin-bottom: 25px;
+}
+
+#footer-events-list .details {
+    margin-bottom: 25px;
+}
+
+.box.top {
+    background-color: #e6e6e6;
+}
+NOT USED*/
+/* MainFlow/Home_GetPersonalWhileRegistered WebBlock 
+.nopersonal {
+    background: url(/home/img/nopersonalbackground.png) repeat-y right white !important;
+}
+
+.relative {
+    position: relative;
+}
+
+.picture {
+    position: absolute;
+    right: 0;
+    top: 58px;
+}
+
+.secondlevel {
+    width: 248px;
+    font-weight: 600;
+}
+
+.nopersonal .right {
+    margin-right: 20px;
+}
+
+.arrow-wrapper{
+    display: inline-block;
+    width: 50px;
+    float: left;
+  }
+  
+  .arrow-right {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 135px 0 135px 50px;
+    border-color: transparent transparent transparent #FFFFFF;
+    line-height: 0px;
+    _border-color: #000000 #000000 #000000 #007bff;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+  }
+
+.byline {
+font-family: Arial, sans-serif;
+font-size: 12px;
+line-height: 15px;
+color: #808080;
+}
+
+NOT USED*/
+/***** medias 
+@media (max-width:979px) {
+    .home-get-started-form{
+        width: 722px !important;
+        margin-left: 0 !important;
+        padding: 0 110px;
+        padding-bottom: 20px;
+    }
+ }
+
+@media (max-width:767px) {
+    .home-get-started-form {
+        width: auto !important;
+        padding: 0 30px;
+        padding-bottom: 20px;
+    }
+    
+    .byline {
+    padding-bottom: 15px;
+    }
+    
+    .email-label-style {
+        width: 250px;       
+    }
+    
+}
+NOT USED*/
+/* MainFlow/Home_NoInfrastructure WebBlock 
+.nopersonal {
+    background: url(/home/img/nopersonalbackground.png) repeat-y right white !important;
+}
+
+.relative {
+    position: relative;
+}
+
+.picture {
+    position: absolute;
+    right: 0;
+    top: 58px;
+}
+
+.os h2 {
+    font-weight: 600;
+    color: #c30;
+}
+
+.secondlevel {
+    width: 248px;
+    font-weight: 600;
+}
+
+.nopersonal .right {
+    margin-right: 20px;
+}
+
+.arrow-wrapper{
+    display: inline-block;
+    width: 50px;
+    float: left;
+  }
+  
+  .arrow-right {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 135px 0 135px 50px;
+    border-color: transparent transparent transparent #FFFFFF;
+    line-height: 0px;
+    _border-color: #000000 #000000 #000000 #007bff;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+  }
+
+.byline {
+font-family: Arial, sans-serif;
+font-size: 12px;
+line-height: 15px;
+color: #808080;
+}
+
+.home-get-started-form{
+width: 350px;
+}
+NOT USED*/
+
+/***** medias 
+@media (max-width:979px) {
+    .home-get-started-form{
+        width: 722px !important;
+        margin-left: 0 !important;
+        padding: 0 110px;
+        padding-bottom: 20px;
+    }
+ }
+
+@media (max-width:767px) {
+    .home-get-started-form {
+        width: auto !important;
+        padding: 0 30px;
+        padding-bottom: 20px;
+    }
+    
+    .byline {
+    padding-bottom: 15px;
+    }
+    
+    .email-label-style {
+        width: 250px;       
+    }
+    
+}
+NOT USED*/
+/* MainFlow/Home_SingleInf_Extra 
+.upsell {
+    border: 1px solid #CCCCCC;
+    background: white !important;
+    margin-left: 15px;
+    position: relative;
+    border-radius: 25px !important;
+}
+
+.upsell:before {
+    content: '';
+    background-image: url(/home/img/extra.png?103952);
+    height: 20px;
+    width: 15px;
+    position: absolute;
+    top: 70px;
+    left: -15px;
+    background-position: 0 -3px;
+}
+
+.upsell InfraBox {
+    max-height: 118px;
+}
+
+@media (max-width:767px) {
+    .upsell:before {
+        display: none;
+    }
+    .upsell {
+        margin-left: 0px;
+    }
+    
+}
+NOT USED*/
+/* MainFlow/Home_SingleInfrastructure WebBlock 
+.box.top {
+    min-height: 0px !important;
+}
+NOT USED*/
+/* MainFlow/Home_SingleInf_Steps WebBlock 
+.upsell {
+    border: 1px solid #CCCCCC;
+    background: white !important;
+    margin-left: 15px;
+}
+
+.prev-inactive,
+.prev-active,
+.next-inactive,
+.next-active {
+    position: relative;
+}
+
+.prev-inactive:before,
+.prev-active:before,
+.next-inactive:after,
+.next-active:after {
+    position: absolute;
+    display: block;
+    content: '';
+    height: 24px;
+    width: 14px;
+    top: 0;
+}
+
+.prev-inactive:before,
+.prev-active:before {
+    left: -14px;
+}
+
+.prev-inactive:before {
+    background: url(/home/img/stepnone.png);
+}
+
+.active.prev-inactive:before {
+    background: url(/home/img/step2nd.png);
+}
+
+.prev-active:before {
+    background: url(/home/img/step1st.png);
+}
+
+.next-inactive:after,
+.next-active:after {
+    right: -14px;
+}
+
+.next-inactive:after {
+    background: url(/home/img/stepnone.png);
+}
+
+.active.next-inactive:after {
+    background: url(/home/img/step1st.png);
+}
+
+.next-active:after {
+    background: url(/home/img/step2nd.png);
+}
+
+.step1_Notice {
+     font-size: 12px;
+     padding-top: 8px;
+     margin-bottom: -16px;
+}
+
+@media (max-width:767px) {
+    
+    .steps:after {
+    display:none;
+}
+
+.prev-inactive:before,
+.prev-active:before,
+.next-inactive:after,
+.next-active:after {
+    display:none;
+}
+
+}
+NOT USED*/
+/* MainFlow/ShowInfrastructure WebBlock
+.infra-span {
+  float: left;
+  min-height: 1px;
+  margin-left: 28px;
+}
+
+.infra-span.image {
+    width: 80px;
+}
+
+.infra-span.data {
+    width: 326px;
+}
+
+.infra-span .MainButton,
+.infra-span .AlternativeButton {
+  float: left;
+  min-height: 1px;
+  margin-left: 28px;
+}
+
+.infra-span .MainButton {
+    width: 150px;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.infra-span .AlternativeButton {
+    line-height: 40px;
+}
+
+.license {
+    /*text-transform: uppercase;*//*
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: -1px;
+    color: #C1C1C1;
+}
+.name {
+    margin-top: 5px;
+    font-weight: 600;
+    color: #333;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'myriad-pro', Helvetica, Arial, sans-serif;
+    
+    text-overflow: ellipsis;
+    max-width: 335px;
+    overflow: hidden;
+    text-transform: lowercase;
+    white-space: nowrap;
+    display: block;
+}
+.domain {
+    color: #3C3C3C;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 34px;
+}
+.personal .name {
+}
+
+
+.expireDate {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    background: url(/home/img/days_left.png) no-repeat right top !important;
+    height: 53px;
+    width: 52px;
+}
+
+.expiredate-text {
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: 5px;
+    right: -30px;
+}
+
+/***** medias 
+@media (max-width:979px) {
+    .name {
+        max-width: 215px;       
+    }
+    
+    .infra-span.data{
+        width: 210px;
+    }
+}
+
+@media (max-width:767px) {
+    .infra-span.data {
+        margin: auto;
+        width: 240px;
+    }
+    
+    .infra-span .AlternativeButton {
+      margin-left: 5px;
+    }
+    
+    .infra-span.image {
+        margin: auto;
+    }
+    .name {
+        max-width: 100%;
+    }
+    .namewrapper {
+        max-width: 240px !important;
+    }
+    
+    .infra-span .MainButton {
+        margin-left: 0px;
+    }
+
+}
+NOT USED */
+/* PersonalFlow/Personal_GetStarted WebScreen */
+.ContentTitle {
+    color: #333;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.HomeWebBlocksBackground h2 {
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.GetStartedActionButtons {
+    margin-bottom: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.BrowseAppsActionButtons {
+    margin-bottom: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.boxImage {
+    width: 100%;
+    border-top-right-radius: 5px;
+}
+
+.popupTitle {
+    margin-bottom: 15px;   
+}
+
+#todo-list,
+#todo-stats {
+    margin: 0;
+    text-align: left;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;  
+    margin: 0 20px;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+#todo-stats,
+.todo-clear {
+    color: #777;
+}
+
+.todo-clear {
+    float: right;
+}
+
+.todo-done .todo-content {
+    text-decoration: line-through;
+}
+
+.todo-input {
+    display: block;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: normal;
+    margin: 5px auto 0;
+    padding: 6px;
+    width: 420px;
+}
+
+.todo-item {
+    width: 257px;
+    box-sizing: border-box;
+    float: left;
+    padding: 3px 0;
+    line-height: normal;
+    text-indent: -19px;
+    margin-left: 25px;
+}
+
+.todo-label {
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.todo-remaining {
+    color: #333;
+    font-weight: bold;
+}
+
+span.get-started-list-time {
+    color: lightgray;
+    margin-left: 2px;
+    font-size: 12px;
+}
+
+.CreatAppBox, .BrowseAppBox, .ManageAppBox {
+    position: relative;
+    width: 180px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #AAA;
+    height: 30px;
+    cursor: pointer;
+}
+
+.CreatAppBox:after, .BrowseAppBox:after, .ManageAppBox:after {
+    content: '';
+    background: #AAA;
+    height: 30px;
+    width: 10px;
+    -webkit-transform: skew(10deg);
+    -ms-transform: skew(10deg);
+    transform: skew(10deg);
+    position: absolute;
+    right: -3px;
+    border-radius: 0 5px 0 0;
+    top: 0;
+}
+
+.CreatAppBox.Active, .BrowseAppBox.Active, .ManageAppBox.Active {
+    width: 180px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: #FFF;
+    min-height: 30px;
+    border-bottom: 1px solid white !important;
+    border: 1px solid #ddd;
+    margin: -1px 0px -1px 0px;
+}
+
+.CreatAppBox.Active:after, .BrowseAppBox.Active:after, .ManageAppBox.Active:after {
+    content: '';
+    background: #FFF;
+    height: 30px;
+    width: 12px;
+    -webkit-transform: skew(10deg);
+    -ms-transform: skew(10deg);
+    transform: skew(10deg);
+    position: absolute;
+    right: -3px;
+    border-bottom: 1px solid white !Important;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin: -1px 0px -1px 0px;
+}
+
+.CreatAppBoxText, .BrowseAppBoxText, .ManageAppBoxText {
+    color: #FFF;
+    margin-top: 6px;
+}
+
+.CreatAppBox.Active .CreatAppBoxText,
+.BrowseAppBox.Active .BrowseAppBoxText,
+.ManageAppBox.Active .ManageAppBoxText {
+    margin-top: 6px;
+    color: #363636;
+}
+
+.CreatAppBoxIcon, .BrowseAppBoxIcon, .ManageAppBoxIcon {
+    width: 20px;
+    font-size: 12px;
+    margin-top: 8px;
+    color: #FFF;
+    margin-left: 10px;
+}
+
+.CreatAppBox.Active .CreatAppBoxIcon,
+.BrowseAppBox.Active .BrowseAppBoxIcon,
+.ManageAppBox.Active .ManageAppBoxIcon {
+    color: #363636;
+    margin-top: 8px;
+}
+
+.MainContentBox_Navigation {
+    border: 1px solid #ddd;
+    border-radius: 0px 5px 5px 5px;
+    margin-left: 0px !important;
+}
+
+@media (max-width:979px) {
+    .BrowseAppBox, .ManageAppBox {
+        position: relative;
+        width: 135px;
+        border: none;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: #AAA;
+        height: 30px;
+        cursor: pointer;
+    }
+    
+    .BrowseAppBox.Active, .ManageAppBox.Active {
+        position: relative;
+        width: 135px;
+        border: 1px solid #DDD;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: #FFF;
+        height: 30px;
+        cursor: pointer;
+    }
+    
+    .CreatAppBox {
+        position: relative;
+        width: 155px !important;
+        border: none;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: #AAA;
+        height: 30px;
+        cursor: pointer;
+    }
+    
+    .CreatAppBox.Active {
+        position: relative;
+        width: 155px !important;
+        border: 1px solid #DDD;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: #FFF;
+        height: 30px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:767px) {
+    .desktop-resize-fix.CreatAppBox,
+    .desktop-resize-fix.BrowseAppBox,
+    .desktop-resize-fix.ManageAppBox {
+        position: relative;
+        width: 50px !important;
+        border: none;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: #AAA;
+        height: 30px;
+        cursor: pointer;  
+    }
+    
+    .desktop-resize-fix.CreatAppBox.Active,
+    .desktop-resize-fix.BrowseAppBox.Active,
+    .desktop-resize-fix.ManageAppBox.Active {
+        position: relative;
+        width: 50px !important;
+        border: 1px solid #DDD;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: #FFF;
+        height: 30px;
+        cursor: pointer;  
+    }
+    
+    .desktop-resize-fix .CreatAppBoxIcon, 
+    .desktop-resize-fix .BrowseAppBoxIcon, 
+    .desktop-resize-fix .ManageAppBoxIcon {
+        font-size: 18px;
+    }
+}
+/* PersonalFLow/Personal_InviteFriends WebBlock */
+.tableDisplay {
+    display: table;   
+}
+
+.tableDisplayCell {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.shareTheLoveIcon{
+    margin-top: 30px;
+    margin-left: 5px;   
+}
+
+.divPositionRelative {
+    Position: relative;
+}
+.shareTheLoveDescription{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.text-note-sharethelove {
+    color: #999;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* PersonalFlow/Personal_NotLogged WebBlock */
+@media (max-width:767px) {
+    
+    .email-label-style {
+        width: 250px;       
+    }
+}
+/* PersonalFlow/Personal_Unavailable WebBlock */
+.ClosePersonalBox {
+    color: #69C;
+    width:17px;
+    height:17px;
+    position:absolute;
+    top:2px;
+    right:2px;
+    float:right;
+    display:block;
+    -servicestudio-text-indent:0px;
+}
+
+.ClosePersonalBox:hover {
+    color: #4673a7;
+}
+
+.PersonalUnavailablePopupBorder {
+    border: 2px solid black;
+    background-color: lightyellow;
+    padding: 30px;
+}
+
+.PersonalUnavailablePopupButtonMargin {
+    margin-top: 5%;   
+}
+
+.PersonalUnavailableTextMargins {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.SelectedManageAppsIconText
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+/* RedirectFlow/LoadingEnvironment WebScreen */
+.LoaderWrapper{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background: url(/home/img/preloader_3_100pxwhite2.gif) no-repeat 50% 50%;
+    position: absolute;
+}
+
+.LoaderBackground {
+    background: url(/home/img/preloader_3_100pxwhite2.gif) no-repeat 50% 50%;
+}
+/* TrialFlow/Trial_ContactUsPopUp WebScreen */
+#WebForm1 {
+    margin-top: 0px !important;   
+}
+/* TrialFlow/Trial_RegisterUser WebScreen */
+.CreateAccountBackground {
+    background-color: #F8F8F8; 
+}
+/* TrialFlow/Trial_ClaimBlock WebBlock */
+.controls-row input.logininput {
+    height: 35px;
+}
+
+@media (max-width:767px) {
+.input-prepend.input-append {
+white-space: normal;
+}
+}
+/* TrialFlow/Trial_ConfirmIdentity WebBlock */
+.CreateAccountBackground {
+    background-color: #F8F8F8; 
+}
+.BoxMargins {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* TrialFlow/Trial_CreateAccountForTrial WebBlock */
+.CreateAccountBackground {
+    background-color: #F8F8F8; 
+}
+
+.MarginBottom {
+    margin-bottom: 10px;   
+}
+
+.DisclaimerStyle {
+    float: left;  
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.EditRecord_Caption {
+    width: 13%;   
+}
+
+.BoxMargins {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.BoxBottomMargin {
+    margin-bottom: 20px;   
+    margin-right: 30px;
+}
+
+.AlreadyTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.EmailText {
+    font-size: 20px;
+}
+/* TrialFlow/Trial_CreateAccountToAssociate WebBlock */
+.CreateAccountBackground {
+    background-color: #F8F8F8; 
+}
+
+.FormTitle {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.MarginBottom {
+    margin-bottom: 10px;   
+}
+
+.DisclaimerStyle {
+    float: left;  
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.EditRecord_Caption {
+    width: 13%;   
+}
+
+.BoxMargins {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.BoxBottomMargin {
+    margin-bottom: 20px;   
+    margin-right: 30px;
+}
+
+.AlreadyTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.EmailText {
+    font-size: 20px;
+}
+/* TrialFlow/Trial_CustomerInfo */
+.body 
+{
+background-color: #e6e6e6;
+}
+
+.InputLabel {
+    width: 18%;   
+}
+
+.InputAlign {
+    text-align: center;   
+}
+
+.CustomerInfoPopupBackground {
+    width: 660px;   
+}
+/* TrialFlow/Trial_EmailSent WebBlock */
+.email-label-style{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 350px;
+    display: inline-block;
+}
+/* TrialFlow/Trial_GetStarted WebBlock */
+.ContentTitle {
+    color: #333;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.HomeWebBlocksBackground h2 {
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.GetStartedActionButtons,
+.BrowseAppsActionButtons {
+    margin-bottom: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.boxImage {
+    width: 100%;
+    border-top-right-radius: 5px;
+}
+
+.popupTitle {
+    margin-bottom: 15px;   
+}
+
+#todo-list,
+#todo-stats {
+    margin: 0;
+    text-align: left;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;  
+    margin: 0 20px;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+#todo-stats,
+.todo-clear {
+    color: #777;
+}
+
+.todo-clear {
+    float: right;
+}
+
+.todo-done .todo-content {
+    text-decoration: line-through;
+}
+
+.todo-input {
+    display: block;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: normal;
+    margin: 5px auto 0;
+    padding: 6px;
+    width: 420px;
+}
+
+.todo-item {
+    width: 257px;
+    box-sizing: border-box;
+    float: left;
+    padding: 3px 0;
+    line-height: normal;
+    text-indent: -19px;
+    margin-left: 25px;
+}
+
+.todo-label {
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.todo-remaining {
+    color: #333;
+    font-weight: bold;
+}
+
+span.get-started-list-time {
+    color: lightgray;
+    margin-left: 2px;
+    font-size: 12px;
+}
+
+.CreatAppBox, .BrowseAppBox, .ManageAppBox {
+    position: relative;
+    width: 180px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #AAA;
+    height: 30px;
+    cursor: pointer;
+}
+
+.CreatAppBox:after, .BrowseAppBox:after, .ManageAppBox:after {
+    content: '';
+    background: #AAA;
+    height: 30px;
+    width: 10px;
+    -webkit-transform: skew(10deg);
+    -ms-transform: skew(10deg);
+    transform: skew(10deg);
+    position: absolute;
+    right: -3px;
+    border-radius: 0 5px 0 0;
+    top: 0;
+}
+
+.CreatAppBox.Active, .BrowseAppBox.Active, .ManageAppBox.Active {
+    width: 180px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: #FFF;
+    min-height: 30px;
+    border-bottom: 1px solid white !Important;
+    border: 1px solid #ddd;
+    margin: -1px 0px -1px 0px;
+}
+
+.CreatAppBox.Active:after, .BrowseAppBox.Active:after, .ManageAppBox.Active:after {
+    content: '';
+    background: #FFF;
+    height: 30px;
+    width: 12px;
+    -webkit-transform: skew(10deg);
+    -ms-transform: skew(10deg);
+    transform: skew(10deg);
+    position: absolute;
+    right: -3px;
+    border-bottom: 1px solid white !Important;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin: -1px 0px -1px 0px;
+}
+
+.CreatAppBoxText, .BrowseAppBoxText, .ManageAppBoxText {
+    color: #FFF;
+    margin-top: 6px;
+}
+
+.CreatAppBox.Active .CreatAppBoxText,
+.BrowseAppBox.Active .BrowseAppBoxText,
+.ManageAppBox.Active .ManageAppBoxText {
+    margin-top: 6px;
+    color: #363636;
+}
+
+.CreatAppBoxIcon, .BrowseAppBoxIcon, .ManageAppBoxIcon {
+    width: 20px;
+    font-size: 12px;
+    margin-top: 8px;
+    color: #FFF;
+    margin-left: 10px;
+}
+
+.CreatAppBox.Active .CreatAppBoxIcon,
+.BrowseAppBox.Active .BrowseAppBoxIcon,
+.ManageAppBox.Active .ManageAppBoxIcon {
+    color: #363636;
+    margin-top: 8px;
+}
+
+.MainContentBox_Navigation {
+    border: 1px solid #ddd;
+    border-radius: 0px 5px 5px 5px;
+    margin-left: 0px !important;
+}
+
+@media (max-width:979px) {
+    .BrowseAppBox, .ManageAppBox {
+        position: relative;
+        width: 135px;
+        border: none;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: #AAA;
+        height: 30px;
+        cursor: pointer;
+    }
+    
+    .BrowseAppBox.Active, .ManageAppBox.Active {
+        position: relative;
+        width: 135px;
+        border: 1px solid #DDD;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: #FFF;
+        height: 30px;
+        cursor: pointer;
+    }
+    
+    .CreatAppBox {
+        position: relative;
+        width: 155px !important;
+        border: none;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: #AAA;
+        height: 30px;
+        cursor: pointer;
+    }
+    
+    .CreatAppBox.Active {
+        position: relative;
+        width: 155px !important;
+        border: 1px solid #DDD;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: #FFF;
+        height: 30px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:767px) {
+    .desktop-resize-fix.CreatAppBox,
+    .desktop-resize-fix.BrowseAppBox,
+    .desktop-resize-fix.ManageAppBox {
+        position: relative;
+        width: 50px !important;
+        border: none;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: #AAA;
+        height: 30px;
+        cursor: pointer;  
+    }
+    
+    .desktop-resize-fix.CreatAppBox.Active,
+    .desktop-resize-fix.BrowseAppBox.Active,
+    .desktop-resize-fix.ManageAppBox.Active {
+        position: relative;
+        width: 50px !important;
+        border: 1px solid #DDD;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: #FFF;
+        height: 30px;
+        cursor: pointer;  
+    }
+    
+    .desktop-resize-fix.CreatAppBoxIcon, 
+    .desktop-resize-fix.BrowseAppBoxIcon, 
+    .desktop-resize-fix.ManageAppBoxIcon {
+        font-size: 18px;
+    }
+}
+/* TrialFlow/Trial_InviteColleagues WebBlock */
+.tableDisplay {
+    display: table;   
+}
+
+.tableDisplayCell {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.shareTheLoveIcon{
+    margin-top: 30px;
+    margin-left: 5px;   
+}
+
+.divPositionRelative {
+    Position: relative;
+}
+
+.shareTheLoveDescription{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.text-note-sharethelove {
+    color: #999;
+    font-size: 12px;
+    line-height: 20px;
+}
+/* TrialFlow/Trial_TeamMates WebBlock */
+.trialTeamMatesCirclesWithPhoto {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.trialTeamMatesCirclesWithoutPhoto {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    background-color: #bababa;
+    position: relative;
+    cursor: pointer;
+}
+.trialTeamMatesFontWithFirstName {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    top: 9px;
+}
+.trialTeamMatesDiv {
+    display:inline-block;
+    margin-right:5px;
+    margin-bottom:10px;
+}
+/* TrialFlow/Trial_Unavailable */
+.ClosePersonalBox {
+    color: #69C;
+    width:17px;
+    height:17px;
+    position:absolute;
+    top:2px;
+    right:2px;
+    float:right;
+    display:block;
+    -servicestudio-text-indent:0px;
+}
+.ClosePersonalBox:hover {
+    color: #4673a7;
+}
+
+.PersonalUnavailablePopupBorder {
+    border: 2px solid black;
+    background-color: lightyellow;
+    padding: 30px;
+}
+
+.PersonalUnavailablePopupButtonMargin {
+    margin-top: 5%;   
+}
+
+.PersonalUnavailableTextMargins {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/*
+.SelectedManageAppsIcon
+{
+    border: 2px;
+    border-color: #6699CC;
+    border-style: solid;
+    border-radius: 10px;
+    color: #6699CC;
+    position: relative;
+    margin-left: 0px;
+}
+*/
+.SelectedManageAppsIconText
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+/*
+.SelectedManageAppsIcon:after, .SelectedManageAppsIcon:before {
+    bottom: 100%;
+    left: 89%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.SelectedManageAppsIcon:after {
+    border-bottom-color: #6699CC;
+    border-width: 7px;
+    margin-left: -5px;
+}
+*/
+/* UserFlow/ActivateAccount WebScreen */
+.box {
+    background-color: #F2F2F2;
+}
+
+.box {
+    padding:  30px;
+}
+
+@media (max-width:767px) {
+  .box {
+    padding: 15px;
+}  
+
+.mobile-width100{ {
+    width: 100px;
+}
+}
+/* UserFlow/GetStarted WebScreen */
+.box {
+    background-color: #F2F2F2;
+}
+
+.box {
+    padding:  30px;
+}
+
+@media (max-width:767px) {
+    
+    .email-label-style {
+        width: 250px;       
+    }
+}
+/* UserFlow/Login WebScreen */
+.box {
+    background-color: #F2F2F2;
+}
+
+.box {
+    padding:  30px;
+}
+/* UserFlow/PasswordRecoveryRequest WebScreen */
+.box {
+    background-color: #F2F2F2;
+}
+
+.box {
+    padding:  30px;
+}
+/* UserFlow/RequestPassword WebScreen */
+.box {
+    background-color: #F2F2F2;
+}
+
+.box {
+    padding:  30px;
+}
+/* UserFlow/SignUp WebScreen */
+.box {
+    background-color: #F2F2F2;
+}
+
+.box {
+    padding:  30px;
+}
+
+@media (max-width:767px) {
+    
+    .email-label-style {
+        width: 250px;       
+    }
+}
+/* UserFlow/Activate_Block WebBlock */
+.controls-row input.logininput {
+    height: 30px;
+}
+
+input[type="text"].inputfield {
+    height: 30px;
+}
+
+input[type="text"].inputfield,input[type="password"].logininput{
+padding-left:10px;
+} 
+
+@media (max-width:767px) {
+.input-prepend.input-append {
+white-space: normal;
+}
+
+.mobileText {
+max-width: 105px;   
+}
+
+input[type="text"].inputfield {
+    font-size: 14px;
+}
+
+.controls-row input.logininput {
+    font-size: 14px;
+}
+
+.mobileInput{
+  width: 220px!important;
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+/* UserFlow/ClaimPersonal_Block */
+.controls-row input.logininput {
+    height: 35px;
+}
+
+@media (max-width:767px) {
+.input-prepend.input-append {
+white-space: normal;
+}
+.mobileText {
+max-width: 105px;   
+}
+}
+
+.redText {
+    color: #FF0000;
+    font-size:12px;
+}

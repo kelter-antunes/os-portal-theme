@@ -18,6 +18,7 @@ module.exports = function(grunt) {
                         'css/src/partner-center.css',
                         'css/src/profile.css',
                         'css/src/search.css',
+                        'css/src/home.css',
                         'css/src/menu-mobile.css',
                         'css/src/widgets.css'
                     ]
