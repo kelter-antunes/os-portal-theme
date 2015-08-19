@@ -14,6 +14,7 @@ module.exports = function(grunt) {
                         'css/src/community-base-theme.css',
                         'css/src/os-core.css',
                         'css/src/menu-mobile.css',
+                        'css/src/ss-forge.css',
                         'css/src/ideas.css',
                         'css/src/forums.css',
                         'css/src/partner-center.css',
@@ -27,18 +28,16 @@ module.exports = function(grunt) {
                         'css/src/menu-mobile.css'
                     ],
                     'css/bundle/os-portal-apps.css': [
+                        'css/src/ss-forge.css',
                         'css/src/ideas.css',
                         'css/src/forums.css',
                         'css/src/partner-center.css',
                         'css/src/profile.css',
-<<<<<<< Updated upstream
                         'css/src/search.css',
                         'css/src/home.css',
                         'css/src/menu-mobile.css',
-                        'css/src/widgets.css'
-=======
+                        'css/src/widgets.css',
                         'css/src/search.css'
->>>>>>> Stashed changes
                     ]
                 }
             }

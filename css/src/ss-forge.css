@@ -1,0 +1,466 @@
+/* SSForge_WebBlocks_Utils/AddTeamMemberJSPopup WebBlock */
+/*****ConfirmationMessage Styles*****/
+
+.popup-header {
+    background-color:#F2F2F2;
+    font-size:14px;
+    font-family:'myriad-pro',sans-serif;
+    padding:7px;
+    text-transform:uppercase;
+    margin-right:5px;
+    margin-left:5px;
+    margin-top:5px;
+}
+.popup-content {
+    padding:20px;
+}
+
+
+/*****Popup*****/
+
+.popup-holder{
+    position:fixed;
+    z-index: 9002;
+    border: 1px #D8D8D8 solid;
+    display:none;
+    background-color:#FFFFFF;
+}
+
+.MainBackground{
+    top:12px;
+    left:16px;
+    width:942px;
+    height:590px;
+    background-color: #686868;
+    opacity:0.8;
+    z-index:9001;
+    display:none;
+    position:fixed;
+}
+
+/*****END Popup*****/
+
+/****Buttons****/
+
+.ButtonContainer{
+    text-align: right;
+    margin-top:5px;   
+    margin-bottom:5px;
+    text-decoration: none;    
+}
+
+.ButtonContainer btn:hover{
+    text-decoration: none;
+}
+
+/****END Buttons****/
+
+
+.popup-close {
+    background:url('/CommunityBaseTheme/img/icons.png') no-repeat -38px -261px;
+    width:17px;
+    height:17px;
+    float:right;
+    display:block;
+    text-indent:-9999px;
+}
+.popup-close:hover {
+    background:url('/CommunityBaseTheme/img/icons.png') no-repeat -38px -292px;
+}
+/* SSForge_WebBlocks_Utils/Component_Team WebBlock */
+.sidebar-actions {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.ConfirmationMessage_MainBackground {
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color:black;
+    opacity:0.3;
+    z-index:9001;
+    display:none;
+    position:fixed;
+}
+.button-confirmation-container {
+    margin:0px 20px 20px 20px;
+}
+.confirmation-button {
+    margin-right:20px;
+}
+.ConfirmationMessage_popup-holder {
+    position:fixed;
+    z-index:9002;
+    display:none;
+    min-width:450px;
+    max-width:519px;
+    background-color:white;
+    overflow:hidden;
+    border:1px solid #666;
+    -webkit-box-shadow:rgba(0,0,0,0.498039) 4px 4px 2px;
+    box-shadow: rgba(0,0,0,0.498039) 4px 4px 2px;
+}
+/* SSForge_WebBlocks_Utils/Component_Thumbnail WebBlock */
+img{
+    vertical-align: middle !important;   
+}
+/* SSForge_WebBlocks_Utils/Login_Block WebBlock */
+.controls-row input.logininput {
+    height: 35px;
+}
+
+.input-login{
+    width: 310px; 
+    margin: 0 auto;
+}
+
+.row-fluid {
+width: 100%;
+}
+
+.left0{
+ margin-left: 0px !important}   
+
+.box {
+padding: 45px;
+background-color: #fff;
+position: relative;
+}
+
+@media (max-width: 767px) {
+    .input-login{
+        width: auto; 
+    }
+}
+
+/* SSForge_WebBlocks_Utils/TermsAndConditionsJSPopup WebBlock */
+/*****ConfirmationMessage Styles*****/
+/*****Popup*****/
+
+.popup-holder{
+    position:fixed;
+    z-index: 9002;
+    border: 1px #D8D8D8 solid;
+    display:none;
+    background-color:#FFFFFF;
+}
+
+.MainBackground{
+    top:12px;
+    left:16px;
+    width:942px;
+    height:590px;
+    background-color: #686868;
+    opacity:0.8;
+    z-index:9001;
+    display:none;
+    position:fixed;
+}
+
+/*****END Popup*****/
+
+/****MainContent****/
+
+.popup-content{
+    padding: 10px;
+}
+
+/****END MainContent****/
+/****Buttons****/
+
+.ButtonContainer{
+    text-align: right;
+    margin-top:5px;   
+    margin-bottom:5px;
+    text-decoration: none;    
+}
+
+.ButtonContainer btn:hover{
+    text-decoration: none;
+}
+
+/****END Buttons****/
+/****Auxiliar****/
+
+.Invisible {
+    display: none !important;
+}
+
+/****END Auxiliar****/
+
+.newRibbon{
+    font-size: 13px;
+}
+
+.ribbonContainer {
+    right: 34px;
+    top: 15px;
+}
+
+.padding{
+padding: 10px;
+}
+
+.margin20{
+    margin:20px;
+}
+/* SS_Forge Theme */
+.row {
+margin-left: -28px;
+}
+
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+width: 980px;
+}
+
+[class*="span"] {
+float: left;
+min-height: 1px;
+margin-left: 28px;
+}
+
+.span12 {
+    width: 980px;
+}
+
+.left20 {
+ margin-left: 20px;
+}
+
+.span2 {
+width: 140px;
+}
+
+.mobile-notdisplay {
+display: block;
+}
+
+.span5 {
+width: 392px;
+}
+
+.span3 {
+width: 224px;
+}
+
+.span2 {
+width: 140px;
+}
+
+.backgroungcontainerheader {
+background: transparent;
+
+background-color: #393939;
+}
+
+.header-info {
+background-color: transparent;
+}
+
+.mobile-display {
+display: none;
+}
+
+.header.header-small {
+position: relative;
+top: auto;
+right: auto;
+z-index: 10;
+margin: 0 auto;
+box-shadow: none;
+}
+
+div.Card {
+margin-bottom: 28px;
+}
+/* MainFlow/Forge_Details WebScreen
+MainFlow/Forge_Discussions WebScreen
+MainFlow/Forge_Install WebScreen 
+MainFlow/Forge_Overview WebScreen
+MainFlow/Forge_Versions WebScreen */
+.newRibbon{
+    font-size: 13px;
+}
+
+.ribbonContainer {
+    right: 34px;
+    top: 15px;
+}
+/* MainFlow/HomePage WebScreen */
+body, .Content, .Footer, .MainContent {
+background: #E6E6E6 url(/SS_Forge/img/bgpaper.jpg) repeat left top !important;
+}
+
+.Title_Section {
+    visibility: hidden !important;
+}
+.header{
+  background: #393939; 
+  background-color: #393939;
+  height: 60px;
+  box-shadow: 0px 1px 3px #111;
+}
+input[type="search"]{
+    font-family: myriad-pro,Helvetica,Arial,sans-serif !important;
+    border: none;
+    padding: 0px;
+    height: 30px;
+    line-height: 18px;
+    font-size: 16px;  
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display:inline-block;
+}
+
+.SS{
+    -servicestudio-margin-top: 50px;
+}
+
+.cardRibbon{
+   /* position: absolute;
+    right: 15px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;*/
+}
+
+.cardRibbon:after{
+    /*content: ' ';
+    position: absolute;
+    border: 10px solid;
+    display: block;
+    top: 20px;
+    border-top-width: 0px;*/
+}
+
+.cardRibbonText{
+    position: absolute;
+    right: 28px;
+}
+
+.dropmenu .dropmenuitems a {
+padding: 0px;
+}
+/* MainFlow/Login WebScreen */
+html{
+background-color: #1A1A1A;
+}
+
+body, .Content, .MainContent {
+background: #E6E6E6 url(/SS_Forge/img/bgpaper.jpg) repeat left top !important;
+}
+
+.Footer {
+    background: #1A1A1A;
+    height: 90px;
+    margin-top: 15px !important;
+}
+.header{
+  background: #393939; 
+  background-color: #393939;
+  height: 60px;
+  box-shadow: 0px 1px 3px #111;
+}
+
+.Center{
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+/****** footer *******/
+.love-agile-h {
+    background-image:url('/CommunityBaseTheme/img/icons.png');
+    display:inline-block;
+    background-position:-2px -1190px;
+    background-repeat:no-repeat;
+    text-indent:-9990px;
+    width:14px;
+    -servicestudio-text-indent:0px;
+}
+.love-agile-o {
+    background-image:url('/CommunityBaseTheme/img/icons.png');
+    display:inline-block;
+    background-position:-38px -1190px;
+    background-repeat:no-repeat;
+    text-indent:-9990px;
+    width:14px;
+    -servicestudio-text-indent:0px;
+}
+.love-agile-h:hover {
+    background-position:-2px -1209px;
+}
+.love-agile-o:hover {
+    background-position:-38px -1209px;
+}
+.footer-site {
+    color:#999;
+    padding:25px 0;
+    background:#1A1A1A;
+    border-right:0;
+    border-left:0;
+    line-height:22px;
+    overflow:hidden;
+    position:relative;
+}
+.footer-landscape {
+    background-image:url('/CommunityBaseTheme/img/footer.png');
+    height:52px;
+    background-repeat:no-repeat;
+    background-position:top;
+    margin-top: -62px;
+}
+.footer-section-wrapper {
+    margin:0px auto;
+    width:100%;
+    overflow:hidden;
+}
+.footer-section {
+    margin-top:5px;
+    width:25%;
+    float:left;
+}
+.footer-section-title {
+    margin:0 0 12px;
+    font-size:16px;
+    color:white;
+}
+.footer-section-link a:link,.footer-section-link a:visited {
+    font-size:13px;
+    text-decoration:none;
+    cursor:pointer;
+    color:#999;
+}
+.footer-section-link a:hover {
+    color:#c30;
+}
+.footer-copy {
+    margin-top:30px;
+    font-size:10px;
+}
+.footer-copy a:link,.footer-copy a:visited {
+    margin-right:15px;
+    cursor:pointer;
+    color:#999;
+}
+.footer-copy a:hover {
+    color: #c30;
+}
+/* MainFlow/Redirector WebScreen */
+body, .Content, .Footer, .MainContent {
+    background: #E6E6E6 url(/SS_Forge/img/bgpaper.jpg) repeat left top !important;
+    padding-top: 200px;
+    font-size: 24px;
+}
+
+.loadingContainer{
+    min-height: 334px;
+    min-width: 942px;
+}
