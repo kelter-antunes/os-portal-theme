@@ -534,6 +534,7 @@ span.Tabs_TabDisabled {
     text-transform: uppercase;
 }
 
+<<<<<<< Updated upstream
 .ConvertButton a,
 .ConvertButton a:link {
     color: #4CAF50;
@@ -543,8 +544,31 @@ span.Tabs_TabDisabled {
 .ConvertButton a:visited {
     border-color: #3C8C40;
     color: #3C8C40;
+=======
+/* PartnersApplication Theme */
+/*
+    How to generate a theme for your company: 
+    
+        1 - Go to http://www.outsystems.com/goto/themegenerator
+        2 - Copy the generated CSS
+        3 - Paste it here
+
+*/
+
+/* BREAKS - TEXT BODY 
+* {
+    font-family: Arial, sans-serif;
+    color: #333;
 }
 
+
+body {
+    background: transparent;
+>>>>>>> Stashed changes
+}
+*/
+
+<<<<<<< Updated upstream
 .section.DeleteButton {
     box-sizing: border-box;
     margin-top: 6px;
@@ -559,6 +583,19 @@ span.Tabs_TabDisabled {
 .DeleteButton a,
 .DeleteButton a:link {
     color: #546E7A;
+=======
+a,
+a:link,
+a.Navigation {
+    font-size: 12px;
+    /* color: #08C BREAKS - header*/
+}
+
+.Heading1, .Heading2, .Heading3, .Heading4, .Heading5 {
+    font-family: 'myriad-pro', Arial, sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+>>>>>>> Stashed changes
 }
 /* CommunityFlow/Partner_OpportunityStatus WebBlock */
 .closedWon {
@@ -1458,9 +1495,11 @@ select.Not_Valid {
     margin-top: 20px;
 }
 /* PDFFlow/PDFPreview WebScreen */
+/* BREAKS - ALL
 body {
     font-size: 16px
 }
+ */
 
 .Heading4 {
     margin-bottom: 20px;

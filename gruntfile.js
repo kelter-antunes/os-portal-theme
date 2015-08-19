@@ -9,18 +9,36 @@ module.exports = function(grunt) {
                     banner: '/* My minified css file */'
                 },
                 files: {
-                    'css/bundle/os-portal.css': [
+                    'css/bundle/os-portal-ss.css': [
                         'css/src/bootstrap.css',
                         'css/src/community-base-theme.css',
                         'css/src/os-core.css',
+                        'css/src/menu-mobile.css',
                         'css/src/ideas.css',
                         'css/src/forums.css',
                         'css/src/partner-center.css',
                         'css/src/profile.css',
+                        'css/src/search.css'
+                    ],
+                    'css/bundle/os-portal.css': [
+                        'css/src/bootstrap.css',
+                        'css/src/community-base-theme.css',
+                        'css/src/os-core.css',
+                        'css/src/menu-mobile.css'
+                    ],
+                    'css/bundle/os-portal-apps.css': [
+                        'css/src/ideas.css',
+                        'css/src/forums.css',
+                        'css/src/partner-center.css',
+                        'css/src/profile.css',
+<<<<<<< Updated upstream
                         'css/src/search.css',
                         'css/src/home.css',
                         'css/src/menu-mobile.css',
                         'css/src/widgets.css'
+=======
+                        'css/src/search.css'
+>>>>>>> Stashed changes
                     ]
                 }
             }

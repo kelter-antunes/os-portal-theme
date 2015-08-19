@@ -266,6 +266,12 @@ ul.footer.social-icons {
 }
 
 
+.hideie {
+    display: none !important;
+}
+
+
+
 /**** media *********/
 
 @media (max-width: 979px) {

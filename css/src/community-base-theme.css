@@ -561,7 +561,8 @@ a:focus {
     height:57px;
     line-height:57px;
      /*padding:0 30px; */
-     padding: 0 22px;
+     /*padding: 0 22px; BREAKS - HEADER*/
+     padding: 0 20px;
 }
 
 
