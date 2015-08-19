@@ -1,22 +1,3 @@
-/* Forums module */
-/* CommunityAllActivity WebBlock */
-.rss,
-.diggest {
-    background: url(/forums/img/spriteicons.png) no-repeat;
-    padding-left: 20px
-}
-.rss {
-    background-position: 0px -43px;
-}
-.rss:hover {
-    background-position: 0px -66px;
-}
-.diggest {
-    background-position: 0px 2px;
-}
-.diggest:hover {
-    background-position: 0px -20px;
-}
 /* forumsCore module */
 /* Post_ListReply WebBlock */
 .processingUpload{
@@ -44,6 +25,25 @@
     background-color: lightgray;
     color: black;
 }
+/* Forums module */
+/* CommunityAllActivity WebBlock */
+.rss,
+.diggest {
+    background: url(/forums/img/spriteicons.png) no-repeat;
+    padding-left: 20px
+}
+.rss {
+    background-position: 0px -43px;
+}
+.rss:hover {
+    background-position: 0px -66px;
+}
+.diggest {
+    background-position: 0px 2px;
+}
+.diggest:hover {
+    background-position: 0px -20px;
+}
 /* NetworkForums Theme */
 
 /* /--Inserted in the upgrade to 8.0.0.0--\ 
@@ -53,7 +53,7 @@
 /* \--Inserted in the upgrade to 8.0.0.0--/ */
 /* /--Converted in the upgrade to 6.0--\ 
 @import url("/PortalManager/Theme.PortalManager.css");
-/* \--Converted in the upgrade to 6.0--/ */
+/* \--Converted in the upgrade to 6.0--/ 
 
 .Post_AuthorPhoto{
     width:75px;
@@ -174,19 +174,23 @@
     height: 19px;
     width: 28px;
 }
-/* GrantRoleToUsers WebScreen */
+*/
+/* GrantRoleToUsers WebScreen 
 .redText{
     color: red;
 }
-/* ManageUsersRoles WebScreen */
+*/
+/* ManageUsersRoles WebScreen 
 .redText{
     color: red;
 }
-/* Tag_List WebScreen */
+*/
+/* Tag_List WebScreen 
 .Invisible{
     display:none !important;   
 }
-/* Tag_PopupBlackListConfirmation WebScreen */
+*/
+/* Tag_PopupBlackListConfirmation WebScreen 
 .WhiteSpaceNoWrap{
     white-space:nowrap;   
 }
@@ -205,7 +209,8 @@
 .LargerText{
     font-size:15px;   
 }
-/* Post_Edit_Blk WebBlock */
+*/
+/* Post_Edit_Blk WebBlock 
 .cke_show_borders{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -232,8 +237,8 @@
     margin-top: 5px;
     padding: 5px;
 }
-
-/* Start Autocomplete floater */
+*/
+/* Start Autocomplete floater 
 .Autocomplete_Floater{
   position:absolute;
   z-index:2;
@@ -248,9 +253,9 @@
   border:1px inset #979797;
   color:black;
 }
-
-.Autocomplete_Floater th /* copied from '.Autocomplete_Floater TD' in the upgrade to 5.0.0.0 */ {
-  font-family:Arial, Helvetica, sans-serif;
+*/
+/*.Autocomplete_Floater th /* copied from '.Autocomplete_Floater TD' in the upgrade to 5.0.0.0 */ {
+/*  font-family:Arial, Helvetica, sans-serif;
   background-color:white;
   border:1px inset #979797;
   color:black;
@@ -271,4 +276,5 @@
 }
 .Autocomplete_wickEnabled{
 }
+*/
 /* End Autocomplete floater */

@@ -1,3 +1,56 @@
+/* CommunityLicensesList WebBlock */
+.communityLicensesActivationCode {
+    width: 60%;
+    min-width: 30%;
+    float: left;
+    clear: right;
+}
+
+.communityLicensesTerm {
+    font-size: 12px;
+    display: block;
+    float: left;
+    clear: right;
+    width: 17%;
+    margin-right: 1%;
+}
+
+.communityLicensesButtons {
+    width: 20%;
+    font-size: 12px;
+    display: block;
+    float: left;
+    clear: right;
+    line-height: 17px;
+}
+
+.communityLicenseExpired{
+    background-color: #C30;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 600;
+    margin-left: 10px;
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: 'myriad-pro', Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.top-10{
+    margin-top:-10px;
+}
+
+.left5{
+    margin-left:5px;   
+}
+
+.nowrap{
+    white-space:nowrap;   
+}
 /* Community Search */
 /* OSCORE DUPLICATE - START */
 .filterlabel {
@@ -291,57 +344,4 @@ span.tag-close {
 }
 span.st-search-tag a {
     display: inline-block
-}
-/* CommunityLicensesList WebBlock */
-.communityLicensesActivationCode {
-    width: 60%;
-    min-width: 30%;
-    float: left;
-    clear: right;
-}
-
-.communityLicensesTerm {
-    font-size: 12px;
-    display: block;
-    float: left;
-    clear: right;
-    width: 17%;
-    margin-right: 1%;
-}
-
-.communityLicensesButtons {
-    width: 20%;
-    font-size: 12px;
-    display: block;
-    float: left;
-    clear: right;
-    line-height: 17px;
-}
-
-.communityLicenseExpired{
-    background-color: #C30;
-    color: white;
-    padding: 5px 10px;
-    font-weight: 600;
-    margin-left: 10px;
-    display: inline-block;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    font-size: 10px;
-    text-transform: uppercase;
-    font-family: 'myriad-pro', Helvetica, Arial, sans-serif;
-    letter-spacing: 1px;
-}
-
-.top-10{
-    margin-top:-10px;
-}
-
-.left5{
-    margin-left:5px;   
-}
-
-.nowrap{
-    white-space:nowrap;   
 }
