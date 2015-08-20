@@ -1,12 +1,24 @@
-/* CommunityLicensesList WebBlock */
-.communityLicensesActivationCode {
+body.community {
+
+    /* CommunityLicensesList WebBlock */
+
+    /* Community Search */
+
+    /* OSCORE DUPLICATE - START */
+
+    /* OSCORE DUPLICATE - END */
+
+    /****  media mobile *****/
+
+    /* CommunitySearchST WebScreen */
+}
+body.community .communityLicensesActivationCode {
     width: 60%;
     min-width: 30%;
     float: left;
     clear: right;
 }
-
-.communityLicensesTerm {
+body.community .communityLicensesTerm {
     font-size: 12px;
     display: block;
     float: left;
@@ -14,8 +26,7 @@
     width: 17%;
     margin-right: 1%;
 }
-
-.communityLicensesButtons {
+body.community .communityLicensesButtons {
     width: 20%;
     font-size: 12px;
     display: block;
@@ -23,8 +34,7 @@
     clear: right;
     line-height: 17px;
 }
-
-.communityLicenseExpired{
+body.community .communityLicenseExpired {
     background-color: #C30;
     color: white;
     padding: 5px 10px;
@@ -39,169 +49,150 @@
     font-family: 'myriad-pro', Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
 }
-
-.top-10{
-    margin-top:-10px;
+body.community .top-10 {
+    margin-top: -10px;
 }
-
-.left5{
-    margin-left:5px;   
+body.community .left5 {
+    margin-left: 5px;
 }
-
-.nowrap{
-    white-space:nowrap;   
+body.community .nowrap {
+    white-space: nowrap;
 }
-/* Community Search */
-/* OSCORE DUPLICATE - START */
-.filterlabel {
-    width: 108px;  
+body.community .filterlabel {
+    width: 108px;
     display: inline-block;
 }
-
-.CommunityDownloadButton {
-background:url(/Community/img/CommunityDownloadButton.png) no-repeat;
-background-position: 1px -1px;
-width: 312px !important;
-height: 55px;
-display: inline-block;
-color: #FFF !important;
-text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5) !important;
-font-size: 15px;
-text-align: center;
-line-height: 20px;
-font-weight:bold;
-background-color: transparent !important;
-border:none;
-padding-bottom:8px;
+body.community .CommunityDownloadButton {
+    background: url(/Community/img/CommunityDownloadButton.png) no-repeat;
+    background-position: 1px -1px;
+    width: 312px !important;
+    height: 55px;
+    display: inline-block;
+    color: #FFF !important;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5) !important;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    background-color: transparent !important;
+    border: none;
+    padding-bottom: 8px;
 }
-
-.CommunityDownloadButton:hover{
+body.community .CommunityDownloadButton:hover {
     background-position: 1px -61px;
     background-color: transparent !important;
 }
-
-.radio-checkbox {
+body.community .radio-checkbox {
     *margin-right: 0px !important;
     _margin-right: 0px !important;
-    zoom:1;
+    zoom: 1;
 }
-
-.checkbox{
-    zoom:1;
-    padding-left:0px;
+body.community .checkbox {
+    zoom: 1;
+    padding-left: 0px;
 }
-
-.whiteSpaceNoWrap{
-    white-space: nowrap;   
+body.community .whiteSpaceNoWrap {
+    white-space: nowrap;
 }
-
-.wordBreakWord{
-    word-break: break-word;    
+body.community .wordBreakWord {
+    word-break: break-word;
 }
-/* OSCORE DUPLICATE - END */
-/****  media mobile *****/
 @media (max-width:767px) {
-    .search-wrapper{
+    body.community .search-wrapper {
         width: 100%;
     }
-    
-    a.link-tab.active:after{
-    border-color: transparent;
-    border-style: none;
-    border-width: 0px;
+    body.community a.link-tab.active:after {
+        border-color: transparent;
+        border-style: none;
+        border-width: 0px;
     }
-    
-    a.link-tab:hover:after {
-    border-color: transparent;
-    border-style: none;
-    border-width: 0px;
+    body.community a.link-tab:hover:after {
+        border-color: transparent;
+        border-style: none;
+        border-width: 0px;
     }
-    
-    a.link-tab.active, .link-tab:hover, .link-tab.active:hover{
-    padding: 5px 0px;
+    body.community a.link-tab.active, body.community .link-tab:hover, body.community .link-tab.active:hover {
+        padding: 5px 0px;
     }
-    
-    .search-tab {
-    width: 100%;
-    margin-bottom: 5px;
+    body.community .search-tab {
+        width: 100%;
+        margin-bottom: 5px;
     }
-
 }
-/* CommunitySearchST WebScreen */
-.search-overlay {
-    display: none
+body.community .search-overlay {
+    display: none;
 }
-.st-result-listing {
+body.community .st-result-listing {
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 13px;
     letter-spacing: .8px;
-    margin-top: 40px
+    margin-top: 40px;
 }
-div.st-search-summary {
+body.community div.st-search-summary {
     border-bottom: 1px solid #ccc;
     padding-bottom: 7px;
-    margin: 12px 0
+    margin: 12px 0;
 }
-div.st-result-listing {
-    width: 600px
+body.community div.st-result-listing {
+    width: 600px;
 }
-div.st-result-listing h2 {
+body.community div.st-result-listing h2 {
     font-size: 13px;
     font-weight: 400;
     color: #333;
-    margin: 0
+    margin: 0;
 }
-div.st-result-listing h2 .st-query {
+body.community div.st-result-listing h2 .st-query {
     font-style: italic;
-    color: #666
+    color: #666666;
 }
-div.st-result {
+body.community div.st-result {
     padding-bottom: 12px;
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
-div.st-result.final {
+body.community div.st-result.final {
     border-bottom: none;
-    margin-bottom: 0
+    margin-bottom: 0;
 }
-div.st-result .st-snippet {
-    color: #333
+body.community div.st-result .st-snippet {
+    color: #333333;
 }
-div.st-result .st-date {
-    color: #999
+body.community div.st-result .st-date {
+    color: #999999;
 }
-.st-pagination {
+body.community .st-pagination {
     border-top: 1px solid #ccc;
     margin-top: 5px;
-    padding-top: 5px
+    padding-top: 5px;
 }
-.st-prev {
-    margin-right: 20px
+body.community .st-prev {
+    margin-right: 20px;
 }
-.st-loading-message {
+body.community .st-loading-message {
     font-size: 16px;
     font-style: italic;
     color: #999;
-    margin: 10px auto
+    margin: 10px auto;
 }
-.st-url {
+body.community .st-url {
     display: block;
     color: #00832A;
-    font-style: normal
+    font-style: normal;
 }
-.st-result h4.title {
+body.community .st-result h4.title {
     margin-bottom: 0;
     display: block;
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-text-overflow: ellipsis;
     white-space: nowrap;
-    padding: 0
+    padding: 0;
 }
-.st-snippet em {
+body.community .st-snippet em {
     font-weight: 700;
-    font-style: normal
+    font-style: normal;
 }
-.swiftype-widget .autocomplete {
+body.community .swiftype-widget .autocomplete {
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     background-color: #fff;
     display: block;
@@ -217,9 +208,9 @@ div.st-result .st-date {
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
     border-radius: 3px;
-    text-align: left
+    text-align: left;
 }
-.swiftype-widget .autocomplete ul {
+body.community .swiftype-widget .autocomplete ul {
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     background-color: #fff;
     display: block;
@@ -231,9 +222,9 @@ div.st-result .st-date {
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
     border-radius: 3px;
-    text-align: left
+    text-align: left;
 }
-.swiftype-widget .autocomplete li {
+body.community .swiftype-widget .autocomplete li {
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #fff;
     cursor: pointer;
@@ -241,24 +232,24 @@ div.st-result .st-date {
     font-size: 13px;
     list-style-type: none;
     background-image: none;
-    margin: 0
+    margin: 0;
 }
-.swiftype-widget .autocomplete li:first-child {
+body.community .swiftype-widget .autocomplete li:first-child {
     border-top: 1px solid #e5e5e5;
     -webkit-border-radius: 3px 3px 0 0;
     -moz-border-radius: 3px 3px 0 0;
     -ms-border-radius: 3px 3px 0 0;
     -o-border-radius: 3px 3px 0 0;
-    border-radius: 3px 3px 0 0
+    border-radius: 3px 3px 0 0;
 }
-.swiftype-widget .autocomplete li:last-child {
+body.community .swiftype-widget .autocomplete li:last-child {
     -webkit-border-radius: 0 0 3px 3px;
     -moz-border-radius: 0 0 3px 3px;
     -ms-border-radius: 0 0 3px 3px;
     -o-border-radius: 0 0 3px 3px;
-    border-radius: 0 0 3px 3px
+    border-radius: 0 0 3px 3px;
 }
-.swiftype-widget .autocomplete li.active {
+body.community .swiftype-widget .autocomplete li.active {
     border-top: 1px solid #145A93;
     border-bottom: 1px solid #086aa8;
     background-color: #1285d5;
@@ -269,51 +260,51 @@ div.st-result .st-date {
     background: linear-gradient(#37a3e9, #1285d5);
     -webkit-box-shadow: 0 1px 0 #69bdf3 inset;
     -moz-box-shadow: 0 1px 0 #69bdf3 inset;
-    box-shadow: 0 1px 0 #69bdf3 inset
+    box-shadow: 0 1px 0 #69bdf3 inset;
 }
-.swiftype-widget .autocomplete li p {
+body.community .swiftype-widget .autocomplete li p {
     font-size: 13px;
     line-height: 16px;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
-.swiftype-widget .autocomplete li p.title {
+body.community .swiftype-widget .autocomplete li p.title {
     font-weight: 700;
-    color: #1c6cb5
+    color: #1c6cb5;
 }
-.swiftype-widget .autocomplete li p.title em {
+body.community .swiftype-widget .autocomplete li p.title em {
     color: #0b2644;
     font-style: normal;
-    font-weight: 700
+    font-weight: 700;
 }
-.swiftype-widget .autocomplete li.active p.title {
+body.community .swiftype-widget .autocomplete li.active p.title {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-    color: #fff
+    color: #ffffff;
 }
-.swiftype-widget .autocomplete li.active p.title em {
+body.community .swiftype-widget .autocomplete li.active p.title em {
     color: #fff;
-    font-style: normal
+    font-style: normal;
 }
-.swiftype-widget .autocomplete li .sections {
+body.community .swiftype-widget .autocomplete li .sections {
     color: #999;
-    font-size: 11px
+    font-size: 11px;
 }
-.swiftype-widget .autocomplete li .sections em {
+body.community .swiftype-widget .autocomplete li .sections em {
     color: #666;
-    font-style: normal
+    font-style: normal;
 }
-.swiftype-widget .autocomplete li .sections .section {
-    display: inline
+body.community .swiftype-widget .autocomplete li .sections .section {
+    display: inline;
 }
-.swiftype-widget .autocomplete li.active .sections {
+body.community .swiftype-widget .autocomplete li.active .sections {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-    color: #a9d7f1
-}
-.swiftype-widget .autocomplete li.active .sections em {
     color: #a9d7f1;
-    font-style: normal
 }
-.st-search-tag {
+body.community .swiftype-widget .autocomplete li.active .sections em {
+    color: #a9d7f1;
+    font-style: normal;
+}
+body.community .st-search-tag {
     padding: 0 18px 0 5px;
     margin: 3px 0 3px 5px;
     position: relative;
@@ -327,21 +318,20 @@ div.st-result .st-date {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #08C
+    background-color: #0088cc;
 }
-span.tag-close {
+body.community span.tag-close {
     display: block;
     width: 12px;
     height: 13px;
     position: absolute;
-    right: 3px;
     top: 4px;
     font-size: 1px;
     outline: none;
     background: url(/forgecore/img/select2.png?118666&19936) right top no-repeat;
     right: 3px;
-    background-position: right -11px
+    background-position: right -11px;
 }
-span.st-search-tag a {
-    display: inline-block
+body.community span.st-search-tag a {
+    display: inline-block;
 }

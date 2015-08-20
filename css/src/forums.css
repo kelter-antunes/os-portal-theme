@@ -1,280 +1,58 @@
-/* forumsCore module */
-/* Post_ListReply WebBlock */
-.processingUpload{
-    display: inline-block; padding: 3px 0 0 4px; font-size: 12px;   
+body.forums-espace {
 }
-.disable {
+
+body.forums-espace .processingUpload {
+    display: inline-block;
+    padding: 3px 0 0 4px;
+    font-size: 12px;
+}
+
+body.forums-espace .disable {
     pointer-events: none;
     cursor: default;
     opacity: 0.9;
 }
-.archived {
+
+body.forums-espace .archived {
     background-color: lightgray;
     color: black;
 }
-/* Post_ListReplyLearn WebBlock */
-.processingUpload{
-    display: inline-block; padding: 3px 0 0 4px; font-size: 12px;   
+
+body.forums-espace .processingUpload {
+    display: inline-block;
+    padding: 3px 0 0 4px;
+    font-size: 12px;
 }
-.disable {
+
+body.forums-espace .disable {
     pointer-events: none;
     cursor: default;
     opacity: 0.9;
 }
-.archived {
+
+body.forums-espace .archived {
     background-color: lightgray;
     color: black;
 }
-/* Forums module */
-/* CommunityAllActivity WebBlock */
-.rss,
-.diggest {
+
+body.forums-espace .rss,
+body.forums-espace .diggest {
     background: url(/forums/img/spriteicons.png) no-repeat;
-    padding-left: 20px
+    padding-left: 20px;
 }
-.rss {
+
+body.forums-espace .rss {
     background-position: 0px -43px;
 }
-.rss:hover {
+
+body.forums-espace .rss:hover {
     background-position: 0px -66px;
 }
-.diggest {
+
+body.forums-espace .diggest {
     background-position: 0px 2px;
 }
-.diggest:hover {
+
+body.forums-espace .diggest:hover {
     background-position: 0px -20px;
 }
-/* NetworkForums Theme */
-
-/* /--Inserted in the upgrade to 8.0.0.0--\ 
-
-@import url("/RichWidgets/upgradeTo8000.css");
-
-/* \--Inserted in the upgrade to 8.0.0.0--/ */
-/* /--Converted in the upgrade to 6.0--\ 
-@import url("/PortalManager/Theme.PortalManager.css");
-/* \--Converted in the upgrade to 6.0--/ 
-
-.Post_AuthorPhoto{
-    width:75px;
-    vertical-align:top;
-}
-.Post_TopicName{
-    margin:0px 0px 0px 0px;
-    font-weight:bold;
-    font-size:14px;
-    vertical-align:text-bottom;
-    text-decoration: none;
-}
-.Post_AuthorInfo{
-    padding:0px 0px 10px 0px;  
-}
-.Post_Content{
-    white-space:normal;   
-}
-.Post_SeeMore{
-    float:right;
-    margin:10px 15px 0px 0px;
-}
-.PosterInfo {
-    vertical-align: top;
-    width:95px;
-}
-.PostInner {
-    vertical-align: top;
-    width:841px;
-}
-.PostHeader {
-    padding: 0px 0px 10px 0px;
-    vertical-align: bottom;
-}
-.PostBody {
-    padding: 0px 0px 10px 0px;
-    vertical-align: bottom;
-    overflow: auto;
-}
-.PostBody_Attachments {
-    margin-bottom: 10px;
-}
-.PostControls {
-    float:right;
-}
-.PostsListOddLine, .PostsListEvenLine {
-  border-bottom: 1px solid #CCCCCC;
-  padding: 10px 0 5px;
-  empty-cells: show;
-  font-size: 13px;
-  display:inline-block;
-}
-.PostsListOddLine {
-  background-color: #F8F8F8;
-}
-.Link, .Link:link, .Link:visited {
-}
-.Link_Small, .Link_Small:link, .Link_Small:visited {
-  font-size: 11px;
-  font-weight: normal;
-}
-.Forum_Description_Note {
-  color: #777788;
-  font-size: 15px;
-  font-weight: normal;
-  padding-bottom:20px;
-}
-.Post_Section_Separator {
-    border-bottom: 1px solid #CCCCCC;
-    height: 10px;
-    margin-bottom: 10px;
-}
-.Post_Section_Header {
-    color: #333333;
-    font-size: 17px;
-    font-weight: bold;
-    padding-top: 6px;
-}
-.Post_Submit_Button {
-  margin-right:3px;
-  padding: 0px 10px 1px 10px;
-  text-align:center;
-  height: 30px;
-  width: 100px;
-  font-size: 16px;
-}
-.Breadcrumb_Link:link, .Breadcrumb_Link:visited {
-  font-size:12px;
-  dont-weight:normal;
-  color:#444444;
-  text-decoration:underlign;
-  vertical-align: text-bottom;
-}
-.Breadcrumb_Link:hover {
-  text-decoration: underline;
-}
-.topic_flat {
-    background-image: url("img/threaded_flat.png");
-    background-position: 0 0;
-    height: 19px;
-    width: 28px;
-}
-.topic_threaded {
-    background-image: url("img/threaded_flat.png");
-    background-position: 0 -19px;
-    height: 19px;
-    width: 28px;
-}
-.topic_flat_hover {
-    background-image: url("img/threaded_flat.png");
-    background-position: -53px 0;
-    height: 19px;
-    width: 28px;
-}
-.topic_threaded_hover {
-    background-image: url("img/threaded_flat.png");
-    background-position: -53px -19px;
-    height: 19px;
-    width: 28px;
-}
-*/
-/* GrantRoleToUsers WebScreen 
-.redText{
-    color: red;
-}
-*/
-/* ManageUsersRoles WebScreen 
-.redText{
-    color: red;
-}
-*/
-/* Tag_List WebScreen 
-.Invisible{
-    display:none !important;   
-}
-*/
-/* Tag_PopupBlackListConfirmation WebScreen 
-.WhiteSpaceNoWrap{
-    white-space:nowrap;   
-}
-.MainContainer{
-    Background-color:whitesmoke;
-}
-.MediumPadding{
-    padding-top:10px;   
-    padding-bottom:5px;   
-    padding-left:10px;   
-    padding-right:10px;   
-}
-.MediumPaddingLeft{
-    padding-left:10px;   
-}
-.LargerText{
-    font-size:15px;   
-}
-*/
-/* Post_Edit_Blk WebBlock 
-.cke_show_borders{
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-}
-
-.Post_Quote_Outer {
-    padding-left:5px;
-    padding-right:5px;
-    font-size:11px;
-    font-family:monospace;
-}
-
-.Post_Quote_Title {
-    font-weight: bold;
-}
-
-.Post_Quote {
-    background-color: transparent;
-    border: 1px dashed #AAAAAA;
-    margin-left:10px;
-    margin-right:5px;
-    margin-top: 5px;
-    padding: 5px;
-}
-*/
-/* Start Autocomplete floater 
-.Autocomplete_Floater{
-  position:absolute;
-  z-index:2;
-  bottom:0;
-  right:0;
-  display:none;
-  padding:0;
-}
-.Autocomplete_Floater TD{
-  font-family:Arial, Helvetica, sans-serif;
-  background-color:white;
-  border:1px inset #979797;
-  color:black;
-}
-*/
-/*.Autocomplete_Floater th /* copied from '.Autocomplete_Floater TD' in the upgrade to 5.0.0.0 */ {
-/*  font-family:Arial, Helvetica, sans-serif;
-  background-color:white;
-  border:1px inset #979797;
-  color:black;
-}
-.Autocomplete_MatchedSmartInputItem{
-  font-size:9pt;
-  padding:5px 10px 1px 5px;
-  margin:0;
-  cursor:pointer;
-}
-.Autocomplete_selectedSmartInputItem{
-  color:white;
-  background-color:#4f4f4f;
-}
-#smartInputResults{
-  padding:0;
-  margin:0;
-}
-.Autocomplete_wickEnabled{
-}
-*/
-/* End Autocomplete floater */
