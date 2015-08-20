@@ -1280,12 +1280,12 @@ font-weight: 800;
         3 - Paste it here
 
 */
-
+/* OVERLAP OF HOME STYLES
 * {
     font-family: Arial, sans-serif;
     color: #333;
 }
-
+*/
 body {
     background: transparent;
 }
