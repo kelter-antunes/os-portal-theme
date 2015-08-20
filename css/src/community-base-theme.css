@@ -549,6 +549,7 @@ a:focus {
 .menu-wrapper {
 }
 .top-menu-item {
+    font-size: 12px;
     float:left;
     text-transform:uppercase;
     font-family:myriad-pro,Helvetica,Arial,sans-serif;
@@ -3873,7 +3874,10 @@ div.Feedback_AjaxWait img {
 
 .PersonalHeaderBorderBottom
 {
-    border: none;  
+    border: none;
+    width: 100%;
+    height: 65px;
+    background: #E6EAEB;
 }
 
 .PersonalEnvironmentText

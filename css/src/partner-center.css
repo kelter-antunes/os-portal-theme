@@ -1280,7 +1280,7 @@ font-weight: 800;
         3 - Paste it here
 
 */
-/* OVERLAP OF HOME STYLES
+/* OVERRIDE OF HOME STYLES
 * {
     font-family: Arial, sans-serif;
     color: #333;
@@ -1289,14 +1289,14 @@ font-weight: 800;
 body {
     background: transparent;
 }
-
+/* OVERRIDE OF HOME STYLES
 a,
 a:link,
 a.Navigation {
     font-size: 12px;
     color: #08C;
 }
-
+*/
 .Heading1, .Heading2, .Heading3, .Heading4, .Heading5 {
     font-family: Myriad-Pro, Arial, sans-serif;
     font-weight: 600;
