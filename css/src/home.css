@@ -1,12 +1,12 @@
-body.home {
+body.home-espace {
 }
 
-body.home .Tabs_Header a,
-body.home .Tabs_Header span {
+body.home-espace .Tabs_Header a,
+body.home-espace .Tabs_Header span {
   font-size: 12.5px;
 }
-body.home div.Tabs_TabOff,
-body.home li.Tabs_TabOff {
+body.home-espace div.Tabs_TabOff,
+body.home-espace li.Tabs_TabOff {
   font-size: 14px;
   position: relative;
   box-sizing: border-box;
@@ -18,8 +18,8 @@ body.home li.Tabs_TabOff {
   margin-right: 13.6px;
   border: none;
 }
-body.home div.Tabs_TabOff:after,
-body.home li.Tabs_TabOff:after {
+body.home-espace div.Tabs_TabOff:after,
+body.home-espace li.Tabs_TabOff:after {
   content: '';
   position: absolute;
   width: 13px;
@@ -32,9 +32,9 @@ body.home li.Tabs_TabOff:after {
   right: -10px;
   border-radius: 0 5px 0 0;
 }
-body.home a.Tabs_TabOff,
-body.home a.Tabs_TabOff:link,
-body.home a.Tabs_TabOff:visited {
+body.home-espace a.Tabs_TabOff,
+body.home-espace a.Tabs_TabOff:link,
+body.home-espace a.Tabs_TabOff:visited {
   display: block;
   white-space: nowrap;
   text-decoration: none;
@@ -42,11 +42,11 @@ body.home a.Tabs_TabOff:visited {
   padding: 0px 10px 0px 10px;
   background: transparent;
 }
-body.home a.Tabs_TabOff:hover {
+body.home-espace a.Tabs_TabOff:hover {
   background: transparent;
 }
-body.home div.Tabs_TabOn,
-body.home li.Tabs_TabOn {
+body.home-espace div.Tabs_TabOn,
+body.home-espace li.Tabs_TabOn {
   font-size: 14px;
   position: relative;
   box-sizing: border-box;
@@ -57,8 +57,8 @@ body.home li.Tabs_TabOn {
   border-top-left-radius: 5px;
   margin-right: 13.6px;
 }
-body.home div.Tabs_TabOn:after,
-body.home li.Tabs_TabOn:after {
+body.home-espace div.Tabs_TabOn:after,
+body.home-espace li.Tabs_TabOn:after {
   content: '';
   position: absolute;
   width: 13px;
@@ -77,11 +77,11 @@ body.home li.Tabs_TabOn:after {
   border-bottom: 0px;
   -webkit-backface-visibility: hidden;
 }
-body.home a.Tabs_TabOn,
-body.home a.Tabs_TabOn:link,
-body.home a.Tabs_TabOn:visited,
-body.home a.Tabs_TabOn:hover,
-body.home span.Tabs_TabOn {
+body.home-espace a.Tabs_TabOn,
+body.home-espace a.Tabs_TabOn:link,
+body.home-espace a.Tabs_TabOn:visited,
+body.home-espace a.Tabs_TabOn:hover,
+body.home-espace span.Tabs_TabOn {
   display: block;
   white-space: nowrap;
   text-decoration: none;
@@ -89,19 +89,19 @@ body.home span.Tabs_TabOn {
   padding: 0px 10px 0px 10px;
   background: transparent;
 }
-body.home .Tabs_TabBody {
+body.home-espace .Tabs_TabBody {
   margin: 30px 0px 0px 0px;
   padding: 10px 0px;
   border: 1px solid #cccccc;
   _height: 1%;
   *display: inline-block;
 }
-body.home .partners-download-doc-filter {
+body.home-espace .partners-download-doc-filter {
   padding: 15px;
   border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
 }
-body.home .partners-download-doc-filter input[type="checkbox"] {
+body.home-espace .partners-download-doc-filter input[type="checkbox"] {
   margin: 0px;
   line-height: normal;
   cursor: pointer;
@@ -109,7 +109,7 @@ body.home .partners-download-doc-filter input[type="checkbox"] {
   margin-right: 30px;
   margin-top: 0;
 }
-body.home .button-isotype {
+body.home-espace .button-isotype {
   display: inline-block;
   padding: 1px 15px;
   background: #aaa;
@@ -121,22 +121,22 @@ body.home .button-isotype {
   cursor: pointer;
   margin-left: 10px;
 }
-body.home .button-isotype:hover {
+body.home-espace .button-isotype:hover {
   background-color: gray;
   color: #fff;
   text-decoration: none;
 }
-body.home .button-isotype.is-checked,
-body.home .button-isotype:active {
+body.home-espace .button-isotype.is-checked,
+body.home-espace .button-isotype:active {
   background-color: #cc2200;
 }
-body.home .button-isotype.is-checked {
+body.home-espace .button-isotype.is-checked {
   color: #ffffff;
 }
-body.home .button-isotype:active {
+body.home-espace .button-isotype:active {
   box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.8);
 }
-body.home .NavTab {
+body.home-espace .NavTab {
   font-family: Arial, sans-serif;
   font-size: 14px;
   position: relative;
@@ -149,7 +149,7 @@ body.home .NavTab {
   margin-top: 15px;
   border-top-left-radius: 5px;
 }
-body.home .NavTab:after {
+body.home-espace .NavTab:after {
   content: '';
   position: absolute;
   width: 10px;
@@ -162,162 +162,162 @@ body.home .NavTab:after {
   right: -6px;
   border-radius: 0 5px 0 0;
 }
-body.home .NavTab .Icon [class*="fa"],
-body.home .NavTab .Icon [class^="osicon"] {
+body.home-espace .NavTab .Icon [class*="fa"],
+body.home-espace .NavTab .Icon [class^="osicon"] {
   width: 5%;
   font-size: 20px;
 }
-body.home .NavTab.Download .Icon {
+body.home-espace .NavTab.Download .Icon {
   margin-top: 1px;
 }
-body.home .NavTab.Download .Icon [class*="fa"],
-body.home .NavTab.Download .Icon [class^="osicon"],
-body.home .NavTab.Download.Active .Icon [class*="fa"],
-body.home .NavTab.Download.Active .Icon [class^="osicon"] {
+body.home-espace .NavTab.Download .Icon [class*="fa"],
+body.home-espace .NavTab.Download .Icon [class^="osicon"],
+body.home-espace .NavTab.Download.Active .Icon [class*="fa"],
+body.home-espace .NavTab.Download.Active .Icon [class^="osicon"] {
   width: 5%;
   font-size: 16px;
 }
-body.home .NavTab.Download .EnvironmentInfo,
-body.home .NavTab.Active.Download .EnvironmentInfo {
+body.home-espace .NavTab.Download .EnvironmentInfo,
+body.home-espace .NavTab.Active.Download .EnvironmentInfo {
   width: 70% !important;
 }
-body.home .NavTab .EnvironmentInfo {
+body.home-espace .NavTab .EnvironmentInfo {
   width: 85%;
   margin-left: 10px;
 }
-body.home .NavTab.Trial .EnvironmentInfo {
+body.home-espace .NavTab.Trial .EnvironmentInfo {
   width: 235px;
 }
-body.home .NavTab.Active.Trial .EnvironmentInfo {
+body.home-espace .NavTab.Active.Trial .EnvironmentInfo {
   width: 260px;
 }
-body.home .NavTab:not(.Active) .EnvironmentInfo {
+body.home-espace .NavTab:not(.Active) .EnvironmentInfo {
   margin-top: 2px;
 }
-body.home .NavTab.Active .EnvironmentInfo.Label {
+body.home-espace .NavTab.Active .EnvironmentInfo.Label {
   margin-top: 6px;
 }
-body.home .NavTab .InfrastructureNameWrapper {
+body.home-espace .NavTab .InfrastructureNameWrapper {
   width: 100%;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
-body.home .InfrastructureName {
+body.home-espace .InfrastructureName {
   font-weight: 600;
 }
-body.home .NavTab .TopSection {
+body.home-espace .NavTab .TopSection {
   display: none;
 }
-body.home .NavTab .InfrastructureType {
+body.home-espace .NavTab .InfrastructureType {
   width: 70%;
   font-size: 12px;
   color: #808080;
   margin-top: 1px;
 }
-body.home .NavTab .DaysLeft {
+body.home-espace .NavTab .DaysLeft {
   width: 28%;
   font-size: 10px;
   color: #C61F00;
   font-weight: 600;
   margin-top: 1px;
 }
-body.home .NavTab.Active {
+body.home-espace .NavTab.Active {
   padding: 11px 5px 0px 10px;
   background: #FFF;
   color: #333;
   height: 50px;
   margin-top: 0;
 }
-body.home .NavTab.Active:after {
+body.home-espace .NavTab.Active:after {
   height: 50px;
   background: #FFF;
 }
-body.home .NavTab.Active .TopSection {
+body.home-espace .NavTab.Active .TopSection {
   display: block;
   line-height: 1;
 }
-body.home .NavTab.Active .Icon {
+body.home-espace .NavTab.Active .Icon {
   margin-top: 5px;
 }
-body.home .desktop-resizable {
+body.home-espace .desktop-resizable {
   display: inline-block !important;
 }
-body.home .desktop-resizable:not(:first-child) {
+body.home-espace .desktop-resizable:not(:first-child) {
   /*margin-left: 30px;*/
 }
 @media (max-width: 967px) {
-  body.home .desktop-resizable .NavTab.Download,
-  body.home .desktop-resizable .NavTab.Download.Active {
+  body.home-espace .desktop-resizable .NavTab.Download,
+  body.home-espace .desktop-resizable .NavTab.Download.Active {
     display: none;
   }
-  body.home .NavTab.Active .EnvironmentInfo {
+  body.home-espace .NavTab.Active .EnvironmentInfo {
     width: 80% !important;
   }
-  body.home .NavTab .EnvironmentInfo {
+  body.home-espace .NavTab .EnvironmentInfo {
     width: 185px;
   }
-  body.home .NavTab .EnvironmentInfo.Label {
+  body.home-espace .NavTab .EnvironmentInfo.Label {
     font-size: 12px;
   }
-  body.home .NavTab .InfrastructureType {
+  body.home-espace .NavTab .InfrastructureType {
     width: 100%;
   }
 }
 @media (max-width: 767px) {
-  body.home {
+  body.home-espace {
     /** desktop resizable widths **/
   }
-  body.home .NavTab.Active .TopSection {
+  body.home-espace .NavTab.Active .TopSection {
     display: none;
   }
-  body.home .NavTab.Active .EnvironmentInfo {
+  body.home-espace .NavTab.Active .EnvironmentInfo {
     margin-top: 6px;
     width: 80%;
   }
-  body.home .NavTab .EnvironmentInfo {
+  body.home-espace .NavTab .EnvironmentInfo {
     margin-top: 0;
   }
-  body.home .NavTab:not(.Active) .EnvironmentInfo {
+  body.home-espace .NavTab:not(.Active) .EnvironmentInfo {
     display: none;
   }
-  body.home .NavTab .Download {
+  body.home-espace .NavTab .Download {
     display: none;
   }
-  body.home .span4.desktop-resizable,
-  body.home .span3.desktop-resizable,
-  body.home .span2.desktop-resizable {
+  body.home-espace .span4.desktop-resizable,
+  body.home-espace .span3.desktop-resizable,
+  body.home-espace .span2.desktop-resizable {
     width: auto;
   }
-  body.home .NavTab {
+  body.home-espace .NavTab {
     width: 45px;
   }
-  body.home .NavTab.Active {
+  body.home-espace .NavTab.Active {
     width: 160px;
   }
 }
-body.home .HeaderLinksGotFeedback {
+body.home-espace .HeaderLinksGotFeedback {
   text-transform: uppercase;
 }
-body.home .MySubscriptions {
+body.home-espace .MySubscriptions {
   color: #103E65;
   cursor: pointer;
 }
-body.home .SubscriptionName {
+body.home-espace .SubscriptionName {
   max-width: 134px;
   text-overflow: ellipsis;
   font-weight: bold;
   overflow: hidden;
   white-space: nowrap;
 }
-body.home .SubscriptionTextMarginRight {
+body.home-espace .SubscriptionTextMarginRight {
   margin-right: 10px;
 }
-body.home .SubscriptionColors {
+body.home-espace .SubscriptionColors {
   color: #333;
   background-color: #FFF;
 }
-body.home .SubscriptionIcon {
+body.home-espace .SubscriptionIcon {
   border-right: 1px solid white;
   width: 30px;
   margin-left: 10px;
@@ -325,40 +325,40 @@ body.home .SubscriptionIcon {
   margin-bottom: 10px;
   font-size: 20px;
 }
-body.home .TrialHeaderBackground {
+body.home-espace .TrialHeaderBackground {
   background-color: #FFF;
   width: 265px;
   height: 50px;
 }
-body.home .PersonalEnvironmentTextNotSelected {
+body.home-espace .PersonalEnvironmentTextNotSelected {
   display: none;
 }
-body.home .HomeIcon.Trial {
+body.home-espace .HomeIcon.Trial {
   color: #333;
 }
-body.home .TrialDropdownIcon {
+body.home-espace .TrialDropdownIcon {
   font-size: 20px;
   color: #FFF;
 }
-body.home .DaysLeft {
+body.home-espace .DaysLeft {
   font-size: 12px;
 }
-body.home .NavTab.Active .TrialDropdownIcon {
+body.home-espace .NavTab.Active .TrialDropdownIcon {
   position: absolute;
   color: #CCC;
   top: 20px;
   right: 10px;
 }
-body.home .SubscriptionsPosition .ListRecords a:not(:last-child) > div {
+body.home-espace .SubscriptionsPosition .ListRecords a:not(:last-child) > div {
   border-bottom: 1px solid #CCC;
 }
-body.home .AbsoluteSubscriptions {
+body.home-espace .AbsoluteSubscriptions {
   position: absolute;
 }
-body.home .AbsoluteEnvironments {
+body.home-espace .AbsoluteEnvironments {
   position: absolute;
 }
-body.home .SubscriptionsPosition {
+body.home-espace .SubscriptionsPosition {
   position: absolute;
   top: 122px;
   z-index: 9999;
@@ -367,79 +367,79 @@ body.home .SubscriptionsPosition {
   background: #FFF;
   padding: 5px 0px;
 }
-body.home .SubscriptionsPosition:before {
+body.home-espace .SubscriptionsPosition:before {
   border-bottom-color: #103E65;
   border-width: 8px;
   margin-left: -7px;
 }
-body.home .SubscriptionsPosition:after {
+body.home-espace .SubscriptionsPosition:after {
   border-bottom-color: #103E65;
   border-width: 6px;
   margin-left: -5px;
 }
-body.home .MySubscriptionsBottomBorders {
+body.home-espace .MySubscriptionsBottomBorders {
   border-bottom: 1px solid #CCC;
 }
-body.home .MySubscriptionsTopBorders {
+body.home-espace .MySubscriptionsTopBorders {
   border-top: 1px solid #87B7E4;
 }
 @media (max-width: 967px) {
-  body.home .NavTab.Trial.Active .DaysLeft {
+  body.home-espace .NavTab.Trial.Active .DaysLeft {
     display: none !important;
   }
-  body.home .NavTab.Trial.Active .InfrastructureNameWrapper {
+  body.home-espace .NavTab.Trial.Active .InfrastructureNameWrapper {
     width: 90%;
   }
-  body.home .NavTab.Trial.Active .EnvironmentInfo {
+  body.home-espace .NavTab.Trial.Active .EnvironmentInfo {
     width: 185px !important;
   }
-  body.home .NavTab.Trial.Active .InfrastructureType {
+  body.home-espace .NavTab.Trial.Active .InfrastructureType {
     width: 100%;
   }
-  body.home .TrialDropdownIcon {
+  body.home-espace .TrialDropdownIcon {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  body.home .NavTab.Trial.Active .EnvironmentInfo {
+  body.home-espace .NavTab.Trial.Active .EnvironmentInfo {
     width: 117px !important;
   }
-  body.home .NavTab.Trial.Active .InfrastructureNameWrapper {
+  body.home-espace .NavTab.Trial.Active .InfrastructureNameWrapper {
     width: 100%;
   }
-  body.home .TrialDropdownIcon {
+  body.home-espace .TrialDropdownIcon {
     display: none;
   }
 }
-body.home .tableDisplay {
+body.home-espace .tableDisplay {
   display: table;
 }
-body.home .tableDisplayCell {
+body.home-espace .tableDisplayCell {
   display: table-cell;
   vertical-align: top;
 }
-body.home .shareTheLoveIcon {
+body.home-espace .shareTheLoveIcon {
   margin-top: 30px;
   margin-left: 5px;
 }
-body.home .divPositionRelative {
+body.home-espace .divPositionRelative {
   Position: relative;
 }
-body.home .shareTheLoveDescription {
+body.home-espace .shareTheLoveDescription {
   margin-top: 10px;
   margin-bottom: 15px;
 }
-body.home .text-note-sharethelove {
+body.home-espace .text-note-sharethelove {
   color: #999;
   font-size: 14px;
   line-height: 20px;
 }
 @media (max-width: 767px) {
-  body.home .email-label-style {
+  body.home-espace .email-label-style {
     width: 250px;
   }
 }
-body.home .ClosePersonalBox {
+body.home-espace .ClosePersonalBox {
   color: #69C;
   width: 17px;
   height: 17px;
@@ -450,153 +450,153 @@ body.home .ClosePersonalBox {
   display: block;
   -servicestudio-text-indent: 0px;
 }
-body.home .ClosePersonalBox:hover {
+body.home-espace .ClosePersonalBox:hover {
   color: #4673a7;
 }
-body.home .PersonalUnavailablePopupBorder {
+body.home-espace .PersonalUnavailablePopupBorder {
   border: 2px solid black;
   background-color: lightyellow;
   padding: 30px;
 }
-body.home .PersonalUnavailablePopupButtonMargin {
+body.home-espace .PersonalUnavailablePopupButtonMargin {
   margin-top: 5%;
 }
-body.home .PersonalUnavailableTextMargins {
+body.home-espace .PersonalUnavailableTextMargins {
   margin-left: 15%;
   margin-right: 15%;
 }
-body.home .SelectedManageAppsIconText {
+body.home-espace .SelectedManageAppsIconText {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
 }
-body.home .controls-row input.logininput {
+body.home-espace .controls-row input.logininput {
   height: 35px;
 }
 @media (max-width: 767px) {
-  body.home .input-prepend.input-append {
+  body.home-espace .input-prepend.input-append {
     white-space: normal;
   }
 }
-body.home .CreateAccountBackground {
+body.home-espace .CreateAccountBackground {
   background-color: #F8F8F8;
 }
-body.home .BoxMargins {
+body.home-espace .BoxMargins {
   margin-left: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-body.home .CreateAccountBackground {
+body.home-espace .CreateAccountBackground {
   background-color: #F8F8F8;
 }
-body.home .MarginBottom {
+body.home-espace .MarginBottom {
   margin-bottom: 10px;
 }
-body.home .DisclaimerStyle {
+body.home-espace .DisclaimerStyle {
   float: left;
   margin-left: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-body.home .EditRecord_Caption {
+body.home-espace .EditRecord_Caption {
   width: 13%;
 }
-body.home .BoxMargins {
+body.home-espace .BoxMargins {
   margin-left: 30px;
   margin-top: 10px;
 }
-body.home .BoxBottomMargin {
+body.home-espace .BoxBottomMargin {
   margin-bottom: 20px;
   margin-right: 30px;
 }
-body.home .AlreadyTitle {
+body.home-espace .AlreadyTitle {
   font-size: 20px;
   font-weight: bold;
 }
-body.home .EmailText {
+body.home-espace .EmailText {
   font-size: 20px;
 }
-body.home .CreateAccountBackground {
+body.home-espace .CreateAccountBackground {
   background-color: #F8F8F8;
 }
-body.home .FormTitle {
+body.home-espace .FormTitle {
   font-size: 34px;
   font-weight: bold;
 }
-body.home .MarginBottom {
+body.home-espace .MarginBottom {
   margin-bottom: 10px;
 }
-body.home .DisclaimerStyle {
+body.home-espace .DisclaimerStyle {
   float: left;
   margin-left: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-body.home .EditRecord_Caption {
+body.home-espace .EditRecord_Caption {
   width: 13%;
 }
-body.home .BoxMargins {
+body.home-espace .BoxMargins {
   margin-left: 30px;
   margin-top: 10px;
 }
-body.home .BoxBottomMargin {
+body.home-espace .BoxBottomMargin {
   margin-bottom: 20px;
   margin-right: 30px;
 }
-body.home .AlreadyTitle {
+body.home-espace .AlreadyTitle {
   font-size: 20px;
   font-weight: bold;
 }
-body.home .EmailText {
+body.home-espace .EmailText {
   font-size: 20px;
 }
-body.home .body {
+body.home-espace .body {
   background-color: #e6e6e6;
 }
-body.home .InputLabel {
+body.home-espace .InputLabel {
   width: 18%;
 }
-body.home .InputAlign {
+body.home-espace .InputAlign {
   text-align: center;
 }
-body.home .CustomerInfoPopupBackground {
+body.home-espace .CustomerInfoPopupBackground {
   width: 660px;
 }
-body.home .email-label-style {
+body.home-espace .email-label-style {
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 350px;
   display: inline-block;
 }
-body.home .ContentTitle {
+body.home-espace .ContentTitle {
   color: #333;
   font-weight: 600;
   font-size: 21px;
 }
-body.home .HomeWebBlocksBackground h2 {
+body.home-espace .HomeWebBlocksBackground h2 {
   color: #333;
   font-weight: 600;
   font-size: 18px;
 }
-body.home .GetStartedActionButtons,
-body.home .BrowseAppsActionButtons {
+body.home-espace .GetStartedActionButtons,
+body.home-espace .BrowseAppsActionButtons {
   margin-bottom: 30px;
   margin-right: 10px;
   text-align: center;
 }
-body.home .boxImage {
+body.home-espace .boxImage {
   width: 100%;
   border-top-right-radius: 5px;
 }
-body.home .popupTitle {
+body.home-espace .popupTitle {
   margin-bottom: 15px;
 }
-body.home #todo-list,
-body.home #todo-stats {
+body.home-espace #todo-list,
+body.home-espace #todo-stats {
   margin: 0;
   text-align: left;
 }
-body.home #todo-list {
+body.home-espace #todo-list {
   list-style: none;
   padding: 0;
   margin: 0 20px;
@@ -604,17 +604,17 @@ body.home #todo-list {
   -moz-column-count: 2;
   column-count: 2;
 }
-body.home #todo-stats,
-body.home .todo-clear {
+body.home-espace #todo-stats,
+body.home-espace .todo-clear {
   color: #777;
 }
-body.home .todo-clear {
+body.home-espace .todo-clear {
   float: right;
 }
-body.home .todo-done .todo-content {
+body.home-espace .todo-done .todo-content {
   text-decoration: line-through;
 }
-body.home .todo-input {
+body.home-espace .todo-input {
   display: block;
   font-family: Helvetica, sans-serif;
   font-size: 20px;
@@ -623,7 +623,7 @@ body.home .todo-input {
   padding: 6px;
   width: 420px;
 }
-body.home .todo-item {
+body.home-espace .todo-item {
   width: 257px;
   box-sizing: border-box;
   float: left;
@@ -632,24 +632,24 @@ body.home .todo-item {
   text-indent: -19px;
   margin-left: 25px;
 }
-body.home .todo-label {
+body.home-espace .todo-label {
   color: #444;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
-body.home .todo-remaining {
+body.home-espace .todo-remaining {
   color: #333;
   font-weight: bold;
 }
-body.home span.get-started-list-time {
+body.home-espace span.get-started-list-time {
   color: lightgray;
   margin-left: 2px;
   font-size: 12px;
 }
-body.home .CreatAppBox,
-body.home .BrowseAppBox,
-body.home .ManageAppBox {
+body.home-espace .CreatAppBox,
+body.home-espace .BrowseAppBox,
+body.home-espace .ManageAppBox {
   position: relative;
   width: 180px;
   border: none;
@@ -659,9 +659,9 @@ body.home .ManageAppBox {
   height: 30px;
   cursor: pointer;
 }
-body.home .CreatAppBox:after,
-body.home .BrowseAppBox:after,
-body.home .ManageAppBox:after {
+body.home-espace .CreatAppBox:after,
+body.home-espace .BrowseAppBox:after,
+body.home-espace .ManageAppBox:after {
   content: '';
   background: #AAA;
   height: 30px;
@@ -674,9 +674,9 @@ body.home .ManageAppBox:after {
   border-radius: 0 5px 0 0;
   top: 0;
 }
-body.home .CreatAppBox.Active,
-body.home .BrowseAppBox.Active,
-body.home .ManageAppBox.Active {
+body.home-espace .CreatAppBox.Active,
+body.home-espace .BrowseAppBox.Active,
+body.home-espace .ManageAppBox.Active {
   width: 180px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -686,9 +686,9 @@ body.home .ManageAppBox.Active {
   border: 1px solid #ddd;
   margin: -1px 0px -1px 0px;
 }
-body.home .CreatAppBox.Active:after,
-body.home .BrowseAppBox.Active:after,
-body.home .ManageAppBox.Active:after {
+body.home-espace .CreatAppBox.Active:after,
+body.home-espace .BrowseAppBox.Active:after,
+body.home-espace .ManageAppBox.Active:after {
   content: '';
   background: #FFF;
   height: 30px;
@@ -703,41 +703,41 @@ body.home .ManageAppBox.Active:after {
   border-right: 1px solid #ddd;
   margin: -1px 0px -1px 0px;
 }
-body.home .CreatAppBoxText,
-body.home .BrowseAppBoxText,
-body.home .ManageAppBoxText {
+body.home-espace .CreatAppBoxText,
+body.home-espace .BrowseAppBoxText,
+body.home-espace .ManageAppBoxText {
   color: #FFF;
   margin-top: 6px;
 }
-body.home .CreatAppBox.Active .CreatAppBoxText,
-body.home .BrowseAppBox.Active .BrowseAppBoxText,
-body.home .ManageAppBox.Active .ManageAppBoxText {
+body.home-espace .CreatAppBox.Active .CreatAppBoxText,
+body.home-espace .BrowseAppBox.Active .BrowseAppBoxText,
+body.home-espace .ManageAppBox.Active .ManageAppBoxText {
   margin-top: 6px;
   color: #363636;
 }
-body.home .CreatAppBoxIcon,
-body.home .BrowseAppBoxIcon,
-body.home .ManageAppBoxIcon {
+body.home-espace .CreatAppBoxIcon,
+body.home-espace .BrowseAppBoxIcon,
+body.home-espace .ManageAppBoxIcon {
   width: 20px;
   font-size: 12px;
   margin-top: 8px;
   color: #FFF;
   margin-left: 10px;
 }
-body.home .CreatAppBox.Active .CreatAppBoxIcon,
-body.home .BrowseAppBox.Active .BrowseAppBoxIcon,
-body.home .ManageAppBox.Active .ManageAppBoxIcon {
+body.home-espace .CreatAppBox.Active .CreatAppBoxIcon,
+body.home-espace .BrowseAppBox.Active .BrowseAppBoxIcon,
+body.home-espace .ManageAppBox.Active .ManageAppBoxIcon {
   color: #363636;
   margin-top: 8px;
 }
-body.home .MainContentBox_Navigation {
+body.home-espace .MainContentBox_Navigation {
   border: 1px solid #ddd;
   border-radius: 0px 5px 5px 5px;
   margin-left: 0px !important;
 }
 @media (max-width: 979px) {
-  body.home .BrowseAppBox,
-  body.home .ManageAppBox {
+  body.home-espace .BrowseAppBox,
+  body.home-espace .ManageAppBox {
     position: relative;
     width: 135px;
     border: none;
@@ -747,8 +747,8 @@ body.home .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home .BrowseAppBox.Active,
-  body.home .ManageAppBox.Active {
+  body.home-espace .BrowseAppBox.Active,
+  body.home-espace .ManageAppBox.Active {
     position: relative;
     width: 135px;
     border: 1px solid #DDD;
@@ -758,7 +758,7 @@ body.home .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home .CreatAppBox {
+  body.home-espace .CreatAppBox {
     position: relative;
     width: 155px !important;
     border: none;
@@ -768,7 +768,7 @@ body.home .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home .CreatAppBox.Active {
+  body.home-espace .CreatAppBox.Active {
     position: relative;
     width: 155px !important;
     border: 1px solid #DDD;
@@ -780,9 +780,9 @@ body.home .MainContentBox_Navigation {
   }
 }
 @media (max-width: 767px) {
-  body.home .desktop-resize-fix.CreatAppBox,
-  body.home .desktop-resize-fix.BrowseAppBox,
-  body.home .desktop-resize-fix.ManageAppBox {
+  body.home-espace .desktop-resize-fix.CreatAppBox,
+  body.home-espace .desktop-resize-fix.BrowseAppBox,
+  body.home-espace .desktop-resize-fix.ManageAppBox {
     position: relative;
     width: 50px !important;
     border: none;
@@ -792,9 +792,9 @@ body.home .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home .desktop-resize-fix.CreatAppBox.Active,
-  body.home .desktop-resize-fix.BrowseAppBox.Active,
-  body.home .desktop-resize-fix.ManageAppBox.Active {
+  body.home-espace .desktop-resize-fix.CreatAppBox.Active,
+  body.home-espace .desktop-resize-fix.BrowseAppBox.Active,
+  body.home-espace .desktop-resize-fix.ManageAppBox.Active {
     position: relative;
     width: 50px !important;
     border: 1px solid #DDD;
@@ -804,42 +804,42 @@ body.home .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home .desktop-resize-fix.CreatAppBoxIcon,
-  body.home .desktop-resize-fix.BrowseAppBoxIcon,
-  body.home .desktop-resize-fix.ManageAppBoxIcon {
+  body.home-espace .desktop-resize-fix.CreatAppBoxIcon,
+  body.home-espace .desktop-resize-fix.BrowseAppBoxIcon,
+  body.home-espace .desktop-resize-fix.ManageAppBoxIcon {
     font-size: 18px;
   }
 }
-body.home .tableDisplay {
+body.home-espace .tableDisplay {
   display: table;
 }
-body.home .tableDisplayCell {
+body.home-espace .tableDisplayCell {
   display: table-cell;
   vertical-align: top;
 }
-body.home .shareTheLoveIcon {
+body.home-espace .shareTheLoveIcon {
   margin-top: 30px;
   margin-left: 5px;
 }
-body.home .divPositionRelative {
+body.home-espace .divPositionRelative {
   Position: relative;
 }
-body.home .shareTheLoveDescription {
+body.home-espace .shareTheLoveDescription {
   margin-top: 10px;
   margin-bottom: 15px;
 }
-body.home .text-note-sharethelove {
+body.home-espace .text-note-sharethelove {
   color: #999;
   font-size: 12px;
   line-height: 20px;
 }
-body.home .trialTeamMatesCirclesWithPhoto {
+body.home-espace .trialTeamMatesCirclesWithPhoto {
   height: 40px;
   width: 40px;
   border-radius: 25px;
   cursor: pointer;
 }
-body.home .trialTeamMatesCirclesWithoutPhoto {
+body.home-espace .trialTeamMatesCirclesWithoutPhoto {
   height: 40px;
   width: 40px;
   border-radius: 25px;
@@ -847,19 +847,19 @@ body.home .trialTeamMatesCirclesWithoutPhoto {
   position: relative;
   cursor: pointer;
 }
-body.home .trialTeamMatesFontWithFirstName {
+body.home-espace .trialTeamMatesFontWithFirstName {
   font-size: 18px;
   font-weight: 600;
   color: white;
   position: relative;
   top: 9px;
 }
-body.home .trialTeamMatesDiv {
+body.home-espace .trialTeamMatesDiv {
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-body.home .ClosePersonalBox {
+body.home-espace .ClosePersonalBox {
   color: #69C;
   width: 17px;
   height: 17px;
@@ -870,83 +870,83 @@ body.home .ClosePersonalBox {
   display: block;
   -servicestudio-text-indent: 0px;
 }
-body.home .ClosePersonalBox:hover {
+body.home-espace .ClosePersonalBox:hover {
   color: #4673a7;
 }
-body.home .PersonalUnavailablePopupBorder {
+body.home-espace .PersonalUnavailablePopupBorder {
   border: 2px solid black;
   background-color: lightyellow;
   padding: 30px;
 }
-body.home .PersonalUnavailablePopupButtonMargin {
+body.home-espace .PersonalUnavailablePopupButtonMargin {
   margin-top: 5%;
 }
-body.home .PersonalUnavailableTextMargins {
+body.home-espace .PersonalUnavailableTextMargins {
   margin-left: 15%;
   margin-right: 15%;
 }
-body.home .SelectedManageAppsIconText {
+body.home-espace .SelectedManageAppsIconText {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
 }
-body.home .controls-row input.logininput {
+body.home-espace .controls-row input.logininput {
   height: 30px;
 }
-body.home input[type="text"].inputfield {
+body.home-espace input[type="text"].inputfield {
   height: 30px;
 }
-body.home input[type="text"].inputfield,
-body.home input[type="password"].logininput {
+body.home-espace input[type="text"].inputfield,
+body.home-espace input[type="password"].logininput {
   padding-left: 10px;
 }
 @media (max-width: 767px) {
-  body.home .input-prepend.input-append {
+  body.home-espace .input-prepend.input-append {
     white-space: normal;
   }
-  body.home .mobileText {
+  body.home-espace .mobileText {
     max-width: 105px;
   }
-  body.home input[type="text"].inputfield {
+  body.home-espace input[type="text"].inputfield {
     font-size: 14px;
   }
-  body.home .controls-row input.logininput {
+  body.home-espace .controls-row input.logininput {
     font-size: 14px;
   }
-  body.home .mobileInput {
+  body.home-espace .mobileInput {
     width: 220px !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 }
-body.home .controls-row input.logininput {
+body.home-espace .controls-row input.logininput {
   height: 35px;
 }
 @media (max-width: 767px) {
-  body.home .input-prepend.input-append {
+  body.home-espace .input-prepend.input-append {
     white-space: normal;
   }
-  body.home .mobileText {
+  body.home-espace .mobileText {
     max-width: 105px;
   }
 }
-body.home .redText {
+body.home-espace .redText {
   color: #FF0000;
   font-size: 12px;
 }
-body.home .background-gray {
+body.home-espace .background-gray {
   background-color: #E6EAEB;
   height: 65px;
   padding-top: 0px;
   box-sizing: border-box;
 }
-body.home .homebox-width {
+body.home-espace .homebox-width {
   width: 500px !important;
 }
-body.home .box {
+body.home-espace .box {
   background-color: white;
 }
-body.home .box .title {
+body.home-espace .box .title {
   font-family: 'myriad-pro', Helvetica, Arial, sans-serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -955,98 +955,98 @@ body.home .box .title {
   padding: 20px;
   border-bottom: 1px solid #d0d0d0;
 }
-body.home .box ul {
+body.home-espace .box ul {
   margin: 0;
   padding: 20px;
 }
-body.home .box li {
+body.home-espace .box li {
   list-style: none;
 }
-body.home .box ul a {
+body.home-espace .box ul a {
   display: block;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
-body.home .box .details {
+body.home-espace .box .details {
   color: #808080;
 }
-body.home .box.round {
+body.home-espace .box.round {
   border-radius: 10px;
 }
-body.home .round-top-left,
-body.home .round-top-left.round-top-right-1step {
+body.home-espace .round-top-left,
+body.home-espace .round-top-left.round-top-right-1step {
   border-radius: 10px 0 0 0;
 }
-body.home .round-top-right {
+body.home-espace .round-top-right {
   border-radius: 0 10px 0 0;
 }
-body.home .box .download-title {
+body.home-espace .box .download-title {
   font-size: 22px;
   padding: 20px 20px 10px 25px;
   font-weight: bolder;
   display: inline-block;
   font-family: 'myriad-pro', sans-serif;
 }
-body.home .box .download-content {
+body.home-espace .box .download-content {
   padding-right: 20px;
   display: inline-block;
   font-family: Helvetica, Arial, sans-serif;
   min-height: 60px;
 }
-body.home .box .download-content.highlight {
+body.home-espace .box .download-content.highlight {
   min-height: 140px;
 }
-body.home .box .download-server-content {
+body.home-espace .box .download-server-content {
   padding-right: 25px;
   display: inline-block;
   font-family: 'myriad-pro', sans-serif;
   margin-left: 25px;
 }
-body.home .box .download-button {
+body.home-espace .box .download-button {
   height: 25px;
 }
-body.home .box .download-image {
+body.home-espace .box .download-image {
   height: 150px;
   padding-left: 25px;
 }
-body.home .box .downloadlink {
+body.home-espace .box .downloadlink {
   font-size: 14px;
 }
-body.home .box .borderleft {
+body.home-espace .box .borderleft {
   border-left: 1px solid white;
   min-height: 165px;
 }
-body.home .box {
+body.home-espace .box {
   position: relative;
 }
-body.home .box {
+body.home-espace .box {
   position: relative;
 }
-body.home .configuration {
+body.home-espace .configuration {
   position: absolute;
   width: 33px;
   height: 33px;
   background-color: #CCCCCC;
   right: 0;
 }
-body.home .buttons {
+body.home-espace .buttons {
   padding: 17px 0;
   text-transform: uppercase;
   font-size: 12px;
   background-color: #4673A7;
 }
-body.home .picture {
+body.home-espace .picture {
   height: 98px;
 }
-body.home .row.buttons {
+body.home-espace .row.buttons {
   margin: 0;
 }
-body.home .row.buttons a {
+body.home-espace .row.buttons a {
   color: #C2C2C2;
   text-align: center;
 }
-body.home .posts:before {
+body.home-espace .posts:before {
   background: url('/CommunityBaseTheme/img/icons.png') no-repeat -4px -841px;
   width: 18px;
   height: 17px;
@@ -1055,7 +1055,7 @@ body.home .posts:before {
   float: left;
   margin-right: 7px;
 }
-body.home .components:before {
+body.home-espace .components:before {
   background: url('/CommunityBaseTheme/img/icons.png') no-repeat -6px -983px;
   width: 16px;
   height: 17px;
@@ -1064,7 +1064,7 @@ body.home .components:before {
   float: left;
   margin-right: 7px;
 }
-body.home .upcoming:before {
+body.home-espace .upcoming:before {
   background: url('/CommunityBaseTheme/img/icons.png') no-repeat -39px -425px;
   width: 15px;
   height: 18px;
@@ -1073,42 +1073,42 @@ body.home .upcoming:before {
   float: left;
   margin-right: 7px;
 }
-body.home .homepage-block-last-answered-details {
+body.home-espace .homepage-block-last-answered-details {
   max-width: 268px;
   display: inherit;
 }
-body.home .homepage-row-wrapper {
+body.home-espace .homepage-row-wrapper {
   margin: 20px;
 }
-body.home .post-reply-info {
+body.home-espace .post-reply-info {
   color: #808080;
   font-size: 14px;
 }
-body.home .homepage-block-components-details.pull-left {
+body.home-espace .homepage-block-components-details.pull-left {
   width: auto;
 }
-body.home .post-reply-info {
+body.home-espace .post-reply-info {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   max-width: 268px;
   display: inherit;
 }
-body.home .box.top {
+body.home-espace .box.top {
   min-height: 190px;
 }
-body.home .box.bottom {
+body.home-espace .box.bottom {
   min-height: 322px;
 }
-body.home .personal {
+body.home-espace .personal {
   padding: 55px 0 0 0;
 }
-body.home .steps {
+body.home-espace .steps {
   background: white;
   margin: 10px 11px 10px 10px;
   position: relative;
 }
-body.home .steps:after {
+body.home-espace .steps:after {
   content: ' ';
   background-image: url(/home/img/steps.png);
   height: 34px;
@@ -1117,39 +1117,39 @@ body.home .steps:after {
   top: 71px;
   right: -15px;
 }
-body.home .steps .stepstyle {
+body.home-espace .steps .stepstyle {
   background-color: #A2B9D3;
   color: white;
   text-transform: uppercase;
   min-height: 0;
   padding: 2px 10px;
 }
-body.home .steps .stepstyle.active {
+body.home-espace .steps .stepstyle.active {
   background-color: #4673A7;
 }
-body.home .steps .stepstyle.active {
+body.home-espace .steps .stepstyle.active {
   background: #4673A7;
 }
-body.home .download-box-content {
+body.home-espace .download-box-content {
   height: 100px;
   padding-left: 20px;
   padding-right: 20px;
 }
-body.home .download-box-image {
+body.home-espace .download-box-image {
   height: 150px;
   padding-left: 20px;
 }
-body.home .download-box-button {
+body.home-espace .download-box-button {
   height: 50px;
   padding-left: 20px;
   padding-right: 20px;
 }
-body.home .document-details {
+body.home-espace .document-details {
   color: #999;
   font-size: 12px;
   margin-bottom: 10px;
 }
-body.home .document-details-downs:before {
+body.home-espace .document-details-downs:before {
   content: "";
   float: left;
   background-image: url('/CommunityBaseTheme/img/icons.png');
@@ -1159,66 +1159,66 @@ body.home .document-details-downs:before {
   height: 15px;
   margin: 0 5px 0 0;
 }
-body.home .document-big-box {
+body.home-espace .document-big-box {
   border-top: 1px solid #ECECEC;
   margin-top: 30px;
   padding-top: 10px;
 }
-body.home .Infrastructure {
+body.home-espace .Infrastructure {
   background-color: #E6E6E6;
   margin-bottom: 28px;
   border: 1px solid #ccc;
 }
-body.home a.terms-link {
+body.home-espace a.terms-link {
   color: #9A9A9A;
   text-decoration: underline;
 }
-body.home a.terms-link:hover {
+body.home-espace a.terms-link:hover {
   color: #000;
 }
-body.home .InfraBox {
+body.home-espace .InfraBox {
   padding: 20px;
   min-height: 145px;
 }
-body.home .InfraBox .name {
+body.home-espace .InfraBox .name {
   min-height: 75px;
 }
-body.home .InfraBox .namewrapper {
+body.home-espace .InfraBox .namewrapper {
   display: inline-block;
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 330px;
 }
-body.home .selectable {
+body.home-espace .selectable {
   cursor: pointer;
 }
-body.home .BtnManageApp {
+body.home-espace .BtnManageApp {
   width: 150px\9;
   width: 150px\0;
 }
-body.home .round-top-right-1step {
+body.home-espace .round-top-right-1step {
   border-radius: 0px;
 }
-body.home .moreinfo-button {
+body.home-espace .moreinfo-button {
   padding-left: 25px;
 }
-body.home .mobile-align {
+body.home-espace .mobile-align {
   text-align: right;
 }
-body.home .mobile-displayinline {
+body.home-espace .mobile-displayinline {
   display: block;
 }
-body.home .mobile-margintop10 {
+body.home-espace .mobile-margintop10 {
   margin-top: 50px;
 }
-body.home .mobile-margintop20 {
+body.home-espace .mobile-margintop20 {
   margin-top: 40px;
 }
-body.home .mobileInfraInactive {
+body.home-espace .mobileInfraInactive {
   display: inline-block;
   padding-left: 30px;
 }
-body.home .user-exprience-shared-box {
+body.home-espace .user-exprience-shared-box {
   background-image: url(img/stopwatch.png);
   background-position: 98% bottom;
   background-repeat: no-repeat;
@@ -1227,52 +1227,52 @@ body.home .user-exprience-shared-box {
   border-radius: 0px 0px 10px 10px;
   margin-bottom: 20px;
 }
-body.home .user-experience-photo-border {
+body.home-espace .user-experience-photo-border {
   border-right: 1px solid #e1ebf5;
 }
-body.home .user-experience-top {
+body.home-espace .user-experience-top {
   margin-top: -41px;
 }
-body.home .mobile-downloadmarginleft {
+body.home-espace .mobile-downloadmarginleft {
   margin-left: 10px;
 }
-body.home .mobile-downloadmargintop {
+body.home-espace .mobile-downloadmargintop {
   margin-top: 0px;
 }
-body.home .mobile-step3margin {
+body.home-espace .mobile-step3margin {
   margin-left: -50px;
 }
-body.home .mobile-padding {
+body.home-espace .mobile-padding {
   margin-bottom: 20px;
 }
-body.home .task-done,
-body.home .task-not-done,
-body.home .clock-task-done,
-body.home .clock-task-not-done {
+body.home-espace .task-done,
+body.home-espace .task-not-done,
+body.home-espace .clock-task-done,
+body.home-espace .clock-task-not-done {
   line-height: 13px;
 }
-body.home .task-done > span.icon {
+body.home-espace .task-done > span.icon {
   background: url('img/icons_experience.png') no-repeat -2px -3px;
   width: 17px;
   height: 14px;
   display: inline-block;
   margin-right: 5px;
 }
-body.home .task-not-done > span.icon {
+body.home-espace .task-not-done > span.icon {
   background: url('img/icons_experience.png') no-repeat -3px -23px;
   width: 14px;
   height: 14px;
   display: inline-block;
   margin-right: 5px;
 }
-body.home .clock-task-done > span.icon {
+body.home-espace .clock-task-done > span.icon {
   background: url('img/icons_experience.png') no-repeat -22px -21px;
   width: 14px;
   height: 17px;
   display: inline-block;
   margin-right: 5px;
 }
-body.home .clock-task-not-done > span.icon {
+body.home-espace .clock-task-not-done > span.icon {
   background: url('img/icons_experience.png') no-repeat -22px -1px;
   width: 14px;
   height: 17px;
@@ -1280,44 +1280,44 @@ body.home .clock-task-not-done > span.icon {
   margin-right: 5px;
 }
 @media (max-width: 979px) {
-  body.home .visible-tablet {
+  body.home-espace .visible-tablet {
     display: inline-block !important;
   }
-  body.home .mobile-padding {
+  body.home-espace .mobile-padding {
     padding-right: 20px;
   }
-  body.home a.btn-small {
+  body.home-espace a.btn-small {
     padding: 4px 5px;
   }
-  body.home .InfraBox {
+  body.home-espace .InfraBox {
     min-height: 175px;
   }
-  body.home .InfraBox .name {
+  body.home-espace .InfraBox .name {
     min-height: 70px;
   }
-  body.home .InfraBox .namewrapper {
+  body.home-espace .InfraBox .namewrapper {
     max-width: 215px;
   }
-  body.home .box.top {
+  body.home-espace .box.top {
     min-height: 220px;
   }
-  body.home .box .download-content.highlight {
+  body.home-espace .box .download-content.highlight {
     min-height: 200px;
   }
-  body.home .box .download-content {
+  body.home-espace .box .download-content {
     min-height: 100px;
   }
-  body.home .arrow-right {
+  body.home-espace .arrow-right {
     border-width: 45px 155px 0px 155px;
     border-color: white transparent transparent rgba(255, 255, 255, 0);
     margin: 0 auto;
   }
-  body.home .mobile-step3margin {
+  body.home-espace .mobile-step3margin {
     margin-left: 0px;
   }
 }
 @media (max-width: 767px) {
-  body.home {
+  body.home-espace {
     /*
     .visible-phone {
         display: inline-block !important;
@@ -1331,10 +1331,10 @@ body.home .clock-task-not-done > span.icon {
     }
     */
   }
-  body.home .homebox-width {
+  body.home-espace .homebox-width {
     width: 100% !important;
   }
-  body.home .getstarted-what-u-get {
+  body.home-espace .getstarted-what-u-get {
     width: 100%;
     padding: 0 20px;
     padding-top: 20px;
@@ -1346,155 +1346,155 @@ body.home .clock-task-not-done > span.icon {
     border-radius: 10px 10px 0px 0px;
     border-bottom: 0px;
   }
-  body.home .getstarted-what-cols {
+  body.home-espace .getstarted-what-cols {
     margin-left: auto !important;
     margin-right: auto !important;
     margin-bottom: 30px;
     float: none;
   }
-  body.home .arrow-wrapper {
+  body.home-espace .arrow-wrapper {
     display: inline-block;
     width: 100%;
   }
-  body.home .arrow-right {
+  body.home-espace .arrow-right {
     border-width: 45px 155px 0px 155px;
     border-color: white transparent transparent rgba(255, 255, 255, 0);
     margin: 0 auto;
   }
-  body.home .round-top-right {
+  body.home-espace .round-top-right {
     border-radius: 0px;
   }
-  body.home .round-top-right-1step,
-  body.home .round-top-left.round-top-right-1step {
+  body.home-espace .round-top-right-1step,
+  body.home-espace .round-top-left.round-top-right-1step {
     border-radius: 10px 10px 0 0;
   }
-  body.home .download-content.highlight {
+  body.home-espace .download-content.highlight {
     min-height: 40px !important;
   }
-  body.home .box .download-content {
+  body.home-espace .box .download-content {
     min-height: 40px;
   }
-  body.home .box .download-content {
+  body.home-espace .box .download-content {
     padding-left: 20px;
   }
-  body.home .mobile-paddingleft20 {
+  body.home-espace .mobile-paddingleft20 {
     padding-left: 20px;
   }
-  body.home .mobile-paddingleft25 {
+  body.home-espace .mobile-paddingleft25 {
     padding-left: 25px;
   }
-  body.home .mobile-paddingleft5 {
+  body.home-espace .mobile-paddingleft5 {
     padding-left: 5px;
   }
-  body.home .mobile-align {
+  body.home-espace .mobile-align {
     text-align: left;
   }
-  body.home .mobile-displayinline {
+  body.home-espace .mobile-displayinline {
     display: inline-block;
   }
-  body.home .mobile-margintop10 {
+  body.home-espace .mobile-margintop10 {
     margin-top: 10px;
   }
-  body.home .mobile-margintop20 {
+  body.home-espace .mobile-margintop20 {
     margin-top: 20px;
   }
-  body.home .box .borderleft {
+  body.home-espace .box .borderleft {
     border-left: 0px;
     min-height: 130px;
   }
-  body.home .mobileInfraInactive {
+  body.home-espace .mobileInfraInactive {
     display: inline-block;
     padding-left: 0px;
   }
-  body.home .user-experience-photo-border {
+  body.home-espace .user-experience-photo-border {
     border-right: 0px;
   }
-  body.home .user-experience-top {
+  body.home-espace .user-experience-top {
     margin-top: -11px;
   }
-  body.home .user-exprience-shared-box {
+  body.home-espace .user-exprience-shared-box {
     border-radius: 10px;
     border-top: 0px;
   }
-  body.home .mobile-downloadmarginleft {
+  body.home-espace .mobile-downloadmarginleft {
     margin-left: 0px;
   }
-  body.home .mobile-downloadmargintop {
+  body.home-espace .mobile-downloadmargintop {
     margin-top: 10px;
   }
-  body.home .mobile-step3margin {
+  body.home-espace .mobile-step3margin {
     margin-left: 0px;
   }
-  body.home .mobile-padding {
+  body.home-espace .mobile-padding {
     padding-bottom: 0px;
   }
 }
 @media (max-width: 1250px) {
-  body.home .SidebarMain {
+  body.home-espace .SidebarMain {
     display: none !important;
   }
 }
-body.home .sideBarPadding {
+body.home-espace .sideBarPadding {
   padding-right: 10px;
 }
-body.home .home-get-started-form {
+body.home-espace .home-get-started-form {
   margin-left: 28px;
 }
-body.home .marginLeftAndRight20 {
+body.home-espace .marginLeftAndRight20 {
   margin-left: 50px;
   margin-right: 20px;
 }
-body.home .marginLeftAndRight10 {
+body.home-espace .marginLeftAndRight10 {
   margin-left: 0px;
   margin-right: 10px;
 }
-body.home .downloadSubHeaderText {
+body.home-espace .downloadSubHeaderText {
   font-weight: 600;
   font-size: 21px;
 }
-body.home .margin10 {
+body.home-espace .margin10 {
   margin: 0px 20px 10px 20px;
 }
-body.home .AppsBox {
+body.home-espace .AppsBox {
   width: 100%;
 }
-body.home .IconCard:hover {
+body.home-espace .IconCard:hover {
   color: #08C;
   background-color: transparent;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
-body.home .IconCardSelected:hover {
+body.home-espace .IconCardSelected:hover {
   color: #C72500;
   background-color: transparent;
 }
-body.home .titles {
+body.home-espace .titles {
   color: #333;
   font-weight: 600;
   font-size: 21px;
 }
-body.home body {
+body.home-espace body {
   font-family: Arial, "Helvetica Neue", Helvetica, Myriad-Pro, sans-serif !important;
 }
-body.home .download-content {
+body.home-espace .download-content {
   margin-right: 20px;
 }
-body.home .ClosePersonalBox {
+body.home-espace .ClosePersonalBox {
   cursor: pointer;
   padding: 5px;
 }
-body.home .FormTitle {
+body.home-espace .FormTitle {
   font-size: 34px;
   font-weight: bold;
 }
-body.home .FormTitleConfirmIdentity {
+body.home-espace .FormTitleConfirmIdentity {
   font-size: 24px;
   font-weight: 600;
 }
-body.home .BoxMargins {
+body.home-espace .BoxMargins {
   margin: 10px;
 }
-body.home .ErrorBox {
+body.home-espace .ErrorBox {
   background-color: #FFE7E7;
   border: 1px solid #D8ABAB;
   background-image: none;
@@ -1503,128 +1503,128 @@ body.home .ErrorBox {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-body.home .PersonalWebBlockMargins {
+body.home-espace .PersonalWebBlockMargins {
   margin: 20px 0px 20px 0px;
 }
-body.home .HomeWebBlocksBackground {
+body.home-espace .HomeWebBlocksBackground {
   background-color: white !Important;
 }
-body.home .HomeMarginLeftDiv {
+body.home-espace .HomeMarginLeftDiv {
   margin-left: 20px;
 }
-body.home .DownloadWebBlockMargins {
+body.home-espace .DownloadWebBlockMargins {
   margin: 20px 0px 20px 0px;
 }
-body.home .CardsSeparator {
+body.home-espace .CardsSeparator {
   display: none;
 }
-body.home .CreateApplicationMargin {
+body.home-espace .CreateApplicationMargin {
   margin-left: 10px;
 }
-body.home .GetStartedCardsMargin {
+body.home-espace .GetStartedCardsMargin {
   margin-top: 25px;
 }
-body.home .ManageAppsMargin {
+body.home-espace .ManageAppsMargin {
   margin-left: 10px;
 }
-body.home .homeFont {
+body.home-espace .homeFont {
   font-family: Arial;
   font-size: 12px;
 }
-body.home .MainContentBox,
-body.home .RightSideBarBox {
+body.home-espace .MainContentBox,
+body.home-espace .RightSideBarBox {
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 20px;
 }
-body.home .HomeMarginLeftRightDiv {
+body.home-espace .HomeMarginLeftRightDiv {
   margin-left: 20px;
   margin-top: 40px;
 }
-body.home .HomeSideBarDiv {
+body.home-espace .HomeSideBarDiv {
   margin-left: 20px;
   margin-top: 10px;
 }
-body.home .ProvisioningRightDiv {
+body.home-espace .ProvisioningRightDiv {
   margin-left: 20px;
 }
 @media (max-width: 979px) {
-  body.home .MainContentBox {
+  body.home-espace .MainContentBox {
     border: none;
     padding: 20px;
   }
-  body.home .HomeMarginLeftRightDiv {
+  body.home-espace .HomeMarginLeftRightDiv {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
   }
-  body.home .HomeSideBarDiv {
+  body.home-espace .HomeSideBarDiv {
     margin-left: 20px;
     margin-top: 10px;
     margin-right: 20px;
   }
-  body.home .SelectedBrowseAppsIcon,
-  body.home .SelectedManageAppsIcon {
+  body.home-espace .SelectedBrowseAppsIcon,
+  body.home-espace .SelectedManageAppsIcon {
     border: 1px solid #F0F0F0;
     border-radius: 4px;
     padding: 15px;
   }
-  body.home .AppsBox {
+  body.home-espace .AppsBox {
     width: 91%;
   }
-  body.home .CardsSeparator {
+  body.home-espace .CardsSeparator {
     display: block;
   }
-  body.home .CreateApplicationMargin {
+  body.home-espace .CreateApplicationMargin {
     margin-left: 0px;
     margin-top: 10px;
   }
-  body.home .ManageAppsMargin {
+  body.home-espace .ManageAppsMargin {
     margin-left: 10px;
     margin-top: 10px;
   }
-  body.home .GetStartedCardsMargin {
+  body.home-espace .GetStartedCardsMargin {
     margin-top: 15px;
   }
-  body.home .GetStartedActionButtons {
+  body.home-espace .GetStartedActionButtons {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  body.home .span3 {
+  body.home-espace .span3 {
     width: 224px;
   }
-  body.home .AppsBox {
+  body.home-espace .AppsBox {
     width: 94%;
   }
-  body.home .CardsSeparator {
+  body.home-espace .CardsSeparator {
     display: block;
   }
-  body.home .CreateApplicationMargin {
+  body.home-espace .CreateApplicationMargin {
     margin-left: 0px;
     margin-top: 10px;
   }
-  body.home .ManageAppsMargin {
+  body.home-espace .ManageAppsMargin {
     margin-left: 10px;
     margin-top: 10px;
   }
-  body.home .GetStartedCardsMargin {
+  body.home-espace .GetStartedCardsMargin {
     margin-top: 15px;
   }
-  body.home .GetStartedActionButtons {
+  body.home-espace .GetStartedActionButtons {
     display: none;
   }
-  body.home .PersonalHeaderTransparentBackground {
+  body.home-espace .PersonalHeaderTransparentBackground {
     display: none;
   }
 }
-body.home .HomeWebBlocksBackground {
+body.home-espace .HomeWebBlocksBackground {
   background-color: white !Important;
 }
-body.home .DownloadWebBlockMargins {
+body.home-espace .DownloadWebBlockMargins {
   margin: 0px 0px 20px 0px;
 }
-body.home .UpdateAlertDiv {
+body.home-espace .UpdateAlertDiv {
   min-height: 47px;
   background-color: #ECEFF1;
   background: #ECEFF1;
@@ -1633,93 +1633,93 @@ body.home .UpdateAlertDiv {
   margin-top: 26px;
   margin-bottom: 10px;
 }
-body.home .ClockBackground {
+body.home-espace .ClockBackground {
   background-image: url('/home/img/icon_clock.png');
   background-repeat: no-repeat;
   background-position: bottom left;
 }
-body.home .InfoBackground {
+body.home-espace .InfoBackground {
   background-image: url('/home/img/icon_info.png');
   background-repeat: no-repeat;
   background-position: bottom left;
 }
-body.home .AlertContent {
+body.home-espace .AlertContent {
   margin-top: 15px;
   margin-bottom: 10px;
   margin-left: 55px;
 }
-body.home .AlertMessage {
+body.home-espace .AlertMessage {
   margin-left: 5px;
   width: 80%;
 }
-body.home .AlertAction {
+body.home-espace .AlertAction {
   color: #005580;
 }
-body.home .AlertAction:hover {
+body.home-espace .AlertAction:hover {
   text-decoration: underline;
 }
 @media (max-width: 669px) {
-  body.home .AlertContent {
+  body.home-espace .AlertContent {
     margin-left: 0px;
     padding-left: 20px;
     padding-right: 20px;
   }
-  body.home .AlertAction {
+  body.home-espace .AlertAction {
     margin-top: 10px;
   }
-  body.home .ClockBackground {
+  body.home-espace .ClockBackground {
     background-image: none;
   }
-  body.home .InfoBackground {
+  body.home-espace .InfoBackground {
     background-image: none;
   }
-  body.home .UpdateAlertDiv {
+  body.home-espace .UpdateAlertDiv {
     margin-left: 20px;
     margin-right: 20px;
   }
 }
-body.home .HomeWebBlocksBackground {
+body.home-espace .HomeWebBlocksBackground {
   background-color: white !Important;
 }
-body.home .DownloadWebBlockMargins {
+body.home-espace .DownloadWebBlockMargins {
   margin: 0px 0px 20px 0px;
 }
-body.home body {
+body.home-espace body {
   background-color: transparent;
 }
-body.home .ContentTitle {
+body.home-espace .ContentTitle {
   color: #333;
   font-weight: 600;
   font-size: 21px;
 }
-body.home .HomeWebBlocksBackground h2 {
+body.home-espace .HomeWebBlocksBackground h2 {
   color: #333;
   font-weight: 600;
   font-size: 18px;
 }
-body.home .GetStartedActionButtons {
+body.home-espace .GetStartedActionButtons {
   margin-bottom: 30px;
   margin-right: 10px;
   text-align: center;
 }
-body.home .BrowseAppsActionButtons {
+body.home-espace .BrowseAppsActionButtons {
   margin-bottom: 30px;
   margin-right: 10px;
   text-align: center;
 }
-body.home .boxImage {
+body.home-espace .boxImage {
   width: 100%;
   border-top-right-radius: 5px;
 }
-body.home .popupTitle {
+body.home-espace .popupTitle {
   margin-bottom: 15px;
 }
-body.home #todo-list,
-body.home #todo-stats {
+body.home-espace #todo-list,
+body.home-espace #todo-stats {
   margin: 0;
   text-align: left;
 }
-body.home #todo-list {
+body.home-espace #todo-list {
   list-style: none;
   padding: 0;
   margin: 0 20px;
@@ -1727,17 +1727,17 @@ body.home #todo-list {
   -moz-column-count: 2;
   column-count: 2;
 }
-body.home #todo-stats,
-body.home .todo-clear {
+body.home-espace #todo-stats,
+body.home-espace .todo-clear {
   color: #777;
 }
-body.home .todo-clear {
+body.home-espace .todo-clear {
   float: right;
 }
-body.home .todo-done .todo-content {
+body.home-espace .todo-done .todo-content {
   text-decoration: line-through;
 }
-body.home .todo-input {
+body.home-espace .todo-input {
   display: block;
   font-family: Helvetica, sans-serif;
   font-size: 20px;
@@ -1746,7 +1746,7 @@ body.home .todo-input {
   padding: 6px;
   width: 420px;
 }
-body.home .todo-item {
+body.home-espace .todo-item {
   width: 257px;
   box-sizing: border-box;
   float: left;
@@ -1755,24 +1755,24 @@ body.home .todo-item {
   text-indent: -19px;
   margin-left: 25px;
 }
-body.home .todo-label {
+body.home-espace .todo-label {
   color: #444;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
-body.home .todo-remaining {
+body.home-espace .todo-remaining {
   color: #333;
   font-weight: bold;
 }
-body.home span.get-started-list-time {
+body.home-espace span.get-started-list-time {
   color: lightgray;
   margin-left: 2px;
   font-size: 12px;
 }
-body.home .CreatAppBox,
-body.home .BrowseAppBox,
-body.home .ManageAppBox {
+body.home-espace .CreatAppBox,
+body.home-espace .BrowseAppBox,
+body.home-espace .ManageAppBox {
   position: relative;
   width: 180px;
   border: none;
@@ -1782,9 +1782,9 @@ body.home .ManageAppBox {
   height: 30px;
   cursor: pointer;
 }
-body.home .CreatAppBox:after,
-body.home .BrowseAppBox:after,
-body.home .ManageAppBox:after {
+body.home-espace .CreatAppBox:after,
+body.home-espace .BrowseAppBox:after,
+body.home-espace .ManageAppBox:after {
   content: '';
   background: #AAA;
   height: 30px;
@@ -1797,9 +1797,9 @@ body.home .ManageAppBox:after {
   border-radius: 0 5px 0 0;
   top: 0;
 }
-body.home .CreatAppBox.Active,
-body.home .BrowseAppBox.Active,
-body.home .ManageAppBox.Active {
+body.home-espace .CreatAppBox.Active,
+body.home-espace .BrowseAppBox.Active,
+body.home-espace .ManageAppBox.Active {
   width: 180px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -1809,9 +1809,9 @@ body.home .ManageAppBox.Active {
   border: 1px solid #ddd;
   margin: -1px 0px -1px 0px;
 }
-body.home .CreatAppBox.Active:after,
-body.home .BrowseAppBox.Active:after,
-body.home .ManageAppBox.Active:after {
+body.home-espace .CreatAppBox.Active:after,
+body.home-espace .BrowseAppBox.Active:after,
+body.home-espace .ManageAppBox.Active:after {
   content: '';
   background: #FFF;
   height: 30px;
@@ -1826,41 +1826,41 @@ body.home .ManageAppBox.Active:after {
   border-right: 1px solid #ddd;
   margin: -1px 0px -1px 0px;
 }
-body.home .CreatAppBoxText,
-body.home .BrowseAppBoxText,
-body.home .ManageAppBoxText {
+body.home-espace .CreatAppBoxText,
+body.home-espace .BrowseAppBoxText,
+body.home-espace .ManageAppBoxText {
   color: #FFF;
   margin-top: 6px;
 }
-body.home .CreatAppBox.Active .CreatAppBoxText,
-body.home .BrowseAppBox.Active .BrowseAppBoxText,
-body.home .ManageAppBox.Active .ManageAppBoxText {
+body.home-espace .CreatAppBox.Active .CreatAppBoxText,
+body.home-espace .BrowseAppBox.Active .BrowseAppBoxText,
+body.home-espace .ManageAppBox.Active .ManageAppBoxText {
   margin-top: 6px;
   color: #363636;
 }
-body.home .CreatAppBoxIcon,
-body.home .BrowseAppBoxIcon,
-body.home .ManageAppBoxIcon {
+body.home-espace .CreatAppBoxIcon,
+body.home-espace .BrowseAppBoxIcon,
+body.home-espace .ManageAppBoxIcon {
   width: 20px;
   font-size: 12px;
   margin-top: 8px;
   color: #FFF;
   margin-left: 10px;
 }
-body.home .CreatAppBox.Active .CreatAppBoxIcon,
-body.home .BrowseAppBox.Active .BrowseAppBoxIcon,
-body.home .ManageAppBox.Active .ManageAppBoxIcon {
+body.home-espace .CreatAppBox.Active .CreatAppBoxIcon,
+body.home-espace .BrowseAppBox.Active .BrowseAppBoxIcon,
+body.home-espace .ManageAppBox.Active .ManageAppBoxIcon {
   color: #363636;
   margin-top: 8px;
 }
-body.home .MainContentBox_Navigation {
+body.home-espace .MainContentBox_Navigation {
   border: 1px solid #ddd;
   border-radius: 0px 5px 5px 5px;
   margin-left: 0px !important;
 }
 @media (max-width: 979px) {
-  body.home .BrowseAppBox,
-  body.home .ManageAppBox {
+  body.home-espace .BrowseAppBox,
+  body.home-espace .ManageAppBox {
     position: relative;
     width: 135px;
     border: none;
@@ -1870,8 +1870,8 @@ body.home .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home .BrowseAppBox.Active,
-  body.home .ManageAppBox.Active {
+  body.home-espace .BrowseAppBox.Active,
+  body.home-espace .ManageAppBox.Active {
     position: relative;
     width: 135px;
     border: 1px solid #DDD;
@@ -1881,7 +1881,7 @@ body.home .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home .CreatAppBox {
+  body.home-espace .CreatAppBox {
     position: relative;
     width: 155px !important;
     border: none;
@@ -1891,7 +1891,7 @@ body.home .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home .CreatAppBox.Active {
+  body.home-espace .CreatAppBox.Active {
     position: relative;
     width: 155px !important;
     border: 1px solid #DDD;
@@ -1903,9 +1903,9 @@ body.home .MainContentBox_Navigation {
   }
 }
 @media (max-width: 767px) {
-  body.home .desktop-resize-fix.CreatAppBox,
-  body.home .desktop-resize-fix.BrowseAppBox,
-  body.home .desktop-resize-fix.ManageAppBox {
+  body.home-espace .desktop-resize-fix.CreatAppBox,
+  body.home-espace .desktop-resize-fix.BrowseAppBox,
+  body.home-espace .desktop-resize-fix.ManageAppBox {
     position: relative;
     width: 50px !important;
     border: none;
@@ -1915,9 +1915,9 @@ body.home .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home .desktop-resize-fix.CreatAppBox.Active,
-  body.home .desktop-resize-fix.BrowseAppBox.Active,
-  body.home .desktop-resize-fix.ManageAppBox.Active {
+  body.home-espace .desktop-resize-fix.CreatAppBox.Active,
+  body.home-espace .desktop-resize-fix.BrowseAppBox.Active,
+  body.home-espace .desktop-resize-fix.ManageAppBox.Active {
     position: relative;
     width: 50px !important;
     border: 1px solid #DDD;
@@ -1927,13 +1927,13 @@ body.home .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home .desktop-resize-fix .CreatAppBoxIcon,
-  body.home .desktop-resize-fix .BrowseAppBoxIcon,
-  body.home .desktop-resize-fix .ManageAppBoxIcon {
+  body.home-espace .desktop-resize-fix .CreatAppBoxIcon,
+  body.home-espace .desktop-resize-fix .BrowseAppBoxIcon,
+  body.home-espace .desktop-resize-fix .ManageAppBoxIcon {
     font-size: 18px;
   }
 }
-body.home .LoaderWrapper {
+body.home-espace .LoaderWrapper {
   width: 100%;
   height: 100%;
   text-align: center;
@@ -1942,66 +1942,66 @@ body.home .LoaderWrapper {
   background: url(/home/img/preloader_3_100pxwhite2.gif) no-repeat 50% 50%;
   position: absolute;
 }
-body.home .LoaderBackground {
+body.home-espace .LoaderBackground {
   background: url(/home/img/preloader_3_100pxwhite2.gif) no-repeat 50% 50%;
 }
-body.home #WebForm1 {
+body.home-espace #WebForm1 {
   margin-top: 0px !important;
 }
-body.home .CreateAccountBackground {
+body.home-espace .CreateAccountBackground {
   background-color: #F8F8F8;
 }
-body.home .box {
+body.home-espace .box {
   background-color: #F2F2F2;
 }
-body.home .box {
+body.home-espace .box {
   padding: 30px;
 }
 @media (max-width: 767px) {
-  body.home .box {
+  body.home-espace .box {
     padding: 15px;
   }
-  body.home .mobile-width100 {
+  body.home-espace .mobile-width100 {
     width: 100px;
   }
 }
-body.home .box {
+body.home-espace .box {
   background-color: #F2F2F2;
 }
-body.home .box {
+body.home-espace .box {
   padding: 30px;
 }
 @media (max-width: 767px) {
-  body.home .email-label-style {
+  body.home-espace .email-label-style {
     width: 250px;
   }
 }
-body.home .box {
+body.home-espace .box {
   background-color: #F2F2F2;
 }
-body.home .box {
+body.home-espace .box {
   padding: 30px;
 }
-body.home .box {
+body.home-espace .box {
   background-color: #F2F2F2;
 }
-body.home .box {
+body.home-espace .box {
   padding: 30px;
 }
-body.home .box {
+body.home-espace .box {
   background-color: #F2F2F2;
 }
-body.home .box {
+body.home-espace .box {
   padding: 30px;
 }
-body.home .box {
+body.home-espace .box {
   background-color: #F2F2F2;
 }
-body.home .box {
+body.home-espace .box {
   padding: 30px;
 }
 @media (max-width: 767px) {
-  body.home .email-label-style {
+  body.home-espace .email-label-style {
     width: 250px;
   }
 }

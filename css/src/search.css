@@ -1,4 +1,4 @@
-body.community {
+body.community-espace {
 
     /* CommunityLicensesList WebBlock */
 
@@ -12,13 +12,13 @@ body.community {
 
     /* CommunitySearchST WebScreen */
 }
-body.community .communityLicensesActivationCode {
+body.community-espace .communityLicensesActivationCode {
     width: 60%;
     min-width: 30%;
     float: left;
     clear: right;
 }
-body.community .communityLicensesTerm {
+body.community-espace .communityLicensesTerm {
     font-size: 12px;
     display: block;
     float: left;
@@ -26,7 +26,7 @@ body.community .communityLicensesTerm {
     width: 17%;
     margin-right: 1%;
 }
-body.community .communityLicensesButtons {
+body.community-espace .communityLicensesButtons {
     width: 20%;
     font-size: 12px;
     display: block;
@@ -34,7 +34,7 @@ body.community .communityLicensesButtons {
     clear: right;
     line-height: 17px;
 }
-body.community .communityLicenseExpired {
+body.community-espace .communityLicenseExpired {
     background-color: #C30;
     color: white;
     padding: 5px 10px;
@@ -49,20 +49,20 @@ body.community .communityLicenseExpired {
     font-family: 'myriad-pro', Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
 }
-body.community .top-10 {
+body.community-espace .top-10 {
     margin-top: -10px;
 }
-body.community .left5 {
+body.community-espace .left5 {
     margin-left: 5px;
 }
-body.community .nowrap {
+body.community-espace .nowrap {
     white-space: nowrap;
 }
-body.community .filterlabel {
+body.community-espace .filterlabel {
     width: 108px;
     display: inline-block;
 }
-body.community .CommunityDownloadButton {
+body.community-espace .CommunityDownloadButton {
     background: url(/Community/img/CommunityDownloadButton.png) no-repeat;
     background-position: 1px -1px;
     width: 312px !important;
@@ -78,108 +78,108 @@ body.community .CommunityDownloadButton {
     border: none;
     padding-bottom: 8px;
 }
-body.community .CommunityDownloadButton:hover {
+body.community-espace .CommunityDownloadButton:hover {
     background-position: 1px -61px;
     background-color: transparent !important;
 }
-body.community .radio-checkbox {
+body.community-espace .radio-checkbox {
     *margin-right: 0px !important;
     _margin-right: 0px !important;
     zoom: 1;
 }
-body.community .checkbox {
+body.community-espace .checkbox {
     zoom: 1;
     padding-left: 0px;
 }
-body.community .whiteSpaceNoWrap {
+body.community-espace .whiteSpaceNoWrap {
     white-space: nowrap;
 }
-body.community .wordBreakWord {
+body.community-espace .wordBreakWord {
     word-break: break-word;
 }
 @media (max-width:767px) {
-    body.community .search-wrapper {
+    body.community-espace .search-wrapper {
         width: 100%;
     }
-    body.community a.link-tab.active:after {
+    body.community-espace a.link-tab.active:after {
         border-color: transparent;
         border-style: none;
         border-width: 0px;
     }
-    body.community a.link-tab:hover:after {
+    body.community-espace a.link-tab:hover:after {
         border-color: transparent;
         border-style: none;
         border-width: 0px;
     }
-    body.community a.link-tab.active, body.community .link-tab:hover, body.community .link-tab.active:hover {
+    body.community-espace a.link-tab.active, body.community-espace .link-tab:hover, body.community-espace .link-tab.active:hover {
         padding: 5px 0px;
     }
-    body.community .search-tab {
+    body.community-espace .search-tab {
         width: 100%;
         margin-bottom: 5px;
     }
 }
-body.community .search-overlay {
+body.community-espace .search-overlay {
     display: none;
 }
-body.community .st-result-listing {
+body.community-espace .st-result-listing {
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 13px;
     letter-spacing: .8px;
     margin-top: 40px;
 }
-body.community div.st-search-summary {
+body.community-espace div.st-search-summary {
     border-bottom: 1px solid #ccc;
     padding-bottom: 7px;
     margin: 12px 0;
 }
-body.community div.st-result-listing {
+body.community-espace div.st-result-listing {
     width: 600px;
 }
-body.community div.st-result-listing h2 {
+body.community-espace div.st-result-listing h2 {
     font-size: 13px;
     font-weight: 400;
     color: #333;
     margin: 0;
 }
-body.community div.st-result-listing h2 .st-query {
+body.community-espace div.st-result-listing h2 .st-query {
     font-style: italic;
     color: #666666;
 }
-body.community div.st-result {
+body.community-espace div.st-result {
     padding-bottom: 12px;
     margin-bottom: 12px;
 }
-body.community div.st-result.final {
+body.community-espace div.st-result.final {
     border-bottom: none;
     margin-bottom: 0;
 }
-body.community div.st-result .st-snippet {
+body.community-espace div.st-result .st-snippet {
     color: #333333;
 }
-body.community div.st-result .st-date {
+body.community-espace div.st-result .st-date {
     color: #999999;
 }
-body.community .st-pagination {
+body.community-espace .st-pagination {
     border-top: 1px solid #ccc;
     margin-top: 5px;
     padding-top: 5px;
 }
-body.community .st-prev {
+body.community-espace .st-prev {
     margin-right: 20px;
 }
-body.community .st-loading-message {
+body.community-espace .st-loading-message {
     font-size: 16px;
     font-style: italic;
     color: #999;
     margin: 10px auto;
 }
-body.community .st-url {
+body.community-espace .st-url {
     display: block;
     color: #00832A;
     font-style: normal;
 }
-body.community .st-result h4.title {
+body.community-espace .st-result h4.title {
     margin-bottom: 0;
     display: block;
     overflow: hidden;
@@ -188,11 +188,11 @@ body.community .st-result h4.title {
     white-space: nowrap;
     padding: 0;
 }
-body.community .st-snippet em {
+body.community-espace .st-snippet em {
     font-weight: 700;
     font-style: normal;
 }
-body.community .swiftype-widget .autocomplete {
+body.community-espace .swiftype-widget .autocomplete {
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     background-color: #fff;
     display: block;
@@ -210,7 +210,7 @@ body.community .swiftype-widget .autocomplete {
     border-radius: 3px;
     text-align: left;
 }
-body.community .swiftype-widget .autocomplete ul {
+body.community-espace .swiftype-widget .autocomplete ul {
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     background-color: #fff;
     display: block;
@@ -224,7 +224,7 @@ body.community .swiftype-widget .autocomplete ul {
     border-radius: 3px;
     text-align: left;
 }
-body.community .swiftype-widget .autocomplete li {
+body.community-espace .swiftype-widget .autocomplete li {
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #fff;
     cursor: pointer;
@@ -234,7 +234,7 @@ body.community .swiftype-widget .autocomplete li {
     background-image: none;
     margin: 0;
 }
-body.community .swiftype-widget .autocomplete li:first-child {
+body.community-espace .swiftype-widget .autocomplete li:first-child {
     border-top: 1px solid #e5e5e5;
     -webkit-border-radius: 3px 3px 0 0;
     -moz-border-radius: 3px 3px 0 0;
@@ -242,14 +242,14 @@ body.community .swiftype-widget .autocomplete li:first-child {
     -o-border-radius: 3px 3px 0 0;
     border-radius: 3px 3px 0 0;
 }
-body.community .swiftype-widget .autocomplete li:last-child {
+body.community-espace .swiftype-widget .autocomplete li:last-child {
     -webkit-border-radius: 0 0 3px 3px;
     -moz-border-radius: 0 0 3px 3px;
     -ms-border-radius: 0 0 3px 3px;
     -o-border-radius: 0 0 3px 3px;
     border-radius: 0 0 3px 3px;
 }
-body.community .swiftype-widget .autocomplete li.active {
+body.community-espace .swiftype-widget .autocomplete li.active {
     border-top: 1px solid #145A93;
     border-bottom: 1px solid #086aa8;
     background-color: #1285d5;
@@ -262,49 +262,49 @@ body.community .swiftype-widget .autocomplete li.active {
     -moz-box-shadow: 0 1px 0 #69bdf3 inset;
     box-shadow: 0 1px 0 #69bdf3 inset;
 }
-body.community .swiftype-widget .autocomplete li p {
+body.community-espace .swiftype-widget .autocomplete li p {
     font-size: 13px;
     line-height: 16px;
     margin: 0;
     padding: 0;
 }
-body.community .swiftype-widget .autocomplete li p.title {
+body.community-espace .swiftype-widget .autocomplete li p.title {
     font-weight: 700;
     color: #1c6cb5;
 }
-body.community .swiftype-widget .autocomplete li p.title em {
+body.community-espace .swiftype-widget .autocomplete li p.title em {
     color: #0b2644;
     font-style: normal;
     font-weight: 700;
 }
-body.community .swiftype-widget .autocomplete li.active p.title {
+body.community-espace .swiftype-widget .autocomplete li.active p.title {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
     color: #ffffff;
 }
-body.community .swiftype-widget .autocomplete li.active p.title em {
+body.community-espace .swiftype-widget .autocomplete li.active p.title em {
     color: #fff;
     font-style: normal;
 }
-body.community .swiftype-widget .autocomplete li .sections {
+body.community-espace .swiftype-widget .autocomplete li .sections {
     color: #999;
     font-size: 11px;
 }
-body.community .swiftype-widget .autocomplete li .sections em {
+body.community-espace .swiftype-widget .autocomplete li .sections em {
     color: #666;
     font-style: normal;
 }
-body.community .swiftype-widget .autocomplete li .sections .section {
+body.community-espace .swiftype-widget .autocomplete li .sections .section {
     display: inline;
 }
-body.community .swiftype-widget .autocomplete li.active .sections {
+body.community-espace .swiftype-widget .autocomplete li.active .sections {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
     color: #a9d7f1;
 }
-body.community .swiftype-widget .autocomplete li.active .sections em {
+body.community-espace .swiftype-widget .autocomplete li.active .sections em {
     color: #a9d7f1;
     font-style: normal;
 }
-body.community .st-search-tag {
+body.community-espace .st-search-tag {
     padding: 0 18px 0 5px;
     margin: 3px 0 3px 5px;
     position: relative;
@@ -320,7 +320,7 @@ body.community .st-search-tag {
     user-select: none;
     background-color: #0088cc;
 }
-body.community span.tag-close {
+body.community-espace span.tag-close {
     display: block;
     width: 12px;
     height: 13px;
@@ -332,6 +332,6 @@ body.community span.tag-close {
     right: 3px;
     background-position: right -11px;
 }
-body.community span.st-search-tag a {
+body.community-espace span.st-search-tag a {
     display: inline-block;
 }

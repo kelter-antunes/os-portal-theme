@@ -1,92 +1,78 @@
-body.learn {
-  /* learn theme */
-  /* Academy_Home */
-  /* Progress Circle */
-  /* Academy_Overview */
-  /* Academy_TrainingClassroom , Academy_TrainingClassroomRedirect */
-  /* Academy_Videos */
-  /** TABS **/
-  /* AcademyMaterialListDownloadMaterial */
-  /* AcademyMaterials */
-  /* AcademySubHeader */
-  /* Bootcamp_JumpStart */
-  /* Bootcamp_UserRegister */
-  /* BootcampByTypeSidebar, BootcampSidebar */
-  /* MaterialEmbed */
+body.learn-espace {
 }
-body.learn .section1 {
+body.learn-espace .section1 {
   background-color: #e6e6e6;
   padding-top: 10px;
   padding-bottom: 15px;
 }
-body.learn .section2 {
+body.learn-espace .section2 {
   background-color: #ccc;
   padding-top: 15px;
   padding-bottom: 20px;
 }
-body.learn .section-sidebar {
+body.learn-espace .section-sidebar {
   margin: 10px 20px;
 }
-body.learn .sidebar-title {
+body.learn-espace .sidebar-title {
   font-size: 20px;
 }
-body.learn .title-red {
+body.learn-espace .title-red {
   color: #c20;
 }
-body.learn .controls-row li {
+body.learn-espace .controls-row li {
   line-height: 40px;
 }
-body.learn .bold-learn {
+body.learn-espace .bold-learn {
   font-weight: 600;
 }
-body.learn .sidebar-title2 {
+body.learn-espace .sidebar-title2 {
   font-size: 16px;
 }
-body.learn .form-input {
-  height: 30px!important;
+body.learn-espace .form-input {
+  height: 30px !important;
 }
-body.learn .courseTitle {
+body.learn-espace .courseTitle {
   color: #08c;
 }
-body.learn a.btn.red {
+body.learn-espace a.btn.btn-medium.red.overview {
   padding: 8px 20px;
 }
-body.learn .link-more {
+body.learn-espace .link-more {
   margin-top: 21px;
 }
-body.learn .social-icons-learn {
+body.learn-espace .social-icons-learn {
   margin-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ECECEC;
 }
-body.learn .progressCont {
+body.learn-espace .progressCont {
   position: relative;
   top: 28px;
   padding-right: 10px;
 }
-body.learn .heading-group {
+body.learn-espace .heading-group {
   cursor: pointer;
   position: relative;
   top: -5px;
 }
-body.learn .mainContainer {
+body.learn-espace .mainContainer {
   position: relative;
   top: -7px;
 }
-body.learn .contentBackgroundColor {
+body.learn-espace .contentBackgroundColor {
   background-color: rgba(230, 230, 230, 0.5);
 }
-body.learn .social-icons .share a {
+body.learn-espace .social-icons .share a {
   font-size: 16px;
   color: #808080;
 }
-body.learn .social-icons a:link {
+body.learn-espace .social-icons a:link {
   margin-right: 5px;
 }
-body.learn .social-icons .share a:hover {
+body.learn-espace .social-icons .share a:hover {
   color: #0066AA;
 }
-body.learn .round-border-arrow {
+body.learn-espace .round-border-arrow {
   border-radius: 200px 200px 200px 200px;
   border: 1px solid #bdc5c7;
   width: 32px;
@@ -95,25 +81,25 @@ body.learn .round-border-arrow {
   top: 31px;
   left: -19px;
 }
-body.learn .arrow {
+body.learn-espace .arrow {
   width: 32px;
   height: 32px;
   position: relative;
   top: 7px;
   left: 10px;
 }
-body.learn .byline {
+body.learn-espace .byline {
   color: #808080;
   font-size: 12px;
   line-height: 15px;
   margin-bottom: 3px;
 }
-body.learn .greenCheck {
+body.learn-espace .greenCheck {
   position: absolute;
   top: 39px;
   left: 14px;
 }
-body.learn .loader {
+body.learn-espace .loader {
   position: relative;
   width: 40px;
   height: 40px;
@@ -127,7 +113,7 @@ body.learn .loader {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-body.learn .loader-bg {
+body.learn-espace .loader-bg {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -137,7 +123,7 @@ body.learn .loader-bg {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-body.learn .spiner-holder-1 {
+body.learn-espace .spiner-holder-1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -150,7 +136,7 @@ body.learn .spiner-holder-1 {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-body.learn .spiner-holder-2 {
+body.learn-espace .spiner-holder-2 {
   position: absolute;
   top: 0;
   left: 0;
@@ -163,7 +149,7 @@ body.learn .spiner-holder-2 {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-body.learn .loader-spiner {
+body.learn-espace .loader-spiner {
   width: 200%;
   height: 200%;
   border-radius: 50%;
@@ -173,7 +159,7 @@ body.learn .loader-spiner {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-body.learn .animate-0-25-a {
+body.learn-espace .animate-0-25-a {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
@@ -183,7 +169,7 @@ body.learn .animate-0-25-a {
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
-body.learn .animate-0-25-b {
+body.learn-espace .animate-0-25-b {
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
@@ -193,7 +179,7 @@ body.learn .animate-0-25-b {
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
-body.learn .animate-25-50-a {
+body.learn-espace .animate-25-50-a {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
@@ -203,7 +189,7 @@ body.learn .animate-25-50-a {
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
-body.learn .animate-25-50-b {
+body.learn-espace .animate-25-50-b {
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
@@ -213,7 +199,7 @@ body.learn .animate-25-50-b {
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
-body.learn .animate-50-75-a {
+body.learn-espace .animate-50-75-a {
   -webkit-transform: rotate(270deg);
   -moz-transform: rotate(270deg);
   -o-transform: rotate(270deg);
@@ -223,7 +209,7 @@ body.learn .animate-50-75-a {
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
-body.learn .animate-50-75-b {
+body.learn-espace .animate-50-75-b {
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
@@ -233,7 +219,7 @@ body.learn .animate-50-75-b {
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
-body.learn .animate-75-100-a {
+body.learn-espace .animate-75-100-a {
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -243,7 +229,7 @@ body.learn .animate-75-100-a {
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
-body.learn .animate-75-100-b {
+body.learn-espace .animate-75-100-b {
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
@@ -253,47 +239,47 @@ body.learn .animate-75-100-b {
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
-body.learn .text {
+body.learn-espace .text {
   text-align: center;
   padding-top: 26%;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.3);
   font-family: Verdana;
 }
-@media (max-width: 767px) {
-  body.learn .initialBackground {
+@media (max-width:767px) {
+  body.learn-espace .initialBackground {
     padding: 10px 10px;
   }
-  body.learn .middleBackground {
+  body.learn-espace .middleBackground {
     height: auto;
     padding: 0px 10px;
   }
 }
-body.learn .middleBackground {
+body.learn-espace .middleBackground {
   background-color: #d6dbdd;
   height: 253px;
   background-position-y: 0%;
 }
-body.learn .finalBackground {
+body.learn-espace .finalBackground {
   background-color: white;
 }
-body.learn .courseMiddle {
+body.learn-espace .courseMiddle {
   margin-top: 10px;
 }
-body.learn .courseDescription {
+body.learn-espace .courseDescription {
   margin-bottom: 3px;
 }
-body.learn .ProgressBar {
+body.learn-espace .ProgressBar {
   height: 15px;
   border-radius: 10px;
   background: #E6E6E6;
 }
-body.learn .ProgressBar .Progress {
+body.learn-espace .ProgressBar .Progress {
   height: inherit;
   border-radius: inherit;
   background: #8CC83C;
 }
-body.learn .checkBoxDiv {
+body.learn-espace .checkBoxDiv {
   background-image: url('/Learn/img/Half_Box.png');
   background-repeat: no-repeat;
   position: absolute;
@@ -304,14 +290,14 @@ body.learn .checkBoxDiv {
   border-top: 1px solid lightgray;
   border-right: 1px solid lightgray;
 }
-body.learn .checkBoxIcon {
+body.learn-espace .checkBoxIcon {
   color: white;
   font-size: 10px;
   position: absolute;
   top: 5px;
   left: 24px;
 }
-body.learn .courseCard {
+body.learn-espace .courseCard {
   height: 246px;
   max-width: 287px;
   border: 1px solid lightgray;
@@ -329,56 +315,111 @@ body.learn .courseCard {
   transition: box-shadow 200ms cubic-bezier(0.215, 0.61, 0.355, 1);
   position: relative;
 }
-body.learn .courseCard:hover {
+body.learn-espace .courseCard:hover {
   text-decoration: none;
   box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
   border-color: rgba(214, 214, 214, 0);
 }
-body.learn .courseTitle {
+body.learn-espace .courseTitle {
   color: #08c;
 }
-body.learn .trainingTextSection {
+body.learn-espace .trainingTextSection {
   text-align: center;
   color: white;
 }
-body.learn .courseCard {
+body.learn-espace .middleSectionTitle {
+  margin-top: 23px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+body.learn-espace .trainingIcon {
+  font-size: 80px;
+}
+body.learn-espace .trainingImgSection {
+  display: inline-block;
+  height: 75%;
+  width: 75%;
+  margin-top: 30px;
+}
+body.learn-espace .trainingTextSection {
+  text-align: left;
+  color: #384142;
+}
+body.learn-espace .trainingLink {
+  text-decoration: none;
+  font-weight: 300;
+}
+body.learn-espace .trainingLink:hover {
+  text-decoration: none;
+  font-weight: 300;
+}
+body.learn-espace .trainingBadge {
+  width: 2.5%;
+  margin-right: 5px;
+}
+body.learn-espace .right5 {
+  margin-right: 5px;
+}
+body.learn-espace .osicon-download {
+  margin-right: 5px;
+}
+body.learn-espace .courseCard {
   max-width: 95%;
   height: auto;
 }
-@media (max-width: 980px) {
-  body.learn .middleBackground {
+@media (max-width:980px) {
+  body.learn-espace .middleBackground {
     height: auto;
   }
 }
-@media (max-width: 767px) {
-  body.learn .initialBackground {
+@media (max-width:767px) {
+  body.learn-espace .initialBackground {
     padding: 10px 10px;
   }
-  body.learn .middleBackground {
+  body.learn-espace .middleBackground {
     height: auto;
     padding: 0px 10px;
   }
-  body.learn .headerBackground {
+  body.learn-espace .headerBackground {
     background-position-y: 22px;
   }
 }
-body.learn .courseTitle {
+body.learn-espace .courseTitle {
   color: #08c;
 }
-body.learn body,
-body.learn .initialBackground,
-body.learn .middleBackground,
-body.learn .finalBackground {
+body.learn-espace.videos {
   background-color: #E6E6E6;
 }
-body.learn .specialContent {
+
+body.learn-espace body, body.learn-espace .initialBackground, body.learn-espace .middleBackground, body.learn-espace .finalBackground {
+  background-color: #E6E6E6;
+}
+body.learn-espace .initialBackground-classroom {
+  background-color: #E6EAEB;
+}
+body.learn-espace .initialBackground-overview {
+  background-color: #E6EAEB;
+}
+body.learn-espace .middleBackground-overview {
+  background-color: #d6dbdd;
+  height: 253px;
+  background-position-y: 0%;
+}
+body.learn-espace .finalBackground-overview {
+  background-color: white;
+}
+body.learn-espace .initialBackground-course {
+  background-color: #E6EAEB;
+}
+body.learn-espace .initialBackground-videos {
+  background-color: #E6E6E6;
+}
+body.learn-espace .specialContent {
   margin-top: 15px;
   padding: 20px;
   background-color: white;
 }
-body.learn .CreatAppBox,
-body.learn .BrowseAppBox,
-body.learn .ManageAppBox {
+body.learn-espace .CreatAppBox, body.learn-espace .BrowseAppBox, body.learn-espace .ManageAppBox {
   position: relative;
   width: 150px;
   border: none;
@@ -388,9 +429,7 @@ body.learn .ManageAppBox {
   height: 35px;
   cursor: pointer;
 }
-body.learn .CreatAppBox:after,
-body.learn .BrowseAppBox:after,
-body.learn .ManageAppBox:after {
+body.learn-espace .CreatAppBox:after, body.learn-espace .BrowseAppBox:after, body.learn-espace .ManageAppBox:after {
   content: '';
   background: #AAA;
   height: 35px;
@@ -403,9 +442,7 @@ body.learn .ManageAppBox:after {
   border-radius: 0 5px 0 0;
   top: 0;
 }
-body.learn .CreatAppBox.Active,
-body.learn .BrowseAppBox.Active,
-body.learn .ManageAppBox.Active {
+body.learn-espace .CreatAppBox.Active, body.learn-espace .BrowseAppBox.Active, body.learn-espace .ManageAppBox.Active {
   width: 150px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -414,9 +451,7 @@ body.learn .ManageAppBox.Active {
   border-bottom: 1px solid white !important;
   margin: -1px 0px -1px 0px;
 }
-body.learn .CreatAppBox.Active:after,
-body.learn .BrowseAppBox.Active:after,
-body.learn .ManageAppBox.Active:after {
+body.learn-espace .CreatAppBox.Active:after, body.learn-espace .BrowseAppBox.Active:after, body.learn-espace .ManageAppBox.Active:after {
   content: '';
   background: #FFF;
   height: 35px;
@@ -429,44 +464,35 @@ body.learn .ManageAppBox.Active:after {
   border-bottom: 1px solid white !Important;
   margin: 0px 0px -1px 0px;
 }
-body.learn .CreatAppBoxText,
-body.learn .BrowseAppBoxText,
-body.learn .ManageAppBoxText {
+body.learn-espace .CreatAppBoxText, body.learn-espace .BrowseAppBoxText, body.learn-espace .ManageAppBoxText {
   color: #FFF;
   margin-top: 6px;
 }
-body.learn .CreatAppBox.Active .CreatAppBoxText,
-body.learn .BrowseAppBox.Active .BrowseAppBoxText,
-body.learn .ManageAppBox.Active .ManageAppBoxText {
+body.learn-espace .CreatAppBox.Active .CreatAppBoxText, body.learn-espace .BrowseAppBox.Active .BrowseAppBoxText, body.learn-espace .ManageAppBox.Active .ManageAppBoxText {
   font-size: 15px;
   color: #999;
   margin-top: 8px;
 }
-body.learn .CreatAppBoxIcon,
-body.learn .BrowseAppBoxIcon,
-body.learn .ManageAppBoxIcon {
+body.learn-espace .CreatAppBoxIcon, body.learn-espace .BrowseAppBoxIcon, body.learn-espace .ManageAppBoxIcon {
   width: 20px;
   font-size: 12px;
   margin-top: 7px;
   color: #FFF;
   margin-left: 10px;
 }
-body.learn .CreatAppBox.Active .CreatAppBoxIcon,
-body.learn .BrowseAppBox.Active .BrowseAppBoxIcon,
-body.learn .ManageAppBox.Active .ManageAppBoxIcon {
+body.learn-espace .CreatAppBox.Active .CreatAppBoxIcon, body.learn-espace .BrowseAppBox.Active .BrowseAppBoxIcon, body.learn-espace .ManageAppBox.Active .ManageAppBoxIcon {
   color: #999;
   margin-top: 7px;
 }
-body.learn .TabContent {
+body.learn-espace .TabContent {
   background-color: white;
   padding: 30px;
 }
-body.learn iframe {
+body.learn-espace iframe {
   background-color: transparent !important;
 }
-@media (max-width: 979px) {
-  body.learn .BrowseAppBox,
-  body.learn .ManageAppBox {
+@media (max-width:979px) {
+  body.learn-espace .BrowseAppBox, body.learn-espace .ManageAppBox {
     position: relative;
     width: 135px;
     border: none;
@@ -476,8 +502,7 @@ body.learn iframe {
     height: 35px;
     cursor: pointer;
   }
-  body.learn .BrowseAppBox.Active,
-  body.learn .ManageAppBox.Active {
+  body.learn-espace .BrowseAppBox.Active, body.learn-espace .ManageAppBox.Active {
     position: relative;
     width: 135px;
     border: 1px solid #DDD;
@@ -487,7 +512,7 @@ body.learn iframe {
     height: 35px;
     cursor: pointer;
   }
-  body.learn .CreatAppBox {
+  body.learn-espace .CreatAppBox {
     position: relative;
     width: 150px !important;
     border: none;
@@ -497,7 +522,7 @@ body.learn iframe {
     height: 35px;
     cursor: pointer;
   }
-  body.learn .CreatAppBox.Active {
+  body.learn-espace .CreatAppBox.Active {
     position: relative;
     width: 150px !important;
     border: 1px solid #DDD;
@@ -508,10 +533,8 @@ body.learn iframe {
     cursor: pointer;
   }
 }
-@media (max-width: 767px) {
-  body.learn .desktop-resize-fix.CreatAppBox,
-  body.learn .desktop-resize-fix.BrowseAppBox,
-  body.learn .desktop-resize-fix.ManageAppBox {
+@media (max-width:767px) {
+  body.learn-espace .desktop-resize-fix.CreatAppBox, body.learn-espace .desktop-resize-fix.BrowseAppBox, body.learn-espace .desktop-resize-fix.ManageAppBox {
     position: relative;
     width: 50px !important;
     border: none;
@@ -521,9 +544,7 @@ body.learn iframe {
     height: 35px;
     cursor: pointer;
   }
-  body.learn .desktop-resize-fix.CreatAppBox.Active,
-  body.learn .desktop-resize-fix.BrowseAppBox.Active,
-  body.learn .desktop-resize-fix.ManageAppBox.Active {
+  body.learn-espace .desktop-resize-fix.CreatAppBox.Active, body.learn-espace .desktop-resize-fix.BrowseAppBox.Active, body.learn-espace .desktop-resize-fix.ManageAppBox.Active {
     position: relative;
     width: 50px !important;
     border: 1px solid #DDD;
@@ -533,152 +554,137 @@ body.learn iframe {
     height: 35px;
     cursor: pointer;
   }
-  body.learn .desktop-resize-fix .CreatAppBoxIcon,
-  body.learn .desktop-resize-fix .BrowseAppBoxIcon,
-  body.learn .desktop-resize-fix .ManageAppBoxIcon {
+  body.learn-espace .desktop-resize-fix .CreatAppBoxIcon, body.learn-espace .desktop-resize-fix .BrowseAppBoxIcon, body.learn-espace .desktop-resize-fix .ManageAppBoxIcon {
     font-size: 18px;
   }
-  body.learn .moble-tab {
+  body.learn-espace .moble-tab {
     top: 2px;
     position: relative;
   }
-  body.learn .initialBackground {
+  body.learn-espace .initialBackground {
     padding: 10px 10px;
   }
-  body.learn .middleBackground {
+  body.learn-espace .middleBackground {
     height: auto;
     padding: 0px 10px;
   }
 }
-body.learn .lesson-material-download:before {
-  color: white !Important;
+body.learn-espace .lesson-material-download:before {
+  color: white !important;
 }
-body.learn .lesson-material-download {
-  color: white !Important;
+body.learn-espace .lesson-material-download {
+  color: white !important;
 }
-@media (max-width: 768px) and (orientation: portrait) {
-  body.learn .btn.btn-medium.blue.download {
+@media (max-width:768px) and (orientation:portrait) {
+  body.learn-espace .btn.btn-medium.blue.download {
     display: none;
   }
 }
-@media (max-width: 1024px) and (orientation: landscape) {
-  body.learn .btn.btn-medium.blue.download {
+@media (max-width:1024px) and (orientation:landscape) {
+  body.learn-espace .btn.btn-medium.blue.download {
     display: none;
   }
 }
-body.learn .material_icon {
+body.learn-espace .material_icon {
   vertical-align: middle;
   margin-right: 12px;
   color: #606060;
 }
-body.learn .materialItem {
+body.learn-espace .materialItem {
   margin-left: 30px;
   margin-right: 30px;
   padding-left: 20px;
 }
-body.learn .train-title .green-Check:hover {
+body.learn-espace .train-title .green-Check:hover {
   color: #8CC83C;
 }
-body.learn .byline {
+body.learn-espace .byline {
   color: #808080;
   font-size: 12px;
   line-height: 15px;
   margin-bottom: 3px;
 }
-@media (max-width: 767px) {
-  body.learn .materialItem {
+@media (max-width:767px) {
+  body.learn-espace .materialItem {
     margin-left: 0px;
     padding-left: 0px;
   }
-  body.learn .material_icon {
+  body.learn-espace .material_icon {
     vertical-align: top;
   }
 }
-@media (max-width: 420px) {
-  body.learn .materialName {
+@media (max-width:420px) {
+  body.learn-espace .materialName {
     width: 80%;
     vertical-align: middle;
   }
 }
-body.learn .courseImageDiv {
+body.learn-espace .courseImageDiv {
   text-align: right;
   margin: 0 auto;
 }
-@media (max-width: 767px) {
-  body.learn .courseImageDiv {
+@media (max-width:767px) {
+  body.learn-espace .courseImageDiv {
     text-align: center;
     margin: 0 auto;
   }
-  body.learn .imgMobile {
+  body.learn-espace .imgMobile {
     margin-right: 0px !important;
     max-width: 100% !important;
   }
-  body.learn .textCenter {
+  body.learn-espace .textCenter {
     text-align: center;
   }
 }
-body.learn .initialBackground {
+body.learn-espace .initialBackground {
   background-color: white;
 }
-body.learn .initialBackground {
-  background-color: white;
-}
-body.learn .top-menu-learn {
-  border-bottom-color: white;
-}
-body.learn .courseLocation {
+body.learn-espace .courseLocation {
   color: #808080;
 }
-body.learn div.Tabs_TabOn,
-body.learn li.Tabs_TabOn {
+body.learn-espace div.Tabs_TabOn, body.learn-espace li.Tabs_TabOn {
   border: none;
   border-bottom: 4px solid #C20;
   width: 48%;
   text-align: center;
 }
-body.learn .Tabs_TabBody {
+body.learn-espace .Tabs_TabBody {
   border: none;
 }
-body.learn div.Tabs_TabOff,
-body.learn li.Tabs_TabOff {
+body.learn-espace div.Tabs_TabOff, body.learn-espace li.Tabs_TabOff {
   border: none;
   border-bottom: 1px solid #e6e6e6;
   width: 48%;
   text-align: center;
 }
-body.learn li.Tabs_TabOff a.Tabs_TabOff {
+body.learn-espace li.Tabs_TabOff a.Tabs_TabOff {
   background: white;
   color: #808080;
 }
-body.learn a.Tabs_TabOff:visited {
+body.learn-espace a.Tabs_TabOff:visited {
   background: white;
   color: #333;
 }
-body.learn a.Tabs_TabOff,
-body.learn span.Tabs_TabOn {
+body.learn-espace a.Tabs_TabOff, body.learn-espace span.Tabs_TabOn {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-body.learn ul.Tabs_Header {
+body.learn-espace ul.Tabs_Header {
   font-size: 11px;
   font-weight: 600;
   font-family: 'myriad-pro', Arial, sans-serif;
   position: relative;
   margin-top: 7px;
 }
-body.learn .sideblock-header {
-  background-color: #384142 !important;
+body.learn-espace .sideblock-header {
+  background-color: #384142;
 }
-body.learn a.Tabs_TabOn,
-body.learn a.Tabs_TabOn:visited,
-body.learn a.Tabs_TabOn:hover,
-body.learn span.Tabs_TabOn {
+body.learn-espace a.Tabs_TabOn, body.learn-espace a.Tabs_TabOn:visited, body.learn-espace a.Tabs_TabOn:hover, body.learn-espace span.Tabs_TabOn {
   color: #333;
 }
-body.learn .videoWrapper {
+body.learn-espace .videoWrapper {
   position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
+  padding-bottom: 56.25%;  /* 16:9 */
   height: 0;
   margin-top: 0px;
 }
