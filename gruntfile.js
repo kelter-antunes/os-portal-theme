@@ -49,10 +49,7 @@ module.exports = function(grunt) {
             build: {
                 files: {
                     'js/bundle/os-portal.js': [
-                        'js/src/bootstrap.js',
-                        'js/src/portal-common.js',
-                        'js/src/jquery.easing.1.3.min.js',
-                        'js/src/jquery.animate-enhanced.min.js'
+                        'js/src/portal-common.js'
                     ],
                     'js/bundle/os-portal-extra.js': [
                         'js/src/jquery.lazyloadxt.extra.min.js',
