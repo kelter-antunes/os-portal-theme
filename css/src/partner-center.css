@@ -1,27 +1,27 @@
-body.partnerarea-espace {
+.partnerarea-espace {
 }
-body.partnerarea-espace .Tabs_Wrapper {
+.partnerarea-espace .Tabs_Wrapper {
     margin: 0px 0px 8px 0px;
     border: 1px solid white;
 }
-body.partnerarea-espace .Tabs_TabBody {
+.partnerarea-espace .Tabs_TabBody {
     margin: 24px 0px 0px 0px;
     padding: 5px;
     border: 1px solid #cccccc;
     _height: 1%;  /* IE6 */
     *display: inline-block;
 }
-body.partnerarea-espace .Tabs_TabBody.OSAutoMarginTop {
+.partnerarea-espace .Tabs_TabBody.OSAutoMarginTop {
     margin-top: 24px;
 }
-body.partnerarea-espace .Tabs_TabBody:after {
+.partnerarea-espace .Tabs_TabBody:after {
     content: ".";
     display: block;
     height: 0;
     clear: both;
     visibility: hidden;
 }
-body.partnerarea-espace ul.Tabs_Header {
+.partnerarea-espace ul.Tabs_Header {
     margin: 0px;
     padding: 0px;
     height: 31px;
@@ -30,10 +30,10 @@ body.partnerarea-espace ul.Tabs_Header {
     z-index: 1;
     line-height: 18px;
 }
-body.partnerarea-espace ul.Tabs_Header span {
+.partnerarea-espace ul.Tabs_Header span {
     height: auto;
 }
-body.partnerarea-espace div.Tabs_TabOn, body.partnerarea-espace li.Tabs_TabOn {
+.partnerarea-espace div.Tabs_TabOn, .partnerarea-espace li.Tabs_TabOn {
     float: left;
     margin: 0px;
     padding: 1px;
@@ -45,7 +45,7 @@ body.partnerarea-espace div.Tabs_TabOn, body.partnerarea-espace li.Tabs_TabOn {
     border-bottom: 1px solid white;
     background: white;
 }
-body.partnerarea-espace div.Tabs_TabOff, body.partnerarea-espace li.Tabs_TabOff {
+.partnerarea-espace div.Tabs_TabOff, .partnerarea-espace li.Tabs_TabOff {
     float: left;
     margin: 0px;
     padding: 1px;
@@ -53,21 +53,21 @@ body.partnerarea-espace div.Tabs_TabOff, body.partnerarea-espace li.Tabs_TabOff 
     list-style: none;
     border: 1px solid #cccccc;
 }
-body.partnerarea-espace div.Tabs_TabDisabled, body.partnerarea-espace li.Tabs_TabDisabled {
+.partnerarea-espace div.Tabs_TabDisabled, .partnerarea-espace li.Tabs_TabDisabled {
     float: left;
     margin: 0px;
     padding: 1px;
     list-style: none;
     border: 1px solid #cccccc;
 }
-body.partnerarea-espace a.Tabs_TabOn, body.partnerarea-espace a.Tabs_TabOn:link, body.partnerarea-espace a.Tabs_TabOn:visited, body.partnerarea-espace a.Tabs_TabOn:hover, body.partnerarea-espace span.Tabs_TabOn {
+.partnerarea-espace a.Tabs_TabOn, .partnerarea-espace a.Tabs_TabOn:link, .partnerarea-espace a.Tabs_TabOn:visited, .partnerarea-espace a.Tabs_TabOn:hover, .partnerarea-espace span.Tabs_TabOn {
     display: block;
     white-space: nowrap;
     text-decoration: none;
     color: #666666;
     padding: 2px 10px 1px 10px;
 }
-body.partnerarea-espace a.Tabs_TabOff, body.partnerarea-espace a.Tabs_TabOff:link, body.partnerarea-espace a.Tabs_TabOff:visited {
+.partnerarea-espace a.Tabs_TabOff, .partnerarea-espace a.Tabs_TabOff:link, .partnerarea-espace a.Tabs_TabOff:visited {
     display: block;
     white-space: nowrap;
     text-decoration: none;
@@ -75,10 +75,10 @@ body.partnerarea-espace a.Tabs_TabOff, body.partnerarea-espace a.Tabs_TabOff:lin
     padding: 2px 10px 1px 10px;
     background: #EAEAEA;
 }
-body.partnerarea-espace a.Tabs_TabOff:hover {
+.partnerarea-espace a.Tabs_TabOff:hover {
     background: white;
 }
-body.partnerarea-espace a.Tabs_TabDisabled, body.partnerarea-espace a.Tabs_TabDisabled:link, body.partnerarea-espace a.Tabs_TabDisabled:visited, body.partnerarea-espace a.Tabs_TabDisabled:hover, body.partnerarea-espace span.Tabs_TabDisabled {
+.partnerarea-espace a.Tabs_TabDisabled, .partnerarea-espace a.Tabs_TabDisabled:link, .partnerarea-espace a.Tabs_TabDisabled:visited, .partnerarea-espace a.Tabs_TabDisabled:hover, .partnerarea-espace span.Tabs_TabDisabled {
     display: block;
     white-space: nowrap;
     text-decoration: none;
@@ -86,7 +86,7 @@ body.partnerarea-espace a.Tabs_TabDisabled, body.partnerarea-espace a.Tabs_TabDi
     padding: 2px 8px 1px 8px;
     background: #EAEAEA;
 }
-body.partnerarea-espace .ButtonGroup {
+.partnerarea-espace .ButtonGroup {
     cursor: pointer;
     width: 100%;
     outline: 1px solid transparent;
@@ -95,7 +95,7 @@ body.partnerarea-espace .ButtonGroup {
     -o-transition: outline-color 0.3s ease-out;
     transition: outline-color 0.3s ease-out;
 }
-body.partnerarea-espace .ButtonGroup_button.Button {
+.partnerarea-espace .ButtonGroup_button.Button {
     box-sizing: border-box;
     border: 1px solid #B0BEC5;
     background-color: #FFF;
@@ -113,24 +113,24 @@ body.partnerarea-espace .ButtonGroup_button.Button {
     -webkit-box-shadow: inset 0 -2px 0 #b0bec5;
     box-shadow: inset 0 -2px 0 #b0bec5;
 }
-body.partnerarea-espace .ButtonGroup_button.active {
+.partnerarea-espace .ButtonGroup_button.active {
     color: #455A64;
     background-color: #e7e7e7;
     border: 1px solid #b0bec5;
     -webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.21), inset 0 2px 1px rgba(101, 123, 135, 0.57);
     box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.21), inset 0 2px 1px rgba(101, 123, 135, 0.57);
 }
-body.partnerarea-espace .ButtonGroup_button.Button:first-child {
+.partnerarea-espace .ButtonGroup_button.Button:first-child {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     border-left: 1px solid #DCDCDC;
 }
-body.partnerarea-espace .ButtonGroup_button.Button:last-child {
+.partnerarea-espace .ButtonGroup_button.Button:last-child {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     border-right: 1px solid #DCDCDC;
 }
-body.partnerarea-espace .ButtonGroup_button input[type=radio] {
+.partnerarea-espace .ButtonGroup_button input[type=radio] {
     position: absolute;
     z-index: -1;
     opacity: 0;
@@ -139,40 +139,40 @@ body.partnerarea-espace .ButtonGroup_button input[type=radio] {
     -servicestudio-z-index: 1;
     -servicestudio-opacity: 0.6;
 }
-body.partnerarea-espace .ButtonGroup_button input[type=radio], body.partnerarea-espace .ButtonGroup_button input[type=checkbox] {
+.partnerarea-espace .ButtonGroup_button input[type=radio], .partnerarea-espace .ButtonGroup_button input[type=checkbox] {
     display: none;
 }
-body.partnerarea-espace .ButtonGroup_button.Button.disabled, body.partnerarea-espace .ButtonGroup_button.Button.disabled:hover {
+.partnerarea-espace .ButtonGroup_button.Button.disabled, .partnerarea-espace .ButtonGroup_button.Button.disabled:hover {
     cursor: default;
     color: #999;
     background-color: #F5F5F5;
 }
-body.partnerarea-espace .ButtonGroup_button.Button:hover, body.partnerarea-espace .ButtonGroup_button.Button.active, body.partnerarea-espace .ButtonGroup_button.Button:active {
+.partnerarea-espace .ButtonGroup_button.Button:hover, .partnerarea-espace .ButtonGroup_button.Button.active, .partnerarea-espace .ButtonGroup_button.Button:active {
     border-color: #CBCBCB;
     background: #E6E6E6;
 }
-body.partnerarea-espace .Tabs_Wrapper {
+.partnerarea-espace .Tabs_Wrapper {
     margin: 0px 0px 8px 0px;
     border: 1px solid white;
 }
-body.partnerarea-espace .Tabs_TabBody {
+.partnerarea-espace .Tabs_TabBody {
     margin: 24px 0px 0px 0px;
     padding: 5px;
     border: 1px solid #cccccc;
     _height: 1%;  /* IE6 */
     *display: inline-block;
 }
-body.partnerarea-espace .Tabs_TabBody.OSAutoMarginTop {
+.partnerarea-espace .Tabs_TabBody.OSAutoMarginTop {
     margin-top: 24px;
 }
-body.partnerarea-espace .Tabs_TabBody:after {
+.partnerarea-espace .Tabs_TabBody:after {
     content: ".";
     display: block;
     height: 0;
     clear: both;
     visibility: hidden;
 }
-body.partnerarea-espace ul.Tabs_Header {
+.partnerarea-espace ul.Tabs_Header {
     margin: 0px;
     padding: 0px;
     height: 31px;
@@ -181,10 +181,10 @@ body.partnerarea-espace ul.Tabs_Header {
     z-index: 1;
     line-height: 18px;
 }
-body.partnerarea-espace ul.Tabs_Header span {
+.partnerarea-espace ul.Tabs_Header span {
     height: auto;
 }
-body.partnerarea-espace div.Tabs_TabOn, body.partnerarea-espace li.Tabs_TabOn {
+.partnerarea-espace div.Tabs_TabOn, .partnerarea-espace li.Tabs_TabOn {
     float: left;
     margin: 0px;
     padding: 1px;
@@ -196,7 +196,7 @@ body.partnerarea-espace div.Tabs_TabOn, body.partnerarea-espace li.Tabs_TabOn {
     border-bottom: 1px solid white;
     background: white;
 }
-body.partnerarea-espace div.Tabs_TabOff, body.partnerarea-espace li.Tabs_TabOff {
+.partnerarea-espace div.Tabs_TabOff, .partnerarea-espace li.Tabs_TabOff {
     float: left;
     margin: 0px;
     padding: 1px;
@@ -204,21 +204,21 @@ body.partnerarea-espace div.Tabs_TabOff, body.partnerarea-espace li.Tabs_TabOff 
     list-style: none;
     border: 1px solid #cccccc;
 }
-body.partnerarea-espace div.Tabs_TabDisabled, body.partnerarea-espace li.Tabs_TabDisabled {
+.partnerarea-espace div.Tabs_TabDisabled, .partnerarea-espace li.Tabs_TabDisabled {
     float: left;
     margin: 0px;
     padding: 1px;
     list-style: none;
     border: 1px solid #cccccc;
 }
-body.partnerarea-espace a.Tabs_TabOn, body.partnerarea-espace a.Tabs_TabOn:link, body.partnerarea-espace a.Tabs_TabOn:visited, body.partnerarea-espace a.Tabs_TabOn:hover, body.partnerarea-espace span.Tabs_TabOn {
+.partnerarea-espace a.Tabs_TabOn, .partnerarea-espace a.Tabs_TabOn:link, .partnerarea-espace a.Tabs_TabOn:visited, .partnerarea-espace a.Tabs_TabOn:hover, .partnerarea-espace span.Tabs_TabOn {
     display: block;
     white-space: nowrap;
     text-decoration: none;
     color: #666666;
     padding: 2px 10px 1px 10px;
 }
-body.partnerarea-espace a.Tabs_TabOff, body.partnerarea-espace a.Tabs_TabOff:link, body.partnerarea-espace a.Tabs_TabOff:visited {
+.partnerarea-espace a.Tabs_TabOff, .partnerarea-espace a.Tabs_TabOff:link, .partnerarea-espace a.Tabs_TabOff:visited {
     display: block;
     white-space: nowrap;
     text-decoration: none;
@@ -226,10 +226,10 @@ body.partnerarea-espace a.Tabs_TabOff, body.partnerarea-espace a.Tabs_TabOff:lin
     padding: 2px 10px 1px 10px;
     background: #EAEAEA;
 }
-body.partnerarea-espace a.Tabs_TabOff:hover {
+.partnerarea-espace a.Tabs_TabOff:hover {
     background: white;
 }
-body.partnerarea-espace a.Tabs_TabDisabled, body.partnerarea-espace a.Tabs_TabDisabled:link, body.partnerarea-espace a.Tabs_TabDisabled:visited, body.partnerarea-espace a.Tabs_TabDisabled:hover, body.partnerarea-espace span.Tabs_TabDisabled {
+.partnerarea-espace a.Tabs_TabDisabled, .partnerarea-espace a.Tabs_TabDisabled:link, .partnerarea-espace a.Tabs_TabDisabled:visited, .partnerarea-espace a.Tabs_TabDisabled:hover, .partnerarea-espace span.Tabs_TabDisabled {
     display: block;
     white-space: nowrap;
     text-decoration: none;
@@ -237,21 +237,21 @@ body.partnerarea-espace a.Tabs_TabDisabled, body.partnerarea-espace a.Tabs_TabDi
     padding: 2px 8px 1px 8px;
     background: #EAEAEA;
 }
-body.partnerarea-espace .switcherContainer {
+.partnerarea-espace .switcherContainer {
     background-color: #36474f;
     height: auto;
     color: #91a0a7;
     padding-bottom: 5px;
 }
-body.partnerarea-espace .switcherContainer a {
+.partnerarea-espace .switcherContainer a {
     color: #91a0a7;
     cursor: pointer;
 }
-body.partnerarea-espace .switcherContainer a:hover {
+.partnerarea-espace .switcherContainer a:hover {
     color: #91a0a7;
     cursor: pointer;
 }
-body.partnerarea-espace .styled-select select {
+.partnerarea-espace .styled-select select {
     padding-left: 10px;
     font-size: 14px;
     line-height: 1;
@@ -266,10 +266,10 @@ body.partnerarea-espace .styled-select select {
     box-shadow: none;
     background-position-x: 128px;
 }
-body.partnerarea-espace .styled-select {
+.partnerarea-espace .styled-select {
     overflow: hidden;
 }
-body.partnerarea-espace .popover {
+.partnerarea-espace .popover {
     position: absolute;
     top: 35px;
     left: -85px;
@@ -293,19 +293,19 @@ body.partnerarea-espace .popover {
     -moz-background-clip: padding;
     background-clip: padding-box;
 }
-body.partnerarea-espace .popover.top {
+.partnerarea-espace .popover.top {
     margin-top: -10px;
 }
-body.partnerarea-espace .popover.right {
+.partnerarea-espace .popover.right {
     margin-left: 10px;
 }
-body.partnerarea-espace .popover.bottom {
+.partnerarea-espace .popover.bottom {
     margin-top: 10px;
 }
-body.partnerarea-espace .popover.left {
+.partnerarea-espace .popover.left {
     margin-left: -10px;
 }
-body.partnerarea-espace .popover-title {
+.partnerarea-espace .popover-title {
     padding: 8px 14px;
     padding-bottom: 0;
     margin: 0;
@@ -317,13 +317,13 @@ body.partnerarea-espace .popover-title {
     border-radius: 5px 5px 0 0;
     color: white;
 }
-body.partnerarea-espace .popover-title:empty {
+.partnerarea-espace .popover-title:empty {
     display: none;
 }
-body.partnerarea-espace .popover-content {
+.partnerarea-espace .popover-content {
     padding: 9px 14px;
 }
-body.partnerarea-espace .popover .arrow, body.partnerarea-espace .popover .arrow:after {
+.partnerarea-espace .popover .arrow, .partnerarea-espace .popover .arrow:after {
     position: absolute;
     display: block;
     width: 0;
@@ -331,14 +331,14 @@ body.partnerarea-espace .popover .arrow, body.partnerarea-espace .popover .arrow
     border-color: transparent;
     border-style: solid;
 }
-body.partnerarea-espace .popover .arrow {
+.partnerarea-espace .popover .arrow {
     border-width: 11px;
 }
-body.partnerarea-espace .popover .arrow:after {
+.partnerarea-espace .popover .arrow:after {
     border-width: 10px;
     content: "";
 }
-body.partnerarea-espace .popover.top .arrow {
+.partnerarea-espace .popover.top .arrow {
     bottom: -11px;
     left: 50%;
     margin-left: -11px;
@@ -346,13 +346,13 @@ body.partnerarea-espace .popover.top .arrow {
     border-top-color: rgba(0, 0, 0, 0.25);
     border-bottom-width: 0;
 }
-body.partnerarea-espace .popover.top .arrow:after {
+.partnerarea-espace .popover.top .arrow:after {
     bottom: 1px;
     margin-left: -10px;
     border-top-color: #ffffff;
     border-bottom-width: 0;
 }
-body.partnerarea-espace .popover.right .arrow {
+.partnerarea-espace .popover.right .arrow {
     top: 50%;
     left: -11px;
     margin-top: -11px;
@@ -360,13 +360,13 @@ body.partnerarea-espace .popover.right .arrow {
     border-right-color: rgba(0, 0, 0, 0.25);
     border-left-width: 0;
 }
-body.partnerarea-espace .popover.right .arrow:after {
+.partnerarea-espace .popover.right .arrow:after {
     bottom: -10px;
     left: 1px;
     border-right-color: #ffffff;
     border-left-width: 0;
 }
-body.partnerarea-espace .popover.bottom .arrow {
+.partnerarea-espace .popover.bottom .arrow {
     top: -11px;
     left: 50%;
     margin-left: -11px;
@@ -374,13 +374,13 @@ body.partnerarea-espace .popover.bottom .arrow {
     border-bottom-color: #373737;
     border-top-width: 0;
 }
-body.partnerarea-espace .popover.bottom .arrow:after {
+.partnerarea-espace .popover.bottom .arrow:after {
     top: 1px;
     margin-left: -10px;
     border-bottom-color: #373737;
     border-top-width: 0;
 }
-body.partnerarea-espace .popover.left .arrow {
+.partnerarea-espace .popover.left .arrow {
     top: 50%;
     right: -11px;
     margin-top: -11px;
@@ -388,13 +388,13 @@ body.partnerarea-espace .popover.left .arrow {
     border-left-color: rgba(0, 0, 0, 0.25);
     border-right-width: 0;
 }
-body.partnerarea-espace .popover.left .arrow:after {
+.partnerarea-espace .popover.left .arrow:after {
     right: 1px;
     bottom: -10px;
     border-left-color: #ffffff;
     border-right-width: 0;
 }
-body.partnerarea-espace .lead-container {
+.partnerarea-espace .lead-container {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     height: 70px;
@@ -405,18 +405,18 @@ body.partnerarea-espace .lead-container {
     margin-left: 20px;
     padding: 13px 10px 10px 10px;
 }
-body.partnerarea-espace .section {
+.partnerarea-espace .section {
     display: inline-block;
     width: 95px;
     margin-left: 10px;
 }
-body.partnerarea-espace .section .text-label {
+.partnerarea-espace .section .text-label {
     text-transform: uppercase;
     color: #78909c;
     font-size: 10px;
     font-weight: 700;
 }
-body.partnerarea-espace .section .text-value {
+.partnerarea-espace .section .text-value {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -424,10 +424,10 @@ body.partnerarea-espace .section .text-value {
     font-size: 12px;
     font-weight: 400;
 }
-body.partnerarea-espace .section.big {
+.partnerarea-espace .section.big {
     width: 140px;
 }
-body.partnerarea-espace .section.ConvertButton {
+.partnerarea-espace .section.ConvertButton {
     font-family: Myriad-Pro, sans-serif;
     font-weight: 600;
     color: #4CAF50;
@@ -440,14 +440,14 @@ body.partnerarea-espace .section.ConvertButton {
     border-radius: 4px;
     text-transform: uppercase;
 }
-body.partnerarea-espace .ConvertButton a, body.partnerarea-espace .ConvertButton a:link {
+.partnerarea-espace .ConvertButton a, .partnerarea-espace .ConvertButton a:link {
     color: #4CAF50;
 }
-body.partnerarea-espace .ConvertButton a:hover, body.partnerarea-espace .ConvertButton a:visited {
+.partnerarea-espace .ConvertButton a:hover, .partnerarea-espace .ConvertButton a:visited {
     border-color: #3C8C40;
     color: #3C8C40;
 }
-body.partnerarea-espace .section.DeleteButton {
+.partnerarea-espace .section.DeleteButton {
     box-sizing: border-box;
     margin-top: 6px;
     width: 35px;
@@ -457,75 +457,75 @@ body.partnerarea-espace .section.DeleteButton {
     color: #546E7A;
     text-align: center;
 }
-body.partnerarea-espace .DeleteButton a, body.partnerarea-espace .DeleteButton a:link {
+.partnerarea-espace .DeleteButton a, .partnerarea-espace .DeleteButton a:link {
     color: #546E7A;
 }
-body.partnerarea-espace a, body.partnerarea-espace a:link, body.partnerarea-espace a.Navigation {
+.partnerarea-espace a.Navigation {
     font-size: 12px;  /* color: #08C BREAKS - header*/
 }
-body.partnerarea-espace .Heading1, body.partnerarea-espace .Heading2, body.partnerarea-espace .Heading3, body.partnerarea-espace .Heading4, body.partnerarea-espace .Heading5 {
+.partnerarea-espace .Heading1, .partnerarea-espace .Heading2, .partnerarea-espace .Heading3, .partnerarea-espace .Heading4, .partnerarea-espace .Heading5 {
     font-family: 'myriad-pro', Arial, sans-serif;
     font-weight: 600;
     line-height: 24px;
 }
-body.partnerarea-espace .closedWon {
+.partnerarea-espace .closedWon {
     color: #009688;
 }
-body.partnerarea-espace .confirmed {
+.partnerarea-espace .confirmed {
     color: #4CAF50;
 }
-body.partnerarea-espace .developed {
+.partnerarea-espace .developed {
     color: #909930;
 }
-body.partnerarea-espace .defined {
+.partnerarea-espace .defined {
     color: #EA910E;
 }
-body.partnerarea-espace .qualified {
+.partnerarea-espace .qualified {
     color: #C7903F;
 }
-body.partnerarea-espace .developing {
+.partnerarea-espace .developing {
     color: #C58E3E;
 }
-body.partnerarea-espace .identified {
+.partnerarea-espace .identified {
     color: #938569;
 }
-body.partnerarea-espace .closedLost {
+.partnerarea-espace .closedLost {
     color: #CC2200;
 }
-body.partnerarea-espace .quote-state {
+.partnerarea-espace .quote-state {
     font-size: 14px;
 }
-body.partnerarea-espace .approved {
+.partnerarea-espace .approved {
     color: #AABE84;
 }
-body.partnerarea-espace .rejected {
+.partnerarea-espace .rejected {
     color: #744335;
 }
-body.partnerarea-espace .otherState {
+.partnerarea-espace .otherState {
     color: #CC9D5D;
 }
-body.partnerarea-espace .top-menu-arrow {
+.partnerarea-espace .top-menu-arrow {
     border-color: transparent transparent #FFFFFF transparent;
 }
-body.partnerarea-espace .profile-partners-cover {
+.partnerarea-espace .profile-partners-cover {
     position: relative;
     background-repeat: no-repeat;  /* box-shadow: 0 1px 10px #A6A6A4; */
 }
-body.partnerarea-espace .profile-partners-cover {
-    background-image: url(img/light_noise_diagonal.png?138105&138109&138110&138118&138228&138507);
+.partnerarea-espace .profile-partners-cover {
+    background-image: url(img/light_noise_diagonal.png);
     background-size: auto;
     background-repeat: repeat;
     background-color: #E5E6E7;  /* background: url(http://hdw.datawallpaper.com/architecture/big-city-nights-desktop-background-504977.jpg) no-repeat center center fixed;   
-          -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            
-           background-size: cover; 
-            -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://hdw.datawallpaper.com/architecture/big-city-nights-desktop-background-504977.jpg', sizingMethod='scale')";
-            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.http://hdw.datawallpaper.com/architecture/big-city-nights-desktop-background-504977.jpg', sizingMethod='scale');
-            */
+              -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                
+               background-size: cover; 
+                -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://hdw.datawallpaper.com/architecture/big-city-nights-desktop-background-504977.jpg', sizingMethod='scale')";
+                filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.http://hdw.datawallpaper.com/architecture/big-city-nights-desktop-background-504977.jpg', sizingMethod='scale');
+                */
 }
-body.partnerarea-espace .profile-pic {
+.partnerarea-espace .profile-pic {
     position: absolute;
     bottom: -50px;
     width: 120px;
@@ -536,7 +536,7 @@ body.partnerarea-espace .profile-pic {
     padding: 5px;
     box-shadow: 0px 2px 4px 0px rgba(177, 177, 177, 0.5);
 }
-body.partnerarea-espace .account-card {
+.partnerarea-espace .account-card {
     box-shadow: 0px 2px 0px #E9EAEB;
     display: block;
     padding: 30px 40px;
@@ -545,10 +545,10 @@ body.partnerarea-espace .account-card {
     border: 1px solid #E9EAEB;
     border-radius: 4px;
 }
-body.partnerarea-espace .account-card h2 {
+.partnerarea-espace .account-card h2 {
     font-size: 16px;
 }
-body.partnerarea-espace .account-card .profile-pic {
+.partnerarea-espace .account-card .profile-pic {
     position: relative;
     width: 120px;
     height: 120px;
@@ -560,23 +560,23 @@ body.partnerarea-espace .account-card .profile-pic {
     bottom: 0;
     box-shadow: 0px 2px 4px 0px rgba(177, 177, 177, 0.5);
 }
-body.partnerarea-espace .profile-pic-background {
+.partnerarea-espace .profile-pic-background {
     background-color: white;
     height: 100%;
     width: 100%;
     border-radius: 1px;
     position: relative;
 }
-body.partnerarea-espace .profile-pic-background a {
+.partnerarea-espace .profile-pic-background a {
     width: 120px;
     height: 120px;
     display: block;
 }
-body.partnerarea-espace .partner-cover-details-wrapper {
+.partnerarea-espace .partner-cover-details-wrapper {
     position: relative;
     height: 115px;
 }
-body.partnerarea-espace .profile-pic img {
+.partnerarea-espace .profile-pic img {
     border-radius: 8px;
     margin: auto;
     position: absolute;
@@ -585,7 +585,7 @@ body.partnerarea-espace .profile-pic img {
     left: 0;
     right: 0;
 }
-body.partnerarea-espace div.Tabs_TabOff, body.partnerarea-espace li.Tabs_TabOff {
+.partnerarea-espace div.Tabs_TabOff, .partnerarea-espace li.Tabs_TabOff {
     font-size: 14px;
     position: relative;
     box-sizing: border-box;
@@ -597,7 +597,7 @@ body.partnerarea-espace div.Tabs_TabOff, body.partnerarea-espace li.Tabs_TabOff 
     margin-right: 20px;
     border: none;
 }
-body.partnerarea-espace div.Tabs_TabOff:after, body.partnerarea-espace li.Tabs_TabOff:after {
+.partnerarea-espace div.Tabs_TabOff:after, .partnerarea-espace li.Tabs_TabOff:after {
     content: '';
     position: absolute;
     width: 13px;
@@ -610,7 +610,7 @@ body.partnerarea-espace div.Tabs_TabOff:after, body.partnerarea-espace li.Tabs_T
     right: -9px;
     border-radius: 0 5px 0 0;
 }
-body.partnerarea-espace a.Tabs_TabOff, body.partnerarea-espace a.Tabs_TabOff:link, body.partnerarea-espace a.Tabs_TabOff:visited {
+.partnerarea-espace a.Tabs_TabOff, .partnerarea-espace a.Tabs_TabOff:link, .partnerarea-espace a.Tabs_TabOff:visited {
     display: block;
     white-space: nowrap;
     text-decoration: none;
@@ -618,10 +618,10 @@ body.partnerarea-espace a.Tabs_TabOff, body.partnerarea-espace a.Tabs_TabOff:lin
     padding: 0px 10px 0px 10px;
     background: transparent;
 }
-body.partnerarea-espace a.Tabs_TabOff:hover {
+.partnerarea-espace a.Tabs_TabOff:hover {
     background: transparent;
 }
-body.partnerarea-espace div.Tabs_TabOn, body.partnerarea-espace li.Tabs_TabOn {
+.partnerarea-espace div.Tabs_TabOn, .partnerarea-espace li.Tabs_TabOn {
     font-size: 14px;
     position: relative;
     box-sizing: border-box;
@@ -632,7 +632,7 @@ body.partnerarea-espace div.Tabs_TabOn, body.partnerarea-espace li.Tabs_TabOn {
     border-top-left-radius: 5px;
     margin-right: 20px;
 }
-body.partnerarea-espace div.Tabs_TabOn:after, body.partnerarea-espace li.Tabs_TabOn:after {
+.partnerarea-espace div.Tabs_TabOn:after, .partnerarea-espace li.Tabs_TabOn:after {
     content: '';
     position: absolute;
     width: 13px;
@@ -651,7 +651,7 @@ body.partnerarea-espace div.Tabs_TabOn:after, body.partnerarea-espace li.Tabs_Ta
     border-bottom: 0px;
     -webkit-backface-visibility: hidden;
 }
-body.partnerarea-espace a.Tabs_TabOn, body.partnerarea-espace a.Tabs_TabOn:link, body.partnerarea-espace a.Tabs_TabOn:visited, body.partnerarea-espace a.Tabs_TabOn:hover, body.partnerarea-espace span.Tabs_TabOn {
+.partnerarea-espace a.Tabs_TabOn, .partnerarea-espace a.Tabs_TabOn:link, .partnerarea-espace a.Tabs_TabOn:visited, .partnerarea-espace a.Tabs_TabOn:hover, .partnerarea-espace span.Tabs_TabOn {
     display: block;
     white-space: nowrap;
     text-decoration: none;
@@ -659,39 +659,39 @@ body.partnerarea-espace a.Tabs_TabOn, body.partnerarea-espace a.Tabs_TabOn:link,
     padding: 0px 10px 0px 10px;
     background: transparent;
 }
-body.partnerarea-espace .Tabs_TabBody {
+.partnerarea-espace .Tabs_TabBody {
     margin: 40px 0px 0px 0px;
     padding: 40px 0px;
     border: 1px solid #cccccc;
     _height: 1%;
     *display: inline-block;
 }
-body.partnerarea-espace .Tabs_Wrapper .small-search {
+.partnerarea-espace .Tabs_Wrapper .small-search {
     width: 230px;
 }
-body.partnerarea-espace .Tabs_Wrapper .search-wrapper .small-search input.search {
+.partnerarea-espace .Tabs_Wrapper .search-wrapper .small-search input.search {
     width: 199px;
 }
-body.partnerarea-espace .partner-content-wrapper .Tabs_Wrapper {
+.partnerarea-espace .partner-content-wrapper .Tabs_Wrapper {
     margin: 0;
     margin-top: -35px;
     border: none;
     display: inline-block;
 }
-body.partnerarea-espace .partner-content-wrapper ul.Tabs_Header {
+.partnerarea-espace .partner-content-wrapper ul.Tabs_Header {
     padding-left: 0px;
     height: 35px;
 }
-body.partnerarea-espace .partner-content-wrapper .Tabs_TabBody {
+.partnerarea-espace .partner-content-wrapper .Tabs_TabBody {
     border: none;
 }
-body.partnerarea-espace .partner-sidebar-wrapper {
+.partnerarea-espace .partner-sidebar-wrapper {
     margin-top: 75px;
 }
-body.partnerarea-espace .account-card .partner-sidebar-wrapper {
+.partnerarea-espace .account-card .partner-sidebar-wrapper {
     margin-top: 25px;
 }
-body.partnerarea-espace .partners-download-doc-filter {
+.partnerarea-espace .partners-download-doc-filter {
     padding: 15px;
     padding-left: 0;
     padding-right: 0;
@@ -701,7 +701,7 @@ body.partnerarea-espace .partners-download-doc-filter {
     -moz-box-shadow: 0 8px 40px -8px #e5e6e7;
     box-shadow: 0 8px 40px -8px #e5e6e7;
 }
-body.partnerarea-espace .partners-download-doc-filter input[type="checkbox"] {
+.partnerarea-espace .partners-download-doc-filter input[type="checkbox"] {
     margin: 0px;
     line-height: normal;
     cursor: pointer;
@@ -709,7 +709,7 @@ body.partnerarea-espace .partners-download-doc-filter input[type="checkbox"] {
     margin-right: 30px;
     margin-top: 0;
 }
-body.partnerarea-espace .button-isotype {
+.partnerarea-espace .button-isotype {
     display: inline-block;
     padding: 1px 15px;
     background: #aaa;
@@ -721,21 +721,21 @@ body.partnerarea-espace .button-isotype {
     cursor: pointer;
     margin-left: 10px;
 }
-body.partnerarea-espace .button-isotype:hover {
+.partnerarea-espace .button-isotype:hover {
     background-color: gray;
     color: #fff;
     text-decoration: none;
 }
-body.partnerarea-espace .button-isotype.is-checked, body.partnerarea-espace .button-isotype:active {
+.partnerarea-espace .button-isotype.is-checked, .partnerarea-espace .button-isotype:active {
     background-color: #cc2200;
 }
-body.partnerarea-espace .button-isotype.is-checked {
+.partnerarea-espace .button-isotype.is-checked {
     color: #ffffff;
 }
-body.partnerarea-espace .button-isotype:active {
+.partnerarea-espace .button-isotype:active {
     box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.8);
 }
-body.partnerarea-espace .pagination a:link, body.partnerarea-espace .pagination a:visited {
+.partnerarea-espace .pagination a:link, .partnerarea-espace .pagination a:visited {
     padding: 0px;
     margin-right: 3px;
     height: 35px;
@@ -751,14 +751,14 @@ body.partnerarea-espace .pagination a:link, body.partnerarea-espace .pagination 
     text-align: center;
     color: #808080;
 }
-body.partnerarea-espace .document-details {
+.partnerarea-espace .document-details {
     font-size: 12px;
 }
-body.partnerarea-espace .list-border {
+.partnerarea-espace .list-border {
     position: relative;
     padding-bottom: 15px;
 }
-body.partnerarea-espace .list-border:after {
+.partnerarea-espace .list-border:after {
     content: "";
     background: #E5E6E7;
     position: absolute;
@@ -768,14 +768,14 @@ body.partnerarea-espace .list-border:after {
     left: 110px;
     right: 0;
 }
-body.partnerarea-espace .sidebar-text {
+.partnerarea-espace .sidebar-text {
     font-size: 12px;
 }
-body.partnerarea-espace .sidebar-separator {
+.partnerarea-espace .sidebar-separator {
     position: relative;
     padding-bottom: 20px;
 }
-body.partnerarea-espace .sidebar-separator:after {
+.partnerarea-espace .sidebar-separator:after {
     content: "";
     background: #E5E6E7;
     position: absolute;
@@ -785,17 +785,17 @@ body.partnerarea-espace .sidebar-separator:after {
     left: 0;
     width: 70px;
 }
-body.partnerarea-espace .sidebar-separator .partner-name {
+.partnerarea-espace .sidebar-separator .partner-name {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     width: 150px;
 }
-body.partnerarea-espace .content-separator {
+.partnerarea-espace .content-separator {
     position: relative;
     padding-bottom: 20px;
 }
-body.partnerarea-espace .content-separator:after {
+.partnerarea-espace .content-separator:after {
     content: "";
     background: #E5E6E7;
     position: absolute;
@@ -805,40 +805,40 @@ body.partnerarea-espace .content-separator:after {
     left: 0;
     width: 100%;
 }
-body.partnerarea-espace .info-desc {
+.partnerarea-espace .info-desc {
     display: table;
     vertical-align: middle;
 }
-body.partnerarea-espace .info-icon {
+.partnerarea-espace .info-icon {
     display: table-cell;
     vertical-align: middle;
 }
-body.partnerarea-espace .info-text {
+.partnerarea-espace .info-text {
     display: table-cell;
     vertical-align: middle;
 }
-body.partnerarea-espace .industries-list input[type="checkbox"] {
+.partnerarea-espace .industries-list input[type="checkbox"] {
     margin-right: 5px;
     margin-top: 0;
 }
-body.partnerarea-espace .industries-list .list-item {
+.partnerarea-espace .industries-list .list-item {
     margin-bottom: 10px;
 }
-body.partnerarea-espace .link-helpers {
+.partnerarea-espace .link-helpers {
     position: absolute;
     right: 0;
     bottom: 0;
     padding: 12px 0;
     white-space: nowrap;
 }
-body.partnerarea-espace .link-helpers a {
+.partnerarea-espace .link-helpers a {
     margin-left: 15px;
     color: #4D616A;
 }
-body.partnerarea-espace .link-helpers a:hover {
+.partnerarea-espace .link-helpers a:hover {
     color: #005580;
 }
-body.partnerarea-espace .collapse-title a {
+.partnerarea-espace .collapse-title a {
     display: block;
     padding: 10px;
     padding-left: 0;
@@ -852,30 +852,30 @@ body.partnerarea-espace .collapse-title a {
     box-shadow: 0 8px 24px -17px #606264;
     margin-bottom: 40px;
 }
-body.partnerarea-espace .collapse-down, body.partnerarea-espace .collapse-up {
+.partnerarea-espace .collapse-down, .partnerarea-espace .collapse-up {
     float: right;
 }
-body.partnerarea-espace .collapse-title .collapse-down {
+.partnerarea-espace .collapse-title .collapse-down {
     display: inline-block;
 }
-body.partnerarea-espace .collapse-title.open .collapse-down {
+.partnerarea-espace .collapse-title.open .collapse-down {
     display: none;
 }
-body.partnerarea-espace .collapse-title .collapse-up {
+.partnerarea-espace .collapse-title .collapse-up {
     display: none;
 }
-body.partnerarea-espace .collapse-title.open .collapse-up {
+.partnerarea-espace .collapse-title.open .collapse-up {
     display: inline-block;
 }
-body.partnerarea-espace .orange {
+.partnerarea-espace .orange {
     background-color: #EFDFB4;
 }
-body.partnerarea-espace table {
+.partnerarea-espace table {
     *border-collapse: collapse;  /* IE7 and lower */
     border-spacing: 0;
     width: 100%;
 }
-body.partnerarea-espace .bordered {
+.partnerarea-espace .bordered {
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
@@ -883,12 +883,12 @@ body.partnerarea-espace .bordered {
     -moz-box-shadow: 0 1px 1px #ccc;
     box-shadow: 0 1px 1px #ccc;
 }
-body.partnerarea-espace .bordered tr th {
+.partnerarea-espace .bordered tr th {
     border-left: 1px solid #ccc;
     border-top: none;
     border-bottom: 1px solid #ccc;
 }
-body.partnerarea-espace .bordered tr:hover {
+.partnerarea-espace .bordered tr:hover {
     background: #fbf8e9;
     -o-transition: all 0.1s ease-in-out;
     -webkit-transition: all 0.1s ease-in-out;
@@ -896,48 +896,48 @@ body.partnerarea-espace .bordered tr:hover {
     -ms-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 }
-body.partnerarea-espace .bordered td, body.partnerarea-espace .bordered th {
+.partnerarea-espace .bordered td, .partnerarea-espace .bordered th {
     border-top: 1px solid #ccc;
     padding: 15px 10px;
     text-align: left;
 }
-body.partnerarea-espace .bordered th {
+.partnerarea-espace .bordered th {
     background: #AAA;
     color: white;
     font-weight: 400;
 }
-body.partnerarea-espace .bordered th.SortColumns_Sorted {
+.partnerarea-espace .bordered th.SortColumns_Sorted {
     font-weight: 800;
 }
-body.partnerarea-espace .bordered td:first-child, body.partnerarea-espace .bordered th:first-child {
+.partnerarea-espace .bordered td:first-child, .partnerarea-espace .bordered th:first-child {
     border-left: none;
 }
-body.partnerarea-espace .bordered th:first-child {
+.partnerarea-espace .bordered th:first-child {
     -moz-border-radius: 6px 0 0 0;
     -webkit-border-radius: 6px 0 0 0;
     border-radius: 6px 0 0 0;
 }
-body.partnerarea-espace .bordered th:last-child {
+.partnerarea-espace .bordered th:last-child {
     -moz-border-radius: 0 6px 0 0;
     -webkit-border-radius: 0 6px 0 0;
     border-radius: 0 6px 0 0;
 }
-body.partnerarea-espace .bordered th:only-child {
+.partnerarea-espace .bordered th:only-child {
     -moz-border-radius: 6px 6px 0 0;
     -webkit-border-radius: 6px 6px 0 0;
     border-radius: 6px 6px 0 0;
 }
-body.partnerarea-espace .bordered tr:last-child td:first-child {
+.partnerarea-espace .bordered tr:last-child td:first-child {
     -moz-border-radius: 0 0 0 6px;
     -webkit-border-radius: 0 0 0 6px;
     border-radius: 0 0 0 6px;
 }
-body.partnerarea-espace .bordered tr:last-child td:last-child {
+.partnerarea-espace .bordered tr:last-child td:last-child {
     -moz-border-radius: 0 0 6px 0;
     -webkit-border-radius: 0 0 6px 0;
     border-radius: 0 0 6px 0;
 }
-body.partnerarea-espace .v-separator {
+.partnerarea-espace .v-separator {
     content: "";
     display: block;
     width: 0px;
@@ -948,13 +948,13 @@ body.partnerarea-espace .v-separator {
     position: relative;
     top: 15px;
 }
-body.partnerarea-espace .headshot {
+.partnerarea-espace .headshot {
     border: 5px solid rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     height: auto;
     width: 56px;
 }
-body.partnerarea-espace .opportunity-container, body.partnerarea-espace .quote-container {
+.partnerarea-espace .opportunity-container, .partnerarea-espace .quote-container {
     font-family: Arial, sans-serif;
     height: 70px;
     background-color: #f8f8f8;
@@ -963,7 +963,7 @@ body.partnerarea-espace .opportunity-container, body.partnerarea-espace .quote-c
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-left: 20px;
 }
-body.partnerarea-espace .opportunity-container > .row > div:first-child, body.partnerarea-espace .quote-container > .row > div:first-child {
+.partnerarea-espace .opportunity-container > .row > div:first-child, .partnerarea-espace .quote-container > .row > div:first-child {
     width: 125px;
     height: 70px;
     line-height: 1.3;
@@ -972,26 +972,26 @@ body.partnerarea-espace .opportunity-container > .row > div:first-child, body.pa
     text-align: center;
     border-right: 1px solid #e3e3e3;
 }
-body.partnerarea-espace .opportunity-container > .row > .span8 .span1, body.partnerarea-espace .quote-container > .row > .span8 .span1 {
+.partnerarea-espace .opportunity-container > .row > .span8 .span1, .partnerarea-espace .quote-container > .row > .span8 .span1 {
     width: 50px;
     margin-left: 10px;
     margin-top: 15px;
 }
-body.partnerarea-espace .opportunity-container > .row > .span8 .span2, body.partnerarea-espace .quote-container > .row > .span8 .span2 {
+.partnerarea-espace .opportunity-container > .row > .span8 .span2, .partnerarea-espace .quote-container > .row > .span8 .span2 {
     width: 90px;
     margin-left: 10px;
     margin-top: 15px;
 }
-body.partnerarea-espace .quote-container > .row > .span8 .span2 {
+.partnerarea-espace .quote-container > .row > .span8 .span2 {
     width: 100px;
 }
-body.partnerarea-espace .opportunity-container .text-label, body.partnerarea-espace .quote-container .text-label {
+.partnerarea-espace .opportunity-container .text-label, .partnerarea-espace .quote-container .text-label {
     text-transform: uppercase;
     color: #78909c;
     font-size: 10px;
     font-weight: 700;
 }
-body.partnerarea-espace .opportunity-container .text-value, body.partnerarea-espace .quote-container .text-value {
+.partnerarea-espace .opportunity-container .text-value, .partnerarea-espace .quote-container .text-value {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -999,40 +999,40 @@ body.partnerarea-espace .opportunity-container .text-value, body.partnerarea-esp
     font-size: 12px;
     font-weight: 400;
 }
-body.partnerarea-espace .text-highlight {
+.partnerarea-espace .text-highlight {
     font-size: 22px;
     color: #7F8A90;
 }
 @media (max-width:400px) {
-    body.partnerarea-espace {
+    .partnerarea-espace {
 
         /*members*/
     }
-    body.partnerarea-espace .opportunity-container {
+    .partnerarea-espace .opportunity-container {
         height: 100%;
         padding-bottom: 20px;
     }
-    body.partnerarea-espace .opportunity-container > .row > div:first-child {
+    .partnerarea-espace .opportunity-container > .row > div:first-child {
         border-right: none;
         text-align: center;
         width: auto;
     }
-    body.partnerarea-espace .partner-cover-details-wrapper {
+    .partnerarea-espace .partner-cover-details-wrapper {
         margin-left: 20px;
     }
-    body.partnerarea-espace .partner-content-wrapper {
+    .partnerarea-espace .partner-content-wrapper {
         padding: 20px;
     }
-    body.partnerarea-espace .link-helpers, body.partnerarea-espace .sidebar-text {
+    .partnerarea-espace .link-helpers, .partnerarea-espace .sidebar-text {
         display: none;
     }
-    body.partnerarea-espace .sidebar-separator {
+    .partnerarea-espace .sidebar-separator {
         padding-bottom: 60px;
     }
-    body.partnerarea-espace .content-separator .pull-right {
+    .partnerarea-espace .content-separator .pull-right {
         margin-left: 20px;
     }
-    body.partnerarea-espace div.Tabs_TabOff, body.partnerarea-espace li.Tabs_TabOff, body.partnerarea-espace div.Tabs_TabOn, body.partnerarea-espace li.Tabs_TabOn {
+    .partnerarea-espace div.Tabs_TabOff, .partnerarea-espace li.Tabs_TabOff, .partnerarea-espace div.Tabs_TabOn, .partnerarea-espace li.Tabs_TabOn {
         width: 24%;
         overflow: hidden;
         margin-right: 2px;
@@ -1041,93 +1041,93 @@ body.partnerarea-espace .text-highlight {
         text-align: center;
         height: 45px;
     }
-    body.partnerarea-espace span.Tabs_TabOff, body.partnerarea-espace a.Tabs_TabOff, body.partnerarea-espace span.Tabs_TabOn, body.partnerarea-espace a.Tabs_TabOn, body.partnerarea-espace a.Tabs_TabOff:link, body.partnerarea-espace a.Tabs_TabOff:visited, body.partnerarea-espace a.Tabs_TabOn:link, body.partnerarea-espace a.Tabs_TabOn:visited {
+    .partnerarea-espace span.Tabs_TabOff, .partnerarea-espace a.Tabs_TabOff, .partnerarea-espace span.Tabs_TabOn, .partnerarea-espace a.Tabs_TabOn, .partnerarea-espace a.Tabs_TabOff:link, .partnerarea-espace a.Tabs_TabOff:visited, .partnerarea-espace a.Tabs_TabOn:link, .partnerarea-espace a.Tabs_TabOn:visited {
         white-space: normal;
         padding: 0 5px;
     }
-    body.partnerarea-espace .Tabs_TabBody {
+    .partnerarea-espace .Tabs_TabBody {
         padding: 20px 0 0 0;
     }
-    body.partnerarea-espace .Tabs_TabBody[data_url="#company-info"] .span3, body.partnerarea-espace .Tabs_TabBody[data_url="#company-info"] .span10 .span4 {
+    .partnerarea-espace .Tabs_TabBody[data_url="#company-info"] .span3, .partnerarea-espace .Tabs_TabBody[data_url="#company-info"] .span10 .span4 {
         display: inline-block;
         width: 50%;
         margin-top: 30px;
     }
-    body.partnerarea-espace .Tabs_TabBody[data_url="#company-info"] .row .span4 {
+    .partnerarea-espace .Tabs_TabBody[data_url="#company-info"] .row .span4 {
         margin-top: 30px;
     }
-    body.partnerarea-espace .partner-content-wrapper ul.Tabs_Header {
+    .partnerarea-espace .partner-content-wrapper ul.Tabs_Header {
         height: 45px;
         width: 94%;
     }
-    body.partnerarea-espace .bordered th {
+    .partnerarea-espace .bordered th {
         font-size: 9px;
         padding: 0 2px;
     }
-    body.partnerarea-espace .Tabs_Wrapper .search-wrapper .small-search input.search {
+    .partnerarea-espace .Tabs_Wrapper .search-wrapper .small-search input.search {
         width: 180px;
         margin-right: 0;
     }
-    body.partnerarea-espace div[data_url="#opportunities"] .bordered tbody {
+    .partnerarea-espace div[data_url="#opportunities"] .bordered tbody {
         font-size: 9px;
     }
-    body.partnerarea-espace div[data_url="#opportunities"] .bordered td, body.partnerarea-espace .bordered th {
+    .partnerarea-espace div[data_url="#opportunities"] .bordered td, .partnerarea-espace .bordered th {
         padding: 0 2px;
     }
-    body.partnerarea-espace div[data_url="#members"] .content-separator .pull-right {
+    .partnerarea-espace div[data_url="#members"] .content-separator .pull-right {
         float: none;
     }
 }
 @media (max-width:979px) and (min-width:768px) {
-    body.partnerarea-espace .opportunity-container > .row > .span8 {
+    .partnerarea-espace .opportunity-container > .row > .span8 {
         width: 450px;
     }
-    body.partnerarea-espace .opportunity-container > .row > .span8 .span1 {
+    .partnerarea-espace .opportunity-container > .row > .span8 .span1 {
         width: 50px;
         margin-left: 10px;
         margin-top: 15px;
     }
-    body.partnerarea-espace .opportunity-container > .row > .span8 .span2 {
+    .partnerarea-espace .opportunity-container > .row > .span8 .span2 {
         width: 70px;
         margin-left: 10px;
         margin-top: 15px;
     }
-    body.partnerarea-espace .opportunity-container > .row > .span8 .span2:last-child {
+    .partnerarea-espace .opportunity-container > .row > .span8 .span2:last-child {
         width: 140px;
     }
-    body.partnerarea-espace .opportunity-container > .row > .span8 .span2:last-child .text-label {
+    .partnerarea-espace .opportunity-container > .row > .span8 .span2:last-child .text-label {
         display: none;
     }
-    body.partnerarea-espace .opportunity-container > .row > .span8 .span2:last-child .text-value {
+    .partnerarea-espace .opportunity-container > .row > .span8 .span2:last-child .text-value {
         width: 100% !important;
     }
 }
-body.partnerarea-espace .Heading1, body.partnerarea-espace .Heading2, body.partnerarea-espace .Heading3, body.partnerarea-espace .Heading4, body.partnerarea-espace .Heading5 {
+.partnerarea-espace .Heading1, .partnerarea-espace .Heading2, .partnerarea-espace .Heading3, .partnerarea-espace .Heading4, .partnerarea-espace .Heading5 {
     font-family: Myriad-Pro, Arial, sans-serif;
     font-weight: 600;
     line-height: 24px;
 }
-body.partnerarea-espace .Heading3, body.partnerarea-espace div.Heading3 {
+.partnerarea-espace .Heading3, .partnerarea-espace div.Heading3 {
     font-size: 30px;
     margin-top: 50px;
     margin-bottom: 40px;
     line-height: 32px;
 }
-body.partnerarea-espace .Heading4 {
+.partnerarea-espace .Heading4 {
     font-size: 24px;
     margin-top: 65px;
     padding-bottom: 10px;
     border-bottom: 1px solid #CDCDCD;
 }
-body.partnerarea-espace .Form .Section > div > div {
+.partnerarea-espace .Form .Section > div > div {
     margin-top: 20px;
 }
-body.partnerarea-espace .Form_label {
+.partnerarea-espace .Form_label {
     color: #606061;
     font-family: Arial;
     font-size: 18px;
 }
-body.partnerarea-espace .Form input[type=text], body.partnerarea-espace .Form input[type=number] {
+.partnerarea-espace .Form input[type=text], .partnerarea-espace .Form input[type=number] {
     width: 100%;
     height: 38px;
     color: #555;
@@ -1138,10 +1138,10 @@ body.partnerarea-espace .Form input[type=text], body.partnerarea-espace .Form in
     padding: 5px;
     box-sizing: border-box;
 }
-body.partnerarea-espace .Form input[type=number] {
+.partnerarea-espace .Form input[type=number] {
     line-height: 1.43;
 }
-body.partnerarea-espace .Form textarea {
+.partnerarea-espace .Form textarea {
     width: 100%;
     color: #555;
     background-color: #F7F7F7;
@@ -1152,7 +1152,7 @@ body.partnerarea-espace .Form textarea {
     box-sizing: border-box;
     resize: none;
 }
-body.partnerarea-espace a.osbtn-red {
+.partnerarea-espace a.osbtn-red {
     width: 150px;
     display: inline-block;
     font-family: 'Myriad-Pro', Arial, sans-serif;
@@ -1178,10 +1178,10 @@ body.partnerarea-espace a.osbtn-red {
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
-body.partnerarea-espace a.osbtn-red:hover {
+.partnerarea-espace a.osbtn-red:hover {
     text-decoration: none;
 }
-body.partnerarea-espace .Button.mktoButton {
+.partnerarea-espace .Button.mktoButton {
     border: 0 !important;
     display: inline-block !important;
     font-family: 'myriad-pro', Arial, sans-serif !important;
@@ -1207,70 +1207,70 @@ body.partnerarea-espace .Button.mktoButton {
     -webkit-border-radius: 5px !important;
     border-radius: 5px !important;
 }
-body.partnerarea-espace input.Not_Valid, body.partnerarea-espace textarea.Not_Valid, body.partnerarea-espace select.Not_Valid {
+.partnerarea-espace input.Not_Valid, .partnerarea-espace textarea.Not_Valid, .partnerarea-espace select.Not_Valid {
     border: 1px solid #BF1601 !important;
 }
-body.partnerarea-espace .Text_Error .fa {
+.partnerarea-espace .Text_Error .fa {
     color: #C7331F;
 }
 @media (max-width:400px) {
-    body.partnerarea-espace .MemberPhoto {
+    .partnerarea-espace .MemberPhoto {
         display: table-cell;
         width: 30%;
     }
-    body.partnerarea-espace .MemberName {
+    .partnerarea-espace .MemberName {
         display: table-cell;
         width: 60%;
     }
-    body.partnerarea-espace .MemberRoles {
+    .partnerarea-espace .MemberRoles {
         display: inline-block;
         width: 70%;
     }
-    body.partnerarea-espace .MemberTrash {
+    .partnerarea-espace .MemberTrash {
         width: 65px;
         float: right;
     }
-    body.partnerarea-espace .headshot {
+    .partnerarea-espace .headshot {
         margin-top: 20px;
     }
-    body.partnerarea-espace .v-separator.pull-right {
+    .partnerarea-espace .v-separator.pull-right {
         display: none;
     }
 }
 @media (max-width:400px) {
-    body.partnerarea-espace .HeroSection {
+    .partnerarea-espace .HeroSection {
         margin-left: 20px;
         margin-right: 20px;
         width: auto;
     }
-    body.partnerarea-espace .HeroSection .HeroImg {
+    .partnerarea-espace .HeroSection .HeroImg {
         text-align: center;
     }
-    body.partnerarea-espace .account-card {
+    .partnerarea-espace .account-card {
         margin: 20px;
     }
-    body.partnerarea-espace .small-search {
+    .partnerarea-espace .small-search {
         width: 100%;
         float: right;
     }
-    body.partnerarea-espace .search-wrapper .small-search input.search {
+    .partnerarea-espace .search-wrapper .small-search input.search {
         margin-right: 0;
         width: 170px;
     }
 }
-body.partnerarea-espace .MainPopup {
+.partnerarea-espace .MainPopup {
     background: #e6e6e6;
 }
-body.partnerarea-espace .Heading1 {
+.partnerarea-espace .Heading1 {
     font-weight: 400;
 }
-body.partnerarea-espace .PopupFormContainer {
+.partnerarea-espace .PopupFormContainer {
     width: 400px;
     text-align: center;
 }
-body.partnerarea-espace .PopupFormContainer .FormContainer > div {
+.partnerarea-espace .PopupFormContainer .FormContainer > div {
     margin-top: 20px;
 }
-body.partnerarea-espace .Heading4 {
+.partnerarea-espace .Heading4 {
     margin-bottom: 20px;
 }

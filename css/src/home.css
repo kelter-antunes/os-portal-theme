@@ -1,12 +1,12 @@
-body.home-espace {
+.home-espace {
 }
 
-body.home-espace .Tabs_Header a,
-body.home-espace .Tabs_Header span {
+.home-espace .Tabs_Header a,
+.home-espace .Tabs_Header span {
   font-size: 12.5px;
 }
-body.home-espace div.Tabs_TabOff,
-body.home-espace li.Tabs_TabOff {
+.home-espace div.Tabs_TabOff,
+.home-espace li.Tabs_TabOff {
   font-size: 14px;
   position: relative;
   box-sizing: border-box;
@@ -18,8 +18,8 @@ body.home-espace li.Tabs_TabOff {
   margin-right: 13.6px;
   border: none;
 }
-body.home-espace div.Tabs_TabOff:after,
-body.home-espace li.Tabs_TabOff:after {
+.home-espace div.Tabs_TabOff:after,
+.home-espace li.Tabs_TabOff:after {
   content: '';
   position: absolute;
   width: 13px;
@@ -32,9 +32,9 @@ body.home-espace li.Tabs_TabOff:after {
   right: -10px;
   border-radius: 0 5px 0 0;
 }
-body.home-espace a.Tabs_TabOff,
-body.home-espace a.Tabs_TabOff:link,
-body.home-espace a.Tabs_TabOff:visited {
+.home-espace a.Tabs_TabOff,
+.home-espace a.Tabs_TabOff:link,
+.home-espace a.Tabs_TabOff:visited {
   display: block;
   white-space: nowrap;
   text-decoration: none;
@@ -42,11 +42,11 @@ body.home-espace a.Tabs_TabOff:visited {
   padding: 0px 10px 0px 10px;
   background: transparent;
 }
-body.home-espace a.Tabs_TabOff:hover {
+.home-espace a.Tabs_TabOff:hover {
   background: transparent;
 }
-body.home-espace div.Tabs_TabOn,
-body.home-espace li.Tabs_TabOn {
+.home-espace div.Tabs_TabOn,
+.home-espace li.Tabs_TabOn {
   font-size: 14px;
   position: relative;
   box-sizing: border-box;
@@ -57,8 +57,8 @@ body.home-espace li.Tabs_TabOn {
   border-top-left-radius: 5px;
   margin-right: 13.6px;
 }
-body.home-espace div.Tabs_TabOn:after,
-body.home-espace li.Tabs_TabOn:after {
+.home-espace div.Tabs_TabOn:after,
+.home-espace li.Tabs_TabOn:after {
   content: '';
   position: absolute;
   width: 13px;
@@ -77,11 +77,11 @@ body.home-espace li.Tabs_TabOn:after {
   border-bottom: 0px;
   -webkit-backface-visibility: hidden;
 }
-body.home-espace a.Tabs_TabOn,
-body.home-espace a.Tabs_TabOn:link,
-body.home-espace a.Tabs_TabOn:visited,
-body.home-espace a.Tabs_TabOn:hover,
-body.home-espace span.Tabs_TabOn {
+.home-espace a.Tabs_TabOn,
+.home-espace a.Tabs_TabOn:link,
+.home-espace a.Tabs_TabOn:visited,
+.home-espace a.Tabs_TabOn:hover,
+.home-espace span.Tabs_TabOn {
   display: block;
   white-space: nowrap;
   text-decoration: none;
@@ -89,19 +89,19 @@ body.home-espace span.Tabs_TabOn {
   padding: 0px 10px 0px 10px;
   background: transparent;
 }
-body.home-espace .Tabs_TabBody {
+.home-espace .Tabs_TabBody {
   margin: 30px 0px 0px 0px;
   padding: 10px 0px;
   border: 1px solid #cccccc;
   _height: 1%;
   *display: inline-block;
 }
-body.home-espace .partners-download-doc-filter {
+.home-espace .partners-download-doc-filter {
   padding: 15px;
   border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
 }
-body.home-espace .partners-download-doc-filter input[type="checkbox"] {
+.home-espace .partners-download-doc-filter input[type="checkbox"] {
   margin: 0px;
   line-height: normal;
   cursor: pointer;
@@ -109,7 +109,7 @@ body.home-espace .partners-download-doc-filter input[type="checkbox"] {
   margin-right: 30px;
   margin-top: 0;
 }
-body.home-espace .button-isotype {
+.home-espace .button-isotype {
   display: inline-block;
   padding: 1px 15px;
   background: #aaa;
@@ -121,22 +121,22 @@ body.home-espace .button-isotype {
   cursor: pointer;
   margin-left: 10px;
 }
-body.home-espace .button-isotype:hover {
+.home-espace .button-isotype:hover {
   background-color: gray;
   color: #fff;
   text-decoration: none;
 }
-body.home-espace .button-isotype.is-checked,
-body.home-espace .button-isotype:active {
+.home-espace .button-isotype.is-checked,
+.home-espace .button-isotype:active {
   background-color: #cc2200;
 }
-body.home-espace .button-isotype.is-checked {
+.home-espace .button-isotype.is-checked {
   color: #ffffff;
 }
-body.home-espace .button-isotype:active {
+.home-espace .button-isotype:active {
   box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.8);
 }
-body.home-espace .NavTab {
+.home-espace .NavTab {
   font-family: Arial, sans-serif;
   font-size: 14px;
   position: relative;
@@ -149,7 +149,7 @@ body.home-espace .NavTab {
   margin-top: 15px;
   border-top-left-radius: 5px;
 }
-body.home-espace .NavTab:after {
+.home-espace .NavTab:after {
   content: '';
   position: absolute;
   width: 10px;
@@ -162,162 +162,162 @@ body.home-espace .NavTab:after {
   right: -6px;
   border-radius: 0 5px 0 0;
 }
-body.home-espace .NavTab .Icon [class*="fa"],
-body.home-espace .NavTab .Icon [class^="osicon"] {
+.home-espace .NavTab .Icon [class*="fa"],
+.home-espace .NavTab .Icon [class^="osicon"] {
   width: 5%;
   font-size: 20px;
 }
-body.home-espace .NavTab.Download .Icon {
+.home-espace .NavTab.Download .Icon {
   margin-top: 1px;
 }
-body.home-espace .NavTab.Download .Icon [class*="fa"],
-body.home-espace .NavTab.Download .Icon [class^="osicon"],
-body.home-espace .NavTab.Download.Active .Icon [class*="fa"],
-body.home-espace .NavTab.Download.Active .Icon [class^="osicon"] {
+.home-espace .NavTab.Download .Icon [class*="fa"],
+.home-espace .NavTab.Download .Icon [class^="osicon"],
+.home-espace .NavTab.Download.Active .Icon [class*="fa"],
+.home-espace .NavTab.Download.Active .Icon [class^="osicon"] {
   width: 5%;
   font-size: 16px;
 }
-body.home-espace .NavTab.Download .EnvironmentInfo,
-body.home-espace .NavTab.Active.Download .EnvironmentInfo {
+.home-espace .NavTab.Download .EnvironmentInfo,
+.home-espace .NavTab.Active.Download .EnvironmentInfo {
   width: 70% !important;
 }
-body.home-espace .NavTab .EnvironmentInfo {
+.home-espace .NavTab .EnvironmentInfo {
   width: 85%;
   margin-left: 10px;
 }
-body.home-espace .NavTab.Trial .EnvironmentInfo {
+.home-espace .NavTab.Trial .EnvironmentInfo {
   width: 235px;
 }
-body.home-espace .NavTab.Active.Trial .EnvironmentInfo {
+.home-espace .NavTab.Active.Trial .EnvironmentInfo {
   width: 260px;
 }
-body.home-espace .NavTab:not(.Active) .EnvironmentInfo {
+.home-espace .NavTab:not(.Active) .EnvironmentInfo {
   margin-top: 2px;
 }
-body.home-espace .NavTab.Active .EnvironmentInfo.Label {
+.home-espace .NavTab.Active .EnvironmentInfo.Label {
   margin-top: 6px;
 }
-body.home-espace .NavTab .InfrastructureNameWrapper {
+.home-espace .NavTab .InfrastructureNameWrapper {
   width: 100%;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
-body.home-espace .InfrastructureName {
+.home-espace .InfrastructureName {
   font-weight: 600;
 }
-body.home-espace .NavTab .TopSection {
+.home-espace .NavTab .TopSection {
   display: none;
 }
-body.home-espace .NavTab .InfrastructureType {
+.home-espace .NavTab .InfrastructureType {
   width: 70%;
   font-size: 12px;
   color: #808080;
   margin-top: 1px;
 }
-body.home-espace .NavTab .DaysLeft {
+.home-espace .NavTab .DaysLeft {
   width: 28%;
   font-size: 10px;
   color: #C61F00;
   font-weight: 600;
   margin-top: 1px;
 }
-body.home-espace .NavTab.Active {
+.home-espace .NavTab.Active {
   padding: 11px 5px 0px 10px;
   background: #FFF;
   color: #333;
   height: 50px;
   margin-top: 0;
 }
-body.home-espace .NavTab.Active:after {
+.home-espace .NavTab.Active:after {
   height: 50px;
   background: #FFF;
 }
-body.home-espace .NavTab.Active .TopSection {
+.home-espace .NavTab.Active .TopSection {
   display: block;
   line-height: 1;
 }
-body.home-espace .NavTab.Active .Icon {
+.home-espace .NavTab.Active .Icon {
   margin-top: 5px;
 }
-body.home-espace .desktop-resizable {
+.home-espace .desktop-resizable {
   display: inline-block !important;
 }
-body.home-espace .desktop-resizable:not(:first-child) {
+.home-espace .desktop-resizable:not(:first-child) {
   /*margin-left: 30px;*/
 }
 @media (max-width: 967px) {
-  body.home-espace .desktop-resizable .NavTab.Download,
-  body.home-espace .desktop-resizable .NavTab.Download.Active {
+  .home-espace .desktop-resizable .NavTab.Download,
+  .home-espace .desktop-resizable .NavTab.Download.Active {
     display: none;
   }
-  body.home-espace .NavTab.Active .EnvironmentInfo {
+  .home-espace .NavTab.Active .EnvironmentInfo {
     width: 80% !important;
   }
-  body.home-espace .NavTab .EnvironmentInfo {
+  .home-espace .NavTab .EnvironmentInfo {
     width: 185px;
   }
-  body.home-espace .NavTab .EnvironmentInfo.Label {
+  .home-espace .NavTab .EnvironmentInfo.Label {
     font-size: 12px;
   }
-  body.home-espace .NavTab .InfrastructureType {
+  .home-espace .NavTab .InfrastructureType {
     width: 100%;
   }
 }
 @media (max-width: 767px) {
-  body.home-espace {
+  .home-espace {
     /** desktop resizable widths **/
   }
-  body.home-espace .NavTab.Active .TopSection {
+  .home-espace .NavTab.Active .TopSection {
     display: none;
   }
-  body.home-espace .NavTab.Active .EnvironmentInfo {
+  .home-espace .NavTab.Active .EnvironmentInfo {
     margin-top: 6px;
     width: 80%;
   }
-  body.home-espace .NavTab .EnvironmentInfo {
+  .home-espace .NavTab .EnvironmentInfo {
     margin-top: 0;
   }
-  body.home-espace .NavTab:not(.Active) .EnvironmentInfo {
+  .home-espace .NavTab:not(.Active) .EnvironmentInfo {
     display: none;
   }
-  body.home-espace .NavTab .Download {
+  .home-espace .NavTab .Download {
     display: none;
   }
-  body.home-espace .span4.desktop-resizable,
-  body.home-espace .span3.desktop-resizable,
-  body.home-espace .span2.desktop-resizable {
+  .home-espace .span4.desktop-resizable,
+  .home-espace .span3.desktop-resizable,
+  .home-espace .span2.desktop-resizable {
     width: auto;
   }
-  body.home-espace .NavTab {
+  .home-espace .NavTab {
     width: 45px;
   }
-  body.home-espace .NavTab.Active {
+  .home-espace .NavTab.Active {
     width: 160px;
   }
 }
-body.home-espace .HeaderLinksGotFeedback {
+.home-espace .HeaderLinksGotFeedback {
   text-transform: uppercase;
 }
-body.home-espace .MySubscriptions {
+.home-espace .MySubscriptions {
   color: #103E65;
   cursor: pointer;
 }
-body.home-espace .SubscriptionName {
+.home-espace .SubscriptionName {
   max-width: 134px;
   text-overflow: ellipsis;
   font-weight: bold;
   overflow: hidden;
   white-space: nowrap;
 }
-body.home-espace .SubscriptionTextMarginRight {
+.home-espace .SubscriptionTextMarginRight {
   margin-right: 10px;
 }
-body.home-espace .SubscriptionColors {
+.home-espace .SubscriptionColors {
   color: #333;
   background-color: #FFF;
 }
-body.home-espace .SubscriptionIcon {
+.home-espace .SubscriptionIcon {
   border-right: 1px solid white;
   width: 30px;
   margin-left: 10px;
@@ -325,40 +325,40 @@ body.home-espace .SubscriptionIcon {
   margin-bottom: 10px;
   font-size: 20px;
 }
-body.home-espace .TrialHeaderBackground {
+.home-espace .TrialHeaderBackground {
   background-color: #FFF;
   width: 265px;
   height: 50px;
 }
-body.home-espace .PersonalEnvironmentTextNotSelected {
+.home-espace .PersonalEnvironmentTextNotSelected {
   display: none;
 }
-body.home-espace .HomeIcon.Trial {
+.home-espace .HomeIcon.Trial {
   color: #333;
 }
-body.home-espace .TrialDropdownIcon {
+.home-espace .TrialDropdownIcon {
   font-size: 20px;
   color: #FFF;
 }
-body.home-espace .DaysLeft {
+.home-espace .DaysLeft {
   font-size: 12px;
 }
-body.home-espace .NavTab.Active .TrialDropdownIcon {
+.home-espace .NavTab.Active .TrialDropdownIcon {
   position: absolute;
   color: #CCC;
   top: 20px;
   right: 10px;
 }
-body.home-espace .SubscriptionsPosition .ListRecords a:not(:last-child) > div {
+.home-espace .SubscriptionsPosition .ListRecords a:not(:last-child) > div {
   border-bottom: 1px solid #CCC;
 }
-body.home-espace .AbsoluteSubscriptions {
+.home-espace .AbsoluteSubscriptions {
   position: absolute;
 }
-body.home-espace .AbsoluteEnvironments {
+.home-espace .AbsoluteEnvironments {
   position: absolute;
 }
-body.home-espace .SubscriptionsPosition {
+.home-espace .SubscriptionsPosition {
   position: absolute;
   top: 122px;
   z-index: 9999;
@@ -367,79 +367,79 @@ body.home-espace .SubscriptionsPosition {
   background: #FFF;
   padding: 5px 0px;
 }
-body.home-espace .SubscriptionsPosition:before {
+.home-espace .SubscriptionsPosition:before {
   border-bottom-color: #103E65;
   border-width: 8px;
   margin-left: -7px;
 }
-body.home-espace .SubscriptionsPosition:after {
+.home-espace .SubscriptionsPosition:after {
   border-bottom-color: #103E65;
   border-width: 6px;
   margin-left: -5px;
 }
-body.home-espace .MySubscriptionsBottomBorders {
+.home-espace .MySubscriptionsBottomBorders {
   border-bottom: 1px solid #CCC;
 }
-body.home-espace .MySubscriptionsTopBorders {
+.home-espace .MySubscriptionsTopBorders {
   border-top: 1px solid #87B7E4;
 }
 @media (max-width: 967px) {
-  body.home-espace .NavTab.Trial.Active .DaysLeft {
+  .home-espace .NavTab.Trial.Active .DaysLeft {
     display: none !important;
   }
-  body.home-espace .NavTab.Trial.Active .InfrastructureNameWrapper {
+  .home-espace .NavTab.Trial.Active .InfrastructureNameWrapper {
     width: 90%;
   }
-  body.home-espace .NavTab.Trial.Active .EnvironmentInfo {
+  .home-espace .NavTab.Trial.Active .EnvironmentInfo {
     width: 185px !important;
   }
-  body.home-espace .NavTab.Trial.Active .InfrastructureType {
+  .home-espace .NavTab.Trial.Active .InfrastructureType {
     width: 100%;
   }
-  body.home-espace .TrialDropdownIcon {
+  .home-espace .TrialDropdownIcon {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  body.home-espace .NavTab.Trial.Active .EnvironmentInfo {
+  .home-espace .NavTab.Trial.Active .EnvironmentInfo {
     width: 117px !important;
   }
-  body.home-espace .NavTab.Trial.Active .InfrastructureNameWrapper {
+  .home-espace .NavTab.Trial.Active .InfrastructureNameWrapper {
     width: 100%;
   }
-  body.home-espace .TrialDropdownIcon {
+  .home-espace .TrialDropdownIcon {
     display: none;
   }
 }
-body.home-espace .tableDisplay {
+.home-espace .tableDisplay {
   display: table;
 }
-body.home-espace .tableDisplayCell {
+.home-espace .tableDisplayCell {
   display: table-cell;
   vertical-align: top;
 }
-body.home-espace .shareTheLoveIcon {
+.home-espace .shareTheLoveIcon {
   margin-top: 30px;
   margin-left: 5px;
 }
-body.home-espace .divPositionRelative {
+.home-espace .divPositionRelative {
   Position: relative;
 }
-body.home-espace .shareTheLoveDescription {
+.home-espace .shareTheLoveDescription {
   margin-top: 10px;
   margin-bottom: 15px;
 }
-body.home-espace .text-note-sharethelove {
+.home-espace .text-note-sharethelove {
   color: #999;
   font-size: 14px;
   line-height: 20px;
 }
 @media (max-width: 767px) {
-  body.home-espace .email-label-style {
+  .home-espace .email-label-style {
     width: 250px;
   }
 }
-body.home-espace .ClosePersonalBox {
+.home-espace .ClosePersonalBox {
   color: #69C;
   width: 17px;
   height: 17px;
@@ -450,153 +450,153 @@ body.home-espace .ClosePersonalBox {
   display: block;
   -servicestudio-text-indent: 0px;
 }
-body.home-espace .ClosePersonalBox:hover {
+.home-espace .ClosePersonalBox:hover {
   color: #4673a7;
 }
-body.home-espace .PersonalUnavailablePopupBorder {
+.home-espace .PersonalUnavailablePopupBorder {
   border: 2px solid black;
   background-color: lightyellow;
   padding: 30px;
 }
-body.home-espace .PersonalUnavailablePopupButtonMargin {
+.home-espace .PersonalUnavailablePopupButtonMargin {
   margin-top: 5%;
 }
-body.home-espace .PersonalUnavailableTextMargins {
+.home-espace .PersonalUnavailableTextMargins {
   margin-left: 15%;
   margin-right: 15%;
 }
-body.home-espace .SelectedManageAppsIconText {
+.home-espace .SelectedManageAppsIconText {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
 }
-body.home-espace .controls-row input.logininput {
+.home-espace .controls-row input.logininput {
   height: 35px;
 }
 @media (max-width: 767px) {
-  body.home-espace .input-prepend.input-append {
+  .home-espace .input-prepend.input-append {
     white-space: normal;
   }
 }
-body.home-espace .CreateAccountBackground {
+.home-espace .CreateAccountBackground {
   background-color: #F8F8F8;
 }
-body.home-espace .BoxMargins {
+.home-espace .BoxMargins {
   margin-left: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-body.home-espace .CreateAccountBackground {
+.home-espace .CreateAccountBackground {
   background-color: #F8F8F8;
 }
-body.home-espace .MarginBottom {
+.home-espace .MarginBottom {
   margin-bottom: 10px;
 }
-body.home-espace .DisclaimerStyle {
+.home-espace .DisclaimerStyle {
   float: left;
   margin-left: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-body.home-espace .EditRecord_Caption {
+.home-espace .EditRecord_Caption {
   width: 13%;
 }
-body.home-espace .BoxMargins {
+.home-espace .BoxMargins {
   margin-left: 30px;
   margin-top: 10px;
 }
-body.home-espace .BoxBottomMargin {
+.home-espace .BoxBottomMargin {
   margin-bottom: 20px;
   margin-right: 30px;
 }
-body.home-espace .AlreadyTitle {
+.home-espace .AlreadyTitle {
   font-size: 20px;
   font-weight: bold;
 }
-body.home-espace .EmailText {
+.home-espace .EmailText {
   font-size: 20px;
 }
-body.home-espace .CreateAccountBackground {
+.home-espace .CreateAccountBackground {
   background-color: #F8F8F8;
 }
-body.home-espace .FormTitle {
+.home-espace .FormTitle {
   font-size: 34px;
   font-weight: bold;
 }
-body.home-espace .MarginBottom {
+.home-espace .MarginBottom {
   margin-bottom: 10px;
 }
-body.home-espace .DisclaimerStyle {
+.home-espace .DisclaimerStyle {
   float: left;
   margin-left: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-body.home-espace .EditRecord_Caption {
+.home-espace .EditRecord_Caption {
   width: 13%;
 }
-body.home-espace .BoxMargins {
+.home-espace .BoxMargins {
   margin-left: 30px;
   margin-top: 10px;
 }
-body.home-espace .BoxBottomMargin {
+.home-espace .BoxBottomMargin {
   margin-bottom: 20px;
   margin-right: 30px;
 }
-body.home-espace .AlreadyTitle {
+.home-espace .AlreadyTitle {
   font-size: 20px;
   font-weight: bold;
 }
-body.home-espace .EmailText {
+.home-espace .EmailText {
   font-size: 20px;
 }
-body.home-espace .body {
+.home-espace .body {
   background-color: #e6e6e6;
 }
-body.home-espace .InputLabel {
+.home-espace .InputLabel {
   width: 18%;
 }
-body.home-espace .InputAlign {
+.home-espace .InputAlign {
   text-align: center;
 }
-body.home-espace .CustomerInfoPopupBackground {
+.home-espace .CustomerInfoPopupBackground {
   width: 660px;
 }
-body.home-espace .email-label-style {
+.home-espace .email-label-style {
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 350px;
   display: inline-block;
 }
-body.home-espace .ContentTitle {
+.home-espace .ContentTitle {
   color: #333;
   font-weight: 600;
   font-size: 21px;
 }
-body.home-espace .HomeWebBlocksBackground h2 {
+.home-espace .HomeWebBlocksBackground h2 {
   color: #333;
   font-weight: 600;
   font-size: 18px;
 }
-body.home-espace .GetStartedActionButtons,
-body.home-espace .BrowseAppsActionButtons {
+.home-espace .GetStartedActionButtons,
+.home-espace .BrowseAppsActionButtons {
   margin-bottom: 30px;
   margin-right: 10px;
   text-align: center;
 }
-body.home-espace .boxImage {
+.home-espace .boxImage {
   width: 100%;
   border-top-right-radius: 5px;
 }
-body.home-espace .popupTitle {
+.home-espace .popupTitle {
   margin-bottom: 15px;
 }
-body.home-espace #todo-list,
-body.home-espace #todo-stats {
+.home-espace #todo-list,
+.home-espace #todo-stats {
   margin: 0;
   text-align: left;
 }
-body.home-espace #todo-list {
+.home-espace #todo-list {
   list-style: none;
   padding: 0;
   margin: 0 20px;
@@ -604,17 +604,17 @@ body.home-espace #todo-list {
   -moz-column-count: 2;
   column-count: 2;
 }
-body.home-espace #todo-stats,
-body.home-espace .todo-clear {
+.home-espace #todo-stats,
+.home-espace .todo-clear {
   color: #777;
 }
-body.home-espace .todo-clear {
+.home-espace .todo-clear {
   float: right;
 }
-body.home-espace .todo-done .todo-content {
+.home-espace .todo-done .todo-content {
   text-decoration: line-through;
 }
-body.home-espace .todo-input {
+.home-espace .todo-input {
   display: block;
   font-family: Helvetica, sans-serif;
   font-size: 20px;
@@ -623,7 +623,7 @@ body.home-espace .todo-input {
   padding: 6px;
   width: 420px;
 }
-body.home-espace .todo-item {
+.home-espace .todo-item {
   width: 257px;
   box-sizing: border-box;
   float: left;
@@ -632,24 +632,24 @@ body.home-espace .todo-item {
   text-indent: -19px;
   margin-left: 25px;
 }
-body.home-espace .todo-label {
+.home-espace .todo-label {
   color: #444;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
-body.home-espace .todo-remaining {
+.home-espace .todo-remaining {
   color: #333;
   font-weight: bold;
 }
-body.home-espace span.get-started-list-time {
+.home-espace span.get-started-list-time {
   color: lightgray;
   margin-left: 2px;
   font-size: 12px;
 }
-body.home-espace .CreatAppBox,
-body.home-espace .BrowseAppBox,
-body.home-espace .ManageAppBox {
+.home-espace .CreatAppBox,
+.home-espace .BrowseAppBox,
+.home-espace .ManageAppBox {
   position: relative;
   width: 180px;
   border: none;
@@ -659,9 +659,9 @@ body.home-espace .ManageAppBox {
   height: 30px;
   cursor: pointer;
 }
-body.home-espace .CreatAppBox:after,
-body.home-espace .BrowseAppBox:after,
-body.home-espace .ManageAppBox:after {
+.home-espace .CreatAppBox:after,
+.home-espace .BrowseAppBox:after,
+.home-espace .ManageAppBox:after {
   content: '';
   background: #AAA;
   height: 30px;
@@ -674,9 +674,9 @@ body.home-espace .ManageAppBox:after {
   border-radius: 0 5px 0 0;
   top: 0;
 }
-body.home-espace .CreatAppBox.Active,
-body.home-espace .BrowseAppBox.Active,
-body.home-espace .ManageAppBox.Active {
+.home-espace .CreatAppBox.Active,
+.home-espace .BrowseAppBox.Active,
+.home-espace .ManageAppBox.Active {
   width: 180px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -686,9 +686,9 @@ body.home-espace .ManageAppBox.Active {
   border: 1px solid #ddd;
   margin: -1px 0px -1px 0px;
 }
-body.home-espace .CreatAppBox.Active:after,
-body.home-espace .BrowseAppBox.Active:after,
-body.home-espace .ManageAppBox.Active:after {
+.home-espace .CreatAppBox.Active:after,
+.home-espace .BrowseAppBox.Active:after,
+.home-espace .ManageAppBox.Active:after {
   content: '';
   background: #FFF;
   height: 30px;
@@ -703,41 +703,41 @@ body.home-espace .ManageAppBox.Active:after {
   border-right: 1px solid #ddd;
   margin: -1px 0px -1px 0px;
 }
-body.home-espace .CreatAppBoxText,
-body.home-espace .BrowseAppBoxText,
-body.home-espace .ManageAppBoxText {
+.home-espace .CreatAppBoxText,
+.home-espace .BrowseAppBoxText,
+.home-espace .ManageAppBoxText {
   color: #FFF;
   margin-top: 6px;
 }
-body.home-espace .CreatAppBox.Active .CreatAppBoxText,
-body.home-espace .BrowseAppBox.Active .BrowseAppBoxText,
-body.home-espace .ManageAppBox.Active .ManageAppBoxText {
+.home-espace .CreatAppBox.Active .CreatAppBoxText,
+.home-espace .BrowseAppBox.Active .BrowseAppBoxText,
+.home-espace .ManageAppBox.Active .ManageAppBoxText {
   margin-top: 6px;
   color: #363636;
 }
-body.home-espace .CreatAppBoxIcon,
-body.home-espace .BrowseAppBoxIcon,
-body.home-espace .ManageAppBoxIcon {
+.home-espace .CreatAppBoxIcon,
+.home-espace .BrowseAppBoxIcon,
+.home-espace .ManageAppBoxIcon {
   width: 20px;
   font-size: 12px;
   margin-top: 8px;
   color: #FFF;
   margin-left: 10px;
 }
-body.home-espace .CreatAppBox.Active .CreatAppBoxIcon,
-body.home-espace .BrowseAppBox.Active .BrowseAppBoxIcon,
-body.home-espace .ManageAppBox.Active .ManageAppBoxIcon {
+.home-espace .CreatAppBox.Active .CreatAppBoxIcon,
+.home-espace .BrowseAppBox.Active .BrowseAppBoxIcon,
+.home-espace .ManageAppBox.Active .ManageAppBoxIcon {
   color: #363636;
   margin-top: 8px;
 }
-body.home-espace .MainContentBox_Navigation {
+.home-espace .MainContentBox_Navigation {
   border: 1px solid #ddd;
   border-radius: 0px 5px 5px 5px;
   margin-left: 0px !important;
 }
 @media (max-width: 979px) {
-  body.home-espace .BrowseAppBox,
-  body.home-espace .ManageAppBox {
+  .home-espace .BrowseAppBox,
+  .home-espace .ManageAppBox {
     position: relative;
     width: 135px;
     border: none;
@@ -747,8 +747,8 @@ body.home-espace .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home-espace .BrowseAppBox.Active,
-  body.home-espace .ManageAppBox.Active {
+  .home-espace .BrowseAppBox.Active,
+  .home-espace .ManageAppBox.Active {
     position: relative;
     width: 135px;
     border: 1px solid #DDD;
@@ -758,7 +758,7 @@ body.home-espace .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home-espace .CreatAppBox {
+  .home-espace .CreatAppBox {
     position: relative;
     width: 155px !important;
     border: none;
@@ -768,7 +768,7 @@ body.home-espace .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home-espace .CreatAppBox.Active {
+  .home-espace .CreatAppBox.Active {
     position: relative;
     width: 155px !important;
     border: 1px solid #DDD;
@@ -780,9 +780,9 @@ body.home-espace .MainContentBox_Navigation {
   }
 }
 @media (max-width: 767px) {
-  body.home-espace .desktop-resize-fix.CreatAppBox,
-  body.home-espace .desktop-resize-fix.BrowseAppBox,
-  body.home-espace .desktop-resize-fix.ManageAppBox {
+  .home-espace .desktop-resize-fix.CreatAppBox,
+  .home-espace .desktop-resize-fix.BrowseAppBox,
+  .home-espace .desktop-resize-fix.ManageAppBox {
     position: relative;
     width: 50px !important;
     border: none;
@@ -792,9 +792,9 @@ body.home-espace .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home-espace .desktop-resize-fix.CreatAppBox.Active,
-  body.home-espace .desktop-resize-fix.BrowseAppBox.Active,
-  body.home-espace .desktop-resize-fix.ManageAppBox.Active {
+  .home-espace .desktop-resize-fix.CreatAppBox.Active,
+  .home-espace .desktop-resize-fix.BrowseAppBox.Active,
+  .home-espace .desktop-resize-fix.ManageAppBox.Active {
     position: relative;
     width: 50px !important;
     border: 1px solid #DDD;
@@ -804,42 +804,42 @@ body.home-espace .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home-espace .desktop-resize-fix.CreatAppBoxIcon,
-  body.home-espace .desktop-resize-fix.BrowseAppBoxIcon,
-  body.home-espace .desktop-resize-fix.ManageAppBoxIcon {
+  .home-espace .desktop-resize-fix.CreatAppBoxIcon,
+  .home-espace .desktop-resize-fix.BrowseAppBoxIcon,
+  .home-espace .desktop-resize-fix.ManageAppBoxIcon {
     font-size: 18px;
   }
 }
-body.home-espace .tableDisplay {
+.home-espace .tableDisplay {
   display: table;
 }
-body.home-espace .tableDisplayCell {
+.home-espace .tableDisplayCell {
   display: table-cell;
   vertical-align: top;
 }
-body.home-espace .shareTheLoveIcon {
+.home-espace .shareTheLoveIcon {
   margin-top: 30px;
   margin-left: 5px;
 }
-body.home-espace .divPositionRelative {
+.home-espace .divPositionRelative {
   Position: relative;
 }
-body.home-espace .shareTheLoveDescription {
+.home-espace .shareTheLoveDescription {
   margin-top: 10px;
   margin-bottom: 15px;
 }
-body.home-espace .text-note-sharethelove {
+.home-espace .text-note-sharethelove {
   color: #999;
   font-size: 12px;
   line-height: 20px;
 }
-body.home-espace .trialTeamMatesCirclesWithPhoto {
+.home-espace .trialTeamMatesCirclesWithPhoto {
   height: 40px;
   width: 40px;
   border-radius: 25px;
   cursor: pointer;
 }
-body.home-espace .trialTeamMatesCirclesWithoutPhoto {
+.home-espace .trialTeamMatesCirclesWithoutPhoto {
   height: 40px;
   width: 40px;
   border-radius: 25px;
@@ -847,19 +847,19 @@ body.home-espace .trialTeamMatesCirclesWithoutPhoto {
   position: relative;
   cursor: pointer;
 }
-body.home-espace .trialTeamMatesFontWithFirstName {
+.home-espace .trialTeamMatesFontWithFirstName {
   font-size: 18px;
   font-weight: 600;
   color: white;
   position: relative;
   top: 9px;
 }
-body.home-espace .trialTeamMatesDiv {
+.home-espace .trialTeamMatesDiv {
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 10px;
 }
-body.home-espace .ClosePersonalBox {
+.home-espace .ClosePersonalBox {
   color: #69C;
   width: 17px;
   height: 17px;
@@ -870,83 +870,83 @@ body.home-espace .ClosePersonalBox {
   display: block;
   -servicestudio-text-indent: 0px;
 }
-body.home-espace .ClosePersonalBox:hover {
+.home-espace .ClosePersonalBox:hover {
   color: #4673a7;
 }
-body.home-espace .PersonalUnavailablePopupBorder {
+.home-espace .PersonalUnavailablePopupBorder {
   border: 2px solid black;
   background-color: lightyellow;
   padding: 30px;
 }
-body.home-espace .PersonalUnavailablePopupButtonMargin {
+.home-espace .PersonalUnavailablePopupButtonMargin {
   margin-top: 5%;
 }
-body.home-espace .PersonalUnavailableTextMargins {
+.home-espace .PersonalUnavailableTextMargins {
   margin-left: 15%;
   margin-right: 15%;
 }
-body.home-espace .SelectedManageAppsIconText {
+.home-espace .SelectedManageAppsIconText {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
 }
-body.home-espace .controls-row input.logininput {
+.home-espace .controls-row input.logininput {
   height: 30px;
 }
-body.home-espace input[type="text"].inputfield {
+.home-espace input[type="text"].inputfield {
   height: 30px;
 }
-body.home-espace input[type="text"].inputfield,
-body.home-espace input[type="password"].logininput {
+.home-espace input[type="text"].inputfield,
+.home-espace input[type="password"].logininput {
   padding-left: 10px;
 }
 @media (max-width: 767px) {
-  body.home-espace .input-prepend.input-append {
+  .home-espace .input-prepend.input-append {
     white-space: normal;
   }
-  body.home-espace .mobileText {
+  .home-espace .mobileText {
     max-width: 105px;
   }
-  body.home-espace input[type="text"].inputfield {
+  .home-espace input[type="text"].inputfield {
     font-size: 14px;
   }
-  body.home-espace .controls-row input.logininput {
+  .home-espace .controls-row input.logininput {
     font-size: 14px;
   }
-  body.home-espace .mobileInput {
+  .home-espace .mobileInput {
     width: 220px !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 }
-body.home-espace .controls-row input.logininput {
+.home-espace .controls-row input.logininput {
   height: 35px;
 }
 @media (max-width: 767px) {
-  body.home-espace .input-prepend.input-append {
+  .home-espace .input-prepend.input-append {
     white-space: normal;
   }
-  body.home-espace .mobileText {
+  .home-espace .mobileText {
     max-width: 105px;
   }
 }
-body.home-espace .redText {
+.home-espace .redText {
   color: #FF0000;
   font-size: 12px;
 }
-body.home-espace .background-gray {
+.home-espace .background-gray {
   background-color: #E6EAEB;
   height: 65px;
   padding-top: 0px;
   box-sizing: border-box;
 }
-body.home-espace .homebox-width {
+.home-espace .homebox-width {
   width: 500px !important;
 }
-body.home-espace .box {
+.home-espace .box {
   background-color: white;
 }
-body.home-espace .box .title {
+.home-espace .box .title {
   font-family: 'myriad-pro', Helvetica, Arial, sans-serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -955,98 +955,98 @@ body.home-espace .box .title {
   padding: 20px;
   border-bottom: 1px solid #d0d0d0;
 }
-body.home-espace .box ul {
+.home-espace .box ul {
   margin: 0;
   padding: 20px;
 }
-body.home-espace .box li {
+.home-espace .box li {
   list-style: none;
 }
-body.home-espace .box ul a {
+.home-espace .box ul a {
   display: block;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
-body.home-espace .box .details {
+.home-espace .box .details {
   color: #808080;
 }
-body.home-espace .box.round {
+.home-espace .box.round {
   border-radius: 10px;
 }
-body.home-espace .round-top-left,
-body.home-espace .round-top-left.round-top-right-1step {
+.home-espace .round-top-left,
+.home-espace .round-top-left.round-top-right-1step {
   border-radius: 10px 0 0 0;
 }
-body.home-espace .round-top-right {
+.home-espace .round-top-right {
   border-radius: 0 10px 0 0;
 }
-body.home-espace .box .download-title {
+.home-espace .box .download-title {
   font-size: 22px;
   padding: 20px 20px 10px 25px;
   font-weight: bolder;
   display: inline-block;
   font-family: 'myriad-pro', sans-serif;
 }
-body.home-espace .box .download-content {
+.home-espace .box .download-content {
   padding-right: 20px;
   display: inline-block;
   font-family: Helvetica, Arial, sans-serif;
   min-height: 60px;
 }
-body.home-espace .box .download-content.highlight {
+.home-espace .box .download-content.highlight {
   min-height: 140px;
 }
-body.home-espace .box .download-server-content {
+.home-espace .box .download-server-content {
   padding-right: 25px;
   display: inline-block;
   font-family: 'myriad-pro', sans-serif;
   margin-left: 25px;
 }
-body.home-espace .box .download-button {
+.home-espace .box .download-button {
   height: 25px;
 }
-body.home-espace .box .download-image {
+.home-espace .box .download-image {
   height: 150px;
   padding-left: 25px;
 }
-body.home-espace .box .downloadlink {
+.home-espace .box .downloadlink {
   font-size: 14px;
 }
-body.home-espace .box .borderleft {
+.home-espace .box .borderleft {
   border-left: 1px solid white;
   min-height: 165px;
 }
-body.home-espace .box {
+.home-espace .box {
   position: relative;
 }
-body.home-espace .box {
+.home-espace .box {
   position: relative;
 }
-body.home-espace .configuration {
+.home-espace .configuration {
   position: absolute;
   width: 33px;
   height: 33px;
   background-color: #CCCCCC;
   right: 0;
 }
-body.home-espace .buttons {
+.home-espace .buttons {
   padding: 17px 0;
   text-transform: uppercase;
   font-size: 12px;
   background-color: #4673A7;
 }
-body.home-espace .picture {
+.home-espace .picture {
   height: 98px;
 }
-body.home-espace .row.buttons {
+.home-espace .row.buttons {
   margin: 0;
 }
-body.home-espace .row.buttons a {
+.home-espace .row.buttons a {
   color: #C2C2C2;
   text-align: center;
 }
-body.home-espace .posts:before {
+.home-espace .posts:before {
   background: url('/CommunityBaseTheme/img/icons.png') no-repeat -4px -841px;
   width: 18px;
   height: 17px;
@@ -1055,7 +1055,7 @@ body.home-espace .posts:before {
   float: left;
   margin-right: 7px;
 }
-body.home-espace .components:before {
+.home-espace .components:before {
   background: url('/CommunityBaseTheme/img/icons.png') no-repeat -6px -983px;
   width: 16px;
   height: 17px;
@@ -1064,7 +1064,7 @@ body.home-espace .components:before {
   float: left;
   margin-right: 7px;
 }
-body.home-espace .upcoming:before {
+.home-espace .upcoming:before {
   background: url('/CommunityBaseTheme/img/icons.png') no-repeat -39px -425px;
   width: 15px;
   height: 18px;
@@ -1073,42 +1073,42 @@ body.home-espace .upcoming:before {
   float: left;
   margin-right: 7px;
 }
-body.home-espace .homepage-block-last-answered-details {
+.home-espace .homepage-block-last-answered-details {
   max-width: 268px;
   display: inherit;
 }
-body.home-espace .homepage-row-wrapper {
+.home-espace .homepage-row-wrapper {
   margin: 20px;
 }
-body.home-espace .post-reply-info {
+.home-espace .post-reply-info {
   color: #808080;
   font-size: 14px;
 }
-body.home-espace .homepage-block-components-details.pull-left {
+.home-espace .homepage-block-components-details.pull-left {
   width: auto;
 }
-body.home-espace .post-reply-info {
+.home-espace .post-reply-info {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   max-width: 268px;
   display: inherit;
 }
-body.home-espace .box.top {
+.home-espace .box.top {
   min-height: 190px;
 }
-body.home-espace .box.bottom {
+.home-espace .box.bottom {
   min-height: 322px;
 }
-body.home-espace .personal {
+.home-espace .personal {
   padding: 55px 0 0 0;
 }
-body.home-espace .steps {
+.home-espace .steps {
   background: white;
   margin: 10px 11px 10px 10px;
   position: relative;
 }
-body.home-espace .steps:after {
+.home-espace .steps:after {
   content: ' ';
   background-image: url(/home/img/steps.png);
   height: 34px;
@@ -1117,39 +1117,39 @@ body.home-espace .steps:after {
   top: 71px;
   right: -15px;
 }
-body.home-espace .steps .stepstyle {
+.home-espace .steps .stepstyle {
   background-color: #A2B9D3;
   color: white;
   text-transform: uppercase;
   min-height: 0;
   padding: 2px 10px;
 }
-body.home-espace .steps .stepstyle.active {
+.home-espace .steps .stepstyle.active {
   background-color: #4673A7;
 }
-body.home-espace .steps .stepstyle.active {
+.home-espace .steps .stepstyle.active {
   background: #4673A7;
 }
-body.home-espace .download-box-content {
+.home-espace .download-box-content {
   height: 100px;
   padding-left: 20px;
   padding-right: 20px;
 }
-body.home-espace .download-box-image {
+.home-espace .download-box-image {
   height: 150px;
   padding-left: 20px;
 }
-body.home-espace .download-box-button {
+.home-espace .download-box-button {
   height: 50px;
   padding-left: 20px;
   padding-right: 20px;
 }
-body.home-espace .document-details {
+.home-espace .document-details {
   color: #999;
   font-size: 12px;
   margin-bottom: 10px;
 }
-body.home-espace .document-details-downs:before {
+.home-espace .document-details-downs:before {
   content: "";
   float: left;
   background-image: url('/CommunityBaseTheme/img/icons.png');
@@ -1159,66 +1159,66 @@ body.home-espace .document-details-downs:before {
   height: 15px;
   margin: 0 5px 0 0;
 }
-body.home-espace .document-big-box {
+.home-espace .document-big-box {
   border-top: 1px solid #ECECEC;
   margin-top: 30px;
   padding-top: 10px;
 }
-body.home-espace .Infrastructure {
+.home-espace .Infrastructure {
   background-color: #E6E6E6;
   margin-bottom: 28px;
   border: 1px solid #ccc;
 }
-body.home-espace a.terms-link {
+.home-espace a.terms-link {
   color: #9A9A9A;
   text-decoration: underline;
 }
-body.home-espace a.terms-link:hover {
+.home-espace a.terms-link:hover {
   color: #000;
 }
-body.home-espace .InfraBox {
+.home-espace .InfraBox {
   padding: 20px;
   min-height: 145px;
 }
-body.home-espace .InfraBox .name {
+.home-espace .InfraBox .name {
   min-height: 75px;
 }
-body.home-espace .InfraBox .namewrapper {
+.home-espace .InfraBox .namewrapper {
   display: inline-block;
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 330px;
 }
-body.home-espace .selectable {
+.home-espace .selectable {
   cursor: pointer;
 }
-body.home-espace .BtnManageApp {
+.home-espace .BtnManageApp {
   width: 150px\9;
   width: 150px\0;
 }
-body.home-espace .round-top-right-1step {
+.home-espace .round-top-right-1step {
   border-radius: 0px;
 }
-body.home-espace .moreinfo-button {
+.home-espace .moreinfo-button {
   padding-left: 25px;
 }
-body.home-espace .mobile-align {
+.home-espace .mobile-align {
   text-align: right;
 }
-body.home-espace .mobile-displayinline {
+.home-espace .mobile-displayinline {
   display: block;
 }
-body.home-espace .mobile-margintop10 {
+.home-espace .mobile-margintop10 {
   margin-top: 50px;
 }
-body.home-espace .mobile-margintop20 {
+.home-espace .mobile-margintop20 {
   margin-top: 40px;
 }
-body.home-espace .mobileInfraInactive {
+.home-espace .mobileInfraInactive {
   display: inline-block;
   padding-left: 30px;
 }
-body.home-espace .user-exprience-shared-box {
+.home-espace .user-exprience-shared-box {
   background-image: url(img/stopwatch.png);
   background-position: 98% bottom;
   background-repeat: no-repeat;
@@ -1227,52 +1227,52 @@ body.home-espace .user-exprience-shared-box {
   border-radius: 0px 0px 10px 10px;
   margin-bottom: 20px;
 }
-body.home-espace .user-experience-photo-border {
+.home-espace .user-experience-photo-border {
   border-right: 1px solid #e1ebf5;
 }
-body.home-espace .user-experience-top {
+.home-espace .user-experience-top {
   margin-top: -41px;
 }
-body.home-espace .mobile-downloadmarginleft {
+.home-espace .mobile-downloadmarginleft {
   margin-left: 10px;
 }
-body.home-espace .mobile-downloadmargintop {
+.home-espace .mobile-downloadmargintop {
   margin-top: 0px;
 }
-body.home-espace .mobile-step3margin {
+.home-espace .mobile-step3margin {
   margin-left: -50px;
 }
-body.home-espace .mobile-padding {
+.home-espace .mobile-padding {
   margin-bottom: 20px;
 }
-body.home-espace .task-done,
-body.home-espace .task-not-done,
-body.home-espace .clock-task-done,
-body.home-espace .clock-task-not-done {
+.home-espace .task-done,
+.home-espace .task-not-done,
+.home-espace .clock-task-done,
+.home-espace .clock-task-not-done {
   line-height: 13px;
 }
-body.home-espace .task-done > span.icon {
+.home-espace .task-done > span.icon {
   background: url('img/icons_experience.png') no-repeat -2px -3px;
   width: 17px;
   height: 14px;
   display: inline-block;
   margin-right: 5px;
 }
-body.home-espace .task-not-done > span.icon {
+.home-espace .task-not-done > span.icon {
   background: url('img/icons_experience.png') no-repeat -3px -23px;
   width: 14px;
   height: 14px;
   display: inline-block;
   margin-right: 5px;
 }
-body.home-espace .clock-task-done > span.icon {
+.home-espace .clock-task-done > span.icon {
   background: url('img/icons_experience.png') no-repeat -22px -21px;
   width: 14px;
   height: 17px;
   display: inline-block;
   margin-right: 5px;
 }
-body.home-espace .clock-task-not-done > span.icon {
+.home-espace .clock-task-not-done > span.icon {
   background: url('img/icons_experience.png') no-repeat -22px -1px;
   width: 14px;
   height: 17px;
@@ -1280,44 +1280,44 @@ body.home-espace .clock-task-not-done > span.icon {
   margin-right: 5px;
 }
 @media (max-width: 979px) {
-  body.home-espace .visible-tablet {
+  .home-espace .visible-tablet {
     display: inline-block !important;
   }
-  body.home-espace .mobile-padding {
+  .home-espace .mobile-padding {
     padding-right: 20px;
   }
-  body.home-espace a.btn-small {
+  .home-espace a.btn-small {
     padding: 4px 5px;
   }
-  body.home-espace .InfraBox {
+  .home-espace .InfraBox {
     min-height: 175px;
   }
-  body.home-espace .InfraBox .name {
+  .home-espace .InfraBox .name {
     min-height: 70px;
   }
-  body.home-espace .InfraBox .namewrapper {
+  .home-espace .InfraBox .namewrapper {
     max-width: 215px;
   }
-  body.home-espace .box.top {
+  .home-espace .box.top {
     min-height: 220px;
   }
-  body.home-espace .box .download-content.highlight {
+  .home-espace .box .download-content.highlight {
     min-height: 200px;
   }
-  body.home-espace .box .download-content {
+  .home-espace .box .download-content {
     min-height: 100px;
   }
-  body.home-espace .arrow-right {
+  .home-espace .arrow-right {
     border-width: 45px 155px 0px 155px;
     border-color: white transparent transparent rgba(255, 255, 255, 0);
     margin: 0 auto;
   }
-  body.home-espace .mobile-step3margin {
+  .home-espace .mobile-step3margin {
     margin-left: 0px;
   }
 }
 @media (max-width: 767px) {
-  body.home-espace {
+  .home-espace {
     /*
     .visible-phone {
         display: inline-block !important;
@@ -1331,10 +1331,10 @@ body.home-espace .clock-task-not-done > span.icon {
     }
     */
   }
-  body.home-espace .homebox-width {
+  .home-espace .homebox-width {
     width: 100% !important;
   }
-  body.home-espace .getstarted-what-u-get {
+  .home-espace .getstarted-what-u-get {
     width: 100%;
     padding: 0 20px;
     padding-top: 20px;
@@ -1346,155 +1346,155 @@ body.home-espace .clock-task-not-done > span.icon {
     border-radius: 10px 10px 0px 0px;
     border-bottom: 0px;
   }
-  body.home-espace .getstarted-what-cols {
+  .home-espace .getstarted-what-cols {
     margin-left: auto !important;
     margin-right: auto !important;
     margin-bottom: 30px;
     float: none;
   }
-  body.home-espace .arrow-wrapper {
+  .home-espace .arrow-wrapper {
     display: inline-block;
     width: 100%;
   }
-  body.home-espace .arrow-right {
+  .home-espace .arrow-right {
     border-width: 45px 155px 0px 155px;
     border-color: white transparent transparent rgba(255, 255, 255, 0);
     margin: 0 auto;
   }
-  body.home-espace .round-top-right {
+  .home-espace .round-top-right {
     border-radius: 0px;
   }
-  body.home-espace .round-top-right-1step,
-  body.home-espace .round-top-left.round-top-right-1step {
+  .home-espace .round-top-right-1step,
+  .home-espace .round-top-left.round-top-right-1step {
     border-radius: 10px 10px 0 0;
   }
-  body.home-espace .download-content.highlight {
+  .home-espace .download-content.highlight {
     min-height: 40px !important;
   }
-  body.home-espace .box .download-content {
+  .home-espace .box .download-content {
     min-height: 40px;
   }
-  body.home-espace .box .download-content {
+  .home-espace .box .download-content {
     padding-left: 20px;
   }
-  body.home-espace .mobile-paddingleft20 {
+  .home-espace .mobile-paddingleft20 {
     padding-left: 20px;
   }
-  body.home-espace .mobile-paddingleft25 {
+  .home-espace .mobile-paddingleft25 {
     padding-left: 25px;
   }
-  body.home-espace .mobile-paddingleft5 {
+  .home-espace .mobile-paddingleft5 {
     padding-left: 5px;
   }
-  body.home-espace .mobile-align {
+  .home-espace .mobile-align {
     text-align: left;
   }
-  body.home-espace .mobile-displayinline {
+  .home-espace .mobile-displayinline {
     display: inline-block;
   }
-  body.home-espace .mobile-margintop10 {
+  .home-espace .mobile-margintop10 {
     margin-top: 10px;
   }
-  body.home-espace .mobile-margintop20 {
+  .home-espace .mobile-margintop20 {
     margin-top: 20px;
   }
-  body.home-espace .box .borderleft {
+  .home-espace .box .borderleft {
     border-left: 0px;
     min-height: 130px;
   }
-  body.home-espace .mobileInfraInactive {
+  .home-espace .mobileInfraInactive {
     display: inline-block;
     padding-left: 0px;
   }
-  body.home-espace .user-experience-photo-border {
+  .home-espace .user-experience-photo-border {
     border-right: 0px;
   }
-  body.home-espace .user-experience-top {
+  .home-espace .user-experience-top {
     margin-top: -11px;
   }
-  body.home-espace .user-exprience-shared-box {
+  .home-espace .user-exprience-shared-box {
     border-radius: 10px;
     border-top: 0px;
   }
-  body.home-espace .mobile-downloadmarginleft {
+  .home-espace .mobile-downloadmarginleft {
     margin-left: 0px;
   }
-  body.home-espace .mobile-downloadmargintop {
+  .home-espace .mobile-downloadmargintop {
     margin-top: 10px;
   }
-  body.home-espace .mobile-step3margin {
+  .home-espace .mobile-step3margin {
     margin-left: 0px;
   }
-  body.home-espace .mobile-padding {
+  .home-espace .mobile-padding {
     padding-bottom: 0px;
   }
 }
 @media (max-width: 1250px) {
-  body.home-espace .SidebarMain {
+  .home-espace .SidebarMain {
     display: none !important;
   }
 }
-body.home-espace .sideBarPadding {
+.home-espace .sideBarPadding {
   padding-right: 10px;
 }
-body.home-espace .home-get-started-form {
+.home-espace .home-get-started-form {
   margin-left: 28px;
 }
-body.home-espace .marginLeftAndRight20 {
+.home-espace .marginLeftAndRight20 {
   margin-left: 50px;
   margin-right: 20px;
 }
-body.home-espace .marginLeftAndRight10 {
+.home-espace .marginLeftAndRight10 {
   margin-left: 0px;
   margin-right: 10px;
 }
-body.home-espace .downloadSubHeaderText {
+.home-espace .downloadSubHeaderText {
   font-weight: 600;
   font-size: 21px;
 }
-body.home-espace .margin10 {
+.home-espace .margin10 {
   margin: 0px 20px 10px 20px;
 }
-body.home-espace .AppsBox {
+.home-espace .AppsBox {
   width: 100%;
 }
-body.home-espace .IconCard:hover {
+.home-espace .IconCard:hover {
   color: #08C;
   background-color: transparent;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
-body.home-espace .IconCardSelected:hover {
+.home-espace .IconCardSelected:hover {
   color: #C72500;
   background-color: transparent;
 }
-body.home-espace .titles {
+.home-espace .titles {
   color: #333;
   font-weight: 600;
   font-size: 21px;
 }
-body.home-espace body {
+.home-espace body {
   font-family: Arial, "Helvetica Neue", Helvetica, Myriad-Pro, sans-serif !important;
 }
-body.home-espace .download-content {
+.home-espace .download-content {
   margin-right: 20px;
 }
-body.home-espace .ClosePersonalBox {
+.home-espace .ClosePersonalBox {
   cursor: pointer;
   padding: 5px;
 }
-body.home-espace .FormTitle {
+.home-espace .FormTitle {
   font-size: 34px;
   font-weight: bold;
 }
-body.home-espace .FormTitleConfirmIdentity {
+.home-espace .FormTitleConfirmIdentity {
   font-size: 24px;
   font-weight: 600;
 }
-body.home-espace .BoxMargins {
+.home-espace .BoxMargins {
   margin: 10px;
 }
-body.home-espace .ErrorBox {
+.home-espace .ErrorBox {
   background-color: #FFE7E7;
   border: 1px solid #D8ABAB;
   background-image: none;
@@ -1503,128 +1503,128 @@ body.home-espace .ErrorBox {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-body.home-espace .PersonalWebBlockMargins {
+.home-espace .PersonalWebBlockMargins {
   margin: 20px 0px 20px 0px;
 }
-body.home-espace .HomeWebBlocksBackground {
+.home-espace .HomeWebBlocksBackground {
   background-color: white !Important;
 }
-body.home-espace .HomeMarginLeftDiv {
+.home-espace .HomeMarginLeftDiv {
   margin-left: 20px;
 }
-body.home-espace .DownloadWebBlockMargins {
+.home-espace .DownloadWebBlockMargins {
   margin: 20px 0px 20px 0px;
 }
-body.home-espace .CardsSeparator {
+.home-espace .CardsSeparator {
   display: none;
 }
-body.home-espace .CreateApplicationMargin {
+.home-espace .CreateApplicationMargin {
   margin-left: 10px;
 }
-body.home-espace .GetStartedCardsMargin {
+.home-espace .GetStartedCardsMargin {
   margin-top: 25px;
 }
-body.home-espace .ManageAppsMargin {
+.home-espace .ManageAppsMargin {
   margin-left: 10px;
 }
-body.home-espace .homeFont {
+.home-espace .homeFont {
   font-family: Arial;
   font-size: 12px;
 }
-body.home-espace .MainContentBox,
-body.home-espace .RightSideBarBox {
+.home-espace .MainContentBox,
+.home-espace .RightSideBarBox {
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 20px;
 }
-body.home-espace .HomeMarginLeftRightDiv {
+.home-espace .HomeMarginLeftRightDiv {
   margin-left: 20px;
   margin-top: 40px;
 }
-body.home-espace .HomeSideBarDiv {
+.home-espace .HomeSideBarDiv {
   margin-left: 20px;
   margin-top: 10px;
 }
-body.home-espace .ProvisioningRightDiv {
+.home-espace .ProvisioningRightDiv {
   margin-left: 20px;
 }
 @media (max-width: 979px) {
-  body.home-espace .MainContentBox {
+  .home-espace .MainContentBox {
     border: none;
     padding: 20px;
   }
-  body.home-espace .HomeMarginLeftRightDiv {
+  .home-espace .HomeMarginLeftRightDiv {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
   }
-  body.home-espace .HomeSideBarDiv {
+  .home-espace .HomeSideBarDiv {
     margin-left: 20px;
     margin-top: 10px;
     margin-right: 20px;
   }
-  body.home-espace .SelectedBrowseAppsIcon,
-  body.home-espace .SelectedManageAppsIcon {
+  .home-espace .SelectedBrowseAppsIcon,
+  .home-espace .SelectedManageAppsIcon {
     border: 1px solid #F0F0F0;
     border-radius: 4px;
     padding: 15px;
   }
-  body.home-espace .AppsBox {
+  .home-espace .AppsBox {
     width: 91%;
   }
-  body.home-espace .CardsSeparator {
+  .home-espace .CardsSeparator {
     display: block;
   }
-  body.home-espace .CreateApplicationMargin {
+  .home-espace .CreateApplicationMargin {
     margin-left: 0px;
     margin-top: 10px;
   }
-  body.home-espace .ManageAppsMargin {
+  .home-espace .ManageAppsMargin {
     margin-left: 10px;
     margin-top: 10px;
   }
-  body.home-espace .GetStartedCardsMargin {
+  .home-espace .GetStartedCardsMargin {
     margin-top: 15px;
   }
-  body.home-espace .GetStartedActionButtons {
+  .home-espace .GetStartedActionButtons {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  body.home-espace .span3 {
+  .home-espace .span3 {
     width: 224px;
   }
-  body.home-espace .AppsBox {
+  .home-espace .AppsBox {
     width: 94%;
   }
-  body.home-espace .CardsSeparator {
+  .home-espace .CardsSeparator {
     display: block;
   }
-  body.home-espace .CreateApplicationMargin {
+  .home-espace .CreateApplicationMargin {
     margin-left: 0px;
     margin-top: 10px;
   }
-  body.home-espace .ManageAppsMargin {
+  .home-espace .ManageAppsMargin {
     margin-left: 10px;
     margin-top: 10px;
   }
-  body.home-espace .GetStartedCardsMargin {
+  .home-espace .GetStartedCardsMargin {
     margin-top: 15px;
   }
-  body.home-espace .GetStartedActionButtons {
+  .home-espace .GetStartedActionButtons {
     display: none;
   }
-  body.home-espace .PersonalHeaderTransparentBackground {
+  .home-espace .PersonalHeaderTransparentBackground {
     display: none;
   }
 }
-body.home-espace .HomeWebBlocksBackground {
+.home-espace .HomeWebBlocksBackground {
   background-color: white !Important;
 }
-body.home-espace .DownloadWebBlockMargins {
+.home-espace .DownloadWebBlockMargins {
   margin: 0px 0px 20px 0px;
 }
-body.home-espace .UpdateAlertDiv {
+.home-espace .UpdateAlertDiv {
   min-height: 47px;
   background-color: #ECEFF1;
   background: #ECEFF1;
@@ -1633,93 +1633,93 @@ body.home-espace .UpdateAlertDiv {
   margin-top: 26px;
   margin-bottom: 10px;
 }
-body.home-espace .ClockBackground {
+.home-espace .ClockBackground {
   background-image: url('/home/img/icon_clock.png');
   background-repeat: no-repeat;
   background-position: bottom left;
 }
-body.home-espace .InfoBackground {
+.home-espace .InfoBackground {
   background-image: url('/home/img/icon_info.png');
   background-repeat: no-repeat;
   background-position: bottom left;
 }
-body.home-espace .AlertContent {
+.home-espace .AlertContent {
   margin-top: 15px;
   margin-bottom: 10px;
   margin-left: 55px;
 }
-body.home-espace .AlertMessage {
+.home-espace .AlertMessage {
   margin-left: 5px;
   width: 80%;
 }
-body.home-espace .AlertAction {
+.home-espace .AlertAction {
   color: #005580;
 }
-body.home-espace .AlertAction:hover {
+.home-espace .AlertAction:hover {
   text-decoration: underline;
 }
 @media (max-width: 669px) {
-  body.home-espace .AlertContent {
+  .home-espace .AlertContent {
     margin-left: 0px;
     padding-left: 20px;
     padding-right: 20px;
   }
-  body.home-espace .AlertAction {
+  .home-espace .AlertAction {
     margin-top: 10px;
   }
-  body.home-espace .ClockBackground {
+  .home-espace .ClockBackground {
     background-image: none;
   }
-  body.home-espace .InfoBackground {
+  .home-espace .InfoBackground {
     background-image: none;
   }
-  body.home-espace .UpdateAlertDiv {
+  .home-espace .UpdateAlertDiv {
     margin-left: 20px;
     margin-right: 20px;
   }
 }
-body.home-espace .HomeWebBlocksBackground {
+.home-espace .HomeWebBlocksBackground {
   background-color: white !Important;
 }
-body.home-espace .DownloadWebBlockMargins {
+.home-espace .DownloadWebBlockMargins {
   margin: 0px 0px 20px 0px;
 }
-body.home-espace body {
+.home-espace body {
   background-color: transparent;
 }
-body.home-espace .ContentTitle {
+.home-espace .ContentTitle {
   color: #333;
   font-weight: 600;
   font-size: 21px;
 }
-body.home-espace .HomeWebBlocksBackground h2 {
+.home-espace .HomeWebBlocksBackground h2 {
   color: #333;
   font-weight: 600;
   font-size: 18px;
 }
-body.home-espace .GetStartedActionButtons {
+.home-espace .GetStartedActionButtons {
   margin-bottom: 30px;
   margin-right: 10px;
   text-align: center;
 }
-body.home-espace .BrowseAppsActionButtons {
+.home-espace .BrowseAppsActionButtons {
   margin-bottom: 30px;
   margin-right: 10px;
   text-align: center;
 }
-body.home-espace .boxImage {
+.home-espace .boxImage {
   width: 100%;
   border-top-right-radius: 5px;
 }
-body.home-espace .popupTitle {
+.home-espace .popupTitle {
   margin-bottom: 15px;
 }
-body.home-espace #todo-list,
-body.home-espace #todo-stats {
+.home-espace #todo-list,
+.home-espace #todo-stats {
   margin: 0;
   text-align: left;
 }
-body.home-espace #todo-list {
+.home-espace #todo-list {
   list-style: none;
   padding: 0;
   margin: 0 20px;
@@ -1727,17 +1727,17 @@ body.home-espace #todo-list {
   -moz-column-count: 2;
   column-count: 2;
 }
-body.home-espace #todo-stats,
-body.home-espace .todo-clear {
+.home-espace #todo-stats,
+.home-espace .todo-clear {
   color: #777;
 }
-body.home-espace .todo-clear {
+.home-espace .todo-clear {
   float: right;
 }
-body.home-espace .todo-done .todo-content {
+.home-espace .todo-done .todo-content {
   text-decoration: line-through;
 }
-body.home-espace .todo-input {
+.home-espace .todo-input {
   display: block;
   font-family: Helvetica, sans-serif;
   font-size: 20px;
@@ -1746,7 +1746,7 @@ body.home-espace .todo-input {
   padding: 6px;
   width: 420px;
 }
-body.home-espace .todo-item {
+.home-espace .todo-item {
   width: 257px;
   box-sizing: border-box;
   float: left;
@@ -1755,24 +1755,24 @@ body.home-espace .todo-item {
   text-indent: -19px;
   margin-left: 25px;
 }
-body.home-espace .todo-label {
+.home-espace .todo-label {
   color: #444;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
-body.home-espace .todo-remaining {
+.home-espace .todo-remaining {
   color: #333;
   font-weight: bold;
 }
-body.home-espace span.get-started-list-time {
+.home-espace span.get-started-list-time {
   color: lightgray;
   margin-left: 2px;
   font-size: 12px;
 }
-body.home-espace .CreatAppBox,
-body.home-espace .BrowseAppBox,
-body.home-espace .ManageAppBox {
+.home-espace .CreatAppBox,
+.home-espace .BrowseAppBox,
+.home-espace .ManageAppBox {
   position: relative;
   width: 180px;
   border: none;
@@ -1782,9 +1782,9 @@ body.home-espace .ManageAppBox {
   height: 30px;
   cursor: pointer;
 }
-body.home-espace .CreatAppBox:after,
-body.home-espace .BrowseAppBox:after,
-body.home-espace .ManageAppBox:after {
+.home-espace .CreatAppBox:after,
+.home-espace .BrowseAppBox:after,
+.home-espace .ManageAppBox:after {
   content: '';
   background: #AAA;
   height: 30px;
@@ -1797,9 +1797,9 @@ body.home-espace .ManageAppBox:after {
   border-radius: 0 5px 0 0;
   top: 0;
 }
-body.home-espace .CreatAppBox.Active,
-body.home-espace .BrowseAppBox.Active,
-body.home-espace .ManageAppBox.Active {
+.home-espace .CreatAppBox.Active,
+.home-espace .BrowseAppBox.Active,
+.home-espace .ManageAppBox.Active {
   width: 180px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -1809,9 +1809,9 @@ body.home-espace .ManageAppBox.Active {
   border: 1px solid #ddd;
   margin: -1px 0px -1px 0px;
 }
-body.home-espace .CreatAppBox.Active:after,
-body.home-espace .BrowseAppBox.Active:after,
-body.home-espace .ManageAppBox.Active:after {
+.home-espace .CreatAppBox.Active:after,
+.home-espace .BrowseAppBox.Active:after,
+.home-espace .ManageAppBox.Active:after {
   content: '';
   background: #FFF;
   height: 30px;
@@ -1826,41 +1826,41 @@ body.home-espace .ManageAppBox.Active:after {
   border-right: 1px solid #ddd;
   margin: -1px 0px -1px 0px;
 }
-body.home-espace .CreatAppBoxText,
-body.home-espace .BrowseAppBoxText,
-body.home-espace .ManageAppBoxText {
+.home-espace .CreatAppBoxText,
+.home-espace .BrowseAppBoxText,
+.home-espace .ManageAppBoxText {
   color: #FFF;
   margin-top: 6px;
 }
-body.home-espace .CreatAppBox.Active .CreatAppBoxText,
-body.home-espace .BrowseAppBox.Active .BrowseAppBoxText,
-body.home-espace .ManageAppBox.Active .ManageAppBoxText {
+.home-espace .CreatAppBox.Active .CreatAppBoxText,
+.home-espace .BrowseAppBox.Active .BrowseAppBoxText,
+.home-espace .ManageAppBox.Active .ManageAppBoxText {
   margin-top: 6px;
   color: #363636;
 }
-body.home-espace .CreatAppBoxIcon,
-body.home-espace .BrowseAppBoxIcon,
-body.home-espace .ManageAppBoxIcon {
+.home-espace .CreatAppBoxIcon,
+.home-espace .BrowseAppBoxIcon,
+.home-espace .ManageAppBoxIcon {
   width: 20px;
   font-size: 12px;
   margin-top: 8px;
   color: #FFF;
   margin-left: 10px;
 }
-body.home-espace .CreatAppBox.Active .CreatAppBoxIcon,
-body.home-espace .BrowseAppBox.Active .BrowseAppBoxIcon,
-body.home-espace .ManageAppBox.Active .ManageAppBoxIcon {
+.home-espace .CreatAppBox.Active .CreatAppBoxIcon,
+.home-espace .BrowseAppBox.Active .BrowseAppBoxIcon,
+.home-espace .ManageAppBox.Active .ManageAppBoxIcon {
   color: #363636;
   margin-top: 8px;
 }
-body.home-espace .MainContentBox_Navigation {
+.home-espace .MainContentBox_Navigation {
   border: 1px solid #ddd;
   border-radius: 0px 5px 5px 5px;
   margin-left: 0px !important;
 }
 @media (max-width: 979px) {
-  body.home-espace .BrowseAppBox,
-  body.home-espace .ManageAppBox {
+  .home-espace .BrowseAppBox,
+  .home-espace .ManageAppBox {
     position: relative;
     width: 135px;
     border: none;
@@ -1870,8 +1870,8 @@ body.home-espace .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home-espace .BrowseAppBox.Active,
-  body.home-espace .ManageAppBox.Active {
+  .home-espace .BrowseAppBox.Active,
+  .home-espace .ManageAppBox.Active {
     position: relative;
     width: 135px;
     border: 1px solid #DDD;
@@ -1881,7 +1881,7 @@ body.home-espace .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home-espace .CreatAppBox {
+  .home-espace .CreatAppBox {
     position: relative;
     width: 155px !important;
     border: none;
@@ -1891,7 +1891,7 @@ body.home-espace .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home-espace .CreatAppBox.Active {
+  .home-espace .CreatAppBox.Active {
     position: relative;
     width: 155px !important;
     border: 1px solid #DDD;
@@ -1903,9 +1903,9 @@ body.home-espace .MainContentBox_Navigation {
   }
 }
 @media (max-width: 767px) {
-  body.home-espace .desktop-resize-fix.CreatAppBox,
-  body.home-espace .desktop-resize-fix.BrowseAppBox,
-  body.home-espace .desktop-resize-fix.ManageAppBox {
+  .home-espace .desktop-resize-fix.CreatAppBox,
+  .home-espace .desktop-resize-fix.BrowseAppBox,
+  .home-espace .desktop-resize-fix.ManageAppBox {
     position: relative;
     width: 50px !important;
     border: none;
@@ -1915,9 +1915,9 @@ body.home-espace .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home-espace .desktop-resize-fix.CreatAppBox.Active,
-  body.home-espace .desktop-resize-fix.BrowseAppBox.Active,
-  body.home-espace .desktop-resize-fix.ManageAppBox.Active {
+  .home-espace .desktop-resize-fix.CreatAppBox.Active,
+  .home-espace .desktop-resize-fix.BrowseAppBox.Active,
+  .home-espace .desktop-resize-fix.ManageAppBox.Active {
     position: relative;
     width: 50px !important;
     border: 1px solid #DDD;
@@ -1927,13 +1927,13 @@ body.home-espace .MainContentBox_Navigation {
     height: 30px;
     cursor: pointer;
   }
-  body.home-espace .desktop-resize-fix .CreatAppBoxIcon,
-  body.home-espace .desktop-resize-fix .BrowseAppBoxIcon,
-  body.home-espace .desktop-resize-fix .ManageAppBoxIcon {
+  .home-espace .desktop-resize-fix .CreatAppBoxIcon,
+  .home-espace .desktop-resize-fix .BrowseAppBoxIcon,
+  .home-espace .desktop-resize-fix .ManageAppBoxIcon {
     font-size: 18px;
   }
 }
-body.home-espace .LoaderWrapper {
+.home-espace .LoaderWrapper {
   width: 100%;
   height: 100%;
   text-align: center;
@@ -1942,66 +1942,66 @@ body.home-espace .LoaderWrapper {
   background: url(/home/img/preloader_3_100pxwhite2.gif) no-repeat 50% 50%;
   position: absolute;
 }
-body.home-espace .LoaderBackground {
+.home-espace .LoaderBackground {
   background: url(/home/img/preloader_3_100pxwhite2.gif) no-repeat 50% 50%;
 }
-body.home-espace #WebForm1 {
+.home-espace #WebForm1 {
   margin-top: 0px !important;
 }
-body.home-espace .CreateAccountBackground {
+.home-espace .CreateAccountBackground {
   background-color: #F8F8F8;
 }
-body.home-espace .box {
+.home-espace .box {
   background-color: #F2F2F2;
 }
-body.home-espace .box {
+.home-espace .box {
   padding: 30px;
 }
 @media (max-width: 767px) {
-  body.home-espace .box {
+  .home-espace .box {
     padding: 15px;
   }
-  body.home-espace .mobile-width100 {
+  .home-espace .mobile-width100 {
     width: 100px;
   }
 }
-body.home-espace .box {
+.home-espace .box {
   background-color: #F2F2F2;
 }
-body.home-espace .box {
+.home-espace .box {
   padding: 30px;
 }
 @media (max-width: 767px) {
-  body.home-espace .email-label-style {
+  .home-espace .email-label-style {
     width: 250px;
   }
 }
-body.home-espace .box {
+.home-espace .box {
   background-color: #F2F2F2;
 }
-body.home-espace .box {
+.home-espace .box {
   padding: 30px;
 }
-body.home-espace .box {
+.home-espace .box {
   background-color: #F2F2F2;
 }
-body.home-espace .box {
+.home-espace .box {
   padding: 30px;
 }
-body.home-espace .box {
+.home-espace .box {
   background-color: #F2F2F2;
 }
-body.home-espace .box {
+.home-espace .box {
   padding: 30px;
 }
-body.home-espace .box {
+.home-espace .box {
   background-color: #F2F2F2;
 }
-body.home-espace .box {
+.home-espace .box {
   padding: 30px;
 }
 @media (max-width: 767px) {
-  body.home-espace .email-label-style {
+  .home-espace .email-label-style {
     width: 250px;
   }
 }

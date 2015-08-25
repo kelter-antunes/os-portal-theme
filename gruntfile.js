@@ -19,6 +19,9 @@ module.exports = function(grunt) {
                         'css/src/partner-center.css',
                         'css/src/profile.css',
                         'css/src/learn.css',
+                        'css/src/search.css',
+                        'css/src/home.css',
+                        'css/src/widgets.css',
                         'css/src/search.css'
                     ],
                     'css/bundle/os-portal.css': [
@@ -35,7 +38,6 @@ module.exports = function(grunt) {
                         'css/src/learn.css',
                         'css/src/search.css',
                         'css/src/home.css',
-                        'css/src/menu-mobile.css',
                         'css/src/widgets.css',
                         'css/src/search.css'
                     ]

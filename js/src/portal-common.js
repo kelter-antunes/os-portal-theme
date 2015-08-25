@@ -214,3 +214,42 @@ $(function() {
         event.preventDefault();
     }, false);
 });
+
+
+
+
+
+/* ConfirmationMessage */
+function ShowValidationMessage(PopupMainContainer, ButtonId) {
+    osjs('.popup-holder' + ButtonId).show();
+    osjs('.MainBackground' + ButtonId).show();
+
+    /*Center the window*/
+    osjs("#" + PopupMainContainer).css({
+        'top': (Math.abs(($(window).height() / 2) - ($("#" + PopupMainContainer).height() / 2))),
+        'left': (Math.abs(($(window).width() / 2) - ($("#" + PopupMainContainer).width() / 2)))
+    });
+
+    return false;
+}
+
+function ValidateCancel(PopupMainContainer, ButtonId) {
+    osjs('.popup-holder' + ButtonId).hide();
+    osjs('.MainBackground' + ButtonId).hide();
+}
+
+function ValidateConfirmation(PopupMainContainer, ButtonId, eventClick) {
+    osjs('.popup-holder' + ButtonId).hide();
+    osjs('.MainBackground' + ButtonId).hide();
+
+    if (eventClick != "") {
+        /*$('#' + ButtonId).attr("onclick",eventClick);*/
+        document.getElementById(ButtonId).setAttribute("onclick", eventClick);
+    }
+    osjs('#' + ButtonId).click();
+    if (eventClick != "") {
+        /*$('#' + ButtonId).attr("onclick","return ShowValidationMessage('" + PopupMainContainer + "','" + ButtonId + "')");*/
+        document.getElementById(ButtonId).setAttribute("onclick", "return ShowValidationMessage('" + PopupMainContainer + "','" + ButtonId + "')");
+    }
+    return true;
+}

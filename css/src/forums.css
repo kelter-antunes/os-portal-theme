@@ -1,62 +1,76 @@
-body.forums-espace {
+.forums-espace {
 }
-body.forums-espace .rss, body.forums-espace .diggest {
+.forums-espace .processingUpload {
+    display: inline-block;
+    padding: 3px 0 0 4px;
+    font-size: 12px;
+}
+.forums-espace .disable {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.9;
+}
+.forums-espace .archived {
+    background-color: lightgray;
+    color: black;
+}
+.forums-espace .rss, .forums-espace .diggest {
     background: url(/forums/img/spriteicons.png) no-repeat;
     padding-left: 20px;
 }
-body.forums-espace .rss {
+.forums-espace .rss {
     background-position: 0px -43px;
 }
-body.forums-espace .rss:hover {
+.forums-espace .rss:hover {
     background-position: 0px -66px;
 }
-body.forums-espace .diggest {
+.forums-espace .diggest {
     background-position: 0px 2px;
 }
-body.forums-espace .diggest:hover {
+.forums-espace .diggest:hover {
     background-position: 0px -20px;
 }
-body.forums-espace .processingUpload {
+.forums-espace .processingUpload {
     display: inline-block;
     padding: 3px 0 0 4px;
     font-size: 12px;
 }
-body.forums-espace .disable {
+.forums-espace .disable {
     pointer-events: none;
     cursor: default;
     opacity: 0.9;
 }
-body.forums-espace .archived {
+.forums-espace .archived {
     background-color: lightgray;
     color: black;
 }
-body.forums-espace .processingUpload {
+.forums-espace .processingUpload {
     display: inline-block;
     padding: 3px 0 0 4px;
     font-size: 12px;
 }
-body.forums-espace .disable {
+.forums-espace .disable {
     pointer-events: none;
     cursor: default;
     opacity: 0.9;
 }
-body.forums-espace .archived {
+.forums-espace .archived {
     background-color: lightgray;
     color: black;
 }
-body.forums-espace .rss, body.forums-espace .diggest {
+.forums-espace .rss, .forums-espace .diggest {
     background: url(/forums/img/spriteicons.png) no-repeat;
     padding-left: 20px;
 }
-body.forums-espace .rss {
+.forums-espace .rss {
     background-position: 0px -43px;
 }
-body.forums-espace .rss:hover {
+.forums-espace .rss:hover {
     background-position: 0px -66px;
 }
-body.forums-espace .diggest {
+.forums-espace .diggest {
     background-position: 0px 2px;
 }
-body.forums-espace .diggest:hover {
+.forums-espace .diggest:hover {
     background-position: 0px -20px;
 }
