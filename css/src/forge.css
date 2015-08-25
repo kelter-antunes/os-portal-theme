@@ -1,4 +1,6 @@
 .forge-espace {
+  color: #808080;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .forge-espace .no-margin-bottom {
   margin-bottom: 0px !important;
@@ -3068,12 +3070,14 @@
   line-height: 13px;
   vertical-align: 1px;
 }
+/* not used in PRD
 .forge-espace .filterLinkMargin {
   padding: 5px 6px;
 }
 .forge-espace .linkCategoryMargin {
   padding: 5px 6px;
 }
+*/
 .forge-espace .ActiveFilter {
   font-weight: bold;
   border-left: 2px solid red;
@@ -3488,12 +3492,14 @@
 .forge-espace .byline a:hover {
   color: #c30 !important;
 }
+/* OVERRIDE OWN STYLE DIFFER FROM PRD
 .forge-espace .component-creation-actions {
   margin-top: 0px !important;
 }
 .forge-espace .component-creation-actions a:link {
   margin-right: 0px !important;
 }
+*/
 .forge-espace .top5 {
   margin-top: 5px;
 }
