@@ -3330,9 +3330,11 @@
   height: 86px;
   width: 86px;
 }
+/* OVERRIDE MANAGE DROPDOWN
 .forge-espace .dropmenu .dropmenuitems a {
   padding: 0px;
 }
+*/
 .forge-espace .horizontalRuler {
   border: 0;
   height: 0;
