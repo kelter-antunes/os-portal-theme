@@ -544,19 +544,6 @@
 .forge-espace .chzn-container-single.chzn-rtl .chzn-single-with-drop div b {
   background-position: -12px 2px;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 144dpi) {
-  .forge-espace .chzn-rtl .chzn-search input,
-  .forge-espace .chzn-container-single .chzn-single abbr,
-  .forge-espace .chzn-container-single .chzn-single div b,
-  .forge-espace .chzn-container-single .chzn-search input,
-  .forge-espace .chzn-container-multi .chzn-choices .search-choice .search-choice-close,
-  .forge-espace .chzn-container .chzn-results-scroll-down span,
-  .forge-espace .chzn-container .chzn-results-scroll-up span {
-    background-image: url('/Forge/img/chosensprite@2x.png') !important;
-    background-repeat: no-repeat !important;
-    background-size: 52px 37px !important;
-  }
-}
 .forge-espace body {
   background-color: transparent !important;
   color: #808080;
@@ -2481,174 +2468,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-@media (max-width: 979px) {
-  .forge-espace .searchArrows {
-    display: none;
-  }
-  .forge-espace .CardTextWidth {
-    width: 209px;
-  }
-  .forge-espace .onlineForgeImage {
-    width: 100%;
-    height: auto;
-  }
-  .forge-espace .buttonsContainer {
-    padding: 0;
-  }
-  .forge-espace .hide-in-mobile {
-    display: none;
-  }
-  .forge-espace .componentTabsMobile {
-    position: relative;
-    top: 20px;
-  }
-}
-@media (max-width: 767px) {
-  .forge-espace .left20 {
-    margin-left: 0px;
-  }
-  .forge-espace .ribbonContainer {
-    top: 2px;
-    padding-right: 7px;
-  }
-  .forge-espace .HeaderWrapper {
-    position: relative;
-    padding-top: 10px;
-  }
-  .forge-espace .forgeComponentTitle {
-    width: 70%;
-    padding-top: 0px;
-    margin-top: -7px;
-  }
-  .forge-espace .CardHeight {
-    height: auto;
-  }
-  .forge-espace .CardTextWidth {
-    width: 100%;
-    margin-top: 10px;
-    display: block;
-  }
-  .forge-espace .searchInput {
-    width: 278px !important;
-  }
-  .forge-espace .responsiveFilterOrderBy {
-    width: auto;
-    display: inline-block;
-    margin-left: 10px;
-  }
-  .forge-espace .responsiveFilterCategories {
-    width: auto;
-    display: inline-block;
-  }
-  .forge-espace .onlineForgeImage {
-    width: 100%;
-    height: auto;
-  }
-  .forge-espace .buttonsContainer {
-    padding: 0;
-  }
-  .forge-espace .banner-icon.span2 {
-    width: auto;
-    float: left;
-  }
-  .forge-espace .banner-details.span10 {
-    display: inline-block;
-    float: left;
-  }
-  .forge-espace .menu-drop-down-button {
-    display: block;
-    text-align: left;
-    margin-right: 0;
-  }
-  .forge-espace .menu-top-menu {
-    border-radius: 0;
-    display: block;
-    margin-right: 0;
-  }
-  .forge-espace .banner-icon.span2 {
-    float: none;
-    margin-left: 0;
-    text-align: left;
-    line-height: 0;
-    height: 50px;
-    margin-right: 5px;
-    padding-left: 5px;
-    vertical-align: top;
-  }
-  .forge-espace .onlineForgeImage {
-    width: auto;
-    height: 100%;
-  }
-  .forge-espace .mobile-align-center {
-    text-align: center;
-  }
-  .forge-espace .mobile-align-left {
-    text-align: left;
-  }
-  .forge-espace .EditBtn {
-    float: none;
-  }
-  .forge-espace .mobile-margin-top-50 {
-    margin-top: 50px;
-  }
-  .forge-espace .mobile-margin-left-10 {
-    margin-left: 10px;
-  }
-  .forge-espace .mobile-padding-wrapper {
-    padding: 0 5px;
-  }
-  .forge-espace .newRibbon span:nth-child(2) {
-    display: none;
-  }
-  .forge-espace .newRibbon {
-    width: 20px !important;
-  }
-  .forge-espace .mobile-force-wrap * {
-    white-space: normal;
-  }
-  .forge-espace .Header_Menu,
-  .forge-espace .Application_Menu {
-    background: transparent !important;
-  }
-  .forge-espace .Menu_DropDownButton {
-    margin-right: 0 !important;
-  }
-  .forge-espace .Menu_TopMenu {
-    font-family: 'myriad-pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    margin: 0px !important;
-    border-top-left-radius: 0 !important;
-    border-top-right-radius: 0 !important;
-    background-color: rgba(170, 170, 170, 0) !important;
-    color: #BABABA !important;
-    line-height: 24px !important;
-  }
-  .forge-espace .Menu_TopMenu a:link,
-  .forge-espace .Menu_TopMenu a:visited,
-  .forge-espace .Menu_TopMenu a {
-    color: #C4C4C4;
-  }
-  .forge-espace .Menu_TopMenuActive a:link,
-  .forge-espace .Menu_TopMenuActive a:visited,
-  .forge-espace a.Menu_SubMenuItemActive:link,
-  .forge-espace a.Menu_SubMenuItemActive:visited,
-  .forge-espace a.Menu_SubMenuItem:hover {
-    color: white;
-  }
-  .forge-espace .Menu_TopMenuActive .Menu_DropDownArrow {
-    border-top-color: #555555;
-    background-color: rgba(255, 255, 255, 0) !important;
-  }
-  .forge-espace .Menu_DropDownArrow {
-    border-top-color: #C4C4C4;
-    right: 13px;
-  }
-  .forge-espace .menu-top-menu a:link,
-  .forge-espace .menu-top-menu a:visited,
-  .forge-espace .menu-top-menu a {
-    display: block;
-  }
-}
 .forge-espace .bot0 {
   margin-bottom: 0px;
 }
@@ -3289,10 +3108,6 @@
 .forge-espace .component-details-votes {
   color: #999;
 }
-.forge-espace .ribbonContainer {
-  top: -1px;
-  width: 174px;
-}
 .forge-espace .cardRibbon.orange {
   text-shadow: rgba(0, 0, 0, 0.2) -1px -1px 0px, rgba(255, 255, 255, 0.5) 0.5px 0.5px 0px;
 }
@@ -3510,4 +3325,185 @@
   font-size: 12px;
   margin-bottom: 15px;
   margin-top: 5px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 144dpi) {
+  .forge-espace .chzn-rtl .chzn-search input,
+  .forge-espace .chzn-container-single .chzn-single abbr,
+  .forge-espace .chzn-container-single .chzn-single div b,
+  .forge-espace .chzn-container-single .chzn-search input,
+  .forge-espace .chzn-container-multi .chzn-choices .search-choice .search-choice-close,
+  .forge-espace .chzn-container .chzn-results-scroll-down span,
+  .forge-espace .chzn-container .chzn-results-scroll-up span {
+    background-image: url('/Forge/img/chosensprite@2x.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: 52px 37px !important;
+  }
+}
+@media (max-width: 767px) {
+  .forge-espace .left20 {
+    margin-left: 0px;
+  }
+  .forge-espace .ribbonContainer {
+    top: 2px;
+    padding-right: 7px;
+  }
+  .forge-espace .HeaderWrapper {
+    position: relative;
+    padding-top: 10px;
+  }
+  .forge-espace .forgeComponentTitle {
+    width: 70%;
+    padding-top: 0px;
+    margin-top: -7px;
+  }
+  .forge-espace .CardHeight {
+    height: auto;
+  }
+  .forge-espace .CardTextWidth {
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+  }
+  .forge-espace .searchInput {
+    width: 278px !important;
+  }
+  .forge-espace .responsiveFilterOrderBy {
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .forge-espace .responsiveFilterCategories {
+    width: auto;
+    display: inline-block;
+  }
+  .forge-espace .onlineForgeImage {
+    width: 100%;
+    height: auto;
+  }
+  .forge-espace .buttonsContainer {
+    padding: 0;
+  }
+  .forge-espace .banner-icon.span2 {
+    width: auto;
+    float: left;
+  }
+  .forge-espace .banner-details.span10 {
+    display: inline-block;
+    float: left;
+  }
+  .forge-espace .menu-drop-down-button {
+    display: block;
+    text-align: left;
+    margin-right: 0;
+  }
+  .forge-espace .menu-top-menu {
+    border-radius: 0;
+    display: block;
+    margin-right: 0;
+  }
+  .forge-espace .banner-icon.span2 {
+    float: none;
+    margin-left: 0;
+    text-align: left;
+    line-height: 0;
+    height: 50px;
+    margin-right: 5px;
+    padding-left: 5px;
+    vertical-align: top;
+  }
+  .forge-espace .onlineForgeImage {
+    width: auto;
+    height: 100%;
+  }
+  .forge-espace .mobile-align-center {
+    text-align: center;
+  }
+  .forge-espace .mobile-align-left {
+    text-align: left;
+  }
+  .forge-espace .EditBtn {
+    float: none;
+  }
+  .forge-espace .mobile-margin-top-50 {
+    margin-top: 50px;
+  }
+  .forge-espace .mobile-margin-left-10 {
+    margin-left: 10px;
+  }
+  .forge-espace .mobile-padding-wrapper {
+    padding: 0 5px;
+  }
+  .forge-espace .newRibbon span:nth-child(2) {
+    display: none;
+  }
+  .forge-espace .newRibbon {
+    width: 20px !important;
+  }
+  .forge-espace .mobile-force-wrap * {
+    white-space: normal;
+  }
+  .forge-espace .Header_Menu,
+  .forge-espace .Application_Menu {
+    background: transparent !important;
+  }
+  .forge-espace .Menu_DropDownButton {
+    margin-right: 0 !important;
+  }
+  .forge-espace .Menu_TopMenu {
+    font-family: 'myriad-pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0px !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    background-color: rgba(170, 170, 170, 0) !important;
+    color: #BABABA !important;
+    line-height: 24px !important;
+  }
+  .forge-espace .Menu_TopMenu a:link,
+  .forge-espace .Menu_TopMenu a:visited,
+  .forge-espace .Menu_TopMenu a {
+    color: #C4C4C4;
+  }
+  .forge-espace .Menu_TopMenuActive a:link,
+  .forge-espace .Menu_TopMenuActive a:visited,
+  .forge-espace a.Menu_SubMenuItemActive:link,
+  .forge-espace a.Menu_SubMenuItemActive:visited,
+  .forge-espace a.Menu_SubMenuItem:hover {
+    color: white;
+  }
+  .forge-espace .Menu_TopMenuActive .Menu_DropDownArrow {
+    border-top-color: #555555;
+    background-color: rgba(255, 255, 255, 0) !important;
+  }
+  .forge-espace .Menu_DropDownArrow {
+    border-top-color: #C4C4C4;
+    right: 13px;
+  }
+  .forge-espace .menu-top-menu a:link,
+  .forge-espace .menu-top-menu a:visited,
+  .forge-espace .menu-top-menu a {
+    display: block;
+  }
+}
+@media (max-width: 979px) {
+  .forge-espace .searchArrows {
+    display: none;
+  }
+  .forge-espace .CardTextWidth {
+    width: 209px;
+  }
+  .forge-espace .onlineForgeImage {
+    width: 100%;
+    height: auto;
+  }
+  .forge-espace .buttonsContainer {
+    padding: 0;
+  }
+  .forge-espace .hide-in-mobile {
+    display: none;
+  }
+  .forge-espace .componentTabsMobile {
+    position: relative;
+    top: 20px;
+  }
 }
