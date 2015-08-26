@@ -2243,6 +2243,10 @@
   width: 320px;
   left: auto;
 }
+.forge-espace .infoContainer .ribbonContainer {
+  top: -1px;
+  width: 174px;
+}
 .forge-espace .forums-thumbsflow {
   font-size: 12px;
   display: block;
@@ -2586,16 +2590,14 @@
 .forge-espace .WhiteBackground {
   background-color: white;
 }
-.forge-espace .DropZone {
+.forge-espace .ApplicationDetailArea .DropZone {
   border: 2px dashed #e1e1e1;
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  box-sizing: border-box;
   position: relative;
   background: white;
-  min-height: 150px;
   box-sizing: content-box;
 }
 .forge-espace .ApplicationDetailArea {
@@ -2653,9 +2655,11 @@
   margin-bottom: 5px;
   margin-right: 5px;
 }
+/* OVERRIDE INPUT EDITDETAILS
 .forge-espace input[type="text"] {
   margin-bottom: 0px;
 }
+*/
 .forge-espace .DropFlat {
   line-height: 26px;
 }
@@ -2856,7 +2860,8 @@
 }
 .forge-espace .Title-Cont {
   background-color: #F9F9F9;
-  padding: 15px 0px 15px 0px;
+  padding: 15px 0;
+  color: #333;
 }
 .forge-espace .TitleHover:hover {
   color: #e94a4a;
@@ -2864,6 +2869,7 @@
 .forge-espace .DescriptionCont {
   background-color: #F9F9F9;
   padding: 10px 0px 15px 0px;
+  color: #333;
 }
 .forge-espace .IconSize {
   font-size: 13px;
@@ -2874,11 +2880,11 @@
   margin-top: 10px;
 }
 .forge-espace .BorderPopup {
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
 }
 .forge-espace .TitleCont {
   background-color: lightgray;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
 }
 .forge-espace body {
   background-color: #E6EAEB !important;
@@ -2889,11 +2895,9 @@
   line-height: 13px;
   vertical-align: 1px;
 }
-/* not used in PRD
 .forge-espace .filterLinkMargin {
   padding: 5px 6px;
 }
-*/
 .forge-espace .linkCategoryMargin {
   padding: 5px 6px;
 }
