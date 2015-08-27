@@ -3302,21 +3302,6 @@
 .forge-espace .paddingTop20 {
   padding-top: 20px;
 }
-.forge-espace .byline {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  line-height: 15px;
-  color: #808080;
-  margin-bottom: 3px;
-}
-.forge-espace .byline a:link,
-.forge-espace .byline a:visited {
-  color: #808080 !important;
-  text-decoration: underline !important;
-}
-.forge-espace .byline a:hover {
-  color: #c30 !important;
-}
 /* OVERRIDE OWN STYLE DIFFER FROM PRD
 .forge-espace .component-creation-actions {
   margin-top: 0px !important;
