@@ -91,6 +91,9 @@
   display: none;
   background-color: #FFFFFF;
 }
+.faq-popup .forge-espace .popup-content {
+    padding: 10px;
+}
 .forge-espace .MainBackground {
   background-color: #686868;
   opacity: 0.8;
@@ -2885,6 +2888,7 @@
 .forge-espace .TitleCont {
   background-color: lightgray;
   padding: 10px;
+  color: #333;
 }
 .forge-espace body {
   background-color: #E6EAEB !important;
