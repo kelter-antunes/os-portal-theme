@@ -53,11 +53,11 @@ module.exports = function(grunt) {
             build: {
                 files: {
                     'js/bundle/os-portal.js': [
-                        'js/src/portal-common.js'
+                        'js/src/portal-common.js',
+                        'js/src/bootstrap.js'
                     ],
                     'js/bundle/os-portal-extra.js': [
-                        'js/src/jquery.lazyloadxt.extra.min.js',
-                        'js/src/common.min.js'
+
 
                     ]
                 }

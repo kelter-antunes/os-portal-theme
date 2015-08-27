@@ -258,7 +258,7 @@
     border-radius: 5px;
     height: 28px;
     -webkit-appearance: none;
-    background: url(/PartnerArea/img/dropdown_icon.png?139294) no-repeat right #273238;
+    background: url(/PartnerArea/img/dropdown_icon.png) no-repeat right #273238;
     border-color: #3C3C3C;
     color: #FFFFFF;
     float: none;
@@ -512,7 +512,7 @@
     background-repeat: no-repeat;  /* box-shadow: 0 1px 10px #A6A6A4; */
 }
 .partnerarea-espace .profile-partners-cover {
-    background-image: url(img/light_noise_diagonal.png);
+    background-image: url(/PartnerArea/img/light_noise_diagonal.png);
     background-size: auto;
     background-repeat: repeat;
     background-color: #E5E6E7;  /* background: url(http://hdw.datawallpaper.com/architecture/big-city-nights-desktop-background-504977.jpg) no-repeat center center fixed;   
