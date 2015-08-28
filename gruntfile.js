@@ -32,16 +32,16 @@ module.exports = function(grunt) {
                         'css/src/menu-mobile.css'
                     ],
                     'css/bundle/os-portal-apps.css': [
-                        'css/src/ideas.css',
+                        /*'css/src/ideas.css',
                         'css/src/forums.css',
                         'css/src/partner-center.css',
                         'css/src/forge.css',
                         'css/src/profile.css',
-                        'css/src/learn.css',
-                        'css/src/search.css',
-                        'css/src/home.css',
+                        'css/src/learn.css',*/
+                        'css/src/home.css'/*,
                         'css/src/widgets.css',
                         'css/src/search.css'
+                        */
                     ]
                 }
             }
