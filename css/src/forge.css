@@ -376,7 +376,7 @@
     background: #d4d4d4
 }
 **/
-/**.forge-espace .chzn-container-multi .chzn-choices .search-choice .search-choice-close {
+.forge-espace .chzn-container-multi .chzn-choices .search-choice .search-choice-close {
     display: block;
     position: absolute;
     right: 3px;
@@ -386,12 +386,12 @@
     font-size: 1px;
     background: url(/ForgeCore/img/chosensprite.png) -42px 1px no-repeat
 }
-**/
-/**.forge-espace .chzn-container-multi .chzn-choices .search-choice .search-choice-close:hover,
+
+.forge-espace .chzn-container-multi .chzn-choices .search-choice .search-choice-close:hover,
 .forge-espace .chzn-container-multi .chzn-choices .search-choice-focus .search-choice-close {
     background-position: -42px -10px
 }
-**/
+
 /**.forge-espace .chzn-container .chzn-results {
     margin: 0 4px 4px 0;
     max-height: 240px;
@@ -1924,7 +1924,7 @@
 .forge-espace a,
 .forge-espace a:link,
 .forge-espace a:visited {
-    color: #08c;
+
     text-decoration: none;
     transition: color .2s ease-in;
     -webkit-transition: color .2s ease-in
@@ -1935,13 +1935,16 @@
     -webkit-transition: border linear .2s, box-shadow linear .2s
 }
 **/
-.forge-espace a:visited {
-    color: #06a
-}
+
 
 .forge-espace a:hover {
     color: #c20;
     text-decoration: none
+}
+
+.forge-espace .text-note a{
+    color: #999;
+    font-size: 12px;
 }
 
 /**.forge-espace .noTextDecoration a {
@@ -2619,26 +2622,26 @@
     text-overflow: ellipsis
 }
 
-/**.forge-espace .ApplicationDependency {
+.forge-espace .ApplicationDependency {
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 10px;
     white-space: nowrap;
     position: relative
 }
-**/
-/**.forge-espace .ApplicationDependency.Compatible,
+
+.forge-espace .ApplicationDependency.Compatible,
 .forge-espace .ApplicationDependency.Missing {
     border: 2px dashed #ccc
 }
-**/
-/**.forge-espace .ApplicationDependencyIcon,
+
+.forge-espace .ApplicationDependencyIcon,
 .forge-espace .ApplicationDependencyIcon img {
     height: 48px;
     width: 48px
 }
-**/
-/**.forge-espace .ApplicationDependencyName {
+
+.forge-espace .ApplicationDependencyName {
     height: 48px;
     line-height: 48px;
     font-size: 18px;
@@ -2647,88 +2650,88 @@
     padding-left: 10px;
     white-space: nowrap
 }
-**/
-/**.forge-espace .ApplicationDependencySelectFile {
+
+.forge-espace .ApplicationDependencySelectFile {
     margin-top: 10px;
     margin-right: 10px;
     position: absolute;
     right: 0
 }
-**/
-/**.forge-espace .ApplicationDependencyMessage {
+
+.forge-espace .ApplicationDependencyMessage {
     padding-left: 10px;
     white-space: normal
 }
-**/
-/**.forge-espace .ApplicationDependencyContent {
+
+.forge-espace .ApplicationDependencyContent {
     padding-right: 50px
 }
-**/
-/**.forge-espace .IndentedCategory {
+
+.forge-espace .IndentedCategory {
     margin-left: 20px
 }
-**/
-/**.forge-espace input[type=checkbox].CategoryCheckbox {
+
+.forge-espace input[type=checkbox].CategoryCheckbox {
     margin-bottom: 5px;
     margin-right: 5px
 }
-**/
-/**.forge-espace .wnEntry {
+
+.forge-espace .wnEntry {
     padding: 10px 0
 }
-**/
-/**.forge-espace .wnEntry>a {
+
+.forge-espace .wnEntry>a {
     font-weight: 600;
     display: table
 }
-**/
-/**.forge-espace .wnEntry [class*=" osicon-"],
+
+/.forge-espace .wnEntry [class*=" osicon-"],
 .forge-espace .wnEntry [class^=osicon-] {
     padding-right: 8px
 }
-**/
-/**.forge-espace .wnEntry a span {
+
+.forge-espace .wnEntry a span {
     display: table-cell;
     vertical-align: middle
 }
-**/
-/**.forge-espace .wnEntry .FAQdescription {
+
+.forge-espace .wnEntry .FAQdescription {
     overflow-y: hidden;
     margin: 5px 0 0 22px;
     font-weight: 400;
     display: none
 }
-**/
-/**.forge-espace .FAQdescription {
+
+.forge-espace .FAQdescription {
     display: none;
     color: #999
 }
-**/
-/**.forge-espace .Legend {
+
+.forge-espace .Legend {
     position: absolute;
     top: 0;
     right: 0;
     white-space: nowrap
 }
-**/
-/**.forge-espace .AbsoluteRight {
+
+.forge-espace .AbsoluteRight {
     position: absolute;
     right: -15px;
     top: 30px
 }
-**/
-/**.forge-espace .RequiredField:after {
+
+.forge-espace .RequiredField:after {
     color: red;
     content: " *";
     font-size: 14px;
     font-family: Verdana
 }
-**/
-/**.forge-espace .WhiteBackground {
+
+.forge-espace .WhiteBackground {
     background-color: #fff
 }
-**/
-/**.forge-espace .ApplicationDetailArea .DropZone {
+
+.forge-espace .ApplicationDetailArea .DropZone {
     border: 2px dashed #e1e1e1;
     border-radius: 10px;
     padding-top: 10px;
@@ -2738,49 +2741,49 @@
     background: #fff;
     box-sizing: content-box
 }
-**/
-/**.forge-espace .ApplicationDetailArea {
+
+.forge-espace .ApplicationDetailArea {
     background: #F2F2F2;
     padding-top: 50px;
     padding-bottom: 50px
 }
-**/
-/**.forge-espace .Relative {
+
+.forge-espace .Relative {
     position: relative
 }
-**/
-/**.forge-espace .ApplicationDetailArea .UploadStatus {
+
+.forge-espace .ApplicationDetailArea .UploadStatus {
     position: absolute;
     top: 80px;
     width: 100px;
     color: #c2c2c2;
     font-size: 20px
 }
-**/
-/**.forge-espace .FolderIcon {
+
+.forge-espace .FolderIcon {
     padding-left: 20px;
     padding-right: 20px
 }
-**/
-/**.forge-espace .Screenshot {
+
+.forge-espace .Screenshot {
     height: 180px;
     max-width: 300px
 }
-**/
-/**.forge-espace .OptionLine {
+
+.forge-espace .OptionLine {
     height: 30px
 }
-**/
-/**.forge-espace .IconContainer {
+
+.forge-espace .IconContainer {
     position: relative;
     text-align: center
 }
-**/
-/**.forge-espace .ChangeIcon {
+
+.forge-espace .ChangeIcon {
     width: 140px
 }
-**/
-/**.forge-espace .DeleteButton {
+
+.forge-espace .DeleteButton {
     visibility: hidden;
     top: 0;
     right: 0;
@@ -2793,51 +2796,51 @@
     border-radius: 0 0 0 8px;
     opacity: .9
 }
-**/
-/**.forge-espace .ScreenshotPICWrapper:hover .DeleteButton {
+
+.forge-espace .ScreenshotPICWrapper:hover .DeleteButton {
     visibility: visible
 }
-**/
-/**.forge-espace input[type=checkbox].StableCheckbox {
+
+.forge-espace input[type=checkbox].StableCheckbox {
     margin-bottom: 5px;
     margin-right: 5px
 }
-**/
-/**.forge-espace .DropFlat {
+
+.forge-espace .DropFlat {
     line-height: 26px
 }
-**/
-/**.forge-espace .span5.DropWrapper .DropFlat {
+
+.forge-espace .span5.DropWrapper .DropFlat {
     display: none
 }
-**/
-/**.forge-espace .DropStack {
+
+.forge-espace .DropStack {
     display: none;
     line-height: 26px
 }
-**/
-/**.forge-espace .ButtonLink,
+
+.forge-espace .ButtonLink,
 .forge-espace .FillInput {
     line-height: 32px
 }
-**/
-/**.forge-espace .span5.DropWrapper .DropStack {
+
+.forge-espace .span5.DropWrapper .DropStack {
     display: block
 }
-**/
-/**.forge-espace .DropWrapper {
+
+.forge-espace .DropWrapper {
     display: none
 }
-**/
-/**.forge-espace .span5.DropWrapper .FolderIcon {
+
+.forge-espace .span5.DropWrapper .FolderIcon {
     display: block!important;
     margin-top: 20px
 }
-**/
-/**.forge-espace .radio {
+
+.forge-espace .radio {
     padding-left: 0!important
 }
-**/
+
 .forge-espace .text-note a {
     color: #999;
     text-decoration: underline
@@ -2846,10 +2849,11 @@
     color: #C30;
     cursor: pointer
 }
-/**.forge-espace .grayborder {
+
+.forge-espace .grayborder {
     border: 1px solid #ccc
 }
-**/
+
 .forge-espace .SidebarImage {
     width: 58px;
     height: 61px;
@@ -2891,15 +2895,15 @@
     top: 5px
 }
 
-/**.forge-espace .padding15 {
+.forge-espace .padding15 {
     padding: 15px
 }
-**/
-/**.forge-espace .hideie {
+
+.forge-espace .hideie {
     display: none!important
 }
-**/
-/**.forge-espace label.btn {
+
+.forge-espace label.btn {
     font-family: myriad-pro, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 600;
@@ -2918,89 +2922,89 @@
     -moz-border-radius: 4px;
     border-radius: 4px
 }
-**/
-/**.forge-espace label.btn:active,
+
+.forge-espace label.btn:active,
 .forge-espace label.btn:hover {
     color: #333;
     background-color: #e6e6e6
 }
-**/
-/**.forge-espace label.btn-large {
+
+.forge-espace label.btn-large {
     padding: 6px 12px;
     font-size: 12px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px
 }
-**/
-/**.forge-espace label.btn-big {
+
+.forge-espace label.btn-big {
     padding: 12px 20px;
     font-size: 12px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px
 }
-**/
-/**.forge-espace label.btn-medium {
+
+.forge-espace label.btn-medium {
     padding: 6px 20px;
     font-size: 11px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px
 }
-**/
-/**.forge-espace label.btn-small {
+
+.forge-espace label.btn-small {
     padding: 4px 15px;
     font-size: 10px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px
 }
-**/
-/**.forge-espace label.btn-mini {
+
+.forge-espace label.btn-mini {
     padding: 1px 10px;
     font-size: 10px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px
 }
-**/
-/**.forge-espace label.btn.newblue {
+
+.forge-espace label.btn.newblue {
     color: #fff;
     background-color: #08C
 }
-**/
-/**.forge-espace label.btn.newblue:hover {
+
+.forge-espace label.btn.newblue:hover {
     background-color: #06A
 }
-**/
-/**.forge-espace label.btn.blue {
+
+.forge-espace label.btn.blue {
     color: #fff;
     background-color: #69c
 }
-**/
-/**.forge-espace label.btn.blue:hover {
+
+.forge-espace label.btn.blue:hover {
     background-color: #4673A7
 }
-**/
-/**.forge-espace label.btn.red {
+
+.forge-espace label.btn.red {
     color: #fff;
     background-color: #c30
 }
-**/
-/**.forge-espace label.btn.red:hover {
+
+.forge-espace label.btn.red:hover {
     background-color: #AD1F02
 }
-**/
-/**.forge-espace label.btn.gray {
+
+.forge-espace label.btn.gray {
     color: #606060;
     background-color: #E6E7E8
 }
-**/
-/**.forge-espace label.btn.gray:hover {
+
+.forge-espace label.btn.gray:hover {
     background-color: #ccc
 }
-**/
+
 .forge-espace .MainBorder {
     margin: 20px;
     background-color: #F9F9F9;
@@ -3055,25 +3059,25 @@
     margin-right: 5px
 }
 
-/**.forge-espace .Spacing {
+.forge-espace .Spacing {
     margin-bottom: 10px;
     margin-top: 10px
 }
-**/
-/**.forge-espace .BorderPopup {
+
+.forge-espace .BorderPopup {
     color: #333
 }
-**/
-/**.forge-espace .TitleCont {
+
+.forge-espace .TitleCont {
     background-color: #d3d3d3;
     padding: 10px;
     color: #333
 }
-**/
-/**.forge-espace body {
+
+.forge-espace body {
     background-color: #E6EAEB!important
 }
-**/
+
 .forge-espace .sortByLabel {
     padding-right: 10px;
     font-size: 13px;
@@ -3103,10 +3107,10 @@
     height: 215px
 }
 
-/**.forge-espace .hlVoteCount .component-details-votes {
+.forge-espace .hlVoteCount .component-details-votes {
     color: #fff
 }
-**/
+
 .forge-espace .leftContainer {
     height: 100%
 }
@@ -3346,24 +3350,24 @@
     background-image: none
 }
 
-/**.forge-espace .ApplicationAdorner {
+.forge-espace .ApplicationAdorner {
     padding-bottom: 20px;
     padding-left: 40px;
     padding-right: 40px;
     position: relative;
     opacity: .5
 }
-**/
-/**.forge-espace .ApplicationAdorner.Selected {
+
+.forge-espace .ApplicationAdorner.Selected {
     opacity: 1
 }
-**/
-/**.forge-espace .ApplicationAdorner img {
+
+.forge-espace .ApplicationAdorner img {
     height: 62px;
     width: 62px
 }
-**/
-/**.forge-espace .ApplicationTriangle {
+
+.forge-espace .ApplicationTriangle {
     width: 0;
     height: 0;
     border-style: solid;
@@ -3373,15 +3377,15 @@
     bottom: 0;
     margin-left: -10px
 }
-**/
-/**.forge-espace .ApplicationNextTriangle {
+
+.forge-espace .ApplicationNextTriangle {
     position: absolute;
     right: -55px;
     color: #ccc;
     margin-top: -45px
 }
-**/
-/**.forge-espace .ApplicationPublished {
+
+.forge-espace .ApplicationPublished {
     top: -25px;
     position: absolute;
     font-size: 11px;
@@ -3389,19 +3393,19 @@
     text-align: center;
     margin-left: 30px
 }
-**/
-/**.forge-espace .ApplicationAdornerNameContainer {
+
+.forge-espace .ApplicationAdornerNameContainer {
     white-space: nowrap;
     width: 120px;
     overflow: hidden;
     text-overflow: ellipsis
 }
-**/
-/**.forge-espace .OnDrag.DropZone {
+
+.forge-espace .OnDrag.DropZone {
     border: 2px dashed grey
 }
-**/
-/**.forge-espace .DropZone {
+
+.forge-espace .DropZone {
     border: 2px dashed #e1e1e1;
     border-radius: 10px;
     padding: 40px;
@@ -3410,55 +3414,55 @@
     position: relative;
     height: 262px
 }
-**/
-/**.forge-espace .DropZone.Loading span.osicon-package {
+
+.forge-espace .DropZone.Loading span.osicon-package {
     font-size: 70px!important
 }
-**/
-/**.forge-espace .Loading .FolderIcon {
+
+.forge-espace .Loading .FolderIcon {
     margin-top: 10px
 }
-**/
-/**.forge-espace .UploadStatus {
+
+.forge-espace .UploadStatus {
     color: #ccc;
     font-size: 20px
 }
-**/
-/**.forge-espace .SelectLabel {
+
+.forge-espace .SelectLabel {
     display: inline
 }
-**/
-/**.forge-espace .FolderIcon {
+
+.forge-espace .FolderIcon {
     color: #CCC;
     font-size: 100px
 }
-**/
-/**.forge-espace .bot0 {
+
+.forge-espace .bot0 {
     margin-bottom: 0
 }
-**/
-/**.forge-espace .borderTop {
+
+.forge-espace .borderTop {
     border-top: 1px solid #CCC
 }
-**/
-/**.forge-espace .paddingTop20 {
+
+.forge-espace .paddingTop20 {
     padding-top: 20px
 }
-**/
-/**.forge-espace .top5 {
+
+.forge-espace .top5 {
     margin-top: 5px
 }
-**/
-/**.forge-espace .LicenseStyle {
+
+.forge-espace .LicenseStyle {
     color: #999;
     font-size: 12px;
     margin-bottom: 15px;
     margin-top: 5px
 }
-**/
+
 @media only screen and (-webkit-min-device-pixel-ratio:2),
 only screen and (min-resolution:144dpi) {
-/**    .forge-espace .chzn-container .chzn-results-scroll-down span,
+  .forge-espace .chzn-container .chzn-results-scroll-down span,
     .forge-espace .chzn-container .chzn-results-scroll-up span,
     .forge-espace .chzn-container-multi .chzn-choices .search-choice .search-choice-close,
     .forge-espace .chzn-container-single .chzn-search input,
@@ -3469,7 +3473,7 @@ only screen and (min-resolution:144dpi) {
         background-repeat: no-repeat!important;
         background-size: 52px 37px!important
     }
-**/}
+}
 
 @media (max-width:767px) {
     .forge-espace .left20 {

@@ -1,6 +1,11 @@
 .learn-espace{
   min-height: 100%;
 }
+
+body.videos {
+    background-color: #E6EAEB;
+}
+
 .learn-espace .loader,
 .learn-espace .loader-bg {
     -webkit-box-sizing: border-box;
@@ -8,76 +13,76 @@
     -o-box-sizing: border-box
 }
 
-/**.learn-espace .processingUpload {
+.learn-espace .processingUpload {
     display: inline-block;
     padding: 3px 0 0 4px;
     font-size: 12px
 }
-**/
-/**.learn-espace .disable {
+
+.learn-espace .disable {
     pointer-events: none;
     cursor: default;
     opacity: .9
 }
-**/
-/**.learn-espace .archived {
+
+.learn-espace .archived {
     background-color: #d3d3d3;
     color: #000
 }
-**/
-/**.learn-espace .section1 {
+
+.learn-espace .section1 {
     background-color: #e6e6e6;
     padding-top: 10px;
     padding-bottom: 15px
 }
-**/
-/**.learn-espace .section2 {
+
+.learn-espace .section2 {
     background-color: #ccc;
     padding-top: 15px;
     padding-bottom: 20px
 }
-**/
-/**.learn-espace .section-sidebar {
+
+.learn-espace .section-sidebar {
     margin: 10px 20px
 }
-**/
-.learn-espace .osicon-download,/**.learn-espace .right5,
-**/.learn-espace .social-icons a:link {
+
+.learn-espace .osicon-download, .learn-espace .right5,
+.learn-espace .social-icons a:link {
     margin-right: 5px
 }
 
-/**.learn-espace .sidebar-title {
+.learn-espace .sidebar-title {
     font-size: 20px
 }
-**/
-/**.learn-espace .title-red {
+
+.learn-espace .title-red {
     color: #c20
 }
-**/
-/**.learn-espace .controls-row li {
+
+.learn-espace .controls-row li {
     line-height: 40px
 }
-**/
-/**.learn-espace .bold-learn {
+
+.learn-espace .bold-learn {
     font-weight: 600
 }
-**/
-/**.learn-espace .sidebar-title2 {
+
+.learn-espace .sidebar-title2 {
     font-size: 16px
 }
-**/
-/**.learn-espace .form-input {
+
+.learn-espace .form-input {
     height: 30px!important
 }
-**/
+
 .learn-espace a.btn.btn-medium.red.overview {
     padding: 8px 20px
 }
 
-/**.learn-espace .link-more {
+.learn-espace .link-more {
     margin-top: 21px
 }
-**/
+
 .learn-espace .social-icons-learn {
     margin-top: 10px;
     padding-bottom: 10px;
@@ -132,12 +137,12 @@
     left: 10px
 }
 
-/**.learn-espace .greenCheck {
+.learn-espace .greenCheck {
     position: absolute;
     top: 39px;
     left: 14px
 }
-**/
+
 .learn-espace .loader {
     position: relative;
     width: 40px;
@@ -334,7 +339,7 @@
     background: #8CC83C
 }
 
-/**.learn-espace .checkBoxDiv {
+.learn-espace .checkBoxDiv {
     background-image: url(/Learn/img/Half_Box.png);
     background-repeat: no-repeat;
     position: absolute;
@@ -345,15 +350,15 @@
     border-top: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3
 }
-**/
-/**.learn-espace .checkBoxIcon {
+
+.learn-espace .checkBoxIcon {
     color: #fff;
     font-size: 10px;
     position: absolute;
     top: 5px;
     left: 24px
 }
-**/
+
 .learn-espace .courseCard {
     border: 1px solid #d3d3d3;
     margin-bottom: 40px;
@@ -383,10 +388,10 @@
     text-align: center
 }
 
-/**.learn-espace .trainingIcon {
+.learn-espace .trainingIcon {
     font-size: 80px
 }
-**/
+
 .learn-espace .trainingImgSection {
     display: inline-block;
     height: 75%;
@@ -399,17 +404,16 @@
     color: #384142
 }
 
-/**.learn-espace .trainingLink,
+.learn-espace .trainingLink,
 .learn-espace .trainingLink:hover {
     text-decoration: none;
     font-weight: 300
 }
-**/
-/**.learn-espace .trainingBadge {
+.learn-espace .trainingBadge {
     width: 2.5%;
     margin-right: 5px
 }
-**/
+
 .learn-espace .courseCard {
     max-width: 95%;
     height: auto
@@ -429,12 +433,10 @@
     color: #08c
 }
 
-.finalBackground,
-.initialBackground,
-.middleBackground,
-body,
-.videos {
-    background-color: #E6E6E6
+
+
+.learn-espace body, .learn-espace .initialBackground, .learn-espace .middleBackground, .learn-espace .finalBackground {
+  background-color: #E6E6E6;
 }
 .learn-espace .initialBackground-classroom,
 .learn-espace .initialBackground {
@@ -720,65 +722,65 @@ body,
     background-color: #fff
 }
 **/
-/**.learn-espace .courseLocation {
+.learn-espace .courseLocation {
     color: grey
 }
-**/
-/**.learn-espace div.Tabs_TabOn,
+
+.learn-espace div.Tabs_TabOn,
 .learn-espace li.Tabs_TabOn {
     border: none;
     border-bottom: 4px solid #C20;
     width: 48%;
     text-align: center
 }
-**/
-/**.learn-espace .Tabs_TabBody {
+
+.learn-espace .Tabs_TabBody {
     border: none
 }
-**/
-/**.learn-espace div.Tabs_TabOff,
+
+.learn-espace div.Tabs_TabOff,
 .learn-espace li.Tabs_TabOff {
     border: none;
     border-bottom: 1px solid #e6e6e6;
     width: 48%;
     text-align: center
 }
-**/
-/**.learn-espace li.Tabs_TabOff a.Tabs_TabOff {
+
+.learn-espace li.Tabs_TabOff a.Tabs_TabOff {
     background: #fff;
     color: grey
 }
-**/
-/**.learn-espace a.Tabs_TabOff:visited {
+
+.learn-espace a.Tabs_TabOff:visited {
     background: #fff;
     color: #333
 }
-**/
-/**.learn-espace a.Tabs_TabOff,
+
+.learn-espace a.Tabs_TabOff,
 .learn-espace span.Tabs_TabOn {
     text-overflow: ellipsis;
     overflow: hidden
 }
-**/
-/**.learn-espace ul.Tabs_Header {
+
+.learn-espace ul.Tabs_Header {
     font-size: 11px;
     font-weight: 600;
     font-family: myriad-pro, Arial, sans-serif;
     position: relative;
     margin-top: 7px
 }
-**/
-/**.learn-espace .sideblock-header {
+
+.learn-espace .sideblock-header {
     background-color: #384142
 }
-**/
-/**.learn-espace a.Tabs_TabOn,
+
+.learn-espace a.Tabs_TabOn,
 .learn-espace a.Tabs_TabOn:hover,
 .learn-espace a.Tabs_TabOn:visited,
 .learn-espace span.Tabs_TabOn {
     color: #333
 }
-**/
+
 .learn-espace .videoWrapper {
     position: relative;
     padding-bottom: 56.25%;
