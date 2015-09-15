@@ -926,7 +926,7 @@
 .partnerarea-espace .headshot {
     border: 5px solid rgba(255, 255, 255, .1);
     border-radius: 50%;
-    height: auto;
+    height: 56px;
     width: 56px
 }
 

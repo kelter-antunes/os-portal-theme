@@ -1,0 +1,89 @@
+.community-espace .communityLicensesActivationCode {
+    width: 60%;
+    min-width: 30%;
+    float: left;
+    clear: right;
+}
+.community-espace .communityLicensesTerm {
+    font-size: 12px;
+    display: block;
+    float: left;
+    clear: right;
+    width: 17%;
+    margin-right: 1%;
+}
+.community-espace .communityLicensesButtons {
+    width: 20%;
+    font-size: 12px;
+    display: block;
+    float: left;
+    clear: right;
+    line-height: 17px;
+}
+.community-espace .communityLicenseExpired {
+    background-color: #C30;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 600;
+    margin-left: 10px;
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: 'myriad-pro', Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+.community-espace .top-10 {
+    margin-top: -10px;
+}
+.community-espace .left5 {
+    margin-left: 5px;
+}
+.community-espace .nowrap {
+    white-space: nowrap;
+}
+.community-espace .filterlabel {
+    width: 108px;
+    display: inline-block;
+}
+.community-espace .CommunityDownloadButton {
+    background: url(/Community/img/CommunityDownloadButton.png) no-repeat;
+    background-position: 1px -1px;
+    width: 312px !important;
+    height: 55px;
+    display: inline-block;
+    color: #FFF !important;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5) !important;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    background-color: transparent !important;
+    border: none;
+    padding-bottom: 8px;
+}
+.community-espace .CommunityDownloadButton:hover {
+    background-position: 1px -61px;
+    background-color: transparent !important;
+}
+.community-espace .radio-checkbox {
+    *margin-right: 0px !important;
+    _margin-right: 0px !important;
+    zoom: 1;
+}
+.community-espace .checkbox {
+    zoom: 1;
+    padding-left: 0px;
+}
+.community-espace .whiteSpaceNoWrap {
+    white-space: nowrap;
+}
+.community-espace .wordBreakWord {
+    word-break: break-word;
+}
+
+
+/* new*/
+
