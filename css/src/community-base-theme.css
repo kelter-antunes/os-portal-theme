@@ -366,6 +366,20 @@ form {
 .drop, .header-siteswitcher {
     filter: progid:DXImageTransform.Microsoft.Shadow(strength=3, direction=180, color='#000000')
 }
+.search-container{
+    position: absolute;
+    background: url(/CommunityBaseTheme/img/bgheader.png) left top repeat-x #444;
+}
+.search-container input {
+    height: 49px;
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 18px;
+    box-shadow: none;
+    margin-bottom: 0;
+}
 .search-wrapper input.search {
     border-right: 0;
     width: 194px;
