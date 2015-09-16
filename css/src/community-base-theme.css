@@ -380,6 +380,9 @@ form {
     box-shadow: none;
     margin-bottom: 0;
 }
+.search-container input[type=text]:focus {
+    box-shadow: none;
+}
 .search-wrapper input.search {
     border-right: 0;
     width: 194px;
@@ -401,7 +404,6 @@ form {
     height: 30px;
     color: #999;
     font-size: 13px;
-    margin-left: 28px;
     float: left
 }
 .search-wrapper input.submit {
@@ -457,6 +459,12 @@ form {
     float: left;
     position: relative;
     text-align: center
+}
+.top-menu-item.big-entry{
+    width: 130px;
+}
+.top-menu-item.small-entry{
+    width: auto;
 }
 .top-menu-arrow, .top-menu-home, .top-menu-learn {
     content: "";
@@ -3406,15 +3414,20 @@ div.Feedback_AjaxWait img {
     .header-logged-out {
         white-space: nowrap
     }
+    .top-menu-item.big-entry{
+        width: 99px;
+    }
     .top-menu-item {
         width: 84px
     }
     .top-menu-item a {
         padding: 0
     }
+    /*
     .small-search {
         width: 115px
     }
+    */
     .search-wrapper .small-search input.search {
         width: 84px
     }
