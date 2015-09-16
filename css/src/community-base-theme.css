@@ -3785,11 +3785,10 @@ div.Feedback_AjaxWait img {
 }
 @media (min-width: 768px) and (max-width:979px) {
     .searchview-close {
-        right: 0px;
+        right: 130px;
     }
 
     .searchview-content {
-        width: 700px;
+        width: 570px;
     }
-
 }
