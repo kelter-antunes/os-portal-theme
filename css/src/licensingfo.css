@@ -142,16 +142,14 @@
     padding:1px 0px 1px 0px;
 }
 
-
 .platformlicensingfo-espace .LineGrayBackground{
     background-color: #eceff1;
     height:15px;
 }
 
-a.platformlicensingfo-espace .LinkDisplayBlock{
+.platformlicensingfo-espace a.LinkDisplayBlock{
     display: block;
 }
-
 
 .platformlicensingfo-espace .Heading2 {
     color: #333;
@@ -167,13 +165,8 @@ a.platformlicensingfo-espace .LinkDisplayBlock{
     font-weight: normal;
 }
 
-
-a.platformlicensingfo-espace .btn-small {
-    margin-right: 10px;
-}
-
-a.platformlicensingfo-espace .DisplayBlock{
-    display: block;
+.platformlicensingfo-espace a.btn-small {
+    margin-right: 15px;
 }
 
 .platformlicensingfo-espace .spacing{
