@@ -17,27 +17,21 @@
     font-size: 30px;
     font-weight: 600;
     padding: 0 0 10px;
-    font-family: 'myriad-pro',sans-serif;
-    text-rendering: optimizelegibility;
     margin: 0;
     line-height: 1.2em;
-
     width: 467px;
     height: 38px;
     color: #333333;
 }
 
 .platformlicensingfo-espace .Paragraph{
-    font-family: Arial, "Helvetica Neue", Helvetica, Myriad-Pro, sans-serif !important;
     color: #999;
-    font-family: Arial;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
 }
 
 .platformlicensingfo-espace .Text_Strong{
-    font-family: Arial, "Helvetica Neue", Helvetica, Myriad-Pro, sans-serif !important;
     color: #596669;
     font-size: 14px;
     font-weight: 700;
@@ -45,7 +39,6 @@
 }
 
 .platformlicensingfo-espace .Text_Normal{
-    font-family: Arial, "Helvetica Neue", Helvetica, Myriad-Pro, sans-serif !important;
     color: black;
     font-size: 14px;
     font-weight: 400;
@@ -55,7 +48,6 @@
 .platformlicensingfo-espace .SubHeader{
     font-weight: 600;
     font-size: 21px;
-    font-family: Arial, "Helvetica Neue", Helvetica, Myriad-Pro, sans-serif !important;
     color:  #333333;
     line-height: 20px;
 }
@@ -70,7 +62,6 @@
     width: 165px;
     height: 20px;
     color: white;
-    font-family: Arial;
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
@@ -79,17 +70,14 @@
 
 .platformlicensingfo-espace .Description{
     color: grey;
-    font-family: Arial;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
     margin: 10px 15px 10px 15px;
 }
 .platformlicensingfo-espace .EnvironmentText{
-    width: 151px;
     height: 16px;
     color: #5b686b;
-    font-family: Arial;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
@@ -104,7 +92,6 @@
 }
 
 .platformlicensingfo-espace .Serial{
-    width: 196px;
     height: 14px;
     color: #656565;
     font-size: 12px;
@@ -116,7 +103,6 @@
     width: 48px;
     height: 14px;
     color: #aaa;
-    font-family: Arial;
     font-size: 12px;
     font-weight: 700;
     line-height: 14px;
@@ -188,4 +174,8 @@ a.platformlicensingfo-espace .btn-small {
 
 a.platformlicensingfo-espace .DisplayBlock{
     display: block;
+}
+
+.platformlicensingfo-espace .spacing{
+   margin-top: 2px;
 }
