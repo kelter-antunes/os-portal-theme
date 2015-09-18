@@ -1,0 +1,191 @@
+.platformlicensingfo-espace.DisplayNone{
+    display: none;
+}
+
+.platformlicensingfo-espace.Border{
+    width: 1004px;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.platformlicensingfo-espace.ShowRecord_Caption{
+    color: grey;
+}
+
+.platformlicensingfo-espace.HeaderFO{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0 0 10px;
+    font-family: 'myriad-pro',sans-serif;
+    text-rendering: optimizelegibility;
+    margin: 0;
+    line-height: 1.platformlicensingfo-espace.2em;
+
+    width: 467px;
+    height: 38px;
+    color: #333333;
+}
+
+.platformlicensingfo-espace.Paragraph{
+    font-family: Arial, "Helvetica Neue", Helvetica, Myriad-Pro, sans-serif !important;
+    color: #999;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.platformlicensingfo-espace.Text_Strong{
+    font-family: Arial, "Helvetica Neue", Helvetica, Myriad-Pro, sans-serif !important;
+    color: #596669;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.platformlicensingfo-espace.Text_Normal{
+    font-family: Arial, "Helvetica Neue", Helvetica, Myriad-Pro, sans-serif !important;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.platformlicensingfo-espace.SubHeader{
+    font-weight: 600;
+    font-size: 21px;
+    font-family: Arial, "Helvetica Neue", Helvetica, Myriad-Pro, sans-serif !important;
+    color:  #333333;
+    line-height: 20px;
+}
+
+.platformlicensingfo-espace.TopHeader{
+    background-color: #37474f;
+    padding-top: 8px;
+    height: 38px;
+}
+
+.platformlicensingfo-espace.TopHeaderText{
+    width: 165px;
+    height: 20px;
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 25px
+}
+
+.platformlicensingfo-espace.Description{
+    color: grey;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 10px 15px 10px 15px;
+}
+.platformlicensingfo-espace.EnvironmentText{
+    width: 151px;
+    height: 16px;
+    color: #5b686b;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.platformlicensingfo-espace.EnvironmentBox{
+    background-color: white;
+    border-radius: 4px;
+    margin: 5px 20px 5px 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.platformlicensingfo-espace.Serial{
+    width: 196px;
+    height: 14px;
+    color: #656565;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.platformlicensingfo-espace.AOsText{
+    width: 48px;
+    height: 14px;
+    color: #aaa;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.platformlicensingfo-espace.CenterContainers{
+    vertical-align: middle;
+    line-height: -1px;
+}
+
+.platformlicensingfo-espace.ButtonStyle{
+    background-color: #08c;
+    border-radius: 2px;
+    color: white;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 14px;
+    padding: 5px 15px 5px 15px;
+    text-transform: uppercase;
+}
+
+.platformlicensingfo-espace.InfoButton{
+    width: 19px;
+    height: 22px;
+    color: #aaa;
+    font-family: FontAwesome;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 23px;
+}
+
+.platformlicensingfo-espace.Backgrounds{
+    background-color: #eceff1;
+    padding:1px 0px 1px 0px;
+}
+
+
+.platformlicensingfo-espace.LineGrayBackground{
+    background-color: #eceff1;
+    height:15px;
+}
+
+a.platformlicensingfo-espace.LinkDisplayBlock{
+    display: block;
+}
+
+
+.platformlicensingfo-espace.Heading2 {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 0.platformlicensingfo-espace.8em;
+    padding-top: 6px;
+}
+
+.platformlicensingfo-espace.Title_Links {
+    font-size: 11px;
+    padding: 5px 0px;
+    font-weight: normal;
+}
+
+
+a.platformlicensingfo-espace.btn-small {
+    margin-right: 10px;
+}
+
+a.platformlicensingfo-espace.DisplayBlock{
+    display: block;
+}

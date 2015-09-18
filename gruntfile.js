@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
     require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
-    // Project configuration.  
+    // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         cssmin: {
@@ -23,7 +23,8 @@ module.exports = function(grunt) {
                         'css/src/search.css',
                         'css/src/home.css',
                         'css/src/widgets.css',
-                        'css/src/community.css'
+                        'css/src/community.css',
+                        'css/src/licensingfo.css'
                     ],
                     'css/bundle/os-portal.css': [
                         'css/src/bootstrap.css',
@@ -41,7 +42,8 @@ module.exports = function(grunt) {
                         'css/src/search.css',
                         'css/src/home.css',
                         'css/src/widgets.css',
-                        'css/src/community.css'
+                        'css/src/community.css',
+                        'css/src/licensingfo.css'
                     ]
                 }
             }
@@ -64,6 +66,6 @@ module.exports = function(grunt) {
             }
         }
     });
-    // Default task.  
+    // Default task.
     grunt.registerTask('default', ['cssmin', 'uglify']);
 };
