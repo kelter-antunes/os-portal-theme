@@ -733,7 +733,8 @@
 
 .partnerarea-espace .sidebar-separator {
     position: relative;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    word-break:break-word;
 }
 
 .partnerarea-espace .sidebar-separator:after {

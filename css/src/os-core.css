@@ -199,9 +199,7 @@ ul.footer.social-icons {
     margin-top: 0px;
 }
 
-.mobile-search {
-    display: none;
-}
+
 
 .social-userexperienceshared a.twitter,
 .social-userexperienceshared a.facebook,
@@ -273,13 +271,6 @@ ul.footer.social-icons {
 
 
 /**** media *********/
-
-@media (max-width: 979px) {
-    .mobile-search {
-        display: none;
-    }
-}
-
 @media (max-width: 767px) {
     .Responsive [class*="ThemeGrid_Width"].HiddenInSmartphone,
     .Responsive .HiddenInSmartphone,
@@ -291,11 +282,6 @@ ul.footer.social-icons {
     .mobile-top20 {
         margin-top: 20px;
         width: 250px !important;
-    }
-    .mobile-search {
-        display: inline-block;
-        margin-top: 5px;
-        width: 90%;
     }
     .small-search {
         width: auto;

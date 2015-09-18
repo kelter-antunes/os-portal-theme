@@ -24,7 +24,7 @@
 }
 body, button, input, select, textarea {
   margin: 0;
-  font-family: 'myriad-pro', Helvetica, Arial, sans-serif
+  font-family: Helvetica, Arial, sans-serif
 }
 address, cite {
   font-style: normal

@@ -9,6 +9,10 @@
 .home-espace .searchContainer {
     margin-top: -40px;
 }
+.home-espace .inpage-search-search-wrapper {
+    margin-top: -25px;
+}
+
 
 .home-espace div.Tabs_TabOff, .home-espace li.Tabs_TabOff {
   font-size: 14px;

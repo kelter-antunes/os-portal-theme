@@ -369,27 +369,21 @@ form {
 .header.with-search {
     position: relative;
 }
-
 .with-search .container.backgroungcontainerheader {
     position: relative;
 }
-
 .searchview {
     display: none;
 }
-
 .with-search .searchview {
     display: block;
 }
-
 .with-search .header-logo {
     visibility: hidden;
 }
-
 .with-search .menu-entries {
     visibility: hidden;
 }
-
 .searchview-content {
     position: absolute;
     top: 10px;
@@ -399,9 +393,6 @@ form {
     border: 1px solid #4D4D4D;
     border-radius: 3px;
 }
-
-
-
 .searchview-close {
     opacity: 1;
     -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=$ieopacity)';
@@ -418,24 +409,18 @@ form {
     -webkit-transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-
-
 .with-search .searchview-close {
     visibility: visible;
 }
-
 .header.with-search {
     position: relative;
 }
-
 .with-search .container.backgroungcontainerheader {
     position: relative;
 }
-
 .with-search .search-mobile-wrapper {
     visibility: hidden;
 }
-
 .searchform-wrapper {
     position: relative;
     z-index: 2;
@@ -445,7 +430,6 @@ form {
     padding-left: 30px;
     box-sizing: border-box;
 }
-
 input[type=search].searchform-input {
     width: 100%;
     font-size: 16px;
@@ -468,13 +452,11 @@ input[type=search].searchform-input:focus {
     border: none;
     box-shadow: none;
 }
-
 .searchform-submit[disabled] {
     opacity: 1;
     cursor: default;
     background-color: transparent;
 }
-
 .searchform-submit {
     position: absolute;
     z-index: 1;
@@ -485,13 +467,12 @@ input[type=search].searchform-input:focus {
     cursor: pointer;
     background: url(/CommunityBaseTheme/img/icons.png) 0 -1164px;
     background-repeat: no-repeat;
-    background-color:#3C3C3C;
+    background-color: #3C3C3C;
     -webkit-transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
     border: none;
     background-color: transparent;
 }
-
 .searchview-close-left, .searchview-close-right {
     height: 18px;
     width: 1px;
@@ -502,13 +483,11 @@ input[type=search].searchform-input:focus {
     left: 17px;
     z-index: 1;
 }
-
 .searchview-close:hover, .searchview-close:active {
     opacity: 0.65;
     -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=$ieopacity)';
     filter: alpha(opacity=65);
 }
-
 .searchview-close-left {
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
@@ -519,7 +498,7 @@ input[type=search].searchform-input:focus {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-.search-container{
+.search-container {
     position: absolute;
     background: url(/CommunityBaseTheme/img/bgheader.png) left top repeat-x #444;
 }
@@ -572,6 +551,32 @@ input[type=search].searchform-input:focus {
     text-transform: capitalize;
     font-size: 0
 }
+
+
+.inpage-search-search-wrapper {
+    display: flex;
+    float: right;
+}
+
+input[type=submit].inpage-search-btn {
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: middle;
+    background-color: transparent;
+    margin-left: -30px;
+    border: 1px solid transparent;
+    background: url(/CommunityBaseTheme/img/icons.png) 0 -1162px no-repeat;
+    color: transparent;
+    width: 30px;
+}
+
+input[type=search].inpage-search-input {
+    margin: 0;
+    padding-right: 40px;
+}
+
+
+
 .homepage-block-title, .menu-item, .top-menu-item, a.btn {
     text-transform: uppercase
 }
@@ -613,10 +618,10 @@ input[type=search].searchform-input:focus {
     position: relative;
     text-align: center
 }
-.top-menu-item.big-entry{
+.top-menu-item.big-entry {
     width: 130px;
 }
-.top-menu-item.small-entry{
+.top-menu-item.small-entry {
     width: auto;
 }
 .top-menu-arrow, .top-menu-home, .top-menu-learn {
@@ -1014,7 +1019,7 @@ h3, h4, h5 {
     display: inline-block
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: myriad-pro, sans-serif;
+    font-family: 'myriad-pro', sans-serif;
     text-rendering: optimizelegibility;
     margin: 0;
     line-height: 1.2em
@@ -1023,7 +1028,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 5px
 }
 .chosen-InputContainer .linkContainer, a.btn {
-    font-family: myriad-pro, Helvetica, Arial, sans-serif
+    font-family: 'myriad-pro', Helvetica, Arial, sans-serif
 }
 h1 {
     font-size: 30px;
@@ -3231,7 +3236,7 @@ div.Feedback_Message_Wrapper img {
     width: 150px
 }
 .searchInputForge {
-    width: 477px !Important
+    width: 477px !important
 }
 .left15 {
     margin-left: 15px
@@ -3557,6 +3562,9 @@ div.Feedback_AjaxWait img {
 .mobile-align {
     text-align: right
 }
+.mobile-search {
+    display: none;
+}
 @media (max-width:979px) {
     .partner-mobile a:link {
         content: "Partner"
@@ -3567,7 +3575,7 @@ div.Feedback_AjaxWait img {
     .header-logged-out {
         white-space: nowrap
     }
-    .top-menu-item.big-entry{
+    .top-menu-item.big-entry {
         width: 99px;
     }
     .top-menu-item {
@@ -3576,11 +3584,9 @@ div.Feedback_AjaxWait img {
     .top-menu-item a {
         padding: 0
     }
-    /*
-    .small-search {
-        width: 115px
+    .mobile-search {
+        display: none;
     }
-    */
     .search-wrapper .small-search input.search {
         width: 84px
     }
@@ -3772,6 +3778,22 @@ div.Feedback_AjaxWait img {
     .profile-more-details {
         padding-left: 0
     }
+    .searchview-close, .with-search .header-logo, .with-search .menu-entries {
+        visibility: visible;
+    }
+    .with-search .searchview {
+        display: none;
+    }
+    .header.with-search {
+        position: fixed;
+    }
+    .mobile-search {
+        margin-top: 5px;
+        width: 100%;
+        padding: 0 5px;
+        display: flex;
+        box-sizing: border-box;
+    }
 }
 @media (max-width:979px) {
     .SelectedBrowseAppsIcon:after, .SelectedBrowseAppsIcon:before, .SelectedCreateApplicationIcon:after, .SelectedCreateApplicationIcon:before, .SelectedGuidedTutorialIcon:after, .SelectedGuidedTutorialIcon:before, .SelectedManageAppsIcon:after, .SelectedManageAppsIcon:before {
@@ -3783,11 +3805,10 @@ div.Feedback_AjaxWait img {
         border-width: 1px
     }
 }
-@media (min-width: 768px) and (max-width:979px) {
+@media (min-width:768px) and (max-width:979px) {
     .searchview-close {
         right: 130px;
     }
-
     .searchview-content {
         width: 570px;
     }
