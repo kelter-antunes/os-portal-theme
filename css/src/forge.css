@@ -3745,7 +3745,7 @@
 .forge-espace .ActiveCategory,
 .forge-espace .ActiveFilter {
     border-left: 2px solid red;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .forge-espace .BottomBorder {
@@ -4263,12 +4263,15 @@ only screen and (min-resolution:144dpi) {
         display: block;
     }
 
-    .forge-espace .span5 {
-      width: 40%
-    }
 
     .forge-espace .span6 {
       width: 48.57142857142857%
+    }
+
+    .forge-espace .ActiveCategory,
+    .forge-espace .ActiveFilter {
+        border: none;
+        font-weight: normal;
     }
 
 
