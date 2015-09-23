@@ -1320,9 +1320,11 @@
 }
 **/
 
+/**
 .forge-espace .whiteSpaceNoWrap {
     white-space: nowrap
 }
+**/
 
 
 /**.forge-espace .environmentName {
@@ -4236,8 +4238,8 @@ only screen and (min-resolution:144dpi) {
 }
 
 @media (max-width:767px) {
-  /* Ricardo Freitas */
-    .forge-espace .mobileCatFilter{
+  /* Ricardo Freitas Begin */
+    .forge-espace .mobileFilter{
         background: #E6EAEB;
         border: 1px solid #D1D6D7;
         border-radius: 3px;
@@ -4260,7 +4262,7 @@ only screen and (min-resolution:144dpi) {
     }
 
 
-/* Ricardo Freitas */
+/* Ricardo Freitas End */
 
     .forge-espace .left20 {
         margin-left: 0
