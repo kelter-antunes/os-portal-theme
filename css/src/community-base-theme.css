@@ -540,7 +540,7 @@ input[type=search].searchform-input:focus {
 }
 .search-wrapper input.submit {
     background: url(/CommunityBaseTheme/img/icons.png) 0 -1164px no-repeat transparent;
-    border: none;
+    border: 1px solid #CCC;
     box-shadow: none;
     height: 30px;
     line-height: 20px;
