@@ -3802,7 +3802,7 @@
     background-color: #E6EAEB!important
 }
 
-.forge-espace .sortByLabel {
+.forge-espace .filterLabel {
     padding-right: 10px;
     font-size: 13px;
     line-height: 13px;
@@ -4254,6 +4254,11 @@ only screen and (min-resolution:144dpi) {
     .forge-espace .padding5{
         padding: 5px;
     }
+
+    .forge-espace .filterLabel {
+        padding-bottom: 3px;
+    }
+
 
 /* Ricardo Freitas */
 
