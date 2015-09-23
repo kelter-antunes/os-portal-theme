@@ -4222,6 +4222,10 @@
     margin-top: 5px
 }
 
+.row-fluid .span6 {
+  width: 48.57142857142857%
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio:2),
 only screen and (min-resolution:144dpi) {
     .forge-espace .chzn-container .chzn-results-scroll-down span,
@@ -4243,7 +4247,7 @@ only screen and (min-resolution:144dpi) {
         background: #E6EAEB;
         border: 1px solid #D1D6D7;
         border-radius: 3px;
-        width: 41%;
+        width: 41%; /* To remove when mobile spans are fixed. */
         padding: 7px;
         display: inline-block;
         margin-bottom: 22px;
@@ -4258,7 +4262,8 @@ only screen and (min-resolution:144dpi) {
     }
 
     .forge-espace .filterLabel {
-        padding-bottom: 3px;
+        padding-bottom: 4px;
+        display: block;
     }
 
 
