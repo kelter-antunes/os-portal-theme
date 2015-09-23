@@ -4313,7 +4313,7 @@ only screen and (min-resolution:144dpi) {
     }
 
     .forge-espace .Downloads{
-        width: 75px;
+        width: 75px; 
     }
 
     .forge-espace .MobileRibbons{
