@@ -4294,7 +4294,22 @@ only screen and (min-resolution:144dpi) {
         left: 146px;
     }
 
+    .forge-espace .MobileRating{
+        margin-left: 5px;
+    }
 
+    .forge-espace .MobileDownloads{
+        width: 75px;
+    }
+
+    .forge-espace .MobileRibbons{
+        width: 100px;
+    }
+
+    .forge-espace .MobileProjDetails{
+        margin-top: -4px;
+        margin-bottom: 9px;
+    }
 
 /* Ricardo Freitas End */
 
@@ -4323,13 +4338,17 @@ only screen and (min-resolution:144dpi) {
         display: inline-block;
         margin-left: 20px!important
     }
+
     .forge-espace .infoContainer {
         position: relative;
         bottom: 0;
         width: 100%;
         left: 0;
-        border-top: 1px solid #f0efed
+        border-top: 1px solid #f0efed;
+        position: relative;
+        top: 5px;
     }
+
     /**    .forge-espace .searchInput {
         width: 278px!important
     }
