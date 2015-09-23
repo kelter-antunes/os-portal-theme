@@ -3745,7 +3745,7 @@
 .forge-espace .ActiveCategory,
 .forge-espace .ActiveFilter {
     border-left: 2px solid red;
-    font-weight: 700;
+    font-weight: 700
 }
 
 .forge-espace .BottomBorder {
@@ -4272,6 +4272,12 @@ only screen and (min-resolution:144dpi) {
     .forge-espace .ActiveFilter {
         border: none;
         font-weight: normal;
+    }
+
+    .forge-espace .mobileHeader
+    {
+        height: 70px;
+        background-color: #FFF;
     }
 
 
