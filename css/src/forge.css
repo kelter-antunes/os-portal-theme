@@ -4222,10 +4222,6 @@
     margin-top: 5px
 }
 
-.row-fluid .span6 {
-  width: 48.57142857142857%
-}
-
 @media only screen and (-webkit-min-device-pixel-ratio:2),
 only screen and (min-resolution:144dpi) {
     .forge-espace .chzn-container .chzn-results-scroll-down span,
@@ -4266,6 +4262,9 @@ only screen and (min-resolution:144dpi) {
         display: block;
     }
 
+.span6 {
+  width: 48.57142857142857%
+}
 
 /* Ricardo Freitas End */
 
