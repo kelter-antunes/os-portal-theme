@@ -4280,6 +4280,21 @@ only screen and (min-resolution:144dpi) {
         background-color: #FFF;
     }
 
+    .forge-espace .MobileHeaderTitle{
+        position: relative;
+        top: -10px;
+        width: 84px;
+        left: 11px;
+    }
+
+    .forge-espace .FaqMobileButton{
+        margin-left: 20px;
+        position: relative;
+        top: -87px;
+        left: 146px;
+    }
+
+
 
 /* Ricardo Freitas End */
 
