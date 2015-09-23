@@ -2692,10 +2692,6 @@
     font-family: myriad-pro, Helvetica, Arial, sans-serif
 }
 
-.forge-espace .DropDownFilterTitle {
-    vertical-align: super;
-    font-family: myriad-pro, Helvetica, Arial, sans-serif
-}
 
 .forge-espace .CategoryTagMargin {
     padding: 5px 20px
@@ -3825,8 +3821,11 @@
 }
 
 .forge-espace .DropDownFilterTitle {
-    font-size: 16px
+    font-size: 16px;
+    vertical-align: super;
+    font-family: myriad-pro, Helvetica, Arial, sans-serif
 }
+
 
 .forge-espace .pageHeader {
     background-color: #fff;
@@ -4321,6 +4320,10 @@ only screen and (min-resolution:144dpi) {
  
      .forge-espace .leftContainerContent {
         max-width: 320px;
+    }
+
+    .forge-espace .ComboBox div,.forge-espace .ComboBox span{
+        color: #333;
     }
 
 /* Ricardo Freitas End */
