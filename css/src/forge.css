@@ -4320,7 +4320,7 @@ only screen and (min-resolution:144dpi) {
     }
  
      .forge-espace .leftContainerContent {
-        width: 0px;
+        max-width: 320px;
     }
 
 /* Ricardo Freitas End */
