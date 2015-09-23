@@ -4236,6 +4236,27 @@ only screen and (min-resolution:144dpi) {
 }
 
 @media (max-width:767px) {
+  /* Ricardo Freitas */
+    .forge-espace .mobileCatFilter{
+        background: #E6EAEB;
+        border: 1px solid #D1D6D7;
+        border-radius: 3px;
+        width: 41%;
+        padding: 7px;
+        display: inline-block;
+        margin-bottom: 22px;
+    }
+
+    .forge-espace .leftContainer{
+        display: none;
+    }
+
+    .forge-espace .padding5{
+        padding: 5px;
+    }
+
+/* Ricardo Freitas */
+
     .forge-espace .left20 {
         margin-left: 0
     }
