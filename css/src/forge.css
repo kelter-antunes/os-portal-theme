@@ -4221,6 +4221,19 @@
     margin-bottom: 15px;
     margin-top: 5px
 }
+/* Ricardo Start */
+
+    .forge-espace .Rating{
+        width: 78px;
+        margin-left: 24px;
+    }
+
+    .forge-espace .Downloads{
+        text-align: center;
+        width: 86px;
+    }
+
+/* Ricardo End */
 
 @media only screen and (-webkit-min-device-pixel-ratio:2),
 only screen and (min-resolution:144dpi) {
@@ -4294,11 +4307,12 @@ only screen and (min-resolution:144dpi) {
         left: 146px;
     }
 
-    .forge-espace .MobileRating{
+    .forge-espace .Rating{
         margin-left: 5px;
+        width: 0px;
     }
 
-    .forge-espace .MobileDownloads{
+    .forge-espace .Downloads{
         width: 75px;
     }
 
@@ -4306,10 +4320,6 @@ only screen and (min-resolution:144dpi) {
         width: 100px;
     }
  
-    .forge-espace .MobileProjDetails{
-        margin-top: -4px;
-        margin-bottom: 9px;
-    }
 
 /* Ricardo Freitas End */
 
@@ -4334,7 +4344,8 @@ only screen and (min-resolution:144dpi) {
     }
     .forge-espace .CardTextWidth {
         width: 175px;
-        margin-top: 10px;
+        margin-top: -4px;
+        margin-bottom: 9px;
         display: inline-block;
         margin-left: 20px!important
     }
