@@ -4266,6 +4266,7 @@ only screen and (min-resolution:144dpi) {
         margin-bottom: 22px;
         line-height: normal;
         text-align: left;
+        width: 48%;
     }
 
     .forge-espace .leftContainer{
