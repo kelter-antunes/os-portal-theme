@@ -3643,6 +3643,13 @@ div.Feedback_AjaxWait img {
     }
 }
 @media (max-width:767px) {
+    /* Ricardo Start */
+    .forums-thumbs {
+        padding-top: 0px;
+    }
+    /* Ricardo End */
+
+
     .component-icon, .mobile-notdisplay, .search-mobile-wrapper {
         display: none
     }
