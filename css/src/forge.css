@@ -3872,7 +3872,8 @@
 }
 
 .forge-espace .courouselContainerDiv {
-    position: relative
+    position: relative;
+    width: 54%;
 }
 
 .forge-espace .carouselContainer.owl-carousel .owl-wrapper-outer {
@@ -4238,6 +4239,7 @@
     width: 86px;
 }
 
+
 /* Ricardo End */
 
 @media only screen and (-webkit-min-device-pixel-ratio:2),
@@ -4268,6 +4270,11 @@ only screen and (min-resolution:144dpi) {
         text-align: left;
         width: 48%;
     }
+
+    .forge-espace .courouselContainerDiv {
+        width: 100%;
+    }
+
 
     .forge-espace .leftContainer{
         display: none;
