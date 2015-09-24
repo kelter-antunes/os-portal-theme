@@ -3167,7 +3167,7 @@
 .forge-espace .menu-top-menu-active,
 .forge-espace .menu-top-menu-active:after {
     border-bottom: none;
-    background-color: #fff!important;
+    background-color: #fff;
     color: #333
 }
 
