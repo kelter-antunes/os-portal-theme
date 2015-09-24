@@ -4346,6 +4346,13 @@ only screen and (min-resolution:144dpi) {
         background-color: #384142;
     }
 
+    .MobileAlignMiddle{
+        text-align: center;
+    }
+
+    .forums-thumbs {
+        padding-top: 0px;
+    }
 
 /* Ricardo Freitas End */
 
