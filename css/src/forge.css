@@ -4341,6 +4341,10 @@ only screen and (min-resolution:144dpi) {
         color: #fff;
     }
 
+    .forge-espace .menu-top-menu:after {
+        display: none;
+    }
+
 
 
 /* Ricardo Freitas End */
