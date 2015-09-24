@@ -4328,12 +4328,12 @@ only screen and (min-resolution:144dpi) {
     }
 
     .forge-espace .menu-top-menu-active { 
-        background-color: #384142;
+        background-color: #384142!important;
         border-bottom: 1px solid #C6C6C6;
     }
 
     .forge-espace .menu-top-menu-active a:link,.forge-espace .menu-top-menu-active a:visited {
-        color: #fff!important;
+        color: #fff;
     }
 
     .forge-espace .menu-top-menu:after {
