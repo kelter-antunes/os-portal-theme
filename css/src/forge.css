@@ -4222,15 +4222,21 @@
 }
 /* Ricardo Start */
 
-    .forge-espace .Rating{
-        width: 78px;
-        margin-left: 24px;
-    }
+.forge-espace  .HeaderText{
+    display: inline-block;
+    padding-left: 3px;
+    vertical-align: 1px;
+}
 
-    .forge-espace .Downloads{
-        text-align: center;
-        width: 86px;
-    }
+.forge-espace .Rating{
+    width: 78px;
+    margin-left: 24px;
+}
+
+.forge-espace .Downloads{
+    text-align: center;
+    width: 86px;
+}
 
 /* Ricardo End */
 
