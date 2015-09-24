@@ -3167,7 +3167,7 @@
 .forge-espace .menu-top-menu-active,
 .forge-espace .menu-top-menu-active:after {
     border-bottom: none;
-    background-color: #fff;
+    background-color: #fff!important;
     color: #333
 }
 
@@ -4281,11 +4281,6 @@ only screen and (min-resolution:144dpi) {
         display: block;
     }
 
-
-    .forge-espace .span6 {
-      width: 48.57142857142857%
-    }
-
     .forge-espace .ActiveCategory,
     .forge-espace .ActiveFilter {
         border: none;
@@ -4332,13 +4327,13 @@ only screen and (min-resolution:144dpi) {
         color: #333;
     }
 
-    .forge-espace .menu-top-menu-active,.forge-espace .menu-top-menu-active:after { 
+    .forge-espace .menu-top-menu-active { 
         background-color: #384142;
         border-bottom: 1px solid #C6C6C6;
     }
 
     .forge-espace .menu-top-menu-active a:link,.forge-espace .menu-top-menu-active a:visited {
-        color: #fff;
+        color: #fff!important;
     }
 
     .forge-espace .menu-top-menu:after {
