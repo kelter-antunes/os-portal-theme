@@ -4340,6 +4340,10 @@ only screen and (min-resolution:144dpi) {
         display: none;
     }
 
+    .forge-espace .menu-top-menu-active .fa.fa-fw.fa-comments-o {
+        color: #fff;
+        background-color: #384142;
+    }
 
 
 /* Ricardo Freitas End */
