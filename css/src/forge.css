@@ -4332,6 +4332,17 @@ only screen and (min-resolution:144dpi) {
         color: #333;
     }
 
+    .forge-espace .menu-top-menu-active,.forge-espace .menu-top-menu-active:after { 
+        background-color: #384142;
+        border-bottom: 1px solid #C6C6C6;
+    }
+
+    .forge-espace .menu-top-menu-active a:link,.forge-espace .menu-top-menu-active a:visited {
+        color: #fff;
+    }
+
+
+
 /* Ricardo Freitas End */
 
     .forge-espace .left20 {
@@ -4400,7 +4411,8 @@ only screen and (min-resolution:144dpi) {
     .forge-espace .menu-top-menu {
         border-radius: 0;
         display: block;
-        margin-right: 0
+        margin-right: 0;
+        border-bottom: 1px solid #C6C6C6;
     }
     .forge-espace .banner-icon.span2 {
         width: auto;
