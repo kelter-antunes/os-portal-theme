@@ -4380,13 +4380,13 @@ only screen and (min-resolution:144dpi) {
     }
 
     .forge-espace .HighlightCard{
-        margin-top: 38px;
+        margin-top: 8%;
         padding-left: 10%;
         width: 90%;
     }
 
     .forge-espace .HighLightCardContent{
-        padding-bottom: 25px;
+        padding-bottom: 13px;
     }
 
 
