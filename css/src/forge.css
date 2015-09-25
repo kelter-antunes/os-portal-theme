@@ -4377,10 +4377,6 @@ only screen and (min-resolution:144dpi) {
         padding-left: 10%;
     }
 
-    .forge-espace .carouselContainer.owl-theme .owl-controls {
-        margin-left: 40%;
-    }
-
 
 /* Ricardo Freitas End */
 
@@ -4560,7 +4556,8 @@ only screen and (min-resolution:144dpi) {
         padding: 0
     }
     .forge-espace .carouselContainer.owl-theme .owl-controls {
-        margin-left: 225px;
+        /*margin-left: 225px;*/
+        margin-left: 40%;
     }
     .forge-espace .owl-item .CardTextWidthFlow {
         width: 160px;
