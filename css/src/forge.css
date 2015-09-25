@@ -4342,11 +4342,11 @@ only screen and (min-resolution:144dpi) {
     .forge-espace .MobileRibbons{
         width: 100px;
     }
-
+/*
      .forge-espace .leftContainerContent  {
         width: 0px;
     }
-
+*/
     .forge-espace .ComboBox div,.forge-espace .ComboBox span{
         color: #333;
     }
@@ -4576,7 +4576,7 @@ only screen and (min-resolution:144dpi) {
         width: 360px;
     }
     */
-    
+
     /**    .forge-espace .componentTabsMobile {
         position: relative;
         top: 20px
