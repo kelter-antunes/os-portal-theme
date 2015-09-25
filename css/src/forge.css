@@ -4239,6 +4239,11 @@
     width: 86px;
 }
 
+.HighlightCard{
+    margin-top: 50px;
+    padding-left: 90px;
+}
+
 
 /* Ricardo End */
 
@@ -4360,6 +4365,18 @@ only screen and (min-resolution:144dpi) {
     .forums-thumbs {
         padding-top: 0px;
     }
+
+
+
+    .forge-espace .HighlightCard{
+        margin-top: 10%;
+        padding-left: 10%;
+    }
+
+    .forge-espace .carouselContainer.owl-theme .owl-controls {
+        margin-left: 40%;
+    }
+
 
 /* Ricardo Freitas End */
 
