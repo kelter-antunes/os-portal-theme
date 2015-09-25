@@ -4343,8 +4343,8 @@ only screen and (min-resolution:144dpi) {
         width: 100px;
     }
 
-     .forge-espace .leftContainerContent {
-        min-width: 0px;
+     .forge-espace .MobileLeftContent {
+        width: 0px;
     }
 
     .forge-espace .ComboBox div,.forge-espace .ComboBox span{
