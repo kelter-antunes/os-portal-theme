@@ -4325,10 +4325,10 @@ only screen and (min-resolution:144dpi) {
     }
 
     .forge-espace .FaqMobileButton{
-        /*margin-left: 20px;*/
         position: relative;
-        top: -87px;
-        left: 57%;
+        top: -88px;
+        text-align: right;
+        width: 100%;
     }
 
     .forge-espace .Rating{
@@ -4342,11 +4342,11 @@ only screen and (min-resolution:144dpi) {
     .forge-espace .MobileRibbons{
         width: 100px;
     }
- 
+ /*
      .forge-espace .leftContainerContent {
         max-width: 320px;
     }
-
+*/
     .forge-espace .ComboBox div,.forge-espace .ComboBox span{
         color: #333;
     }
