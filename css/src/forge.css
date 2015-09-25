@@ -4239,12 +4239,6 @@
     width: 86px;
 }
 
-/*
-.HighlightCard{
-    margin-top: 50px;
-    padding-left: 90px;
-}
-*/
 
 .CardDetails{
     margin-left: 20px;
@@ -4256,6 +4250,11 @@
     width:94%;
 }
 
+
+.HighlightCard{
+    margin-top: 50px;
+    padding-left: 90px;
+}
 
 
 /* Ricardo End */
