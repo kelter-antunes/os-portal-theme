@@ -4344,7 +4344,7 @@ only screen and (min-resolution:144dpi) {
     }
 
      .forge-espace .leftContainerContent  {
-        max-width: 128px;
+        width: 0px;
     }
 
     .forge-espace .ComboBox div,.forge-espace .ComboBox span{
@@ -4571,9 +4571,12 @@ only screen and (min-resolution:144dpi) {
     .forge-espace .owl-item .CardTextWidthFlow {
         width: 160px;
     }
+    /*
     .forge-espace .leftContainerContent {
         width: 360px;
     }
+    */
+    
     /**    .forge-espace .componentTabsMobile {
         position: relative;
         top: 20px
