@@ -2824,7 +2824,7 @@
 }
 
 .forge-espace .CardTextWidth {
-    width: 313px
+    width: 313px;
 }
 
 .forge-espace .MenuItemsContainer,
@@ -4378,8 +4378,8 @@ only screen and (min-resolution:144dpi) {
     }
 
     .forge-espace .HighlightCard{
-        margin-top: 10%;
-        padding-left: 10%;
+        margin-top: 38px;
+        padding-left: 20%;
     }
 
     .forge-espace .HighLightCardContent{
@@ -4409,7 +4409,8 @@ only screen and (min-resolution:144dpi) {
         height: auto
     }
     .forge-espace .CardTextWidth {
-        width: 175px;
+       /* width: 175px; */
+        width:60%;
         margin-top: -4px;
         margin-bottom: 9px;
         display: inline-block;
@@ -4555,7 +4556,8 @@ only screen and (min-resolution:144dpi) {
         display: none
     }
     .forge-espace .CardTextWidth {
-        width: 146px;
+        /*width: 146px;*/
+        width: 60%;
     }
     .forge-espace .onlineForgeImage {
         width: 100%;
