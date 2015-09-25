@@ -4239,11 +4239,12 @@
     width: 86px;
 }
 
+/*
 .HighlightCard{
-    margin-top: 38px;
-    padding-left: 10%;
-    width: 90%;
+    margin-top: 50px;
+    padding-left: 90px;
 }
+*/
 
 .CardDetails{
     margin-left: 20px;
@@ -4380,7 +4381,8 @@ only screen and (min-resolution:144dpi) {
 
     .forge-espace .HighlightCard{
         margin-top: 38px;
-        padding-left: 20%;
+        padding-left: 10%;
+        width: 90%;
     }
 
     .forge-espace .HighLightCardContent{
