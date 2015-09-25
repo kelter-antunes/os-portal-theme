@@ -4240,22 +4240,25 @@
 }
 
 
-.CardDetails{
+.forge-espace .CardDetails{
     margin-left: 20px;
 }
 
-.HighLightCardContent{
+.forge-espace .HighLightCardContent{
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);   
     padding-bottom: 30px;
     width:94%;
 }
 
 
-.HighlightCard{
+.forge-espace .HighlightCard{
     margin-top: 50px;
     padding-left: 90px;
 }
 
+.forge-espace .componentTitle{
+    color: #08c;
+}
 
 /* Ricardo End */
 
