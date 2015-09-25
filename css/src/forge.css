@@ -4248,6 +4248,13 @@
     margin-left: 20px;
 }
 
+.HighLightCardContent{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);   
+    padding-bottom: 30px;
+    width:94%;
+}
+
+
 
 /* Ricardo End */
 
@@ -4318,10 +4325,10 @@ only screen and (min-resolution:144dpi) {
     }
 
     .forge-espace .FaqMobileButton{
-        margin-left: 20px;
+        /*margin-left: 20px;*/
         position: relative;
         top: -87px;
-        left: 146px;
+        left: 57%;
     }
 
     .forge-espace .Rating{
@@ -4362,19 +4369,21 @@ only screen and (min-resolution:144dpi) {
         background-color: #384142;
     }
 
-    .MobileAlignMiddle{
+    .forge-espace .MobileAlignMiddle{
         text-align: center;
     }
 
-    .forums-thumbs {
+    .forge-espace .forums-thumbs {
         padding-top: 0px;
     }
-
-
 
     .forge-espace .HighlightCard{
         margin-top: 10%;
         padding-left: 10%;
+    }
+
+    .forge-espace .HighLightCardContent{
+        padding-bottom: 25px;
     }
 
 
