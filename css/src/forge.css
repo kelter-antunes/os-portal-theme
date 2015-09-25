@@ -4165,7 +4165,7 @@
 
 .forge-espace .OnDrag.DropZone {
     border: 2px dashed grey
-}
+} 
 
 .forge-espace .DropZone {
     border: 2px dashed #e1e1e1;
@@ -4257,7 +4257,7 @@
 }
 
 .forge-espace .componentTitle{
-    color: #08c;
+    color: #08c; 
 }
 
 /* Ricardo End */
