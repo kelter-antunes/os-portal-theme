@@ -3840,9 +3840,6 @@
     height: 100%
 }
 
-.forge-espace .leftContainerContent {
-    position: relative
-}
 
 .forge-espace .leftContainer:after {
     content: " ";
@@ -4268,6 +4265,16 @@
     display: none;
 }
 
+.forge-espace leftContainerContent{
+    position:absolute; 
+    top: 25px; 
+    z-index:2;
+}
+
+.forge-espace .FaqButton{
+    margin-left: 20px;
+}
+
 /* Ricardo End */
 
 @media only screen and (-webkit-min-device-pixel-ratio:2),
@@ -4308,6 +4315,11 @@ only screen and (min-resolution:144dpi) {
         width: 100%;
     }
 
+    .forge-espace leftContainerContent{
+        width: 100%;
+    }
+
+
 
     .forge-espace .leftContainer{
         display: none;
@@ -4341,11 +4353,12 @@ only screen and (min-resolution:144dpi) {
         left: 11px;
     }
 
-    .forge-espace .FaqMobileButton{
+    .forge-espace .FaqButton{
         position: relative;
         top: -88px;
         text-align: right;
         width: 100%;
+        margin-left: -12px;
     }
 
     .forge-espace .Rating{
@@ -4359,11 +4372,7 @@ only screen and (min-resolution:144dpi) {
     .forge-espace .MobileRibbons{
         width: 100px;
     }
-/*
-     .forge-espace .leftContainerContent  {
-        width: 0px;
-    }
-*/
+
     .forge-espace .ComboBox div,.forge-espace .ComboBox span{
         color: #333;
     }
@@ -4592,11 +4601,7 @@ only screen and (min-resolution:144dpi) {
         /*width: 160px;*/
         width: 55%;
     }
-    /*
-    .forge-espace .leftContainerContent {
-        width: 360px;
-    }
-    */
+
 
     /**    .forge-espace .componentTabsMobile {
         position: relative;
