@@ -4260,6 +4260,10 @@
     color: #08c; 
 }
 
+.forge-espace .highLightComponentTitle{
+    color: white; 
+}
+
 .forge-espace .filterGap {
     display: none;
 }
