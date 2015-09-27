@@ -4261,7 +4261,7 @@
 }
 
 .forge-espace .filterGap {
-    width: 4%;
+    display: none;
 }
 
 /* Ricardo End */
