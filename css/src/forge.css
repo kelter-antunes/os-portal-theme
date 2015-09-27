@@ -4291,6 +4291,10 @@ only screen and (min-resolution:144dpi) {
         width: 48%;
     }
 
+    .forge-espace .filterGap {
+        width: 4%;
+    }
+
     .forge-espace .courouselContainerDiv {
         width: 100%;
     }
