@@ -4265,7 +4265,7 @@
     display: none;
 }
 
-.forge-espace leftContainerContent{
+.forge-espace .leftContainerContent{
     position:absolute; 
     top: 25px; 
     z-index:2;
@@ -4315,7 +4315,7 @@ only screen and (min-resolution:144dpi) {
         width: 100%;
     }
 
-    .forge-espace leftContainerContent{
+    .forge-espace .leftContainerContent{
         width: 100%;
     }
 
