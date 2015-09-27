@@ -4297,6 +4297,7 @@ only screen and (min-resolution:144dpi) {
 
     .forge-espace .filterGap {
         width: 4%;
+        display: inline-block;
     }
 
     .forge-espace .courouselContainerDiv {
