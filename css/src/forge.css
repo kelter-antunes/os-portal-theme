@@ -4424,7 +4424,7 @@ only screen and (min-resolution:144dpi) {
         top: -24px;
     }
 
-    .showFollowersText{
+    .hideFollowersText{
         display: none;
     }
 
