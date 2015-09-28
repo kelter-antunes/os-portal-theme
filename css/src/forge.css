@@ -4493,6 +4493,7 @@ only screen and (min-resolution:144dpi) {
         margin-right: 0;
         border-bottom: 1px solid #C6C6C6;
     }
+    
     .forge-espace .banner-icon.span2 {
         width: auto;
         float: none;
@@ -4502,8 +4503,10 @@ only screen and (min-resolution:144dpi) {
         height: 50px;
         margin-right: 5px;
         padding-left: 5px;
-        vertical-align: top
+        vertical-align: top;
+        padding-bottom: 86px;
     }
+
     .forge-espace .onlineForgeImage {
         width: auto;
         height: 100%
