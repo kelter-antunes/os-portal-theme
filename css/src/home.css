@@ -232,7 +232,7 @@
 .home-espace .ippCard {
     margin-bottom: 20px;
     box-shadow: 0px 1px 1px 1px rgba(0,0,0,.31);
-    padding: 20px 15px;
+    padding: 20px 15px 20px 69px;
 }
 @media (max-width:967px) {
   .home-espace .desktop-resizable .NavTab.Download, .home-espace .desktop-resizable .NavTab.Download.Active {
