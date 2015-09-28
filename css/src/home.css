@@ -229,6 +229,11 @@
 .home-espace .desktop-resizable {
   display: inline-block !important
 }
+.home-espace .courseCard {
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.31);
+    padding: 20px 15px;
+}
 @media (max-width:967px) {
   .home-espace .desktop-resizable .NavTab.Download, .home-espace .desktop-resizable .NavTab.Download.Active {
     display: none
@@ -1370,6 +1375,7 @@
   border-radius: 0 5px 5px;
   margin-left: 0 !important
 }
+
 @media (max-width:979px) {
   .home-espace .BrowseAppBox, .home-espace .ManageAppBox {
     position: relative;
