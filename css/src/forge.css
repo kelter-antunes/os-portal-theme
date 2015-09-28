@@ -4424,6 +4424,10 @@ only screen and (min-resolution:144dpi) {
         top: -24px;
     }
 
+    .showFollowersText{
+        display: none;
+    }
+
 
 /* Ricardo Freitas End */
 
@@ -4493,7 +4497,7 @@ only screen and (min-resolution:144dpi) {
         margin-right: 0;
         border-bottom: 1px solid #C6C6C6;
     }
-    
+
     .forge-espace .banner-icon.span2 {
         width: auto;
         float: none;
