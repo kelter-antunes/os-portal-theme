@@ -4320,7 +4320,6 @@ only screen and (min-resolution:144dpi) {
     }
 
 
-
     .forge-espace .leftContainer{
         display: none;
     }
@@ -4413,6 +4412,18 @@ only screen and (min-resolution:144dpi) {
         padding-bottom: 13px;
     }
 
+    .forge-espace .forgeComponentTitle {
+        width: 56%;
+        margin-top: 5px;
+    }
+
+    .forge-espace .forgeMobileDetail {
+        width: 50%;
+        position: relative;
+        left: 140px;
+        top: -24px;
+    }
+
 
 /* Ricardo Freitas End */
 
@@ -4427,11 +4438,7 @@ only screen and (min-resolution:144dpi) {
         position: relative;
         padding-top: 10px
     }
-    .forge-espace .forgeComponentTitle {
-        width: 70%;
-        padding-top: 0;
-        margin-top: -7px
-    }
+
     .forge-espace .CardHeight {
         height: auto
     }
