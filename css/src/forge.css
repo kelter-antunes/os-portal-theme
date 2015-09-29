@@ -4275,6 +4275,10 @@
     margin-left: 20px;
 }
 
+.topContainer{
+    margin-top: 40px;
+}
+
 /* Ricardo End */
 
 @media only screen and (-webkit-min-device-pixel-ratio:2),
@@ -4428,6 +4432,10 @@ only screen and (min-resolution:144dpi) {
         display: none;
     }
 
+    .topContainer{
+        margin-top: 15px;
+    }
+
 
 /* Ricardo Freitas End */
 
@@ -4439,7 +4447,7 @@ only screen and (min-resolution:144dpi) {
         top: 2px;
         padding-right: 7px
     }
-    
+
     .forge-espace .HeaderWrapper {
         position: relative;
         padding-top: 10px
