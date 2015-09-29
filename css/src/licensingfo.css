@@ -172,3 +172,9 @@
 .platformlicensingfo-espace .spacing{
    margin-top: 2px;
 }
+
+.platformlicensingfo-espace .web-expand {
+    color: #08c;
+    margin: 10px 0;
+    cursor: pointer;
+}
