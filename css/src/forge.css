@@ -19,7 +19,7 @@
 **/
 
 .forge-espace {
-    color: grey
+    color: grey 
 }
 
 
@@ -4167,7 +4167,8 @@
 .forge-espace .DropZone {
     border: 2px dashed #e1e1e1;
     border-radius: 10px;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
     box-sizing: border-box;
     position: relative;
@@ -4247,7 +4248,6 @@
     width:94%;
 }
 
-
 .forge-espace .HighlightCard{
     margin-top: 50px;
     padding-left: 90px;
@@ -4273,6 +4273,10 @@
 
 .forge-espace .FaqButton{
     margin-left: 20px;
+}
+
+.topContainer{
+    margin-top: 40px;
 }
 
 /* Ricardo End */
@@ -4418,7 +4422,7 @@ only screen and (min-resolution:144dpi) {
     }
 
     .forge-espace .forgeMobileDetail {
-        width: 50%;
+        width: 52%;
         position: relative;
         left: 140px;
         top: -24px;
@@ -4428,6 +4432,9 @@ only screen and (min-resolution:144dpi) {
         display: none;
     }
 
+    .topContainer{
+        margin-top: 15px;
+    }
 
 /* Ricardo Freitas End */
 
@@ -4439,6 +4446,7 @@ only screen and (min-resolution:144dpi) {
         top: 2px;
         padding-right: 7px
     }
+
     .forge-espace .HeaderWrapper {
         position: relative;
         padding-top: 10px
