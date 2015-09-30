@@ -4278,6 +4278,7 @@
 .topContainer{
     margin-top: 40px;
 }
+
 /* Ricardo End */
 
 @media only screen and (-webkit-min-device-pixel-ratio:2),
@@ -4432,8 +4433,10 @@ only screen and (min-resolution:144dpi) {
     }
 
     .topContainer{
-        margin-top: 15px;
+        margin-top: 16px;
     }
+
+
 
 
 /* Ricardo Freitas End */
