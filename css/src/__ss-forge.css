@@ -11,6 +11,7 @@
     margin-left:5px;
     margin-top:5px;
 }
+
 .popup-content {
     padding:20px;
 }
@@ -127,6 +128,14 @@ width: 100%;
 padding: 45px;
 background-color: #fff;
 position: relative;
+}
+
+/* Others*/
+
+.arrowImage{
+    width: 330px;
+    padding-left: 70px;
+    opacity: 0.5;
 }
 
 @media (max-width: 767px) {
