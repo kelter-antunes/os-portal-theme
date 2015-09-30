@@ -230,14 +230,15 @@
   display: inline-block !important
 }
 .home-espace .ippCard {
-    margin-bottom: 20px;
-    box-shadow: 0px 1px 1px 1px rgba(0,0,0,.31);
-    padding: 20px 15px 20px 69px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #e6e6e6;
+  padding: 20px 0 20px 0px;
+  border-bottom: 1px solid #e6e6e6;
 }
 .home-espace .ippThankYou {
     margin-top: 20px;
     text-align: justify;
-    color: inherit;
 }
 @media (max-width:967px) {
   .home-espace .desktop-resizable .NavTab.Download, .home-espace .desktop-resizable .NavTab.Download.Active {
