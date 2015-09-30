@@ -131,7 +131,11 @@ position: relative;
 }
 
 /* Others */
-
+.arrowImage{
+    width: 330px;
+    padding-left: 70px;
+    opacity: 0.5;
+}
 
 
 @media (max-width: 767px) {
