@@ -142,6 +142,8 @@
 .platformlicensingfo-espace .LineGrayBackground{
     background-color: #eceff1;
     height:15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 .platformlicensingfo-espace a.LinkDisplayBlock{
