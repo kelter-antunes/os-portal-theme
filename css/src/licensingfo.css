@@ -92,11 +92,9 @@
 }
 
 .platformlicensingfo-espace .Serial{
-    height: 14px;
     color: #656565;
     font-size: 12px;
     font-weight: 700;
-    line-height: 14px;
 }
 
 .platformlicensingfo-espace .AOsText{
@@ -138,7 +136,7 @@
 
 .platformlicensingfo-espace .Backgrounds{
     background-color: #eceff1;
-    padding: 10px;
+    padding: 5px 15px;
 }
 
 .platformlicensingfo-espace .LineGrayBackground{
