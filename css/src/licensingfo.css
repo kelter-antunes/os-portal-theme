@@ -171,7 +171,13 @@
 
 .platformlicensingfo-espace .web-expand {
     color: #08c;
-    margin: 15px 0;
+    padding: 15px 0;
     cursor: pointer;
-    border-bottom: 1px solid #DDD;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.platformlicensingfo-espace .EnvironmentDescription {
+    background-color: #eceff1;
+    margin-bottom: 2px;
+    padding: 0 15px;
 }
