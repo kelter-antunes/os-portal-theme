@@ -237,6 +237,7 @@
 .home-espace .ippThankYou {
     margin-top: 20px;
     text-align: justify;
+    color: inherit;
 }
 @media (max-width:967px) {
   .home-espace .desktop-resizable .NavTab.Download, .home-espace .desktop-resizable .NavTab.Download.Active {
