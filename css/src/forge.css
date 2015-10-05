@@ -4336,6 +4336,10 @@ only screen and (min-resolution:144dpi) {
         padding: 5px;
     }
 
+    .forge-espace .mobileTop3{
+        padding: 5px;
+    }
+
     .forge-espace .filterLabel {
         padding-bottom: 4px;
         display: block;
