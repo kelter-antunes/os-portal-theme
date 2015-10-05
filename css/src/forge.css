@@ -4310,6 +4310,10 @@ only screen and (min-resolution:144dpi) {
         width: 48%;
     }
 
+    .supportOptions{
+        margin-top: 30px;
+    }
+
     .forge-espace .filterGap {
         width: 4%;
         display: inline-block;
