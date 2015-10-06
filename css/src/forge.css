@@ -1524,10 +1524,11 @@
     }
 
     .forge-espace .forgeEllipsis{
-        width: 192px;
+        width: 59%;
         white-space: nowrap;
         overflow: hidden;
-        text-overflow: ellipsis;    
+        text-overflow: ellipsis;
+        position: absolute;
     }
     
 
