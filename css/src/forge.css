@@ -1522,6 +1522,15 @@
         left: 125px;
         top: -44px
     }
+
+    .forge-espace .forgeEllipsis{
+        width: 192px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;    
+    }
+    
+
     .hideFollowersText {
         display: none
     }
