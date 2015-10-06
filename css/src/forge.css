@@ -1595,7 +1595,7 @@
     }
     .forge-espace .onlineForgeImage {
         width: auto;
-        height: 125px;
+        height: 100%
     }
     .forge-espace .mobile-align-left {
         text-align: left
@@ -1675,7 +1675,7 @@
         width: 60%
     }
     .forge-espace .onlineForgeImage {
-        width: 100%;
+        width: 125px;
         height: auto
     }
     .forge-espace .buttonsContainer {
