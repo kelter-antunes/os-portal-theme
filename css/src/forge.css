@@ -1598,6 +1598,13 @@
     .forge-espace .mobile-padding-wrapper {
         padding: 0 5px
     }
+
+    /*
+    .forge-espace .newRibbon span:nth-child(2) {
+        display: none
+    }
+    */
+    
     .forge-espace .newRibbon {
         width: 90px !important
     }
