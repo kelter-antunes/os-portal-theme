@@ -1414,6 +1414,11 @@
         text-align: left;
         width: 48%
     }
+
+    .hideFeaturedLabelMobile{
+        display: none;
+    }
+
     .supportOptions {
         margin-top: 30px
     }
