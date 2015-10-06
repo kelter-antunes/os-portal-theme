@@ -1416,6 +1416,10 @@
         width: 48%
     }
 
+    .ribbonMobilePlaceholder{
+        height: 22px;
+    }
+
     .hideRibbonLabelMobile{
         display: none;
     }
@@ -1510,13 +1514,13 @@
     }
     .forge-espace .forgeComponentTitle {
         width: 56%;
-        margin-top: 5px
+        margin-top: -5px
     }
     .forge-espace .forgeMobileDetail {
         width: 57%;
         position: relative;
         left: 140px;
-        top: -42px
+        top: -47px
     }
     .hideFollowersText {
         display: none
