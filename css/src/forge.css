@@ -1514,13 +1514,13 @@
     }
     .forge-espace .forgeComponentTitle {
         width: 56%;
-        margin-top: -5px
+        margin-top: 0px;
     }
     .forge-espace .forgeMobileDetail {
         width: 57%;
         position: relative;
         left: 140px;
-        top: -47px
+        top: -35px
     }
     .hideFollowersText {
         display: none
@@ -1595,7 +1595,7 @@
     }
     .forge-espace .onlineForgeImage {
         width: auto;
-        height: 100%
+        height: 125px;
     }
     .forge-espace .mobile-align-left {
         text-align: left
