@@ -4560,7 +4560,7 @@ only screen and (min-resolution:144dpi) {
     .forge-espace .newRibbon span:nth-child(2) {
         display: none
     }
-    */
+    */ 
     .forge-espace .newRibbon {
         /*width: 20px!important;*/
         width: 90px!important;
