@@ -1357,7 +1357,8 @@
 }
 .forge-espace .Rating {
     width: 78px;
-    margin-left: 24px
+    margin-left: 24px;
+
 }
 .forge-espace .Downloads {
     text-align: center;
@@ -1467,10 +1468,11 @@
         margin-left: -12px
     }
     .forge-espace .Rating {
-        margin-left: 5px
+        margin-left: 5px;
+        margin-right: 8px;
     }
     .forge-espace .Downloads {
-        width: 75px
+        width: 60px;
     }
     .forge-espace .MobileRibbons {
         width: 100px
@@ -1610,9 +1612,17 @@
     }
     */
     
+    /*
     .forge-espace .newRibbon {
         width: 90px !important
     }
+    */
+
+    .forge-espace .ribbonWidthCard {
+        width: 37px;
+    }
+
+
     .forge-espace .mobile-force-wrap * {
         white-space: normal
     }
