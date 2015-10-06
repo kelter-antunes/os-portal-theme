@@ -186,3 +186,11 @@
     margin-bottom: 2px;
     padding: 0 15px;
 }
+
+@media screen and (max-width: 767px) {
+    .platformlicensingfo-espace .AOsContainer
+    .platformlicensingfo-espace .AOsContainer + div,
+     {
+        display: none;
+    }
+}
