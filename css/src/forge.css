@@ -4314,6 +4314,7 @@ only screen and (min-resolution:144dpi) {
         margin-top: 30px;
     }
 
+
     .forge-espace .filterGap {
         width: 4%;
         display: inline-block;
@@ -4336,11 +4337,11 @@ only screen and (min-resolution:144dpi) {
         padding: 5px;
     }
 
-    /*
-    .forge-espace .mobileTop3{
+    
+    .forge-espace .mobileBottom3{
         padding: 3px;
     }
-    */
+    
 
     .forge-espace .filterLabel {
         padding-bottom: 4px;
