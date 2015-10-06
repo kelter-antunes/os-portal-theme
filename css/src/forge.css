@@ -1519,8 +1519,8 @@
     .forge-espace .forgeMobileDetail {
         width: 57%;
         position: relative;
-        left: 140px;
-        top: -35px
+        left: 125px;
+        top: -44px
     }
     .hideFollowersText {
         display: none
@@ -1675,7 +1675,7 @@
         width: 60%
     }
     .forge-espace .onlineForgeImage {
-        width: 125px;
+        width: 110px;
         height: auto
     }
     .forge-espace .buttonsContainer {
