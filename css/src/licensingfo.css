@@ -187,10 +187,9 @@
     padding: 0 15px;
 }
 
-@media screen and (max-width: 767px) {
-    .platformlicensingfo-espace .AOsContainer
-    .platformlicensingfo-espace .AOsContainer + div,
-     {
+@media (max-width:767px) {
+    .platformlicensingfo-espace .AOsContainer,
+    .platformlicensingfo-espace .AOsContainer + div {
         display: none;
     }
 }
