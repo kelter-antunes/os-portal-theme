@@ -1416,15 +1416,19 @@
         width: 48%
     }
 
-    .ribbonMobilePlaceholder{
-        height: 22px;
-    }
-
-    .hideRibbonLabelMobile{
+    .forge-espace .hideMobile{
         display: none;
     }
 
-    .supportOptions {
+    .forge-espace .ribbonMobilePlaceholder{
+        height: 22px;
+    }
+
+    .forge-espace .hideRibbonLabelMobile{
+        display: none;
+    }
+
+    .forge-espace .supportOptions {
         margin-top: 30px
     }
     .forge-espace .filterGap {
@@ -1531,7 +1535,6 @@
         position: absolute;
     }
     
-
     .hideFollowersText {
         display: none
     }
