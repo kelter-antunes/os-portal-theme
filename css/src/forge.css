@@ -1702,7 +1702,7 @@
     }
     .forge-espace .onlineForgeImage {
         width: 110px;
-        height: auto
+        height: 110px;
     }
     .forge-espace .buttonsContainer {
         padding: 0
