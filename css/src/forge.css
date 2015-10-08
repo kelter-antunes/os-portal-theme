@@ -1425,6 +1425,14 @@
         width: 48%
     }
 
+    .forge-espace.mobileButtons{
+        position: relative;
+        margin-top: -22px;
+        margin-bottom: 10px;
+    }
+
+    
+
     .forge-espace a.btn.followButton{
         line-height: 20px;
     }
