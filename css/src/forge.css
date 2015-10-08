@@ -1401,6 +1401,10 @@
     display: none;
 }
 
+.forge-espace .followButton{
+    line-height: 17px;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-resolution:144dpi) {
     .forge-espace .chzn-container .chzn-results-scroll-down span, .forge-espace .chzn-container .chzn-results-scroll-up span, .forge-espace .chzn-container-multi .chzn-choices .search-choice .search-choice-close, .forge-espace .chzn-container-single .chzn-search input, .forge-espace .chzn-container-single .chzn-single abbr, .forge-espace .chzn-container-single .chzn-single div b, .forge-espace .chzn-rtl .chzn-search input {
         background-image: url(/Forge/img/chosensprite@2x.png) !important;
@@ -1420,6 +1424,11 @@
         text-align: left;
         width: 48%
     }
+
+    .forge-espace .followButton{
+        line-height: 17px;
+    }
+
 
     .forge-espace .hideDesktop{
         display: inline-block;
