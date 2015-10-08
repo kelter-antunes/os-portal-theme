@@ -1401,7 +1401,7 @@
     display: none;
 }
 
-.forge-espace .followButton{
+.forge-espace a.btn.followButton{
     line-height: 17px;
 }
 
@@ -1426,7 +1426,7 @@
     }
 
     .forge-espace .followButton{
-        line-height: 17px;
+        line-height: 20px;
     }
 
 
@@ -1435,7 +1435,7 @@
     }
 
     .forge-espace .mobileFollow{
-        padding-top: 6px;
+        padding-top: 5px;
         padding-left: 5px;
     }
 
