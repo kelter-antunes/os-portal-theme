@@ -648,10 +648,10 @@ input[type=search].inpage-search-input {
 .top-menu-item.active a {
     color: #FFF
 }
-.top-menu-arrow {
+.top-menu-home, .top-menu-arrow {
     border-color: transparent transparent #BCC5CC
 }
-.top-menu-home, .top-menu-learn {
+ .top-menu-learn {
     border-color: transparent transparent #E6EAEB
 }
 .academy-top, .drop, .footer-site, .heading-group, .heading-group-no-line, .topchooser, div.Header-Button {
