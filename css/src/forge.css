@@ -1422,7 +1422,7 @@
         margin-bottom: 22px;
         line-height: normal;
         text-align: left;
-        width: 48%
+        width: 48%;
     }
 
     .forge-espace.mobileButtons{
@@ -1430,8 +1430,6 @@
         margin-top: -22px;
         margin-bottom: 10px;
     }
-
-    
 
     .forge-espace a.btn.followButton{
         line-height: 20px;
