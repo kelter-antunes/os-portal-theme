@@ -1382,6 +1382,18 @@
   margin-left: 0 !important
 }
 
+.home-espace .web-expand {
+  color: #08c;
+  padding: 15px 0;
+  cursor: pointer;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.home-espace .web-expanded+div {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
 @media (max-width:979px) {
   .home-espace .BrowseAppBox, .home-espace .ManageAppBox {
     position: relative;
