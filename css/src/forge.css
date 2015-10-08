@@ -1425,7 +1425,7 @@
         width: 48%
     }
 
-    .forge-espace .followButton{
+    .forge-espace a.btn.followButton{
         line-height: 20px;
     }
 
