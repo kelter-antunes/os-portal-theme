@@ -1442,7 +1442,6 @@
 
     .forge-espace .mobileFollow{
         padding-top: 5px;
-        padding-left: 10px;
     }
 
 
@@ -1605,7 +1604,8 @@
         margin-left: 10px
     }
     .forge-espace .buttonsContainer {
-        padding: 0
+        padding: 0;
+        padding-left: 10px;
     }
     .forge-espace .banner-details.span10 {
         display: inline-block;
