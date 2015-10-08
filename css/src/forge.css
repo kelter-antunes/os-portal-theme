@@ -722,12 +722,12 @@
     vertical-align: middle
 }
 .forge-espace .buttonsContainer {
-    /*padding: 10px 0 5px;*/
+    padding: 10px 0 5px;
     border-right: 0;
     border-left: 0;
     overflow: hidden;
     position: relative;
-    bottom: 16px;
+    bottom: 5px
 }
 .forge-espace .CardHeight {
     height: 185px
@@ -1599,10 +1599,7 @@
         margin-left: 10px
     }
     .forge-espace .buttonsContainer {
-        padding: 0;
-        position: relative;
-        margin-top: -22px;
-        margin-bottom: 10px;
+        padding: 0
     }
     .forge-espace .banner-details.span10 {
         display: inline-block;
