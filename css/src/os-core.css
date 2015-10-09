@@ -279,6 +279,11 @@ ul.footer.social-icons {
   margin-top: 20px;
   margin-bottom: 50px;
 }
+.faq-title{
+    margin: 50px 0 20px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 /**** media *********/
 @media (max-width: 767px) {
