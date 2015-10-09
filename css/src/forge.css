@@ -727,7 +727,8 @@
     border-left: 0;
     overflow: hidden;
     position: relative;
-    bottom: 5px
+    bottom: 5px;
+    width: 381px;
 }
 .forge-espace .CardHeight {
     height: 185px
@@ -1606,6 +1607,7 @@
     }
     .forge-espace .buttonsContainer {
         padding: 0;
+        width: 152px;
     }
     .forge-espace .banner-details.span10 {
         display: inline-block;
