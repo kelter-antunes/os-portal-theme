@@ -169,18 +169,6 @@
    margin-top: 2px;
 }
 
-.platformlicensingfo-espace .web-expand {
-    color: #08c;
-    padding: 15px 0;
-    cursor: pointer;
-    border-bottom: 1px solid #e7e7e7;
-}
-/* Add margins to the KB content that is expanded */ 
-.platformlicensingfo-espace .web-expanded + div {
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
 .platformlicensingfo-espace .EnvironmentDescription {
     background-color: #eceff1;
     margin-bottom: 2px;
