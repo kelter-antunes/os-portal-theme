@@ -22,6 +22,7 @@ module.exports = function(grunt) {
                         'css/src/learn.css',
                         'css/src/search.css',
                         'css/src/home.css',
+                        'css/src/homeIpp.css',
                         'css/src/widgets.css',
                         'css/src/community.css',
                         'css/src/licensingfo.css'
@@ -41,6 +42,7 @@ module.exports = function(grunt) {
                         'css/src/learn.css',
                         'css/src/search.css',
                         'css/src/home.css',
+                        'css/src/homeIpp.css',
                         'css/src/widgets.css',
                         'css/src/community.css',
                         'css/src/licensingfo.css'
