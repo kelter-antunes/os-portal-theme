@@ -768,7 +768,7 @@ input[type=search].inpage-search-input {
     color: #333
 }
 .menu-item a.menu-ipp:before {
-    background: url(/CommunityBaseTheme/img/lock-inactive.png) no-repeat;
+    background: url(/CommunityBaseTheme/img/lockinactive.png) no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -776,7 +776,7 @@ input[type=search].inpage-search-input {
     float: left
 }
 .menu-item a.menu-ipp:hover:before {
-    background: url(/CommunityBaseTheme/img/lock-active.png) no-repeat;
+    background: url(/CommunityBaseTheme/img/lockactive.png) no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -785,7 +785,7 @@ input[type=search].inpage-search-input {
     color: #333
 }
 .menu-item a.menu-licensing:before {
-    background: url(/CommunityBaseTheme/img/licensing-inactive.png) no-repeat;
+    background: url(/CommunityBaseTheme/img/licensinginactive.png) no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -793,7 +793,7 @@ input[type=search].inpage-search-input {
     float: left
 }
 .menu-item a.menu-licensing:hover:before {
-    background: url(/CommunityBaseTheme/img/licensing-active.png) no-repeat;
+    background: url(/CommunityBaseTheme/img/licensingactive.png) no-repeat;
     width: 20px;
     height: 20px;
     display: block;
