@@ -174,10 +174,20 @@
     margin-bottom: 2px;
     padding: 0 15px;
 }
+.platformlicensingfo-espace .button-holder {
+    margin-left: 60px;
+    padding-left: 58px;
+}
 
 @media (max-width:767px) {
     .platformlicensingfo-espace .AOsContainer,
     .platformlicensingfo-espace .AOsContainer + div {
         display: none;
+    }
+    .platformlicensingfo-espace .container.top40 {
+        padding: 0 10px;
+    }
+    .platformlicensingfo-espace .button-holder a.btn {
+        width: 100%;
     }
 }
