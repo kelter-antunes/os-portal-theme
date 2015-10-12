@@ -728,7 +728,7 @@
     overflow: hidden;
     position: relative;
     bottom: 5px;
-    width: 381px;
+    /*width: 381px;*/
 }
 .forge-espace .CardHeight {
     height: 185px
