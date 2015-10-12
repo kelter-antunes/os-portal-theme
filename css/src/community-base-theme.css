@@ -767,6 +767,40 @@ input[type=search].inpage-search-input {
     float: left;
     color: #333
 }
+.menu-item a.menu-ipp:before {
+    background: url(/PortalTheme/img/lock-inactive.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    content: "";
+    float: left
+}
+.menu-item a.menu-ipp:hover:before {
+    background: url(/PortalTheme/img/lock-active.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    content: "";
+    float: left;
+    color: #333
+}
+.menu-item a.menu-licensing:before {
+    background: url(/PortalTheme/img/licensing-inactive.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    content: "";
+    float: left
+}
+.menu-item a.menu-licensing:hover:before {
+    background: url(/PortalTheme/img/licensing-active.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    content: "";
+    float: left;
+    color: #333
+}
 .menu-item a.menu-support:before {
     background: url(/CommunityBaseTheme/img/icons.png) -9px -1054px no-repeat;
     width: 16px;
