@@ -177,6 +177,7 @@
 .platformlicensingfo-espace .button-holder {
     margin-left: 60px;
     padding-left: 58px;
+    text-align: right;
 }
 
 @media (max-width:767px) {
@@ -188,6 +189,12 @@
         padding: 0 10px;
     }
     .platformlicensingfo-espace .button-holder a.btn {
-        width: 100%;
+        width: 195px;
+        margin-top: 10px;
+    }
+    .platformlicensingfo-espace .button-holder {
+        margin-left: 0;
+        padding-left: 0;
+        text-align: center;
     }
 }
