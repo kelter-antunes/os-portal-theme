@@ -195,6 +195,15 @@ form {
 .right10 {
     margin-right: 10px
 }
+.align-left{
+    text-align: left;
+}
+.align-right{
+    text-align: right;
+}
+.align-center{
+    text-align: center;
+}
 .breadcrumb {
     font-size: 12px;
     color: #999;

@@ -197,4 +197,11 @@
         padding-left: 0;
         text-align: center;
     }
+    .platformlicensingfo-espace .EnvironmentDescription .Description,
+    .platformlicensingfo-espace .EnvironmentDescription .InfoButton {
+        display: inline-block;
+    }
+    .platformlicensingfo-espace .EnvironmentDescription .Description{
+        width: 80%;
+    }
 }
