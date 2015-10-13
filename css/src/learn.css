@@ -419,12 +419,18 @@ body.videos {
     height: auto
 }
 
-.learn-espace .doc-container {
+.learn-espace .doc-container,
+.learn-espace .aboutOS-container,
+.learn-espace .training-container {
     box-sizing: border-box;
     margin: 15px 0;
     border-radius: 3px;
     border: 1px solid #CCC;
     padding: 15px;
+}
+.learn-espace .aboutOS-container,
+.learn-espace .training-container {
+    min-height: 350px;
 }
 .learn-espace .doc-links{
     margin-top: 20px;
