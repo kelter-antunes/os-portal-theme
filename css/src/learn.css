@@ -429,6 +429,13 @@ body.videos {
 .learn-espace .doc-links{
     margin-top: 20px;
 }
+.learn-espace .doc-links .section div {
+    margin-bottom: 10px;
+}
+.doc-links .section div a:before {
+    content: '>';
+    margin-right: 5px;
+}
 .learn-espace .recommended .resources {
     border: 1px solid #CCC;
     padding: 10px;
