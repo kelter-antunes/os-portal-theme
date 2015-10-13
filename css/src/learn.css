@@ -429,6 +429,13 @@ body.videos {
 .learn-espace .doc-links{
     margin-top: 20px;
 }
+.learn-espace .recommended .resources {
+    border: 1px solid #CCC;
+    padding: 10px;
+    max-width: 250px;
+    height: 100px;
+    margin-top: 15px;
+}
 @media (max-width:980px) {
 /**    .learn-espace .middleBackground {
         height: auto
