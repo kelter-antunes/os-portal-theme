@@ -418,7 +418,9 @@ body.videos {
     max-width: 95%;
     height: auto
 }
-
+.learn-espace .header-title{
+    margin-bottom: 50px;
+}
 .learn-espace .doc-container,
 .learn-espace .aboutOS-container,
 .learn-espace .training-container {
@@ -439,7 +441,7 @@ body.videos {
 .learn-espace .doc-links .section div {
     margin-bottom: 10px;
 }
-.doc-links .section div a:before {
+.learn-espace .doc-links .section div a:before {
     content: '>';
     margin-right: 5px;
 }
