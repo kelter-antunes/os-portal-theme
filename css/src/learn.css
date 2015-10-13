@@ -423,7 +423,8 @@ body.videos {
 .learn-espace .aboutOS-container,
 .learn-espace .training-container {
     box-sizing: border-box;
-    margin: 15px 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border-radius: 3px;
     border: 1px solid #CCC;
     padding: 15px;
