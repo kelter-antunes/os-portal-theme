@@ -749,6 +749,9 @@ body.videos {
     .learn-espace .textCenter {
         text-align: center
     }
+    .learn-espace .learn-helpcenter{
+        padding: 0 10px;
+    }
 }
 
 /**.learn-espace .initialBackground {
