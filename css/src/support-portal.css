@@ -1,0 +1,79 @@
+table
+{
+  border-collapse:separate;
+  empty-cells:show;
+}
+
+.TableRecords_Header
+{
+  background-color:gray;
+  background-repeat:repeat-x;
+  color:white;
+  line-height:16px;
+  padding:3px 6px;
+  white-space:nowrap;
+}
+
+.TableRecords_Header a,.TableRecords_Header a:hover,.TableRecords_Header a:link,.TableRecords_Header a:visited
+{
+  color:white;
+}
+
+.TableRecords_OddLine
+{
+  border-bottom:1px solid #DEDEDE;
+  border-left:1px solid #efefef;
+  border-right:0 solid #efefef;
+  border-top:0 solid #DEDEDE;
+  line-height:18px;
+  margin:1px;
+  padding:1px 6px;
+  vertical-align:top;
+  white-space: nowrap;
+}
+
+.TableRecords_EvenLine
+{
+  background:#f6f6f6;
+  background-image:url(/PortalManager/img/filter_evenline.gif);
+  border-bottom:1px solid #DEDEDE;
+  border-left:1px solid #efefef;
+  border-right:0 solid #efefef;
+  border-top:0 solid #DEDEDE;
+  line-height:18px;
+  margin:1px;
+  padding:1px 6px;
+  vertical-align:top;
+  white-space: nowrap;
+}
+
+.TableRecords_WarningLine
+{
+  background:#f6f6f6;
+  background-image:url(/PortalManager/img/filter_warningline.gif);
+  border-bottom:1px solid #DEDEDE;
+  border-left:1px solid #efefef;
+  border-right:0 solid #efefef;
+  border-top:0 solid #DEDEDE;
+  line-height:18px;
+  margin:1px;
+  padding:1px 6px;
+}
+
+.TableRecords_AlertLine
+{
+  background:#f6f6f6;
+  background-image:url(/PortalManager/img/filter_alertline.gif);
+  border-bottom:1px solid #DEDEDE;
+  border-left:1px solid #efefef;
+  border-right:0 solid #efefef;
+  border-top:0 solid #DEDEDE;
+  line-height:18px;
+  margin:1px;
+  padding:1px 6px;
+}
+
+.TableRecords_LineSelected
+{
+  background-color:#FBEDBB;
+}

@@ -25,6 +25,7 @@ module.exports = function(grunt) {
                         'css/src/homeipp.css',
                         'css/src/widgets.css',
                         'css/src/community.css',
+                        'css/src/support-portal.css',
                         'css/src/licensingfo.css'
                     ],
                     'css/bundle/os-portal.css': [
@@ -45,6 +46,7 @@ module.exports = function(grunt) {
                         'css/src/homeipp.css',
                         'css/src/widgets.css',
                         'css/src/community.css',
+                        'css/src/support-portal.css',
                         'css/src/licensingfo.css'
                     ]
                 }
