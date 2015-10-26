@@ -77,3 +77,52 @@ table
 {
   background-color:#FBEDBB;
 }
+
+.TableRecords_Wrapper
+{
+  border:1px solid #CCCCCC;
+  margin-bottom:8px;
+  padding:5px;
+}
+
+.TableRecords_TopNavigation
+{
+  _height:1%;
+  background-color:white;
+  border-bottom:0 solid white;
+  border-left:0 none white;
+  border-right:0 none white;
+  border-top:1px solid white;
+  display:block;
+  padding:3px 4px;
+}
+
+.TableRecords_TopNavigation:after
+{
+  clear:both;
+  content:".";
+  display:block;
+  height:0;
+  visibility:hidden;
+}
+
+.TableRecords_BottomNavigation
+{
+  _height:1%;
+  background-color:white;
+  border-bottom:0 solid white;
+  border-left:0 none white;
+  border-right:0 none white;
+  border-top:2px solid #CC0000;
+  display:block;
+  padding:3px 4px;
+}
+
+.TableRecords_BottomNavigation:after
+{
+  clear:both;
+  content:".";
+  display:block;
+  height:0;
+  visibility:hidden;
+}
