@@ -133,3 +133,330 @@ div.Counter_Message
   float:right;
   font-size:11px;
 }
+
+.newCase_Link {
+    padding: 5px 8px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size:16px;
+}
+
+.newCase_ActiveNewTicket,
+a.newCase_ActiveNewTicket,
+a.newCase_ActiveNewTicket:link,
+a.newCase_ActiveNewTicket:visited,
+a.newCase_ActiveNewTicket:hover {
+    background-color: #E33;
+    border: 3px solid #E33;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: #FFF;
+    text-decoration:none;
+}
+.newCase_InActiveNewTicket, 
+a.newCase_InActiveNewTicket,
+a.newCase_InActiveNewTicket:link,
+a.newCase_InActiveNewTicket:visited {
+    background-color: #FFF;
+    border: 3px solid #FAA;
+    color: #666;
+}
+.newCase_InActiveNewTicket:hover, 
+a.newCase_InActiveNewTicket:hover {
+    background-color: #FEE;
+    color: #000;
+    text-decoration: none;
+}
+
+.newCase_ActiveFeedback,
+a.newCase_ActiveFeedback,
+a.newCase_ActiveFeedback:link,
+a.newCase_ActiveFeedback:visited,
+a.newCase_ActiveFeedback:hover  {
+    background-color: #393;
+    border: 3px solid #393;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: #FFF;
+    text-decoration:none;
+}
+.newCase_InActiveFeedback,
+a.newCase_InActiveFeedback,
+a.newCase_InActiveFeedback:link,
+a.newCase_InActiveFeedback:visited {
+    background-color: #FFF;
+    border: 3px solid #7D7;
+    color: #666;
+}
+.newCase_InActiveFeedback:hover,
+ a.newCase_InActiveFeedback:hover {
+    background-color: #DFD;
+    color: #000;
+    text-decoration: none;
+}
+
+.newCase_ActiveQuestion,
+a.newCase_ActiveQuestion,
+a.newCase_ActiveQuestion:link,
+a.newCase_ActiveQuestion:visited,
+a.newCase_ActiveQuestion:hover {
+    background-color: #FA0;
+    border: 3px solid #FA0;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: #FFF;
+    text-decoration:none;
+}
+.newCase_InActiveQuestion ,
+a.newCase_InActiveQuestion,
+a.newCase_InActiveQuestion:link,
+a.newCase_InActiveQuestion:visited {
+    background-color: #FFF;
+    border: 3px solid #FD9;
+    color: #666;
+}
+.newCase_InActiveQuestion:hover, 
+a.newCase_InActiveQuestion:hover {
+    background-color: #FFC;
+    color: #000;
+    text-decoration: none;
+}
+
+/**/
+
+
+.newCase_ActiveRequestTicketPack,
+a.newCase_ActiveRequestTicketPack,
+a.newCase_ActiveRequestTicketPack:link,
+a.newCase_ActiveRequestTicketPack:visited,
+a.newCase_ActiveRequestTicketPack:hover {
+    background-color: #0066FF;
+    border: 3px solid #0066FF;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: #FFF;
+    text-decoration:none;
+}
+.newCase_InActiveRequestTicketPack ,
+a.newCase_InActiveRequestTicketPack,
+a.newCase_InActiveRequestTicketPack:link,
+a.newCase_InActiveRequestTicketPack:visited {
+    background-color: #FFF;
+    border: 3px solid #0066FF;
+    color: #666;
+}
+.newCase_InActiveRequestTicketPack:hover, 
+a.newCase_InActiveRequestTicketPack:hover {
+    background-color: #CFF;
+    color: #000;
+    text-decoration: none;
+}
+
+/**/
+
+.newCase_FormBk {
+    background-color: white;
+    padding: 10px;
+    border: 3px solid #DDD;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    z-index: 10;
+}
+.newCase_FormBk_Question {
+    border: 3px solid #FA0;
+}
+.newCase_FormBk_NewTicket {
+    border: 3px solid #E33;
+}
+.newCase_FormBk_Feedback {
+    border: 3px solid #393;
+}
+
+.newCase_FormBk_RequestTicketPack {
+    border: 3px solid #0066FF;
+}
+
+.Heading1_nopadding {
+    font-size: 22px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    border-bottom: 2px dotted #CCCCCC;
+    text-align: left;
+    padding-bottom: 2px;
+}
+
+
+.CaseOnHoldWarning
+{
+  color:#CC0000;
+  font-size:12px;
+  font-weight:bold;
+  margin-bottom:5px;
+  padding-left:1px;
+  padding-top:6px;
+}
+
+.TitleHeader{
+    color: white;
+    background-color: black;
+}
+
+div.ListTitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.SubmissionTypes
+{
+    padding: 16px;
+}
+
+.CaseOnHoldWarning
+{
+  color:#CC0000;
+  font-size:12px;
+  font-weight:bold;
+  margin-bottom:5px;
+  padding-left:1px;
+  padding-top:6px;
+}
+
+.IwantToBox{
+    padding: 4px;
+    border: 0px;
+}
+
+.SupportPortalFAQ table.TableRecords {
+    border-top: 1px solid white;    
+}
+
+.SupportPortalFAQ  th.TableRecords_Header {
+    color: #666666;
+    background: #EAEAEA url(/RichWidgets/img/Bar_Gradient.png) repeat-x top;
+    _background: #EAEAEA;  /* IE6 */
+    _filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='/RichWidgets/img/Bar_Gradient.png', sizingMethod='scale');  /* IE6 */
+    white-space: nowrap;
+    line-height: 18px;
+    padding: 4px 6px 4px 6px;
+    border-right: 1px solid white;
+}
+
+.SupportPortalFAQ  th.TableRecords_Header a,
+.SupportPortalFAQ  th.TableRecords_Header a:link,
+.SupportPortalFAQ  th.TableRecords_Header a:visited {
+    color: #666666;
+}
+
+.SupportPortalFAQ  table.TableRecords>tbody>tr:hover {
+    background-color: #F3F8FF;
+}
+
+.SupportPortalFAQ  td.TableRecords_OddLine,
+.SupportPortalFAQ  td.TableRecords_EvenLine {
+    line-height: 18px;
+    margin: 1px 1px 1px 1px;
+    padding: 6px;
+    border-bottom: 1px dotted #cccccc;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.SupportPortalFAQ  div.TableRecords_Wrapper {
+  margin-bottom:8px;
+  padding:5px;
+  border: 0px;
+  }
+  
+ .SupportPortalFAQ  .TableRecords_Wrapper {
+  margin-bottom:8px;
+  padding:5px;
+  border: 0px;
+  }
+
+.SupportPortalFAQ  div.TableRecords_TopNavigation {
+    padding: 0px;
+    border-top: 1px solid white;
+    border-right: 0px none white;
+    border-bottom: 0px solid white;
+    border-left: 0px none white;
+    _height: 1%;  /* IE6 */
+    display: block;
+    *display: inline-block;
+}
+
+.SupportPortalFAQ  div.TableRecords_TopNavigation:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.SupportPortalFAQ  .TableRecords_Actions,
+.SupportPortalFAQ  .TableRecords_Footer {
+    font-size: 12px;
+    vertical-align: middle;
+    float: left;
+    padding: 1px;
+}
+
+.SupportPortalFAQ  div.TableRecords_BottomNavigation {
+    padding-top: 2px;
+    _height: 1%;  /* IE6 */
+    display: block;
+    *display: inline-block;
+}
+
+.SupportPortalFAQ  div.TableRecords_BottomNavigation:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.SupportPortalFAQ  .TableRecords_ItemLabel {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.SupportPortalFAQ  div.Filters_Wrapper {
+    background: #dddddd url(/RichWidgets/img/Filter_Gradient.gif) repeat-x top;
+    padding: 4px;
+    border: 0px;
+}
+
+.SupportPortalFAQ  Filters_Wrapper {
+    background: #dddddd url(/RichWidgets/img/Filter_Gradient.gif) repeat-x top;
+    padding: 4px;
+    border: 0px;
+}
+
+.SupportPortalFAQ  table.Filters {
+    white-space: nowrap;
+}
+
+.SupportPortalFAQ  table.Filters td {
+    padding: 2px 0px 2px 4px;
+    vertical-align: middle;
+}
+
+.SupportPortalFAQ  table.Filters td img {
+    vertical-align: middle;
+}
+
+
+.SupportPortalFAQ  .CaseOnHoldWarning
+{
+  color:#CC0000;
+  font-size:12px;
+  font-weight:bold;
+  margin-bottom:5px;
+  padding-left:1px;
+  padding-top:6px;
+}
