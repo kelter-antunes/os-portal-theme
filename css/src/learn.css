@@ -708,12 +708,6 @@ body.videos {
     color: #8CC83C
 }
 
-.learn-espace .byline {
-    color: grey;
-    font-size: 12px;
-    line-height: 15px;
-    margin-bottom: 3px
-}
 
 @media (max-width:767px) {
     .learn-espace .materialItem {

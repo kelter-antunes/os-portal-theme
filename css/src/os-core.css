@@ -1,3 +1,10 @@
+.byline {
+    color: grey;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 3px
+}
+
 .filterlabel {
     width: 108px;
     display: inline-block;
@@ -348,3 +355,4 @@ ul.footer.social-icons {
 .tooltip {
     display: table !important;
 }
+
