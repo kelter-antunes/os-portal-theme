@@ -141,6 +141,7 @@ div.Counter_Message
     border-radius: 10px;
     text-decoration: none;
     font-size:16px;
+    display:inline-block;
 }
 
 .newCase_ActiveNewTicket,
