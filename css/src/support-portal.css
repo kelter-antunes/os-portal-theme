@@ -140,7 +140,7 @@ div.Counter_Message
     -moz-border-radius: 10px;
     border-radius: 10px;
     text-decoration: none;
-    font-size:16px;
+    font-size:15px;
     display:inline-block;
 }
 
@@ -265,6 +265,7 @@ a.newCase_InActiveRequestTicketPack:hover {
     border-bottom-right-radius: 10px;
     position: relative;
     z-index: 10;
+    margin-top:-5px;
 }
 .newCase_FormBk_Question {
     border: 3px solid #FA0;
@@ -454,6 +455,54 @@ div.ListTitle {
 
 .SupportPortalFAQ  .CaseOnHoldWarning
 {
+  color:#CC0000;
+  font-size:12px;
+  font-weight:bold;
+  margin-bottom:5px;
+  padding-left:1px;
+  padding-top:6px;
+}
+
+.EditRecord_Caption
+{
+  border-bottom:1px solid #CCCCCC;
+  color:#444444;
+  font-size:11px;
+  padding:8px 10px 2px 0;
+  white-space:nowrap;
+}
+
+.EditRecord_Value
+{
+  color:#444444;
+  font-weight:normal;
+  padding:1px 0 1px 1px;
+  vertical-align:bottom;
+}
+
+.EditRecord_Button
+{
+  font-weight:normal;
+  padding:6px 0 1px 1px;
+  vertical-align:top;
+}
+
+.EditRecord_Wrapper
+{
+  margin-bottom:8px;
+  padding:5px 0;
+}
+
+.EditRecordWithTitles_Wrapper
+{
+  float:left;
+  margin-bottom:8px;
+  width:100%;
+}
+
+.EditRecord_SectionTitle
+{
+  border-bottom:1px solid #CC0000;
   color:#CC0000;
   font-size:12px;
   font-weight:bold;
