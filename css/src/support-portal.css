@@ -427,7 +427,7 @@
     font-size: 18px;
 }
 
-.supportportal-espace   div.Filters_Wrapper {
+.supportportal-espace  div.Filters_Wrapper {
     background: #dddddd url(/RichWidgets/img/Filter_Gradient.gif) repeat-x top;
     padding: 4px;
     border: 0px;
@@ -513,4 +513,40 @@
 
 .supportportal-espace textarea {
     width:auto;
+}
+
+.supportportal-espace .BigText_Note {
+    color: #888888;
+    font-size: 16px;
+}
+
+
+.supportportal-espace .BigTextCaseShow{
+word-wrap: break-word;
+max-width: 585px;
+}
+
+
+.supportportal-espace .LastModified {
+    color: #888888;
+    font-weight: normal;
+    font-Style: italic;
+    font-size: 11px;
+} 
+
+.supportportal-espace .BigText_Note {
+    color: #888888;
+    font-size: 16px;
+}
+
+.supportportal-espace .nowrap {
+    white-space: nowrap;
+}
+
+.supportportal-espace .left {
+    float: left;
+}
+
+.supportportal-espace .right {
+    float: right;
 }
