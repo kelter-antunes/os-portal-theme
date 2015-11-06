@@ -1174,7 +1174,7 @@
     -ms-transform: skew(-30deg, 0deg);
     -webkit-transform: skew(-30deg, 0deg);
     transform: skew(-30deg, 0deg);
-    width: 46%;
+    width: 40%;
     z-index: 1
 }
 .forge-espace .rightContainer {
