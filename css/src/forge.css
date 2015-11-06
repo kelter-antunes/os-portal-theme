@@ -1149,8 +1149,15 @@
 .forge-espace .hlVoteCount .component-details-votes {
     color: #fff
 }
+
+.forge-espace .courouselContainerDiv {
+    position: relative;
+    width: 60%
+}
+
 .forge-espace .leftContainer {
-    height: 100%
+    height: 100%;
+    width:40%;
 }
 .forge-espace .leftContainer:after {
     content: " ";
@@ -1176,10 +1183,7 @@
     height: 215px;
     top: 0
 }
-.forge-espace .courouselContainerDiv {
-    position: relative;
-    width: 54%
-}
+
 .forge-espace .carouselContainer.owl-carousel .owl-wrapper-outer {
     margin-top: 0
 }
