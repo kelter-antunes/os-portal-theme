@@ -1723,6 +1723,10 @@
         margin-left:34px;
     }
 
+    .forge-espace .HighLightCardContent {
+        border-bottom: none;
+    }
+
 
     .forge-espace .infoContainer .ribbonContainer {
         top: -1px;
@@ -1755,7 +1759,7 @@
         padding: 0
     }
     .forge-espace .carouselContainer.owl-theme .owl-controls {
-        margin-left: 40%
+        margin-left: 50%
     }
     .forge-espace .owl-item .CardTextWidthFlow {
         width: 55%
@@ -1766,6 +1770,7 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        color: #08c;
     }
 
 }
