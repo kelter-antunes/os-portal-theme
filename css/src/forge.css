@@ -1802,8 +1802,8 @@
 
     .forge-espace .TextWrap {
     white-space: nowrap;
-    /* text-overflow:ellipsis; */
-    /* overflow:hidden */
+    text-overflow: initial;
+    overflow: initial;
     }
 /*
     .leftContainerContentTablet{
