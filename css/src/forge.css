@@ -1801,9 +1801,13 @@
     }
 
     .forge-espace .TextWrap {
-    white-space: nowrap;
-    text-overflow: initial;
-    overflow: initial;
+        white-space: nowrap;
+        text-overflow: initial;
+        overflow: initial;
+    }
+
+    .forge-espace .HighlightCard {
+        padding-left: 52px;
     }
 /*
     .leftContainerContentTablet{
