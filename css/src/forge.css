@@ -1799,6 +1799,12 @@
     .forge-espace .FaqButton{
         margin-left:0px;
     }
+
+    .forge-espace .TextWrap {
+    white-space: nowrap;
+    /* text-overflow:ellipsis; */
+    /* overflow:hidden */
+    }
 /*
     .leftContainerContentTablet{
         width: 30%;
