@@ -1150,15 +1150,17 @@
     color: #fff
 }
 
-.forge-espace .courouselContainerDiv {
-    position: relative;
-    width: 60%
-}
 
 .forge-espace .leftContainer {
     height: 100%;
     width:40%;
 }
+
+.forge-espace .courouselContainerDiv {
+    position: relative;
+    width: 60%
+}
+
 .forge-espace .leftContainer:after {
     content: " ";
     position: absolute;
