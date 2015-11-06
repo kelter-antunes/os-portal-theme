@@ -1711,9 +1711,6 @@
     }
 }
 @media (max-width:979px) {
-    .forge-espace .componentTitle {
-        word-break: break-word;
-    }
 
     .forge-espace .hide-in-mobile {
         display: none
