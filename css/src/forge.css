@@ -1727,6 +1727,11 @@
         margin-left:34px;
     }
 
+    .forge-espace .banner-icon {
+        line-height: 183px;
+    }
+
+
     .forge-espace .HighLightCardContent {
         border-bottom: none;
     }
@@ -1767,6 +1772,10 @@
     }
     .forge-espace .owl-item .CardTextWidthFlow {
         width: 55%
+    }
+
+    .forge-espace .buttonsContainer {
+        bottom: 30px;
     }
 
     .truncate{
