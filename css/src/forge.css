@@ -1153,12 +1153,12 @@
 
 .forge-espace .leftContainer {
     height: 100%;
-    width:40%;
+    width:46%;
 }
 
 .forge-espace .courouselContainerDiv {
     position: relative;
-    width: 60%
+    width: 54%
 }
 
 .forge-espace .leftContainer:after {
@@ -1174,7 +1174,7 @@
     -ms-transform: skew(-30deg, 0deg);
     -webkit-transform: skew(-30deg, 0deg);
     transform: skew(-30deg, 0deg);
-    width: 40%;
+    width: 46%;
     z-index: 1
 }
 .forge-espace .rightContainer {
@@ -1792,8 +1792,17 @@
         color: #08c;
     }
 
+    .searchTablet{
+        width: 232px;
+    }
+
+    .forge-espace .FaqButton{
+        margin-left:0px;
+    }
+/*
     .leftContainerContentTablet{
         width: 30%;
     }
+*/
 
 }
