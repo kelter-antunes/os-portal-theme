@@ -1711,6 +1711,9 @@
     }
 }
 @media (max-width:979px) {
+    .forge-espace .hideRibbonLabelMobile{
+        display: none;
+    }
 
     .forge-espace .hide-in-mobile {
         display: none
