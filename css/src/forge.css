@@ -1711,11 +1711,15 @@
     }
 }
 @media (max-width:979px) {
+    .forge-espace .componentTitle {
+        word-break: break-word;
+    }
+
     .forge-espace .hide-in-mobile {
         display: none
     }
     .forge-espace .CardTextWidth {
-        width: 60%
+        width: 58%
     }
     .forge-espace .onlineForgeImage {
         width: 110px;
