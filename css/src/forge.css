@@ -1734,4 +1734,12 @@
     .forge-espace .owl-item .CardTextWidthFlow {
         width: 55%
     }
+
+    .truncate{
+        width: 149px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
 }
