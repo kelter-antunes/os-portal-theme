@@ -1719,6 +1719,10 @@
         display: none;
     }
 
+    .forge-espace .MobileAlignMiddle {
+        text-align: center;
+    }
+
     .forge-espace .retireButton{
         margin-left:34px;
     }
