@@ -1720,6 +1720,18 @@
         width: 96px;
     }
 
+    .forge-espace .SidebarImage {    
+        margin-right: 0px;
+    }
+
+    .forge-espace .user-info {
+        width: 70%;
+    }
+
+    .forge-espace .forums-thumbs {
+        width: 19%;
+    }
+
     .forge-espace .hide-in-mobile {
         display: none
     }
