@@ -1715,6 +1715,11 @@
         display: none;
     }
 
+    .forge-espace .infoContainer .ribbonContainer {
+        top: -1px;
+        width: 96px;
+    }
+
     .forge-espace .hide-in-mobile {
         display: none
     }
