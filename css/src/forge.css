@@ -727,8 +727,7 @@
     border-left: 0;
     overflow: hidden;
     position: relative;
-    bottom: 5px;
-    /*width: 381px;*/
+    bottom: 5px;    /*width: 381px;*/
 }
 .forge-espace .CardHeight {
     height: 185px
@@ -1149,33 +1148,30 @@
 .forge-espace .hlVoteCount .component-details-votes {
     color: #fff
 }
-
-
 .forge-espace .leftContainer {
     height: 100%;
-    width:46%;
+    width: 46%;
+    position: relative;
 }
-
 .forge-espace .courouselContainerDiv {
     position: relative;
     width: 54%
 }
-
 .forge-espace .leftContainer:after {
     content: " ";
     position: absolute;
     display: block;
-    height: 100%;
-    top: 0;
-    left: 0;
     background: #fff;
     border-right: 1px solid #fff;
     transform-origin: bottom left;
     -ms-transform: skew(-30deg, 0deg);
     -webkit-transform: skew(-30deg, 0deg);
     transform: skew(-30deg, 0deg);
-    width: 46%;
-    z-index: 1
+    z-index: 1;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
 }
 .forge-espace .rightContainer {
     height: 215px;
@@ -1185,7 +1181,6 @@
     height: 215px;
     top: 0
 }
-
 .forge-espace .carouselContainer.owl-carousel .owl-wrapper-outer {
     margin-top: 0
 }
@@ -1365,7 +1360,6 @@
 .forge-espace .Rating {
     width: 78px;
     margin-left: 24px;
-
 }
 .forge-espace .Downloads {
     text-align: center;
@@ -1403,19 +1397,15 @@
 .topContainer {
     margin-top: 40px
 }
-
-.forge-espace .hideDesktop{
+.forge-espace .hideDesktop {
     display: none;
 }
-
-.forge-espace a.btn.followButton{
+.forge-espace a.btn.followButton {
     line-height: 17px;
 }
-
-.forge-espace .retireButton{
-    margin-left:240px;
+.forge-espace .retireButton {
+    margin-left: 240px;
 }
-
 @media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-resolution:144dpi) {
     .forge-espace .chzn-container .chzn-results-scroll-down span, .forge-espace .chzn-container .chzn-results-scroll-up span, .forge-espace .chzn-container-multi .chzn-choices .search-choice .search-choice-close, .forge-espace .chzn-container-single .chzn-search input, .forge-espace .chzn-container-single .chzn-single abbr, .forge-espace .chzn-container-single .chzn-single div b, .forge-espace .chzn-rtl .chzn-search input {
         background-image: url(/Forge/img/chosensprite@2x.png) !important;
@@ -1435,40 +1425,30 @@
         text-align: left;
         width: 48%;
     }
-
-    .forge-espace .mobileButtons{
+    .forge-espace .mobileButtons {
         position: relative;
         margin-top: -22px;
         margin-bottom: 10px;
     }
-
-    .forge-espace a.btn.followButton{
+    .forge-espace a.btn.followButton {
         line-height: 20px;
     }
-
-
-    .forge-espace .hideDesktop{
+    .forge-espace .hideDesktop {
         display: inline-block;
     }
-
-    .forge-espace .mobileFollow{
+    .forge-espace .mobileFollow {
         padding-top: 5px;
         padding-right: 10px;
     }
-
-
-    .forge-espace .hideMobile{
+    .forge-espace .hideMobile {
         display: none;
     }
-
-    .forge-espace .ribbonMobilePlaceholder{
+    .forge-espace .ribbonMobilePlaceholder {
         height: 22px;
     }
-
-    .forge-espace .hideRibbonLabelMobile{
+    .forge-espace .hideRibbonLabelMobile {
         display: none;
     }
-
     .forge-espace .supportOptions {
         margin-top: 30px
     }
@@ -1488,7 +1468,6 @@
     .forge-espace .padding5 {
         padding: 5px
     }
-
     .forge-espace .filterLabel {
         padding-bottom: 4px;
         display: block
@@ -1565,15 +1544,13 @@
         left: 125px;
         top: -44px
     }
-
-    .forge-espace .forgeEllipsis{
+    .forge-espace .forgeEllipsis {
         width: 59%;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         position: absolute;
     }
-    
     .hideFollowersText {
         display: none
     }
@@ -1668,7 +1645,7 @@
         display: none
     }
     */
-    
+
     /*
     .forge-espace .newRibbon {
         width: 90px !important
@@ -1678,8 +1655,6 @@
     .forge-espace .ribbonWidthCard {
         width: 37px;
     }
-
-
     .forge-espace .mobile-force-wrap * {
         white-space: normal
     }
@@ -1721,45 +1696,34 @@
     }
 }
 @media (max-width:979px) {
-    .forge-espace .hideRibbonLabelMobile{
+    .forge-espace .hideRibbonLabelMobile {
         display: none;
     }
-
     .forge-espace .MobileAlignMiddle {
         text-align: center;
     }
-
-    .forge-espace .retireButton{
-        margin-left:34px;
+    .forge-espace .retireButton {
+        margin-left: 34px;
     }
-
     .forge-espace .banner-icon {
         line-height: 183px;
     }
-
-
     .forge-espace .HighLightCardContent {
         border-bottom: none;
     }
-
-
     .forge-espace .infoContainer .ribbonContainer {
         top: -1px;
         width: 96px;
     }
-
-    .forge-espace .SidebarImage {    
+    .forge-espace .SidebarImage {
         margin-right: 0px;
     }
-
     .forge-espace .user-info {
         width: 70%;
     }
-
     .forge-espace .forums-thumbs {
         width: 19%;
     }
-
     .forge-espace .hide-in-mobile {
         display: none
     }
@@ -1779,40 +1743,34 @@
     .forge-espace .owl-item .CardTextWidthFlow {
         width: 55%
     }
-
     .forge-espace .buttonsContainer {
         bottom: 30px;
     }
-
-    .truncate{
+    .truncate {
         width: 149px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         color: #08c;
     }
-
-    .searchTablet{
+    .searchTablet {
         width: 232px;
     }
-
-    .forge-espace .FaqButton{
-        margin-left:0px;
+    .forge-espace .FaqButton {
+        margin-left: 0px;
     }
-
     .forge-espace .mobile-force-wrap .TabletPublishedBy {
         white-space: nowrap;
         text-overflow: initial;
         overflow: initial
     }
-
     .forge-espace .HighlightCard {
         padding-left: 52px;
     }
-/*
+
+    /*
     .leftContainerContentTablet{
         width: 30%;
     }
-*/
-
+    */
 }
