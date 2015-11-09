@@ -1800,7 +1800,7 @@
         margin-left:0px;
     }
 
-    .forge-espace .TabletPublishedBy {
+    .forge-espace .mobile-force-wrap .TabletPublishedBy {
         white-space: nowrap;
         text-overflow: initial;
         overflow: initial
