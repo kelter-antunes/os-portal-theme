@@ -613,6 +613,7 @@ max-width: 585px;
     font-weight: 400;
     line-height: 14px;
     margin-left: 0px;
+    box-sizing: border-box;
 }
 
 .supportportal-espace .TableRecords_Initial 
@@ -643,7 +644,7 @@ max-width: 585px;
   vertical-align:center;
   white-space: nowrap;
   cursor: pointer;
-  
+  box-sizing: border-box;
 }
 
 
