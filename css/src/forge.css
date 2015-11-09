@@ -1800,10 +1800,10 @@
         margin-left:0px;
     }
 
-    .forge-espace .TextWrap {
+    .forge-espace .TabletPublishedBy {
         white-space: nowrap;
         text-overflow: initial;
-        overflow: initial;
+        overflow: initial
     }
 
     .forge-espace .HighlightCard {
