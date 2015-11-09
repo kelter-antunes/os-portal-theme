@@ -1778,4 +1778,12 @@
         display: none;
     }
 
+    .forge-espace .ChangeIcon {
+        margin-left: -6px;
+    }
+
+    .forge-espace .WhiteBackground {
+        width: 122px;
+    }
+
 }
