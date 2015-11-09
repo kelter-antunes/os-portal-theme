@@ -1786,4 +1786,8 @@
         width: 122px;
     }
 
+    .forge-espace .Screenshot {
+        max-width: 293px;
+    }
+
 }
