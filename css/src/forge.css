@@ -1770,4 +1770,12 @@
         padding-left: 52px;
     }
 
+    .fa.fa-fw.fa-question-circle{
+        display: none;
+    }
+
+    .fa.fa-fw.fa-upload{
+        display: none;
+    }
+
 }
