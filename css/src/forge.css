@@ -1163,15 +1163,14 @@
     display: block;
     background: #fff;
     border-right: 1px solid #fff;
-    transform-origin: bottom left;
-    -ms-transform: skew(-30deg, 0deg);
-    -webkit-transform: skew(-30deg, 0deg);
-    transform: skew(-30deg, 0deg);
     z-index: 1;
-    right: 0;
+    right: -65px;
     left: 0;
     top: 0;
     bottom: 0;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
 }
 .forge-espace .rightContainer {
     height: 215px;
