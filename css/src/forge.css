@@ -1761,12 +1761,13 @@
     .forge-espace .mobile-force-wrap .TabletPublishedBy {
         white-space: nowrap;
         text-overflow: initial;
-        overflow: initial
+        overflow: initial;
     }
     .forge-espace .HighlightCard {
         padding-left: 52px;
     }
 
+    
     /*
     .leftContainerContentTablet{
         width: 30%;
