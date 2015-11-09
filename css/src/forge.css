@@ -1693,6 +1693,11 @@
     .forge-espace .infoContainer .ribbonContainer {
         width: 85px
     }
+
+    .forge-espace .hide-in-mobile {
+        display: none
+    }
+
 }
 @media (max-width:979px) {
     .forge-espace .hideRibbonLabelMobile {
@@ -1723,9 +1728,7 @@
     .forge-espace .forums-thumbs {
         width: 19%;
     }
-    .forge-espace .hide-in-mobile {
-        display: none
-    }
+
     .forge-espace .CardTextWidth {
         width: 58%
     }
@@ -1767,10 +1770,4 @@
         padding-left: 52px;
     }
 
-    
-    /*
-    .leftContainerContentTablet{
-        width: 30%;
-    }
-    */
 }
