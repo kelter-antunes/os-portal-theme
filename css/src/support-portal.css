@@ -772,14 +772,12 @@ max-width: 585px;
     border: 1px solid #e0e0e0;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 135, 204, 0.11);
-    width:365px;
     position: relative;
     padding: 15px;
     
 }
 
 .supportportal-espace .ProblemsResults a{
-    color: #101010;
     font-size:12px;
     font-weight: 700;
 }
