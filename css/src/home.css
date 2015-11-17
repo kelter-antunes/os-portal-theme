@@ -1382,6 +1382,394 @@
   margin-left: 0 !important
 }
 
+
+/*onboarding*/
+
+/* All spans with class ValidationMessage preceded by Not_Valid Class on hover or placed right after Not_Valid on hover class after class after class rolediv*/
+.home-espace .rolediv .Not_Valid:hover+span.ValidationMessage,
+.home-espace .rolediv .Not_Valid:hover~span.ValidationMessage {
+    display: block;
+}
+
+/* All spans with class ValidationMessage preceded by Not_Valid Class on focus or placed right after Not_Valid on focus class after class after class rolediv*/
+.home-espace .rolediv .Not_Valid:focus+span.ValidationMessage,
+.home-espace .rolediv .Not_Valid:focus~span.ValidationMessage {
+    display: block;
+}
+
+.home-espace .onb-box{
+    background-color: white;    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.85), inset 0 4px 0 #b00e03, inset 0 3px 0 #c20;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+.home-espace .onb-box-subscription{  
+background-color: white;    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.85), inset 0 4px 0 #b00e03, inset 0 3px 0 #c20;
+    padding: 20px 27px;   
+    box-sizing: border-box;
+    
+}
+
+.home-espace .width100{
+    width: 100px;
+}
+
+.home-espace .marginbottom{
+    margin-bottom: 33px;
+}
+
+.home-espace .photo-border{
+    border: 1px solid #e0e0e0;
+    border-radius: 9px;
+    box-shadow: 0 2px 5px rgba(153, 151, 151, 0.5);
+}
+
+.home-espace .loginbox .input-login {
+    width: 254px !important;
+}
+
+.home-espace .profileborder{
+    width: 319px;
+    height: 465px;
+    border: 1px solid #e4e4e4;
+    border-radius: 7px;
+    margin-bottom: 38px;
+}
+
+.home-espace .sub-background{    
+    background: url(img/OutPlat.png) no-repeat;
+}
+
+
+@-webkit-keyframes spaceship {
+   from {
+    margin-left: 136px;
+    margin-top: -32px;
+   }
+   to {
+    margin-left: 133px;
+    margin-top: -29px;
+   }
+}
+@-moz-keyframes spaceship {
+   from {
+    margin-left: 136px;
+    margin-top: -32px;
+   }
+   to {
+    margin-left: 133px;
+    margin-top: -29px;
+   }
+}
+@keyframes spaceship {
+   from {
+    margin-left: 136px;
+    margin-top: -32px;
+   }
+   to {
+    margin-left: 133px;
+    margin-top: -29px;
+   }
+}
+.home-espace .spaceship {
+     margin-left: 133px;
+    margin-top: -29px
+    -webkit-animation: spaceship 1s alternate infinite linear;
+    -moz-animation: spaceship 1s alternate infinite linear;
+    animation: spaceship 1s alternate infinite linear;
+}
+
+.home-espace .logo-os{
+    margin-top: 92px;
+    margin-left: 57px;
+}
+
+.home-espace .line-separator{
+    height: 1px;
+    background: #e7eced no-repeat;
+}
+.home-espace .onboarding-annotation{
+  border-left: 2px solid #c81c00;
+    padding-left: 10px;
+}
+
+.home-espace .line-separator-darker{
+    height: 1px;
+    background: #e0e0e0 no-repeat;
+}
+
+.home-espace .step-box{
+     width: 402px;
+    height: 99px;
+    background-color: #f9f9f9;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.11);
+    overflow: hidden;
+}
+
+.home-espace .lettrine{
+    height: 133px;
+    width: 61px;
+    col r: #90a4ae;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-size: 109px;
+    font-weight: 700;
+    line-height: 133px;
+    margin-left: -8px
+
+}
+
+.home-espace .team-grey{
+    width: 570px;
+    height: 101px;
+    background-color: #f0f0f0;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.14);
+    margin-left:-40px;
+}
+
+.home-espace .fontgrey{
+    color: #596669;
+}
+
+.home-espace .font10{
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.home-espace .font12{
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.home-espace .font14{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.home-espace .font16{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.home-espace .home-espace .font17{
+    font-size: 17px;
+    line-height: 20px;
+}
+
+
+.home-espace .font18{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.home-espace .font30{
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.home-espace .font_arial{
+    font-family: Arial;
+}
+
+.home-espace .font_myriad{
+    font-family: myriad-pro;
+}
+
+
+
+.home-espace input[type="text"].email-input-ui{
+    width: 376px;    
+    background-color: #ededed;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);   
+ }
+ 
+ .home-espace .email-content-ui{
+    width: 376px;
+    height: 150px;
+    background-color: #ededed;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    resize:vertical; 
+}
+
+/*Fix span message*/
+span.ValidationMessage
+{
+    position: absolute;
+    top:33px;
+    left:0;
+}
+
+
+/*Class that holds the bg of the webblock.*/
+.home-espace .fullscreen{
+    width:100%;
+    height:100%;
+    position:absolute;
+    -webkit-transition: opacity 1s;     
+    transition: opacity 1s;
+    background-color: black;
+    background-image: url(img/bgimage.jpg); 
+    background-position: center top;
+    top: 0px;
+    opacity:1;
+    left: 0px;
+    z-index:2;    
+}
+
+/*class that holds the content of the webblock. We use the translateX(-50%) and left:50%
+so we can center the absoluted div horizontally (because we dont know the width of the div)
+***DONT WORK IN IE8*** */
+.home-espace .MidDiv{
+    top:70px;    
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index:3;
+    position: absolute;
+}
+
+/*Class that holds the progress bar*/
+.home-espace .LineContainer{
+    height:3px;
+    background-image: url(img/line.png); 
+    background-size: cover;
+    margin:5px 0 20px 0 ;
+    
+}
+
+/*Class that holds the Filler from the progress bar*/
+.home-espace .LineFilled{
+    height:0px;
+    border-top: 3px solid #cfd8dc;
+}
+
+/*Class to make the text white*/
+.home-espace .White{
+    color:white;
+}
+
+/*Class to make the link black*/
+.home-espace a.Black{
+    color:black;
+}
+
+.home-espace .inputTechMailContainer{
+    position: relative;
+}
+
+.home-espace .inputTechMailContainer .ValidationMessage{
+    top:52px;
+    left:5px;
+}
+
+.home-espace input[type="text"].inputTechMail {
+    background-color: #f6f6f6;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    height:41px;
+    padding-left:21px;
+    
+}
+
+.home-espace .invitation{
+    margin-left: 79px;
+    margin-right: 79px;
+}
+/*onboardingInfoballon*/
+
+.home-espace .tooltip-inner{
+    text-align: left;
+    padding: 8px;
+    line-height: 15px;
+    white-space: pre-line;
+}
+
+.home-espace .CrossRemove a{
+    color: #949fa3;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.home-espace .ContainerMemberList{
+    overflow-y: auto;
+    max-height: 222px;
+}
+
+
+
+/*ANIMATIONS*/
+
+#flame{
+    display: block;
+ 
+    animation-delay: 0s;
+    animation-name: fireMiddle, fillOpacity1;
+    animation-duration: 1.2s;
+  transform-origin: 65px 145px;
+     animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes fireMiddle { 
+    10% { transform: rotate(8deg) translateY(1px)  }
+    20% { transform: rotate(-3deg) translateY(-2px)  }
+    30% { transform: rotate(12deg)  }
+    40% { transform: rotate(-4deg) }
+    50% { transform: rotate(3deg) }
+    60% { transform: rotate(-5deg) }
+    70% { transform: rotate(5deg) translateY(-1px)}
+    80% { transform: rotate(4deg) }
+    90% { transform: rotate(16deg) }
+    99% { transform: rotate(0deg) }
+}
+
+@keyframes float {
+  from {
+    transform: translateY(4px) rotate3d(0, 0, 1, 3deg);
+  }
+  to {
+    transform: translateY(-3px) rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+
+
+#rocket{
+    position:absolute;
+    animation-delay: 0s;
+    animation-name: float, fillOpacity1;
+    animation-duration: 1.2s;
+    transform-origin: 65px 145px;
+    animation-duration: 2s;
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-play-state: running;
+    left:120px;
+    top:50px;
+}
+
+@keyframes fly {
+  from {
+    transform: translateY(4px) rotate3d(0, 0, 1, 3deg);
+  }
+  to {
+    transform: translateY(-330px) translateX(330px) rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+
+
+/*End onboarding*/
+
+
+
 @media (max-width:979px) {
   .home-espace .BrowseAppBox, .home-espace .ManageAppBox {
     position: relative;
@@ -1481,3 +1869,4 @@
     width: 250px
   }
 }
+
