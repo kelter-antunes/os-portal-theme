@@ -26,7 +26,8 @@ module.exports = function(grunt) {
                         'css/src/widgets.css',
                         'css/src/community.css',
                         'css/src/support-portal.css',
-                        'css/src/licensingfo.css'
+                        'css/src/licensingfo.css',
+			'css/src/customer-area.css'
                     ],
                     'css/bundle/os-portal.css': [
                         'css/src/bootstrap.css',
@@ -47,7 +48,8 @@ module.exports = function(grunt) {
                         'css/src/widgets.css',
                         'css/src/community.css',
                         'css/src/support-portal.css',
-                        'css/src/licensingfo.css'
+                        'css/src/licensingfo.css',
+			'css/src/customer-area.css'
                     ]
                 }
             }
