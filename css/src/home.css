@@ -1438,7 +1438,7 @@ background-color: white;
 }
 
 .home-espace .sub-background{    
-    background: url(img/OutPlat.png) no-repeat;
+    background: url(/home/img/OutPlat.png) no-repeat;
 }
 
 
@@ -1612,7 +1612,7 @@ span.ValidationMessage
     -webkit-transition: opacity 1s;     
     transition: opacity 1s;
     background-color: black;
-    background-image: url(img/bgimage.jpg); 
+    background-image: url(/home/img/bgimage.jpg); 
     background-position: center top;
     top: 0px;
     opacity:1;
@@ -1636,7 +1636,7 @@ so we can center the absoluted div horizontally (because we dont know the width 
 /*Class that holds the progress bar*/
 .home-espace .LineContainer{
     height:3px;
-    background-image: url(img/line.png); 
+    background-image: url(/home/img/line.png); 
     background-size: cover;
     margin:5px 0 20px 0 ;
     
