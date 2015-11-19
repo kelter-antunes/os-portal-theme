@@ -1093,6 +1093,21 @@
     }
 }
 
+    .partnerarea-espace .DevCertification{
+        background-color: #EEF1F3;
+        padding-top: 39px;
+        padding-bottom: 36px;
+    }
+
+    .partnerarea-espace .SuppCertification{
+        padding-top: 39px;
+        padding-bottom: 36px;
+    }
+
+    .partnerarea-espace .content-separator.certList {    
+        padding-bottom: 0px;
+    }
+
 @media (max-width:979px) and (min-width:768px) {
     .partnerarea-espace .opportunity-container>.row>.span8 {
         width: 450px
