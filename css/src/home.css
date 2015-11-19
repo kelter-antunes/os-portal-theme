@@ -190,7 +190,7 @@
   margin-top: 6px
 }
 .home-espace .NavTab .InfrastructureNameWrapper {
-  width: 100%;
+  width: 90%;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap
