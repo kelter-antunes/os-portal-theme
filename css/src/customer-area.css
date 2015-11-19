@@ -153,6 +153,7 @@
 
 .customerarea-espace .styled-select select {
     padding-left: 10px;
+	padding-right: 20px;
     font-size: 14px;
     line-height: 1;
     border-radius: 5px;
@@ -164,7 +165,7 @@
     float: none;
     margin-bottom: 0;
     box-shadow: none;
-    background-position-x: 128px
+    background-position-x: 279px;
 }
 
 .customerarea-espace .styled-select {
