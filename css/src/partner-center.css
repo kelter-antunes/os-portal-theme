@@ -1115,8 +1115,9 @@
     }
     .partnerarea-espace .opportunity-container>.row>.span8 .span1 {
         width: 50px;
+        margin-top: 15px;
         margin-left: 10px;
-        margin-top: 15px
+        
     }
     .partnerarea-espace .opportunity-container>.row>.span8 .span2 {
         width: 70px;
