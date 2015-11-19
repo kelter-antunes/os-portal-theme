@@ -960,15 +960,19 @@ div.Header-UserAvatar {
     width: 25px
 }
 div.Header-UserInfo {
-    font-size: 12px;
+    border-bottom: 2px solid #e7eced;
     line-height: 1;
-    padding-top: 22px;
+    padding-top: 19px;
+    padding-bottom: 19px;
     font-weight: 700;
     position: relative;
-    padding-left: 10px;
+    padding-left: 20px;
     white-space: nowrap;
     text-overflow: ellipsis;
-    overflow: hidden
+    overflow: hidden;
+    color: #384142;
+    font-family: "Myriad Pro";
+    font-size: 14px;
 }
 div.Header-ButtonContainer {
     padding-top: 17px;
@@ -3646,13 +3650,16 @@ div.Feedback_AjaxWait img {
 
 
 .ProfileMenu {
-  position: absolute;
-  top: 156px;
-  z-index: 9999;
-  border: 1px solid #ccc;
-  width: 311px;
-  background: #FFF;
-  padding: 5px 0
+    position: absolute;
+    top: 56px;
+    z-index: 9999;
+    border: 1px solid #ccc;
+    width: 170px;
+    background: #FFF;    
+}
+.MenuRow {
+    padding: 9px 9px;
+    border-bottom: 1px solid #e7eced;
 }
 @media (max-width:979px) {
     .partner-mobile a:link {
