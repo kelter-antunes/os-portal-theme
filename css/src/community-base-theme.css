@@ -3656,10 +3656,12 @@ div.Feedback_AjaxWait img {
         width: 99px;
     }
     .top-menu-item {
-        width: 84px
+        width: 84px;
+        padding: 0 8px;
     }
     .top-menu-item a {
-        padding: 0
+        padding: 0;
+        font-size: 13px;
     }
     .mobile-search {
         display: none;
