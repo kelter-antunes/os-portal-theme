@@ -3651,6 +3651,7 @@ div.Feedback_AjaxWait img {
 }
 
 .ProfileMenu {
+    text-align: left;
     margin-left: -105px;
     position: absolute;
     top: 56px;
@@ -3816,9 +3817,9 @@ div.Feedback_AjaxWait img {
         padding-top: 6px
     }
     div.Header-ButtonContainer {
-        padding-top: 18px;
-        width: 62px
-    }
+    padding-top: 0;
+    width: 66px;
+	}
     .search-wrapper input.search {
         width: 98%;
         margin-left: 1%;
