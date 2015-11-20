@@ -977,7 +977,7 @@ div.Header-UserInfo {
 div.Header-ButtonContainer {
     text-align: right;
     padding-top: 0;
-    width: 120px;
+    width: 125px;
 }
 
 div.Header-Button {
@@ -3673,6 +3673,12 @@ div.Feedback_AjaxWait img {
     border: 1px solid rgba(0, 0, 0, 0.34);	
 	}
 	
+	.header-headshot {
+    padding: 9px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
 	
 @media (max-width:979px) {
     .partner-mobile a:link {
@@ -3844,12 +3850,7 @@ div.Feedback_AjaxWait img {
         padding: 5px 0
     }
 	
-	.header-headshot {
-    border: 5px solid rgba(255,255,255,.1);
-    border-radius: 50%;
-   height: 43px;
-    width: 43px;
-}
+	
     .login-info-wrapper {
         right: 60px;
         position: absolute;
