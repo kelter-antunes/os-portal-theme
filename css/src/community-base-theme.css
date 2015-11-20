@@ -975,9 +975,11 @@ div.Header-UserInfo {
     font-size: 14px;
 }
 div.Header-ButtonContainer {
-    padding-top: 0px;
-    width: 62px
+    text-align: right;
+    padding-top: 0;
+    width: 120px;
 }
+
 div.Header-Button {
     float: left;
     display: block;
@@ -3841,6 +3843,13 @@ div.Feedback_AjaxWait img {
     .header-logo {
         padding: 5px 0
     }
+	
+	.header-headshot {
+    border: 5px solid rgba(255,255,255,.1);
+    border-radius: 50%;
+   height: 43px;
+    width: 43px;
+}
     .login-info-wrapper {
         right: 60px;
         position: absolute;
