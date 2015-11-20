@@ -1008,7 +1008,10 @@ div.Header-Button {
     background: url(/CommunityBaseTheme/img/headericons.png) -22px -20px no-repeat
 }
 .header-icon-settings {
-    background: url(/CommunityBaseTheme/img/headericons.png) -41px -1px no-repeat
+    border: 1px solid #3b3737;
+    border-radius: 4px;
+    padding: 2px;
+    background: url(/CommunityBaseTheme/img/headericons.png) -41px -1px no-repeat;
 }
 .header-icon-settings:hover {
     background: url(/CommunityBaseTheme/img/headericons.png) -41px -20px no-repeat
@@ -3647,9 +3650,8 @@ div.Feedback_AjaxWait img {
     display: none;
 }
 
-
-
 .ProfileMenu {
+    margin-left: -105px;
     position: absolute;
     top: 56px;
     z-index: 9999;
@@ -3662,8 +3664,8 @@ div.Feedback_AjaxWait img {
     border-bottom: 1px solid #e7eced;
 }
 
-.DropdownActive{
-	height: 38px;
+.DropdownActive {
+    height: 38px;	
     background-color: rgba(255, 255, 255, 0.11);
     border: 1px solid rgba(0, 0, 0, 0.34);	
 	}
