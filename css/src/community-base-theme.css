@@ -3772,6 +3772,14 @@ div.Feedback_AjaxWait img {
     }
 }
 @media (max-width:767px) {
+	.header-headshot {
+    padding: 0px;
+	}
+	
+	.header-icon-settings {
+     border: none;   
+    padding: 0px;
+	}
 	
 	.header-icon {  
 	  margin-right: 10px;
