@@ -3773,6 +3773,13 @@ div.Feedback_AjaxWait img {
 }
 @media (max-width:767px) {
 	
+	.header-icon {  
+	  margin-right: 10px;
+     margin-left: 0px;
+}
+	.header-icon-logout {    
+     margin-left:0px;
+}
 	.Mobile{
 	    display: block;
 		}
