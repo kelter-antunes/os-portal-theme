@@ -1022,12 +1022,12 @@ div.Header-Button {
 }*/
 .header-icon-logout {
    /* background: url(/CommunityBaseTheme/img/headericons.png) -63px -1px no-repeat;*/
-   background: url(/CommunityBaseTheme/img/headericons.png) -41px -20px no-repeat
+   background: url(/CommunityBaseTheme/img/headericons.png) -63px -20px no-repeat;
     margin-left: 6px
 }
-.header-icon-logout:hover {
-    background: url(/CommunityBaseTheme/img/headericons.png) -63px -20px no-repeat
-}
+/*.header-icon-logout:hover {
+    background: url(/CommunityBaseTheme/img/headericons.png) -63px -20px no-repeat;
+}*/
 .love-agile-h, .love-agile-o {
     -servicestudio-text-indent: 0;
     display: inline-block;
