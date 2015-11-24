@@ -943,6 +943,11 @@ div.Header-UserAvatar {
     padding-top: 11px;
     width: 25px
 }
+.testclas{
+	border-bottom: 2px solid #e7eced;
+    line-height: 1;
+    padding-top: 19px;
+}
 div.Header-UserInfo {
 	
     border-bottom: 2px solid #e7eced;
@@ -952,8 +957,7 @@ div.Header-UserInfo {
     font-weight: 700;
     position: relative;
     padding-left: 20px;
-    color: #384142; 
-	color: #384142; 
+    color: #384142; 	
     font-family: myriad-pro;
     font-size: 14px;
 

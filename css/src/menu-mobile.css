@@ -386,8 +386,7 @@ div.Application_Menu div.Menu_DropDownPanel a:visited {
         position: static;
         border: 0px;
         margin: 0px;
-        padding: 0px;
-		padding: 0px;
+        padding: 0px;		
         background-color: #262626;
         -webkit-box-shadow: none; 
         -moz-box-shadow: none;
@@ -395,6 +394,9 @@ div.Application_Menu div.Menu_DropDownPanel a:visited {
         border-bottom: 0;
 		
     }
+	.test{
+	 border-bottom: 1px solid #3A3A3A;
+		}
     .Application_Menu .Menu_DropDownPanel a,
     .Application_Menu .Menu_DropDownPanel a:link,
     .Application_Menu .Menu_DropDownPanel a:visited {
