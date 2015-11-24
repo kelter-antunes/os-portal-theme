@@ -387,11 +387,13 @@ div.Application_Menu div.Menu_DropDownPanel a:visited {
         border: 0px;
         margin: 0px;
         padding: 0px;
+		padding: 0px;
         background-color: #262626;
-        -webkit-box-shadow: none;
+        -webkit-box-shadow: none; 
         -moz-box-shadow: none;
         box-shadow: none;
         border-bottom: 0;
+		
     }
     .Application_Menu .Menu_DropDownPanel a,
     .Application_Menu .Menu_DropDownPanel a:link,
