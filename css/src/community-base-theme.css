@@ -1,11 +1,19 @@
+.searchview-close, .with-search .header-logo, .with-search .menu-entries {
+    visibility: hidden
+}
+.ScreenshotWrapper, .ScreenshotWrapper img, .profile-topic-holder, .topic-holder, .verticalAlign, a.btn, input[type=submit].inpage-search-btn {
+    vertical-align: middle
+}
+.PersonalDNSName, .PersonalHeaderMargins, .homepage-block-components-details, .homepage-block-components-details-title, .homepage-block-last-answered-details, .ladder-table-user-name, .leader-inline-wrap, .poster-name-ideas-Top, .reply-by, .search-result-link, .top-user-ellipsis, div.Header-UserInfo {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
 .breadcrumb a:focus, .noFocus:focus, .social-icons a:focus, a:focus {
     outline: 0
 }
 .header-logged-out, .menu-item, .top-menu-item {
     font-family: myriad-pro, Helvetica, Arial, sans-serif
-}
-.ScreenshotWrapper, .profile-topic-holder, .topic-holder, a.btn {
-    vertical-align: middle
 }
 span.ValidationMessage {
     display: none;
@@ -117,10 +125,7 @@ form {
     margin-left: 0
 }
 .top-user-ellipsis {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 151px;
-    white-space: nowrap
+    width: 151px
 }
 .rss_link:link, .rss_link:visited, .social-email:link, .social-email:visited, .social-facebook:link, .social-facebook:visited, .social-linkedin:link, .social-linkedin:visited, .social-twitter:link, .social-twitter:visited {
     height: 21px;
@@ -128,6 +133,13 @@ form {
     text-indent: -9999px;
     display: inline-block;
     width: 21px
+}
+.social-personal-site, .social-personal-site:link, .social-personal-site:visited {
+    width: 20px;
+    text-indent: -9999px;
+    display: inline-block;
+    height: 21px;
+    -servicestudio-text-indent: 0
 }
 .top10 {
     margin-top: 10px
@@ -195,14 +207,14 @@ form {
 .right10 {
     margin-right: 10px
 }
-.align-left{
-    text-align: left;
+.align-left {
+    text-align: left
 }
-.align-right{
-    text-align: right;
+.align-right {
+    text-align: right
 }
-.align-center{
-    text-align: center;
+.align-center, .top-menu-item {
+    text-align: center
 }
 .breadcrumb {
     font-size: 12px;
@@ -263,23 +275,13 @@ form {
     background-position: -59px -227px
 }
 .social-personal-site:link, .social-personal-site:visited {
-    background: url(/CommunityBaseTheme/img/icons.png) -33px -67px no-repeat;
-    -servicestudio-text-indent: 0;
-    text-indent: -9999px;
-    display: inline-block;
-    width: 20px;
-    height: 21px
+    background: url(/CommunityBaseTheme/img/icons.png) -33px -67px no-repeat
 }
 .social-personal-site:hover {
     background-position: -33px -99px
 }
 .social-personal-site {
-    background: url(img/icons.png) -33px -67px no-repeat;
-    -servicestudio-text-indent: 0;
-    text-indent: -9999px;
-    display: inline-block;
-    width: 20px;
-    height: 21px
+    background: url(img/icons.png) -33px -67px no-repeat
 }
 .social-blogger, .social-blogger:link, .social-blogger:visited, .social-g-plus, .social-g-plus:link, .social-g-plus:visited {
     -servicestudio-text-indent: 0;
@@ -375,23 +377,11 @@ form {
 .drop, .header-siteswitcher {
     filter: progid:DXImageTransform.Microsoft.Shadow(strength=3, direction=180, color='#000000')
 }
-.header.with-search {
-    position: relative;
-}
-.with-search .container.backgroungcontainerheader {
-    position: relative;
-}
 .searchview {
-    display: none;
+    display: none
 }
 .with-search .searchview {
-    display: block;
-}
-.with-search .header-logo {
-    visibility: hidden;
-}
-.with-search .menu-entries {
-    visibility: hidden;
+    display: block
 }
 .searchview-content {
     position: absolute;
@@ -400,7 +390,7 @@ form {
     width: 760px;
     background: #424141;
     border: 1px solid #4D4D4D;
-    border-radius: 3px;
+    border-radius: 3px
 }
 .searchview-close {
     opacity: 1;
@@ -412,23 +402,19 @@ form {
     height: 49px;
     right: 190px;
     top: 6px;
-    visibility: hidden;
     color: #fff;
     cursor: pointer;
-    -webkit-transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-transition: opacity .2s cubic-bezier(.645, .045, .355, 1);
+    transition: opacity .2s cubic-bezier(.645, .045, .355, 1)
 }
 .with-search .searchview-close {
-    visibility: visible;
+    visibility: visible
 }
-.header.with-search {
-    position: relative;
-}
-.with-search .container.backgroungcontainerheader {
-    position: relative;
+.header.with-search, .with-search .container.backgroungcontainerheader {
+    position: relative
 }
 .with-search .search-mobile-wrapper {
-    visibility: hidden;
+    visibility: hidden
 }
 .searchform-wrapper {
     position: relative;
@@ -437,7 +423,7 @@ form {
     line-height: 35px;
     width: 100%;
     padding-left: 30px;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 input[type=search].searchform-input {
     width: 100%;
@@ -447,24 +433,23 @@ input[type=search].searchform-input {
     letter-spacing: normal;
     height: 35px;
     color: #fff;
-    outline: none;
+    outline: 0;
     border: none;
     background-color: transparent;
     box-shadow: none;
     margin: 0;
-    padding: 0;
+    padding: 0 40px 0 0;
     border-radius: 0;
-    padding-right: 40px;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 input[type=search].searchform-input:focus {
     border: none;
-    box-shadow: none;
+    box-shadow: none
 }
 .searchform-submit[disabled] {
     opacity: 1;
     cursor: default;
-    background-color: transparent;
+    background-color: transparent
 }
 .searchform-submit {
     position: absolute;
@@ -474,13 +459,10 @@ input[type=search].searchform-input:focus {
     width: 30px !important;
     height: 25px;
     cursor: pointer;
-    background: url(/CommunityBaseTheme/img/icons.png) 0 -1164px;
-    background-repeat: no-repeat;
-    background-color: #3C3C3C;
-    -webkit-transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-    border: none;
-    background-color: transparent;
+    background: url(/CommunityBaseTheme/img/icons.png) 0 -1164px no-repeat;
+    -webkit-transition: opacity .2s cubic-bezier(.645, .045, .355, 1);
+    transition: opacity .2s cubic-bezier(.645, .045, .355, 1);
+    border: none
 }
 .searchview-close-left, .searchview-close-right {
     height: 18px;
@@ -490,26 +472,26 @@ input[type=search].searchform-input:focus {
     display: block;
     top: 13px;
     left: 17px;
-    z-index: 1;
+    z-index: 1
 }
-.searchview-close:hover, .searchview-close:active {
-    opacity: 0.65;
+.searchview-close:active, .searchview-close:hover {
+    opacity: .65;
     -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=$ieopacity)';
-    filter: alpha(opacity=65);
+    filter: alpha(opacity=65)
 }
 .searchview-close-left {
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    transform: rotate(-45deg)
 }
 .searchview-close-right {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+    transform: rotate(45deg)
 }
 .search-container {
     position: absolute;
-    background: url(/CommunityBaseTheme/img/bgheader.png) left top repeat-x #444;
+    background: url(/CommunityBaseTheme/img/bgheader.png) left top repeat-x #444
 }
 .search-container input {
     height: 49px;
@@ -519,10 +501,10 @@ input[type=search].searchform-input:focus {
     color: #FFF;
     font-size: 18px;
     box-shadow: none;
-    margin-bottom: 0;
+    margin-bottom: 0
 }
 .search-container input[type=text]:focus {
-    box-shadow: none;
+    box-shadow: none
 }
 .search-wrapper input.search {
     border-right: 0;
@@ -548,7 +530,7 @@ input[type=search].searchform-input:focus {
     float: left
 }
 .search-wrapper input.submit {
-    background: url(/CommunityBaseTheme/img/icons.png) 0 -1164px no-repeat transparent;
+    background: url(/CommunityBaseTheme/img/icons.png) 0 -1164px no-repeat;
     border: 1px solid #CCC;
     box-shadow: none;
     height: 30px;
@@ -560,34 +542,25 @@ input[type=search].searchform-input:focus {
     text-transform: capitalize;
     font-size: 0
 }
-
-
+.homepage-block-title, .menu-item, .newpost-form-label, .oscertified-ribbonText, .osretired-ribbonText, .popup-header, .profile-more-details-title, .profile-pictureUpload-label, .sideblock-header, .top-menu-item, .topic-header-actions, a.btn, a.link-tab {
+    text-transform: uppercase
+}
 .inpage-search-search-wrapper {
     display: flex;
-    float: right;
+    float: right
 }
-
 input[type=submit].inpage-search-btn {
     font-size: 14px;
     line-height: 20px;
-    vertical-align: middle;
-    background-color: transparent;
     margin-left: -30px;
     border: 1px solid transparent;
     background: url(/CommunityBaseTheme/img/icons.png) 0 -1162px no-repeat;
     color: transparent;
-    width: 30px;
+    width: 30px
 }
-
 input[type=search].inpage-search-input {
     margin: 0;
-    padding-right: 40px;
-}
-
-
-
-.homepage-block-title, .menu-item, .top-menu-item, a.btn {
-    text-transform: uppercase
+    padding-right: 40px
 }
 .small-search {
     margin-top: 15px;
@@ -605,7 +578,7 @@ input[type=search].inpage-search-input {
     box-shadow: none
 }
 .search-wrapper .small-search input.submit {
-    background: url(/CommunityBaseTheme/img/icons.png) 0 -1164px no-repeat transparent;
+    background: url(/CommunityBaseTheme/img/icons.png) 0 -1164px no-repeat;
     border: none;
     float: right
 }
@@ -624,14 +597,13 @@ input[type=search].inpage-search-input {
 }
 .top-menu-item {
     float: left;
-    position: relative;
-    text-align: center
+    position: relative
 }
 .top-menu-item.big-entry {
-    width: 130px;
+    width: 130px
 }
 .top-menu-item.small-entry {
-    width: auto;
+    width: auto
 }
 .top-menu-arrow, .top-menu-home, .top-menu-learn {
     content: "";
@@ -640,7 +612,8 @@ input[type=search].inpage-search-input {
     bottom: 0;
     left: 50%;
     position: absolute;
-    margin-left: -10px
+    margin-left: -10px;
+    border-color: transparent transparent #BCC5CC
 }
 .top-menu-item a {
     color: #AAA;
@@ -656,12 +629,6 @@ input[type=search].inpage-search-input {
 }
 .top-menu-item.active a {
     color: #FFF
-}
-.top-menu-home, .top-menu-arrow {
-    border-color: transparent transparent #BCC5CC
-}
- .top-menu-learn {
-    border-color: transparent transparent #E6EAEB
 }
 .academy-top, .drop, .footer-site, .heading-group, .heading-group-no-line, .topchooser, div.Header-Button {
     position: relative
@@ -680,7 +647,7 @@ input[type=search].inpage-search-input {
     color: #666;
     display: block
 }
-.menu-item a:hover, .menu-item.active a.menu-academy-overview, .menu-item.active a.menu-download, .menu-item.active a.menu-faq, .menu-item.active a.menu-forge, .menu-item.active a.menu-forums, .menu-item.active a.menu-home, .menu-item.active a.menu-ideas, .menu-item.active a.menu-leaderboard, .menu-item.active a.menu-support, .menu-item.active a.menu-training, .menu-item.active a.menu-ipp, .menu-item.active a.menu-licensing, .menu-item.active a.menu-knowledgebase, .menu-item.active a.menu-portal {
+.menu-item a:hover, .menu-item.active a.menu-academy-overview, .menu-item.active a.menu-download, .menu-item.active a.menu-faq, .menu-item.active a.menu-forge, .menu-item.active a.menu-forums, .menu-item.active a.menu-home, .menu-item.active a.menu-ideas, .menu-item.active a.menu-ipp, .menu-item.active a.menu-knowledgebase, .menu-item.active a.menu-leaderboard, .menu-item.active a.menu-licensing, .menu-item.active a.menu-portal, .menu-item.active a.menu-support, .menu-item.active a.menu-training {
     color: #333
 }
 .menu-item a.menu-forums:before {
@@ -777,7 +744,7 @@ input[type=search].inpage-search-input {
     color: #333
 }
 .menu-item a.menu-ipp:before {
-    background: url(/CommunityBaseTheme/img/lockinactive.png) no-repeat center;
+    background: url(/CommunityBaseTheme/img/lockinactive.png) center no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -785,7 +752,7 @@ input[type=search].inpage-search-input {
     float: left
 }
 .menu-item a.menu-ipp:hover:before, .menu-item.active a.menu-ipp:before, .menu-item.active a.menu-ipp:hover:before {
-    background: url(/CommunityBaseTheme/img/lockactive.png) no-repeat center;
+    background: url(/CommunityBaseTheme/img/lockactive.png) center no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -794,7 +761,7 @@ input[type=search].inpage-search-input {
     color: #333
 }
 .menu-item a.menu-knowledgebase:before {
-    background: url(/CommunityBaseTheme/img/lockinactive.png) no-repeat center;
+    background: url(/CommunityBaseTheme/img/lockinactive.png) center no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -802,7 +769,7 @@ input[type=search].inpage-search-input {
     float: left
 }
 .menu-item a.menu-knowledgebase:hover:before, .menu-item.active a.menu-knowledgebase:before, .menu-item.active a.menu-knowledgebase:hover:before {
-    background: url(/CommunityBaseTheme/img/lockactive.png) no-repeat center;
+    background: url(/CommunityBaseTheme/img/lockactive.png) center no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -811,7 +778,7 @@ input[type=search].inpage-search-input {
     color: #333
 }
 .menu-item a.menu-licensing:before {
-    background: url(/CommunityBaseTheme/img/licensinginactive.png) no-repeat center;
+    background: url(/CommunityBaseTheme/img/licensinginactive.png) center no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -819,7 +786,7 @@ input[type=search].inpage-search-input {
     float: left
 }
 .menu-item a.menu-licensing:hover:before, .menu-item.active a.menu-licensing:before, .menu-item.active a.menu-licensing:hover:before {
-    background: url(/CommunityBaseTheme/img/licensingactive.png) no-repeat center;
+    background: url(/CommunityBaseTheme/img/licensingactive.png) center no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -828,7 +795,7 @@ input[type=search].inpage-search-input {
     color: #333
 }
 .menu-item a.menu-portal:before {
-    background: url(/CommunityBaseTheme/img/licensinginactive.png) no-repeat center;
+    background: url(/CommunityBaseTheme/img/licensinginactive.png) center no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -836,7 +803,7 @@ input[type=search].inpage-search-input {
     float: left
 }
 .menu-item a.menu-portal:hover:before, .menu-item.active a.menu-portal:before, .menu-item.active a.menu-portal:hover:before {
-    background: url(/CommunityBaseTheme/img/licensingactive.png) no-repeat center;
+    background: url(/CommunityBaseTheme/img/licensingactive.png) center no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -904,6 +871,23 @@ input[type=search].inpage-search-input {
     float: left;
     color: #333
 }
+.menu-item a.menu-sizing:before {
+    width: 18px;
+    height: 17px;
+    display: block;
+    float: left;
+    font-family: OS-Icon-Set;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e6af";
+    font-size: 15px
+}
 .site-switcher a {
     cursor: pointer;
     color: #BABABA;
@@ -967,19 +951,15 @@ div.Header-UserInfo {
     font-weight: 700;
     position: relative;
     padding-left: 20px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
     color: #384142;
     font-family: "Myriad Pro";
-    font-size: 14px;
+    font-size: 14px
 }
 div.Header-ButtonContainer {
     text-align: right;
     padding-top: 0;
-    width: 125px;
+    width: 125px
 }
-
 div.Header-Button {
     float: left;
     display: block;
@@ -989,8 +969,10 @@ div.Header-Button {
     padding-top: 18px;
     text-align: right
 }
+.h1, .h2, .h3, .h4, .h5, .h6, .header-icon, .love-agile-h, .love-agile-o, a.btn {
+    display: inline-block
+}
 .header-icon {
-    display: inline-block;
     text-indent: -5000em;
     overflow: hidden;
     width: 20px;
@@ -998,24 +980,16 @@ div.Header-Button {
     margin-left: 11px
 }
 .header-icon-message {
-   /* background: url(/CommunityBaseTheme/img/headericons.png) -1px 0 no-repeat*/
-	background: url(/CommunityBaseTheme/img/headericons.png) -1px -20px no-repeat
-}
-/*.header-icon-message:hover {
     background: url(/CommunityBaseTheme/img/headericons.png) -1px -20px no-repeat
-}*/
-.header-icon-message-notification {
-   /* background: url(/CommunityBaseTheme/img/headericons.png) -22px 0 no-repeat*/
-   background: url(/CommunityBaseTheme/img/headericons.png) -22px -20px no-repeat
 }
-/*.header-icon-message-notification:hover {
+.header-icon-message-notification {
     background: url(/CommunityBaseTheme/img/headericons.png) -22px -20px no-repeat
-}*/
+}
 .header-icon-settings {
     border: 1px solid #3b3737;
     border-radius: 4px;
     padding: 2px;
-    background: url(/CommunityBaseTheme/img/headericons.png) -41px -1px no-repeat;
+    background: url(/CommunityBaseTheme/img/headericons.png) -41px -1px no-repeat
 }
 .header-icon-settings:hover {
     background: url(/CommunityBaseTheme/img/headericons.png) -41px -20px no-repeat
@@ -1029,7 +1003,6 @@ div.Header-Button {
 }
 .love-agile-h, .love-agile-o {
     -servicestudio-text-indent: 0;
-    display: inline-block;
     background-image: url(/CommunityBaseTheme/img/icons.png);
     background-repeat: no-repeat;
     text-indent: -9990px;
@@ -1103,11 +1076,8 @@ h3, h4, h5 {
 .footer-copy a:hover {
     color: #c30
 }
-.h1, .h2, .h3, .h4, .h5, .h6 {
-    display: inline-block
-}
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'myriad-pro', sans-serif;
+    font-family: myriad-pro, sans-serif;
     text-rendering: optimizelegibility;
     margin: 0;
     line-height: 1.2em
@@ -1116,7 +1086,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 5px
 }
 .chosen-InputContainer .linkContainer, a.btn {
-    font-family: 'myriad-pro', Helvetica, Arial, sans-serif
+    font-family: myriad-pro, Helvetica, Arial, sans-serif
 }
 h1 {
     font-size: 30px;
@@ -1155,7 +1125,6 @@ h4 {
 a.btn {
     font-weight: 600;
     letter-spacing: 1px;
-    display: inline-block;
     padding: 4px 12px;
     margin-bottom: 0;
     font-size: 14px;
@@ -1249,14 +1218,6 @@ a.btn.white:hover {
 .academy-top {
     top: -12px
 }
-.toggle-lesson-ico, .toggle-lesson-ico-open {
-    bottom: 0;
-    text-indent: -9999px;
-    display: inline-block;
-    height: 22px;
-    position: absolute;
-    right: 0
-}
 .mar-left35 {
     margin-left: 35px
 }
@@ -1307,7 +1268,15 @@ a.btn.white:hover {
     width: 54px
 }
 .toggle-lesson-ico, .toggle-lesson-ico-open {
-    background: url(/CommunityBaseTheme/img/icons.png) right no-repeat
+    bottom: 0;
+    text-indent: -9999px;
+    display: inline-block;
+    height: 22px;
+    position: absolute;
+    right: 0;
+    background: url(/CommunityBaseTheme/img/icons.png) right no-repeat;
+    left: -25px !important;
+    top: 5px !important
 }
 .toggle-lesson-ico-open {
     background-position: 20px -730px !important;
@@ -1315,10 +1284,6 @@ a.btn.white:hover {
 }
 .lesson-click:hover .toggle-lesson-ico-open, .toggle-lesson-ico-open:hover {
     background-position: 20px -750px !important
-}
-.toggle-lesson-ico, .toggle-lesson-ico-open {
-    left: -25px !important;
-    top: 5px !important
 }
 .lesson-click {
     cursor: pointer
@@ -1595,6 +1560,11 @@ a.btn.white:hover {
     margin: auto 0;
     height: 18px
 }
+.lesson-material-download:before, .lesson-material-download:hover:before, .next-lesson:after, .next-lesson:hover:after {
+    width: 15px;
+    height: 15px;
+    content: ""
+}
 .video-expand-ico.expanded {
     background-position: -6px -728px
 }
@@ -1605,25 +1575,16 @@ a.btn.white:hover {
     margin-left: 20px
 }
 .next-lesson:after, .next-lesson:hover:after {
-    content: "";
-    width: 15px;
-    height: 15px;
     margin-left: 5px
 }
 .lesson-material-download:before {
     background: url(/CommunityBaseTheme/img/icons.png) -5px -131px no-repeat;
     display: block;
-    width: 15px;
-    height: 15px;
-    content: "";
     position: absolute
 }
 .lesson-material-download:hover:before {
     background: url(/CommunityBaseTheme/img/icons.png) -5px -147px no-repeat;
     display: block;
-    width: 15px;
-    height: 15px;
-    content: "";
     position: absolute
 }
 .next-lesson:after {
@@ -1643,15 +1604,15 @@ span.cke_skin_kama {
     -moz-border-radius: 0 !important;
     -webkit-border-radius: 0 !important
 }
-.cke_wrapper {
-    background-image: none !important;
+.cke_skin_kama .cke_toolgroup, .cke_wrapper {
     border-radius: 0 !important;
+    background-image: none !important
+}
+.cke_wrapper {
     padding: 0 !important;
     background-color: #E2E2E2 !important
 }
 .cke_skin_kama .cke_toolgroup {
-    border-radius: 0 !important;
-    background-image: none !important;
     background-repeat: repeat-x;
     background-position: 0 -500px;
     margin-right: 6px !important;
@@ -1682,9 +1643,6 @@ span.cke_skin_kama {
     padding: 7px
 }
 .homepage-block-components-details {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
     width: 250px;
     margin-left: 18px
 }
@@ -1692,18 +1650,17 @@ span.cke_skin_kama {
     width: 40px
 }
 .homepage-block-components-details-title {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
     max-width: 239px;
     display: inline-block
 }
 .homepage-block-last-answered-details {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
     max-width: 380px;
     display: inline-block
+}
+.homepage-stats .components:before, .homepage-stats .downloads:before, .homepage-stats .ideas:before, .homepage-stats .members:before, .homepage-stats .posts:before {
+    display: block;
+    float: left;
+    content: ""
 }
 .homepage-row-wrapper {
     margin-top: 15px;
@@ -1719,15 +1676,9 @@ span.cke_skin_kama {
     background: url(/CommunityBaseTheme/img/icons.png) 0 -842px no-repeat;
     width: 23px;
     height: 20px;
-    display: block;
-    content: "";
-    float: left;
     margin-right: 7px
 }
 .homepage-stats .components:before, .homepage-stats .ideas:before {
-    display: block;
-    content: "";
-    float: left;
     height: 20px;
     width: 20px;
     margin-right: 10px
@@ -1742,18 +1693,12 @@ span.cke_skin_kama {
     background: url(/CommunityBaseTheme/img/icons.png) -59px -946px no-repeat;
     width: 24px;
     height: 20px;
-    display: block;
-    content: "";
-    float: left;
     margin-right: 6px
 }
 .homepage-stats .members:before {
     background: url(/CommunityBaseTheme/img/icons.png) -50px -912px no-repeat;
     width: 30px;
-    height: 15px;
-    display: block;
-    content: "";
-    float: left
+    height: 15px
 }
 .homepage-block-title .components:before, .homepage-block-title .posts:before {
     height: 17px;
@@ -1775,13 +1720,6 @@ span.cke_skin_kama {
     text-decoration: underline;
     font-size: 12px
 }
-.chosen-InputContainer, .chosen-item {
-    float: left;
-    color: #787878;
-    font-weight: 700;
-    font-size: 13px;
-    position: relative
-}
 .chosen-container {
     display: inline-block;
     margin: 0;
@@ -1800,6 +1738,11 @@ span.cke_skin_kama {
     margin: 2px
 }
 .chosen-InputContainer, .chosen-item {
+    float: left;
+    color: #787878;
+    font-weight: 700;
+    font-size: 13px;
+    position: relative;
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px
 }
@@ -1886,6 +1829,11 @@ span.cke_skin_kama {
     padding: 6px;
     zoom: 1
 }
+.forum-last-post, .forums-thumbs {
+    font-size: 12px;
+    display: block;
+    float: left
+}
 .preview_topic_container {
     margin-top: 30px;
     background-color: #F9F9F9;
@@ -1920,9 +1868,6 @@ span.cke_skin_kama {
     clear: both
 }
 .forums-thumbs {
-    font-size: 12px;
-    display: block;
-    float: left;
     clear: right;
     width: 17%;
     margin-right: 1%;
@@ -1934,9 +1879,6 @@ span.cke_skin_kama {
 }
 .forum-last-post {
     width: 20%;
-    font-size: 12px;
-    display: block;
-    float: left;
     clear: right;
     line-height: 17px
 }
@@ -1970,15 +1912,9 @@ span.cke_skin_kama {
     font-weight: 600
 }
 .newpost-form-label, .profile-pictureUpload-label {
-    text-transform: uppercase;
     font-size: 12px;
     display: block;
     margin-bottom: 5px
-}
-.reply-by {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden
 }
 .newpost-form-label {
     margin-top: 25px
@@ -2049,8 +1985,7 @@ span.cke_skin_kama {
 .sideblock-header {
     background-color: #F2F2F2;
     font-size: 14px;
-    padding: 7px 10px;
-    text-transform: uppercase
+    padding: 7px 10px
 }
 .sideblock-content {
     padding: 3px 15px 0
@@ -2109,7 +2044,6 @@ span.cke_skin_kama {
 }
 .topic-header-actions {
     font-family: myriad-pro, sans-serif;
-    text-transform: uppercase;
     font-size: 11px;
     font-weight: 600;
     color: #999
@@ -2233,7 +2167,7 @@ a.post-reply-action:hover:before {
     top: 5px;
     position: relative
 }
-.component-details-downs:before, .component-details-followers, .component-details-votes, .component-discussion-byline-green span:after, .idea-done-view div, .idea-like-count a:hover, .idea-like-count a:link, .idea-like-count.liked a:hover, .idea-work-in-progress div, .idea-work-in-progress-view div {
+.component-details-downs:before, .component-details-followers, .component-details-votes, .component-discussion-byline-green span:after, .idea-done div, .idea-done-view div, .idea-like-count a:hover, .idea-like-count a:link, .idea-like-count-view a:hover, .idea-like-count-view a:link, .idea-like-count-view.liked a:hover, .idea-like-count.liked a:hover, .idea-work-in-progress div, .idea-work-in-progress-view div {
     background-image: url(/CommunityBaseTheme/img/icons.png)
 }
 .forgeFollowingButtonFixedWidth {
@@ -2257,7 +2191,6 @@ a.post-reply-action:hover:before {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    vertical-align: middle;
     max-height: 470px;
     max-width: 878px
 }
@@ -2303,6 +2236,11 @@ a.post-reply-action:hover:before {
     margin: 0;
     border: none;
     border-collapse: collapse
+}
+.idea-done-view, .idea-like-count-view, .idea-work-in-progress-view {
+    padding-right: 15px;
+    float: left;
+    text-align: center
 }
 .component-create-header-section, .component-create-subhead {
     border-bottom: 1px solid #ECECEC
@@ -2454,11 +2392,8 @@ a.post-reply-action:hover:before {
     text-transform: uppercase
 }
 .poster-name-ideas-Top {
-    overflow: hidden;
-    text-overflow: ellipsis;
     padding-top: 5px;
     margin-left: 10px;
-    white-space: nowrap;
     width: 135px
 }
 .idea-item {
@@ -2470,7 +2405,6 @@ a.post-reply-action:hover:before {
     height: 70px
 }
 .idea-done div {
-    background-image: url(/CommunityBaseTheme/img/icons.png);
     background-position: -44px -1054px;
     background-repeat: no-repeat;
     display: block;
@@ -2478,10 +2412,7 @@ a.post-reply-action:hover:before {
     height: 50px
 }
 .idea-done-view {
-    float: left;
-    width: 56px;
-    text-align: center;
-    padding-right: 15px
+    width: 56px
 }
 .idea-done-view div {
     background-position: -4px -1753px;
@@ -2502,10 +2433,7 @@ a.post-reply-action:hover:before {
     height: 50px
 }
 .idea-work-in-progress-view {
-    float: left;
-    width: 56px;
-    text-align: center;
-    padding-right: 15px
+    width: 56px
 }
 .idea-work-in-progress-view div {
     background-position: -4px -1851px;
@@ -2622,14 +2550,15 @@ a.post-reply-action:hover:before {
     position: relative;
     top: -5px
 }
+.call-out-hero-close, .call-out-message-close {
+    top: 10px;
+    right: 10px;
+    -servicestudio-text-indent: 0
+}
 .idea-like-count-view {
-    float: left;
-    width: 56px;
-    text-align: center;
-    padding-right: 15px
+    width: 56px
 }
 .idea-like-count-view a:link {
-    background-image: url(/CommunityBaseTheme/img/icons.png);
     background-position: -4px -1422px;
     background-repeat: no-repeat;
     display: block
@@ -2638,7 +2567,6 @@ a.post-reply-action:hover:before {
     background-position: -4px -1618px
 }
 .idea-like-count-view a:hover, .idea-like-count-view.liked a:hover {
-    background-image: url(/CommunityBaseTheme/img/icons.png);
     background-position: -4px -1520px;
     color: #c30
 }
@@ -2760,18 +2688,10 @@ a.post-reply-action:hover:before {
 }
 .ladder-table-user-name {
     margin-left: 10px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
     width: 144px
 }
 .leader-screen-second-row {
     margin-top: 70px
-}
-.leader-inline-wrap {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden
 }
 .icon-edit {
     background: url(/CommunityBaseTheme/img/icons.png) -8px -568px no-repeat;
@@ -2793,7 +2713,6 @@ a.post-reply-action:hover:before {
     background-color: #F2F2F2;
     font-size: 14px;
     padding: 7px;
-    text-transform: uppercase;
     margin-right: 5px;
     margin-left: 5px;
     margin-top: 5px
@@ -2815,10 +2734,7 @@ a.post-reply-action:hover:before {
 }
 .call-out-message-close {
     background: url(/CommunityBaseTheme/img/icons.png) -38px -261px no-repeat;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    -servicestudio-text-indent: 0
+    position: absolute
 }
 .call-out-message-close:hover {
     background: url(/CommunityBaseTheme/img/icons.png) -38px -292px no-repeat
@@ -2840,10 +2756,7 @@ a.post-reply-action:hover:before {
 }
 .call-out-hero-close {
     background: url(/CommunityBaseTheme/img/icons.png) -38px -325px no-repeat;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    -servicestudio-text-indent: 0
+    position: absolute
 }
 .search-result-icons, .search-tab, a.less, a.more {
     display: inline-block
@@ -2880,11 +2793,20 @@ a.post-reply-action:hover:before {
     color: #606060;
     cursor: default
 }
-.TopCard, .TopCardSelected {
+.TopCard, .TopCardSelected, .pointer {
     cursor: pointer
 }
 .BottomTopSearchContainer {
     margin-top: 10px
+}
+a.more:before, a.more:hover:before {
+    margin: 5px 5px 0 0;
+    background-image: url(/CommunityBaseTheme/img/icons.png);
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    content: "";
+    float: left
 }
 .pagination a {
     color: grey;
@@ -2899,24 +2821,10 @@ a.post-reply-action:hover:before {
     color: #999
 }
 a.more:before {
-    content: "";
-    float: left;
-    background-image: url(/CommunityBaseTheme/img/icons.png);
-    background-position: -71px -305px;
-    background-repeat: no-repeat;
-    width: 10px;
-    height: 10px;
-    margin: 5px 5px 0 0
+    background-position: -71px -305px
 }
 a.more:hover:before {
-    content: "";
-    float: left;
-    background-image: url(/CommunityBaseTheme/img/icons.png);
-    background-position: -71px -325px;
-    background-repeat: no-repeat;
-    width: 10px;
-    height: 10px;
-    margin: 5px 5px 0 0
+    background-position: -71px -325px
 }
 a.less:before, a.less:hover:before {
     content: "";
@@ -2988,11 +2896,6 @@ a.less:hover:before {
     width: 25px;
     padding-top: 6px
 }
-.search-result-link {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden
-}
 .search-result-icons {
     background: url(img/icons.png) no-repeat;
     text-indent: -9999px;
@@ -3028,7 +2931,6 @@ a.link-tab {
     background-color: #E6E6E6;
     font-size: 12px;
     padding: 2px 0;
-    text-transform: uppercase;
     color: #666;
     display: block
 }
@@ -3079,7 +2981,6 @@ a.link-tab:hover:after {
     padding: 0 20px 0 0
 }
 .profile-more-details-title {
-    text-transform: uppercase;
     border-bottom: 1px solid grey;
     margin-bottom: 10px;
     color: #999;
@@ -3257,8 +3158,7 @@ div.Feedback_Message_Wrapper img {
     margin-left: 5px
 }
 .oscertified-ribbonText {
-    font-weight: 700;
-    text-transform: uppercase
+    font-weight: 700
 }
 .OSCertifiedFlag {
     background: url(/CommunityBaseTheme/img/icons.png) -70px -721px no-repeat;
@@ -3285,8 +3185,7 @@ div.Feedback_Message_Wrapper img {
     height: 20px
 }
 .osretired-ribbonText {
-    font-weight: 700;
-    text-transform: uppercase
+    font-weight: 700
 }
 .component-warning {
     border: 1px solid #FFD977;
@@ -3423,12 +3322,12 @@ div.Feedback_AjaxWait {
     text-align: center;
     z-index: 10000
 }
+.MenuRow, .header2, .header4, .header5 {
+    font-weight: 400
+}
 .HomeIcon, .PersonalHeaderBackground {
     background-color: #FFF;
     min-height: 50px
-}
-.header2, .header4, .header5 {
-    font-weight: 400
 }
 div.Feedback_AjaxWait img {
     display: none
@@ -3479,9 +3378,6 @@ div.Feedback_AjaxWait img {
         -moz-transform: rotate(360deg)
     }
 }
-.verticalAlign {
-    vertical-align: middle
-}
 .header2 {
     font-size: 24px;
     padding-top: 0
@@ -3520,16 +3416,10 @@ div.Feedback_AjaxWait img {
     border-radius: 0 5px 0 0
 }
 .PersonalDNSName {
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap
+    display: inline-block
 }
 .PersonalHeaderMargins {
-    margin-right: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap
+    margin-right: 10px
 }
 .PersonalActions {
     color: #08C;
@@ -3644,16 +3534,12 @@ div.Feedback_AjaxWait img {
 .mobile-notdisplay {
     display: block
 }
-.mobile-display {
+.Mobile, .mobile-display, .mobile-search {
     display: none
 }
 .mobile-align {
     text-align: right
 }
-.mobile-search {
-    display: none;
-}
-
 .ProfileMenu {
     text-align: left;
     margin-left: -105px;
@@ -3662,44 +3548,30 @@ div.Feedback_AjaxWait img {
     z-index: 9999;
     border: 1px solid #d5d5d5;
     border-radius: 0 4px 4px 0;
-    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 5px 18px rgba(0, 0, 0, .18);
     border-top: none;
     width: 170px;
-    background: #FFF;
+    background: #FFF
 }
 .MenuRow {
     color: #596669;
     font-family: "Myriad Pro";
     font-size: 14px;
-    font-weight: 400;
     line-height: 21px;
     padding: 9px;
-    border-bottom: 1px solid #e7eced;
+    border-bottom: 1px solid #e7eced
 }
-
 .DropdownActive {
-    height: 38px;	
-    background-color: rgba(255, 255, 255, 0.11);    
-	}
-	
-	
-	
-	.pointer{
-		   cursor: pointer;
-		}
-	
-	.header-headshot {
+    height: 38px;
+    background-color: rgba(255, 255, 255, .11)
+}
+.header-headshot {
     padding: 9px;
     border-radius: 50%;
     height: 36px;
-    width: 36px;
+    width: 36px
 }
-
-.Mobile {
-    display: none;
-}
-	
-@media (max-width:979px) {	
+@media (max-width:979px) {
     .partner-mobile a:link {
         content: "Partner"
     }
@@ -3710,18 +3582,18 @@ div.Feedback_AjaxWait img {
         white-space: nowrap
     }
     .top-menu-item.big-entry {
-        width: 99px;
+        width: 99px
     }
     .top-menu-item {
         width: 84px;
-        padding: 0 8px;
+        padding: 0 8px
     }
     .top-menu-item a {
         padding: 0;
-        font-size: 13px;
+        font-size: 13px
     }
     .mobile-search {
-        display: none;
+        display: none
     }
     .search-wrapper .small-search input.search {
         width: 84px
@@ -3779,31 +3651,23 @@ div.Feedback_AjaxWait img {
     }
 }
 @media (max-width:767px) {
-	.header-headshot {
-    padding: 0px;
-	}
-	
-	.header-icon-settings {
-     border: none;   
-    padding: 0px;
-	}
-	
-	.header-icon {  
-	  margin-right: 10px;
-     margin-left: 0px;
-}
-	.header-icon-logout {    
-     margin-left:0px;
-}
-	.Mobile{
-	    display: block;
-		}
-		
-	.Desktop{
-	display: none;
-		}
-
-    .component-icon, .mobile-notdisplay, .search-mobile-wrapper {
+    .header-icon, .header-icon-logout {
+        margin-left: 0
+    }
+    .header-headshot {
+        padding: 0
+    }
+    .header-icon-settings {
+        border: none;
+        padding: 0
+    }
+    .header-icon {
+        margin-right: 10px
+    }
+    .Mobile {
+        display: block
+    }
+    .Desktop, .component-icon, .mobile-notdisplay, .search-mobile-wrapper {
         display: none
     }
     body {
@@ -3867,9 +3731,9 @@ div.Feedback_AjaxWait img {
         padding-top: 6px
     }
     div.Header-ButtonContainer {
-    padding-top: 0;
-    width: 66px;
-	}
+        padding-top: 0;
+        width: 66px
+    }
     .search-wrapper input.search {
         width: 98%;
         margin-left: 1%;
@@ -3891,8 +3755,6 @@ div.Feedback_AjaxWait img {
     .header-logo {
         padding: 5px 0
     }
-	
-	
     .login-info-wrapper {
         right: 60px;
         position: absolute;
@@ -3941,20 +3803,23 @@ div.Feedback_AjaxWait img {
         padding-left: 0
     }
     .searchview-close, .with-search .header-logo, .with-search .menu-entries {
-        visibility: visible;
+        visibility: visible
     }
     .with-search .searchview {
-        display: none;
+        display: none
     }
     .header.with-search {
-        position: fixed;
+        position: fixed
     }
     .mobile-search {
         margin-top: 5px;
         width: 100%;
         padding: 0 5px;
         display: flex;
-        box-sizing: border-box;
+        box-sizing: border-box
+    }
+    .SelectedBrowseAppsIcon:after, .SelectedBrowseAppsIcon:before, .SelectedCreateApplicationIcon:after, .SelectedCreateApplicationIcon:before, .SelectedGuidedTutorialIcon:after, .SelectedGuidedTutorialIcon:before, .SelectedManageAppsIcon:after, .SelectedManageAppsIcon:before {
+        border-width: 1px
     }
 }
 @media (max-width:979px) {
@@ -3962,16 +3827,11 @@ div.Feedback_AjaxWait img {
         border-width: 1px
     }
 }
-@media (max-width:767px) {
-    .SelectedBrowseAppsIcon:after, .SelectedBrowseAppsIcon:before, .SelectedCreateApplicationIcon:after, .SelectedCreateApplicationIcon:before, .SelectedGuidedTutorialIcon:after, .SelectedGuidedTutorialIcon:before, .SelectedManageAppsIcon:after, .SelectedManageAppsIcon:before {
-        border-width: 1px
-    }
-}
 @media (min-width:768px) and (max-width:979px) {
     .searchview-close {
-        right: 130px;
+        right: 130px
     }
     .searchview-content {
-        width: 570px;
+        width: 570px
     }
 }
