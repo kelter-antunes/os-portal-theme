@@ -403,9 +403,9 @@ div.Application_Menu div.Menu_DropDownPanel a:visited {
     right: 100px;
     top: 20px;
 }
-.header-icon-logout {   
-    margin-left: -4px !important;
-    margin-right: 14px !important;
+.header-icon-logout {
+    margin-left: -5px!important;
+    margin-right: 15px!important;
 }
     /* create an overlay so that you can close the menu on click (body) */
     .MenuSlider_Toggler_Overlay {
