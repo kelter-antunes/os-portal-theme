@@ -971,7 +971,7 @@ div.Header-UserInfo {
     text-overflow: ellipsis;
     overflow: hidden;
     color: #384142;
-    font-family: "Myriad Pro";
+    font-family: myriad-pro;
     font-size: 14px;
 }
 div.Header-ButtonContainer {
@@ -1017,11 +1017,12 @@ div.Header-Button {
     padding: 2px;
     background: url(/CommunityBaseTheme/img/headericons.png) -41px -1px no-repeat;
 }
-.header-icon-settings:hover {
+/*.header-icon-settings:hover {
     background: url(/CommunityBaseTheme/img/headericons.png) -41px -20px no-repeat
-}
+}*/
 .header-icon-logout {
-    background: url(/CommunityBaseTheme/img/headericons.png) -63px -1px no-repeat;
+   /* background: url(/CommunityBaseTheme/img/headericons.png) -63px -1px no-repeat;*/
+   background: url(/CommunityBaseTheme/img/headericons.png) -41px -20px no-repeat
     margin-left: 6px
 }
 .header-icon-logout:hover {
@@ -3669,7 +3670,7 @@ div.Feedback_AjaxWait img {
 }
 .MenuRow {
     color: #596669;
-    font-family: "Myriad Pro";
+    font-family: myriad-pro;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
