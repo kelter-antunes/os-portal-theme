@@ -876,7 +876,7 @@ input[type=search].inpage-search-input {
     height: 17px;
     display: block;
     float: left;
-    font-family: OS-Icon-Set;
+    font-family: 'OS-Icon-Set';
     speak: none;
     font-style: normal;
     font-weight: 400;
@@ -958,12 +958,8 @@ div.Header-UserInfo {
     position: relative;
     padding-left: 20px;
     color: #384142; 	
-    font-family: myriad-pro;
+    font-family: 'myriad-pro';
     font-size: 14px;
-
-    font-family: "Myriad Pro";
-    font-size: 14px
->>>>>>> origin/master
 }
 div.Header-ButtonContainer {
     text-align: right;
