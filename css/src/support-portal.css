@@ -964,3 +964,28 @@ max-width: 585px;
 .supportportal-espace .AdminComment {
     justify-content: flex-start;
 }
+
+.supportportal-espace .UpdateAlertDiv {
+  min-height: 47px;
+  background: #ECEFF1;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  margin-top: 26px;
+  margin-bottom: 10px
+}
+.supportportal-espace .InfoBackground {
+  background-repeat: no-repeat;
+  background-position: bottom left
+}
+.supportportal-espace .InfoBackground {
+  background-image: url(/supportportal/img/icon_info.png)
+}
+.supportportal-espace .AlertContent {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 55px
+}
+.home-espace .AlertMessage {
+  margin-left: 5px;
+  width: 80%
+}
