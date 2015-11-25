@@ -203,4 +203,17 @@
     .platformlicensingfo-espace .EnvironmentDescription .Description{
         width: 80%;
     }
+    .platformlicensingfo-espace .h1 h1{
+        font-size: 24px;
+    }
+    .platformlicensingfo-espace .cta-holder{
+        margin-top: 10px;
+    }
+    .platformlicensingfo-espace .cta-holder > div {
+        display: inline-block;
+        width: 50%;
+    }
+    .platformlicensingfo-espace .cta-holder .span8 {
+        margin-top: 3px;
+    }
 }
