@@ -3560,6 +3560,11 @@ div.Feedback_AjaxWait img {
     width: 170px;
     background: #FFF
 }
+.ProfileMenu .osicon-arrow-triangle-up:before {
+    position: absolute;
+    top: -9px;
+    left: 110px;
+}
 .MenuRow {
     color: #596669;
     font-family: myriad-pro;
