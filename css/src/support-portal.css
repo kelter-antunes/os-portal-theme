@@ -813,7 +813,6 @@ max-width: 585px;
 
 
 .supportportal-espace .ConversationWrapper{
-    border-left:1px solid #bdc5c7;
      padding-left:20px;
 }
 
@@ -842,10 +841,9 @@ max-width: 585px;
 }
 
 
-.supportportal-espace .CommentUser:after, 
-.supportportal-espace .CommentUser:before {
-    top: 100%;
-    left: 90%;
+.supportportal-espace .CommentUser:after, .supportportal-espace .CommentUser:before {
+    top: 10px;
+    right: -18px;
     border: solid transparent;
     content: " ";
     height: 0;
@@ -856,57 +854,59 @@ max-width: 585px;
 
 
 .supportportal-espace .CommentUser:after {
-    border-color: rgba(240, 250, 255, 0);
-    border-top-color: #f0faff;
+    border-color: rgba(240,250,255,0);
+    border-left-color: #f0faff;
     border-width: 7px;
-    margin-left: -7px;
+    right: -14px;
 }
 
 .supportportal-espace .CommentUser:before {
-    border-color: rgba(224, 224, 224, 0);
-    border-top-color: #e0e0e0;
-    border-width: 8px;
-    margin-left: -8px;
+    border-color: rgba(224,224,224,0);
+    border-left-color: #e0e0e0;
+    border-width: 9px;
+    right: -18px;
+    top: 9px;
 }
 
 
-.supportportal-espace .CommentAdmin{
+.supportportal-espace .CommentAdmin {
     width: 515px;
     background-color: #fbfbfb;
     border: 1px solid #e0e0e0;
     border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 135, 204, 0.11);
+    box-shadow: 0 2px 4px rgba(0,135,204,.11);
     margin-right: 75px;
-    padding:20px 10px 12px 20px;
+    padding: 20px 10px 12px 20px;
     position: relative;
 }
 
 
-.supportportal-espace .CommentAdmin:after, 
-.supportportal-espace .CommentAdmin:before {
-    bottom: 100%;
-    left: 5%;
+.supportportal-espace .CommentAdmin:after, .supportportal-espace .CommentAdmin:before {
+    left: -7px;
     border: solid transparent;
     content: " ";
     height: 0;
     width: 0;
     position: absolute;
     pointer-events: none;
+    top: 10px;
 }
 
 
 .supportportal-espace .CommentAdmin:after {
-    border-color: rgba(240, 250, 255, 0);
-    border-bottom-color: #f0faff;
+    border-color: rgba(240,250,255,0);
+    border-right-color: #FBFBFB;
     border-width: 7px;
     margin-left: -7px;
 }
 
 .supportportal-espace .CommentAdmin:before {
-    border-color: rgba(224, 224, 224, 0);
-    border-bottom-color: #e0e0e0;
+    border-color: rgba(224,224,224,0);
+    border-right-color: #E0E0E0;
     border-width: 8px;
     margin-left: -8px;
+    top: 9px;
+    left: -9px;
 }
 
 
@@ -959,9 +959,11 @@ max-width: 585px;
 }
 
 
-.supportportal-espace .ListRecordsRowContainer{
-    overflow: hidden;    
-    -webkit-transition: max-height 0.8s;
-    -moz-transition: max-height 0.8s;
-    transition: max-height 0.8s;
+.supportportal-espace .ListRecordsRowContainer {
+    overflow: hidden;
+    -webkit-transition: max-height .8s;
+    -moz-transition: max-height .8s;
+    transition: max-height .8s;
+    display: flex;
+    justify-content: flex-end;
 }
