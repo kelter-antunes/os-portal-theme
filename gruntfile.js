@@ -27,7 +27,7 @@ module.exports = function(grunt) {
                         'css/src/community.css',
                         'css/src/support-portal.css',
                         'css/src/licensingfo.css',
-			'css/src/customer-area.css'
+                        'css/src/customer-area.css'
                     ],
                     'css/bundle/os-portal.css': [
                         'css/src/bootstrap.css',
@@ -49,7 +49,10 @@ module.exports = function(grunt) {
                         'css/src/community.css',
                         'css/src/support-portal.css',
                         'css/src/licensingfo.css',
-			'css/src/customer-area.css'
+                        'css/src/customer-area.css'
+                    ],
+                    'css/single/portal-manager.min.css': [
+                        'css/src/portal-manager.css'
                     ]
                 }
             }
