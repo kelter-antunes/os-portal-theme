@@ -825,7 +825,6 @@ max-width: 585px;
 
 
 .supportportal-espace .CommentUser{
-    width: 515px;
     background-color: #f0faff;
     border: 1px solid #e0e0e0;
     border-radius: 4px;
@@ -865,7 +864,6 @@ max-width: 585px;
 
 
 .supportportal-espace .CommentAdmin {
-    width: 515px;
     background-color: #fbfbfb;
     border: 1px solid #e0e0e0;
     border-radius: 4px;
@@ -961,4 +959,8 @@ max-width: 585px;
     transition: max-height .8s;
     display: flex;
     justify-content: flex-end;
+}
+
+.supportportal-espace .AdminComment {
+    justify-content: flex-start;
 }
