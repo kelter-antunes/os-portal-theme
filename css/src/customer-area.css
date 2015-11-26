@@ -1,5 +1,5 @@
 .customerarea-espace .ButtonGroup {
-  cursor: pointer;
+  /*cursor: pointer;*/
   width: 100%;
   outline: 1px solid transparent;
   -webkit-transition: outline-color 0.3s ease-out;
@@ -8,6 +8,7 @@
   transition: outline-color 0.3s ease-out;
 }
 .customerarea-espace .ButtonGroup_button.Button {
+  cursor: pointer;
   box-sizing: border-box;
   border: 1px solid #B0BEC5;
   background-color: #FFF;
