@@ -53,6 +53,9 @@ module.exports = function(grunt) {
                     ],
                     'css/single/portal-manager.min.css': [
                         'css/src/portal-manager.css'
+                    ],
+                    'css/single/sizing-tool.min.css': [
+                        'css/src/sizing-tool.css'
                     ]
                 }
             }

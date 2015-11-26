@@ -2,6 +2,16 @@
     width: auto;
 }
 
+select {
+    width:100%; 
+}
+
+.popup-content {
+    padding: 10px;
+    background-color: white;
+    display: inline-block;
+}
+
 div.calendar,
 div.calendar table {
     z-index: 99;
@@ -1210,10 +1220,7 @@ body, html {
 	min-height: 50px;
     display: block;
     background: #FFF;
-    border: 1px solid #EEE;
-    border-radius: 3px;
-    box-shadow: 0 1px 5px 0 #eee;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
 }
 .sizingtool-espace .SizingTool_Totals, .sizingtool-espace .SizingTool_TotalsShort, .sizingtool-espace .SizingTool_TotalsShort_New {
