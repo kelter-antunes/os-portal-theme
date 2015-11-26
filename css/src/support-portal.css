@@ -815,7 +815,7 @@ max-width: 585px;
 .supportportal-espace .SendMessageWrapper{
     background-color: #fff;
     border-top: 1px solid #E3E5E6;
-    padding: 10px;
+    padding: 15px 15px 10px 15px;
     position: relative;
 }
 .supportportal-espace .ConversationWrapper{
@@ -824,7 +824,7 @@ max-width: 585px;
 
 
 .supportportal-espace .CommentUser{
-    background-color: #f0faff;
+    background-color: #FDFDFD;
     border: 1px solid #e0e0e0;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 135, 204, 0.11);
@@ -849,7 +849,7 @@ max-width: 585px;
 
 .supportportal-espace .CommentUser:after {
     border-color: rgba(240,250,255,0);
-    border-left-color: #f0faff;
+    border-left-color: #FDFDFD;
     border-width: 7px;
     right: -14px;
 }
