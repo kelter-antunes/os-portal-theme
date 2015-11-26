@@ -1011,8 +1011,24 @@
     text-transform: uppercase;
 }
 
-.AskQuote a {
+.customerarea-espace .AskQuote a {
     color: #4CAF50;
+}
+.customerarea-espace .card {
+    box-sizing: border-box;
+    padding: 20px 0;
+    border: 1px solid #cfd8dc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.customerarea-espace .card .toggle-action{
+    margin-top: 20px;
+    text-align: right;
+    padding: 15px 0;
+    border-top: 1px solid #eee;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 @media (max-width:400px) {
