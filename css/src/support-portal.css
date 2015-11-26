@@ -962,7 +962,7 @@ max-width: 585px;
     display: flex;
     justify-content: flex-end;
     background-color: #ECEFF1;
-    margin-bottom: 10px;
+    border: 1px solid #E3E5E6;
 }
 
 .supportportal-espace .AdminComment {
@@ -989,7 +989,15 @@ max-width: 585px;
   margin-bottom: 10px;
   margin-left: 55px
 }
-.home-espace .AlertMessage {
+.supportportal-espace .AlertMessage {
   margin-left: 5px;
   width: 80%
+}
+.supportportal-espace .caseInfoSpacing {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.supportportal-espace .conversationHistory {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
