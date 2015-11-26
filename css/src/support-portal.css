@@ -832,6 +832,7 @@ max-width: 585px;
     margin-left: 25px;
     padding:20px 10px 12px 20px;
     position: relative;
+    margin-bottom: 20px;
 }
 
 
@@ -871,6 +872,7 @@ max-width: 585px;
     margin-right: 25px;
     padding: 20px 10px 12px 20px;
     position: relative;
+    margin-bottom: 20px;
 }
 
 
@@ -959,6 +961,8 @@ max-width: 585px;
     transition: max-height .8s;
     display: flex;
     justify-content: flex-end;
+    background-color: #ECEFF1;
+    margin-bottom: 10px;
 }
 
 .supportportal-espace .AdminComment {
