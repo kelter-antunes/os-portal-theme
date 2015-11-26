@@ -888,7 +888,7 @@ max-width: 585px;
 
 .supportportal-espace .CommentAdmin:after {
     border-color: rgba(240,250,255,0);
-    border-right-color: #FBFBFB;
+    border-right-color: #fff5ec;
     border-width: 7px;
     margin-left: -7px;
 }
