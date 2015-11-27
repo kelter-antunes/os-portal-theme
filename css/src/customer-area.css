@@ -154,7 +154,7 @@
 
 .customerarea-espace .styled-select select {
     padding-left: 10px;
-	padding-right: 20px;
+    padding-right: 20px;
     font-size: 14px;
     line-height: 1;
     border-radius: 5px;
@@ -1117,6 +1117,51 @@
 **/    .customerarea-espace div[data_url="#members"] .content-separator .pull-right {
         float: none
     }
+    .customerarea-espace .card {
+        padding: 10px;
+    }
+    .customerarea-espace .card .MemberPhoto {
+        display: table-cell;
+        width: 30%
+    }
+    .customerarea-espace .card .MemberName {
+        display: table-cell;
+        width: 60%
+    }
+    .customerarea-espace .card .MemberRoles {
+        display: inline-block;
+        width: 70%
+    }
+    .customerarea-espace .card .MemberTrash {
+        width: 65px;
+        float: none;
+        display: table-cell;
+    }
+    .customerarea-espace .headshot {
+        margin-top: 20px
+    }
+    .customerarea-espace .v-separator.pull-right {
+        display: none
+    }
+    .customerarea-espace .HeroSection {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: auto
+    }
+    .customerarea-espace .HeroSection .HeroImg {
+        text-align: center
+    }
+    .customerarea-espace .account-card {
+        margin: 20px
+    }
+    .customerarea-espace .small-search {
+        width: 100%;
+        float: right
+    }
+    .customerarea-espace .search-wrapper .small-search input.search {
+        margin-right: 0;
+        width: 170px
+    }
 }
 
 @media (max-width:979px) and (min-width:768px) {
@@ -1273,49 +1318,6 @@
     color: #C7331F
 }
 **/
-@media (max-width:400px) {
-    .customerarea-espace .MemberPhoto {
-        display: table-cell;
-        width: 30%
-    }
-    .customerarea-espace .MemberName {
-        display: table-cell;
-        width: 60%
-    }
-    .customerarea-espace .MemberRoles {
-        display: inline-block;
-        width: 70%
-    }
-    .customerarea-espace .MemberTrash {
-        width: 65px;
-        float: right
-    }
-    .customerarea-espace .headshot {
-        margin-top: 20px
-    }
-    .customerarea-espace .v-separator.pull-right {
-        display: none
-    }
-    .customerarea-espace .HeroSection {
-        margin-left: 20px;
-        margin-right: 20px;
-        width: auto
-    }
-    .customerarea-espace .HeroSection .HeroImg {
-        text-align: center
-    }
-    .customerarea-espace .account-card {
-        margin: 20px
-    }
-    .customerarea-espace .small-search {
-        width: 100%;
-        float: right
-    }
-    .customerarea-espace .search-wrapper .small-search input.search {
-        margin-right: 0;
-        width: 170px
-    }
-}
 
 /**.customerarea-espace .MainPopup {
     background: #e6e6e6
