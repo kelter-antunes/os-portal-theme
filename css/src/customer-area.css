@@ -1033,8 +1033,10 @@
     font-weight: 600;
     text-transform: uppercase;
 }
-.customerarea-espace .card .MemberRoles .text-note.title{
+.customerarea-espace .card .text-note.title{
     text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
 }
 
 @media (max-width:400px) {
