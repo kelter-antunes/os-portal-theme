@@ -766,47 +766,77 @@ max-width: 585px;
 }
 
 
-.supportportal-espace .ProblemsResults{
-    background-color: #fbfbfb;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 135, 204, 0.11);
-    position: relative;
-    padding: 15px;
-    
-}
-
-.supportportal-espace .ProblemsResults a{
-    font-size:12px;
-    font-weight: 700;
-}
-
-
-.supportportal-espace .ProblemsResults:after, 
-.supportportal-espace .ProblemsResults:before {
-    bottom: 100%;
-    left: 10%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
+.supportportal-espace .ProblemsResults {
+    z-index: 9;
+    top: 50px;
+    overflow-wrap: break-word;
+    padding: 35px 25px;
+    margin-bottom: 15px;
     position: absolute;
-    pointer-events: none;
+    margin-top: 5px;
+    min-width: 100%;
+    box-sizing: border-box;
+    background: #FFF;
+    border: 3px solid rgba(0,0,0,.31);
+    border-radius: 4px
 }
 
+.supportportal-espace .ProblemsResults:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: 19;
+    top: -10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    left: 5px
+}
 
 .supportportal-espace .ProblemsResults:after {
-    border-color: rgba(240, 250, 255, 0);
-    border-bottom-color: #fbfbfb;
-    border-width: 7px;
-    margin-left: -7px;
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -15px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #B0B0B0;
+    left: 3px;
+    z-index: 9
 }
 
-.supportportal-espace .ProblemsResults:before {
-    border-color: rgba(224, 224, 224, 0);
-    border-bottom-color: #e0e0e0;
-    border-width: 8px;
-    margin-left: -8px;
+.supportportal-espace .autocomplete-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 8;
+    opacity: .5;
+    display: none
+}
+
+.supportportal-espace .ProblemsResults a {
+    font-size: 12px;
+    font-weight: 700
+}
+
+.supportportal-espace .inputs-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%
+}
+
+.supportportal-espace .inputs-wrapper input {
+    margin: 0 10px 0 0
+}
+
+.supportportal-espace .inputs-wrapper a.btn.btn-big.red {
+    white-space: nowrap
 }
 /** CaseShow **/
 
