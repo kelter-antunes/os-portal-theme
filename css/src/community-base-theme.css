@@ -777,6 +777,23 @@ input[type=search].inpage-search-input {
     float: left;
     color: #333
 }
+.menu-item a.menu-support:before {
+    background: url(/CommunityBaseTheme/img/support_cases_icon.png) center no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    content: "";
+    float: left
+}
+.menu-item a.menu-support:hover:before, .menu-item.active a.menu-support:before, .menu-item.active a.menu-support:hover:before {
+    background: url(/CommunityBaseTheme/img/suppor_case_icon_active.png) center no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    content: "";
+    float: left;
+    color: #333
+}
 .menu-item a.menu-licensing:before {
     background: url(/CommunityBaseTheme/img/licensinginactive.png) center no-repeat;
     width: 20px;
@@ -805,23 +822,6 @@ input[type=search].inpage-search-input {
 .menu-item a.menu-portal:hover:before, .menu-item.active a.menu-portal:before, .menu-item.active a.menu-portal:hover:before {
     background: url(/CommunityBaseTheme/img/licensingactive.png) center no-repeat;
     width: 20px;
-    height: 20px;
-    display: block;
-    content: "";
-    float: left;
-    color: #333
-}
-.menu-item a.menu-support:before {
-    background: url(/CommunityBaseTheme/img/icons.png) -9px -1054px no-repeat;
-    width: 16px;
-    height: 20px;
-    display: block;
-    content: "";
-    float: left
-}
-.menu-item a.menu-support:hover:before, .menu-item.active a.menu-support:before, .menu-item.active a.menu-support:hover:before {
-    background: url(/CommunityBaseTheme/img/icons.png) -9px -1089px no-repeat;
-    width: 16px;
     height: 20px;
     display: block;
     content: "";
