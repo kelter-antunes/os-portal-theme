@@ -778,7 +778,7 @@ input[type=search].inpage-search-input {
     color: #333
 }
 .menu-item a.menu-support:before {
-    background: url(/CommunityBaseTheme/img/support_cases_icon.png) center no-repeat;
+    background: url(/PortalTheme/img/support_cases_icon.png) center no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -786,7 +786,7 @@ input[type=search].inpage-search-input {
     float: left
 }
 .menu-item a.menu-support:hover:before, .menu-item.active a.menu-support:before, .menu-item.active a.menu-support:hover:before {
-    background: url(/CommunityBaseTheme/img/suppor_case_icon_active.png) center no-repeat;
+    background: url(/PortalTheme/img/suppor_case_icon_active.png) center no-repeat;
     width: 20px;
     height: 20px;
     display: block;
@@ -943,13 +943,12 @@ div.Header-UserAvatar {
     padding-top: 11px;
     width: 25px
 }
-.testclas{
+.testclas {
     border-bottom: 2px solid #e7eced;
     line-height: 1;
     padding-top: 19px;
 }
 div.Header-UserInfo {
-    
     border-bottom: 2px solid #e7eced;
     line-height: 1;
     padding-top: 19px;
@@ -957,7 +956,7 @@ div.Header-UserInfo {
     font-weight: 700;
     position: relative;
     padding-left: 20px;
-    color: #384142;     
+    color: #384142;
     font-family: 'myriad-pro';
     font-size: 14px;
 }
@@ -997,16 +996,19 @@ div.Header-Button {
     padding: 2px;
     background: url(/CommunityBaseTheme/img/headericons.png) -41px -1px no-repeat
 }
+
 /*.header-icon-settings:hover {
     background: url(/CommunityBaseTheme/img/headericons.png) -41px -20px no-repeat
 }*/
 .header-icon-logout {
-   /* background: url(/CommunityBaseTheme/img/headericons.png) -63px -1px no-repeat;*/
-   background: url(/CommunityBaseTheme/img/headericons.png) -63px -20px no-repeat;
+
+    /* background: url(/CommunityBaseTheme/img/headericons.png) -63px -1px no-repeat;*/
+    background: url(/CommunityBaseTheme/img/headericons.png) -63px -20px no-repeat;
     margin-left: 6px
 }
+
 /*.header-icon-logout:hover {
-    background: url(/CommunityBaseTheme/img/headericons.png) -63px -20px no-repeat;
+ background: url(/CommunityBaseTheme/img/headericons.png) -63px -20px no-repeat;
 }*/
 .love-agile-h, .love-agile-o {
     -servicestudio-text-indent: 0;
