@@ -747,11 +747,10 @@ max-width: 585px;
 .supportportal-espace input.InputSP{
     height: 36px;
     padding:10px;
-     box-sizing: border-box;
-     color: #596669;
+    box-sizing: border-box;
+    color: #596669;
     font-family: Arial;
     font-size: 12px;
-    font-weight: 700;
     line-height: 14px;
     border: 1px solid #bdc5c7;
     border-radius: 2px;
