@@ -176,11 +176,11 @@
 .customerarea-espace .popover {
     position: absolute;
     top: 35px;
-    left: -85px;
+    left: -115px;
     z-index: 1010;
     display: none;
-    max-width: 276px;
-    width: 276px;
+    max-width: 350px;
+    width: 350px;
     padding: 1px;
     text-align: left;
     white-space: normal;
@@ -197,7 +197,9 @@
     -moz-background-clip: padding;
     background-clip: padding-box
 }
-
+.customerarea-espace .popover-inner {
+    padding: 10px;
+}
 /**.customerarea-espace .popover.top {
     margin-top: -10px
 }
@@ -225,11 +227,12 @@
     border-radius: 5px 5px 0 0;
     color: #fff
 }
-
 .customerarea-espace .popover-content {
     padding: 9px 14px
 }
-
+.customerarea-espace .popover-content input[type=email] {
+    height: 30px;
+}
 .customerarea-espace .popover .arrow,
 .customerarea-espace .popover .arrow:after {
     position: absolute;
