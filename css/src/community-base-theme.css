@@ -785,8 +785,30 @@ input[type=search].inpage-search-input {
     content: "";
     float: left
 }
-.menu-item a.menu-support:hover:before, .menu-item.active a.menu-support:before, .menu-item.active a.menu-support:hover:before {
+.menu-item a.menu-support:hover:before, 
+.menu-item.active a.menu-support:before, 
+.menu-item.active a.menu-support:hover:before {
     background: url(/PortalTheme/img/suppor_case_icon_active.png) center no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    content: "";
+    float: left;
+    color: #333
+}
+
+.menu-item a.menu-isv:before {
+    background: url(/PortalTheme/img/isv.png) center no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    content: "";
+    float: left
+}
+.menu-item a.menu-isv:hover:before, 
+.menu-item.active a.menu-isv:before, 
+.menu-item.active a.menu-isv:hover:before {
+    background: url(/PortalTheme/img/isv_active.png) center no-repeat;
     width: 20px;
     height: 20px;
     display: block;
