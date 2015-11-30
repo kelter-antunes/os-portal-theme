@@ -452,9 +452,13 @@
 .supportportal-espace .filters-wrapper {
   background: #FFFFFF;
 }
+.supportportal-espace .filters-wrapper.no-cases {
+  height: 15px;
+}
 .supportportal-espace .content {
   background-color: #ECEFF1;
   box-shadow: inset 0px 4px 5px 0px rgba(0, 0, 0, 0.15);
+  padding-bottom: 50px;
 }
 .supportportal-espace div.title-container .page-title {
   font-size: 34px;
