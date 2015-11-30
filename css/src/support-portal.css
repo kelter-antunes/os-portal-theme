@@ -489,10 +489,7 @@
   text-align: center;
   padding: 3px 0;
 }
-.supportportal-espace .footer-landscape {
-  background-color: #ECEFF1;
-  margin-top: 0px !important;
-}
+
 .supportportal-espace .cases-container {
   font-family: Arial, sans-serif;
   padding: 20px 0;
@@ -510,8 +507,14 @@
   -ms-flex-align: center;
   align-items: center;
 }
+
 .supportportal-espace .cases-container:hover {
   background-color: #E8EDEE;
+}
+
+.supportportal-espace .footer-landscape {
+  background-color: #ECEFF1;
+  margin-top: 0px !important;
 }
 .supportportal-espace .caseId {
   background-color: #CFD7DB;
