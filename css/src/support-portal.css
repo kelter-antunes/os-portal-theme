@@ -491,7 +491,7 @@
 }
 .supportportal-espace .footer-landscape {
   background-color: #ECEFF1;
-  margin-top: 0px;
+  margin-top: 0px !important;
 }
 .supportportal-espace .cases-container {
   font-family: Arial, sans-serif;
