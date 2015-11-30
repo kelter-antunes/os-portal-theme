@@ -489,7 +489,6 @@
   text-align: center;
   padding: 3px 0;
 }
-
 .supportportal-espace .cases-container {
   font-family: Arial, sans-serif;
   padding: 20px 0;
@@ -507,11 +506,9 @@
   -ms-flex-align: center;
   align-items: center;
 }
-
 .supportportal-espace .cases-container:hover {
   background-color: #E8EDEE;
 }
-
 .supportportal-espace .caseId {
   background-color: #CFD7DB;
   padding: 3px 10px;
@@ -695,16 +692,14 @@
   display: inline-block;
   padding: 10px 15px;
 }
-.supportportal-espace a.ListNavigation_Previous,
-.supportportal-espace span.ListNavigation_DisabledPrevious {
-    background: #FFF;
-    border: 1px solid #E7E7E7;
-    box-shadow: 0 2px 2px 0 rgba(150,150,150,.14);
-    border-radius: 4px;
-    display: inline-block;
-    padding: 10px 15px;
+.supportportal-espace a.ListNavigation_Previous, .supportportal-espace span.ListNavigation_DisabledPrevious {
+  background: #FFF;
+  border: 1px solid #E7E7E7;
+  box-shadow: 0 2px 2px 0 rgba(150, 150, 150, .14);
+  border-radius: 4px;
+  display: inline-block;
+  padding: 10px 15px;
 }
-
 .supportportal-espace a.ListNavigation_Next:hover, .supportportal-espace a.ListNavigation_PageNumber:hover, .supportportal-espace span.ListNavigation_CurrentPageNumber:hover, .supportportal-espace span.ListNavigation_DisabledNext:hover, .supportportal-espace span.ListNavigation_DisabledPrevious:hover, .supportportal-espace span.ListNavigation_Ellipsis:hover {
   background-color: #E8EDEE;
   cursor: pointer;
@@ -810,6 +805,11 @@
   border-top: 1px solid #E3E5E6;
   padding: 15px 15px 10px 15px;
   position: relative;
+}
+.supportportal-espace .conversation-show-more {
+  padding-top: 20px;
+  display: block;
+  background-color: #ECEFF1;
 }
 .supportportal-espace .ConversationWrapper {
   border: 1px solid #E3E5E6;
