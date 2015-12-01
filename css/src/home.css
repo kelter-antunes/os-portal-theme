@@ -174,7 +174,7 @@
   width: 70% !important
 }
 .home-espace .NavTab .EnvironmentInfo {
-  width: 85%;
+  width: 81%;
   margin-left: 10px
 }
 /*
@@ -192,7 +192,7 @@
   margin-top: 6px
 }
 .home-espace .NavTab .InfrastructureNameWrapper {
-  width: 90%;
+  width: 100%;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap
