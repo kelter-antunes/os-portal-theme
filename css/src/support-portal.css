@@ -428,7 +428,7 @@
 /**** NEW SUPPORT PORTAL ****/
 
 /** common **/
-.supportportal-espace .channel-box {
+.supportportal-espace a.channel-box {
   background: #FFFFFF;
   border: 1px solid #BDC5C7;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.31);
@@ -437,9 +437,18 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 20px;
+}
+.supportportal-espace a.channel-box:hover {
+  background-color: #E8EDEE;
 }
 .supportportal-espace .channel-box img {
   margin-right: 15px;
+}
+.supportportal-espace .channel-box span {
+  font-family: Arial;
+  color: #808080;
+  line-height: 15px;
 }
 .supportportal-espace .channel-box span.title {
   font-size: 18px;
@@ -447,11 +456,6 @@
   line-height: 23px;
   margin-bottom: 12px;
   display: block;
-}
-.supportportal-espace .channel-box p {
-  font-family: Arial;
-  color: #808080;
-  line-height: 15px;
 }
 
 /** HomeScreen **/
@@ -929,7 +933,6 @@
   color: #596669;
   font-family: Arial;
   font-size: 12px;
-  font-weight: 700;
   line-height: 14px;
   border: 1px solid #bdc5c7;
   border-radius: 2px;
