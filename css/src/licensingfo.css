@@ -10,7 +10,9 @@
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
+.platformlicensingfo-espace .popup-content input{
+    font-size: 11.4px;
+}
 .platformlicensingfo-espace .ShowRecord_Caption{
     color: grey;
 }

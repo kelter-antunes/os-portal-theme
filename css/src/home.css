@@ -177,9 +177,11 @@
   width: 85%;
   margin-left: 10px
 }
+/*
 .home-espace .NavTab.Trial .EnvironmentInfo {
   width: 235px
 }
+*/
 .home-espace .NavTab.Active.Trial .EnvironmentInfo {
   width: 260px
 }
@@ -539,6 +541,9 @@
 }
 .home-espace input[type=text].inputfield, .home-espace input[type=password].logininput {
   padding-left: 10px
+}
+.home-espace input[readonly] {
+    color: #777;  
 }
 .home-espace .controls-row input.logininput {
   height: 35px

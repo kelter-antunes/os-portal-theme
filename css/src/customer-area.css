@@ -56,6 +56,9 @@
 .customerarea-espace .ButtonGroup_button input[type=checkbox] {
   display: none;
 }
+.customerarea-espace input[readonly] {
+    color: #777;  
+}
 .customerarea-espace .ButtonGroup_button.Button.disabled,
 .customerarea-espace .ButtonGroup_button.Button.disabled:hover {
   cursor: default;
