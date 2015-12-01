@@ -1043,31 +1043,31 @@
 }
 
 
-.partnerarea-espace .DevCertification{
+.customerarea-espace .DevCertification{
     background-color: #EEF1F3;
     padding-top: 39px;
     padding-bottom: 36px;
 }
 
-.partnerarea-espace .SuppCertification{
+.customerarea-espace .SuppCertification{
     padding-top: 39px;
     padding-bottom: 36px;
     padding-left: 30px;
 }
 
-.partnerarea-espace .DevCertificationTitle{
+.customerarea-espace .DevCertificationTitle{
     background-color: #EEF1F3;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.partnerarea-espace .SuppCertificationTitle{
+.customerarea-espace.SuppCertificationTitle{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
 }
 
-.partnerarea-espace .content-separator.certList {    
+.customerarea-espace .content-separator.certList {    
     padding-bottom: 0px;
 }
 
