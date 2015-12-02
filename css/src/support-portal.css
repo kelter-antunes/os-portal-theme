@@ -457,7 +457,7 @@
   margin-bottom: 12px;
   display: block;
 }
- 
+
 /** HomeScreen **/
 .supportportal-espace .all-content-wrapper {
   padding: 0 !important;
@@ -505,8 +505,9 @@
   color: #999;
   background: #ECEFF1;
   box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.50);
-  border-radius: 4px;
-  padding: 22px;
+  border-radius: 4px;  /*padding: 22px;*/
+  height: 44px;
+  line-height: 44px;
 }
 .supportportal-espace a.header_button, .supportportal-espace a.header_button:hover, .supportportal-espace .no-touch a.header_button:hover, .supportportal-espace a.header_button:visited {
   display: inline-block;
