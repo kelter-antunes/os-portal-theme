@@ -337,13 +337,13 @@
   position: absolute
 }
 .home-espace .SubscriptionsPosition {
-  position: absolute;
-  top: 156px;
-  z-index: 9999;
-  border: 1px solid #ccc;
-  width: 311px;
-  background: #FFF;
-  padding: 5px 0
+    position: absolute;
+    top: 156px;
+    z-index: 10;
+    border: 1px solid #ccc;
+    width: 311px;
+    background: #FFF;
+    padding: 5px 0;
 }
 .home-espace .SubscriptionsPosition:before {
   border-bottom-color: #103E65;

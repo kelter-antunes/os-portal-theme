@@ -3576,13 +3576,13 @@ div.Feedback_AjaxWait img {
     margin-left: -105px;
     position: absolute;
     top: 56px;
-    z-index: 9999;
+    z-index: 11;
     border: 1px solid #d5d5d5;
     border-radius: 0 4px 4px 0;
-    box-shadow: 0 5px 18px rgba(0, 0, 0, .18);
+    box-shadow: 0 5px 18px rgba(0,0,0,.18);
     border-top: none;
     width: 170px;
-    background: #FFF
+    background: #FFF;
 }
 .ProfileMenu .osicon-arrow-triangle-up:before {
     position: absolute;
