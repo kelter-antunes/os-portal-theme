@@ -434,8 +434,14 @@
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.31);
   border-radius: 4px;
   padding: 20px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
   justify-content: flex-start;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 20px;
 }
@@ -759,7 +765,6 @@
   z-index: 9;
   top: 65px;
   overflow-wrap: break-word;
-  padding: 35px 25px;
   margin-bottom: 15px;
   position: absolute;
   margin-top: 5px;
@@ -793,6 +798,24 @@
   left: 18px;
   z-index: 9;
 }
+.supportportal-espace .auto-complete-section-wrapper {
+  padding: 25px 25px 0 25px;
+  border-bottom: 2px solid #ECEFF1;
+}
+.supportportal-espace .ProblemsResults h2 {
+  font-size: 22px;
+  color: #263238;
+  line-height: 32px;
+}
+.supportportal-espace .ProblemsResults a {
+  color: #08C;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.supportportal-espace .ProblemsResults span.caseId {
+  margin-right: 10px;
+}
 .supportportal-espace .autocomplete-overlay {
   position: fixed;
   top: 0;
@@ -804,10 +827,7 @@
   opacity: .5;
   display: none
 }
-.supportportal-espace .ProblemsResults a {
-  font-size: 12px;
-  font-weight: 700
-}
+
 .supportportal-espace .inputs-wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -845,6 +865,13 @@
 }
 .supportportal-espace .ConversationWrapper {
   border: 1px solid #E3E5E6;
+}
+.supportportal-espace .ConversationWrapper .header-headshot {
+  padding: 0px;
+  border-radius: 50%;
+  background: #D8D8D8;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.20);
 }
 .supportportal-espace .CommentUser {
   background-color: #FDFDFD;
