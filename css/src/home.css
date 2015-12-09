@@ -26,6 +26,10 @@
   margin-right: 13.6px;
   border: none
 }
+.home-espace .MidDiv a.btn:active, a.btn:hover {
+    color: #333;
+    background-color: #f5f5f5;
+}
 .home-espace div.Tabs_TabOff:after, .home-espace li.Tabs_TabOff:after {
   content: '';
   position: absolute;
