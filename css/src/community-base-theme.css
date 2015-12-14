@@ -3587,7 +3587,13 @@ div.Feedback_AjaxWait img {
 .ProfileMenu .osicon-arrow-triangle-up:before {
     position: absolute;
     top: -9px;
-    left: 110px;
+    left: 126px;
+}
+@-moz-document url-prefix() {
+    element {
+        height: 25px;
+        width: 42px;
+    }
 }
 .MenuRow {
     color: #596669;
