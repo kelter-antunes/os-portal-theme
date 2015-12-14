@@ -3604,8 +3604,8 @@ div.Feedback_AjaxWait img {
     border-bottom: 1px solid #e7eced
 }
 .DropdownActive {
-    height: 38px;
-    background-color: rgba(255, 255, 255, .11)
+    height: 55px;
+    background-color: rgba(255,255,255,.11);
 }
 .header-headshot {
     padding: 9px;
