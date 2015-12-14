@@ -3589,13 +3589,13 @@ div.Feedback_AjaxWait img {
     top: -9px;
     left: 126px;
 }
+.rectangleMessage {
+    width: 32px;
+}
 @-moz-document url-prefix() {
     .rectangleMessage {
         width: 44px;
     }
-}
-.rectangleMessage {
-    width: 32px;
 }
 .MenuRow {
     color: #596669;
