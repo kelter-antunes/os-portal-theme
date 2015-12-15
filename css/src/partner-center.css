@@ -1121,6 +1121,12 @@
     .partnerarea-espace .content-separator.certList {    
         padding-bottom: 0px;
     }
+
+    .partnerarea-espace .allianceImageDiv {    
+        position: relative;
+        right: 27px;
+        bottom: 42px;
+    }    
     
 
 @media (max-width:979px) and (min-width:768px) {
