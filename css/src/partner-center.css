@@ -1122,12 +1122,16 @@
         padding-bottom: 0px;
     }
 
-    .partnerarea-espace .allianceImageDiv {    
-        position: relative;
-        right: 11px;
-        bottom: 7px;
-    }    
-    
+    .partnerarea-espace .AllianceDiv {    
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+    .partnerarea-espace .AllianceDivContent {    
+        vertical-align: middle;
+        line-height: 0;
+    }
+
 
 @media (max-width:979px) and (min-width:768px) {
     .partnerarea-espace .opportunity-container>.row>.span8 {
