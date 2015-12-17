@@ -1,3 +1,9 @@
+.supportportal-espace span.ValidationMessage {
+  position: absolute;
+  top: 2px;
+  right: -90px;
+}
+
 /**** OLD SUPPORT PORTAL ****/
 .supportportal-espace table {
   border-collapse: separate;
@@ -827,7 +833,6 @@
   opacity: .5;
   display: none
 }
-
 .supportportal-espace .inputs-wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -872,6 +877,12 @@
   background: #D8D8D8;
   border: 2px solid #FFFFFF;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.20);
+}
+.supportportal-espace .ConversationWrapper .ListRecords>a {
+  color: #08c;
+}
+.supportportal-espace .ConversationWrapper .ListRecords>a:hover {
+  color: #005580;
 }
 .supportportal-espace .CommentUser {
   background-color: #FDFDFD;
