@@ -1615,6 +1615,7 @@ span.ValidationMessage
 
 /*Class that holds the bg of the webblock.*/
 .home-espace .fullscreen {
+    min-height: 493px;
     width: 100%;
     height: 100%;
     position: absolute;
