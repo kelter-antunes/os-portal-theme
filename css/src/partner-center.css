@@ -1026,8 +1026,12 @@
     right: 162px;
 }
 
+.partnerarea-espace .cardTriangle.selectedPartner{
+    background-image: url(/PartnerArea/img/Checked_Half_Square.png);
+}
+
 .partnerarea-espace .cardCheckbox{
-width: 17px;
+    width: 17px;
     height: 17px;
     position: absolute;
     right: 36px;
