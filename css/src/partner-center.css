@@ -1014,6 +1014,22 @@
     color: #4CAF50;
 }
 
+.partnerarea-espace cardCheckbox{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    right: 52px;
+    bottom: 12px;
+}
+
+.partnerarea-espace cardTriangle{
+    position: absolute;
+    left: 450px;
+    top: 379px;
+}
+
+
+
 @media (max-width:400px) {
     .partnerarea-espace .content-separator .pull-right,
     .partnerarea-espace .partner-cover-details-wrapper {
