@@ -477,6 +477,11 @@
     position: relative;
 }
 
+.partnerarea-espace .account-card.selectedPartner {
+    border: 2px solid #78909C;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.10);
+}
+
 .partnerarea-espace .account-card h2 {
     font-size: 16px
 }
