@@ -1021,25 +1021,31 @@
     color: #4CAF50;
 }
 .customerarea-espace .card {
+    background-color: #FBFBFB;
     box-sizing: border-box;
-    padding: 20px 0 0 0;
-    border: 1px solid #cfd8dc;
+    padding: 20px 0 0;
     border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);    
 }
-.customerarea-espace .card .toggle-action{
-    margin-top: 20px;
-    text-align: right;
-    padding: 15px 0;
+.customerarea-espace .card .toggle-action {
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 100%;
+    margin-top: 20px;    
     border-top: 1px solid #eee;
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding: 0px;
 }
-.customerarea-espace .card .text-note.title{
+.customerarea-espace .card .text-note.title {
+    background-color: #f0f0f0;
     text-transform: uppercase;
     font-size: 11px;
     font-weight: 600;
+    padding-left: 10px;
 }
 
 
@@ -1069,6 +1075,11 @@
 
 .customerarea-espace .content-separator.certList {    
     padding-bottom: 0px;
+}
+
+.customerarea-espace .Infrastructures div :not(row), .customerarea-espace .Tools div :not(row) {
+    background-color: white;
+    
 }
 
 @media (max-width:400px) {
