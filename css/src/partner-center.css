@@ -1046,15 +1046,15 @@
     font-weight:bold;
 }
 
-.partnerarea-espace .statusText .green{
+.partnerarea-espace .statusText.green{
         color:#8BC34A;
 }
 
-.partnerarea-espace .statusText .yellow{
+.partnerarea-espace .statusText.yellow{
         color:#FFB414;
 }
 
-.partnerarea-espace .statusText .red{
+.partnerarea-espace .statusText.red{
         color:#CC2200;
 }
 
