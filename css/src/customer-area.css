@@ -1,12 +1,24 @@
 .customerarea-espace .ButtonGroup {
-  /*cursor: pointer;*/
-  width: 100%;
-  outline: 1px solid transparent;
-  -webkit-transition: outline-color 0.3s ease-out;
-  -moz-transition: outline-color 0.3s ease-out;
-  -o-transition: outline-color 0.3s ease-out;
-  transition: outline-color 0.3s ease-out;
+    width: initial;
+    outline: transparent solid 1px;
+    -webkit-transition: outline-color .3s ease-out;
+    -moz-transition: outline-color .3s ease-out;
+    -o-transition: outline-color .3s ease-out;
+    transition: outline-color .3s ease-out;
 }
+.customerarea-espace .RemoveButton a {
+    color: #AAAAAA;
+}
+.customerarea-espace .InfrastructureDesc {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Infra-toggle-action a {
+    color: #333;
+}
+
 .customerarea-espace .ButtonGroup_button.Button {
   cursor: pointer;
   box-sizing: border-box;
@@ -934,11 +946,13 @@
 }
 
 .customerarea-espace .headshot {
-    border: 5px solid rgba(255, 255, 255, .1);
+    border: 0px solid rgba(255,255,255,.1);
     border-radius: 50%;
-    height: 56px;
-    width: 56px
+    height: 55px;
+    width: 55px;
+    margin: 5px;
 }
+
 
 .customerarea-espace .opportunity-container,
 .customerarea-espace .quote-container {
