@@ -1041,6 +1041,23 @@
     bottom: 31px;
 }
 
+.partnerarea-espace .statusText{
+    font-size: 10px;
+    font-weight:bold;
+}
+
+.partnerarea-espace .statusText .green{
+        color:#8BC34A;
+}
+
+.partnerarea-espace .statusText .yellow{
+        color:#FFB414;
+}
+
+.partnerarea-espace .statusText .red{
+        color:#CC2200;
+}
+
 
 
 @media (max-width:400px) {
