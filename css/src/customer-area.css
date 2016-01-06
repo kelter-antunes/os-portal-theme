@@ -13,6 +13,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-family: myriad-pro;
 }
 
 .Infra-toggle-action a {
@@ -1044,9 +1045,10 @@
 }
 .customerarea-espace .Infracard {
     background-color: #FBFBFB;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,.1);
     box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    border: 1px solid #CFD8DC;
+    border-radius: 3px;
 }
 
 .customerarea-espace .AskQuote a {
@@ -1078,8 +1080,15 @@
     color: #606060;
 }
 
-.customerarea-espace .card .text-note.title, .customerarea-espace .Infracard .text-note.title {
+.customerarea-espace .card .text-note.title {
     background-color: #f0f0f0;
+    font-size: 11px;
+    font-weight: 600;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.customerarea-espace .Infracard .text-note.title {
+    background-color: #CFD8DC;
     font-size: 11px;
     font-weight: 600;
     padding-left: 10px;
@@ -1224,6 +1233,13 @@
     .customerarea-espace .headshot {
         margin-top: 20px
     }
+	.customerarea-espace .Infracard .headshot {
+    border: 0 solid rgba(255,255,255,.1);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 12px;
+}
     .customerarea-espace .v-separator.pull-right {
         display: none
     }
