@@ -1237,6 +1237,12 @@
         float: none;
         display: table-cell;
     }
+
+    .customerarea-espace .card {
+    padding: 20px 0 0;
+    border: 1px solid #CFD8DC;
+    border-radius: 3px;
+}
     .customerarea-espace .headshot {
         margin-top: 20px
     }
