@@ -953,6 +953,13 @@
     width: 55px;
     margin: 5px;
 }
+.customerarea-espace .Infracard .headshot {
+    border: 0 solid rgba(255,255,255,.1);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 12px;
+}
 
 
 .customerarea-espace .opportunity-container,
@@ -1233,13 +1240,7 @@
     .customerarea-espace .headshot {
         margin-top: 20px
     }
-	.customerarea-espace .Infracard .headshot {
-    border: 0 solid rgba(255,255,255,.1);
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    margin: 12px;
-}
+	
     .customerarea-espace .v-separator.pull-right {
         display: none
     }
