@@ -1064,13 +1064,15 @@
     color: #4CAF50;
 }
 .customerarea-espace .card {
+    border: 1px solid #CFD8DC;
+    border-radius: 3px;
     background-color: #FBFBFB;
     box-sizing: border-box;
     padding: 20px 0 0;    
     box-shadow: 0 2px 4px rgba(0,0,0,.1);
-    border: 1px solid #CFD8DC;
-    border-radius: 3px;
+    
 }
+
 .customerarea-espace .card .toggle-action {
     text-align: center;
     background-color: #f5f5f5;
