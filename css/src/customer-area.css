@@ -7,7 +7,9 @@
     transition: outline-color .3s ease-out;
 }
 .customerarea-espace .RemoveButton a {
-    color: #AAAAAA;
+    color: #AAA;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 .customerarea-espace .InfrastructureDesc {
     white-space: nowrap;
@@ -1134,7 +1136,7 @@
     padding-bottom: 0px;
 }
 
-.customerarea-espace .Infrastructures div :not(row), .customerarea-espace .Tools div :not(row) {
+.customerarea-espace .Tools div :not(row) {
     background-color: white;
 }
 .customerarea-espace .Edit .card {
