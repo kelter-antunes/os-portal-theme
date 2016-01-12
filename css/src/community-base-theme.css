@@ -1,5 +1,6 @@
 .all-content-wrapper {
     min-height: 400px;
+	padding: 0 10px;
 }
 .searchview-close, .with-search .header-logo, .with-search .menu-entries {
     visibility: hidden
