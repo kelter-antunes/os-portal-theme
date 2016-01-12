@@ -3702,6 +3702,12 @@ div.Feedback_AjaxWait img {
         min-height: initial;
 		padding: 0 10px;
     }
+	
+	.all-content-wrapper input {
+		box-sizing: border-box;
+		height: 30px;
+	}
+	
     .header-icon, .header-icon-logout {
         margin-left: 0
     }
