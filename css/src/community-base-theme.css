@@ -3703,9 +3703,9 @@ div.Feedback_AjaxWait img {
 		padding: 0 10px;
     }
 	
-	.all-content-wrapper input {
+	.all-content-wrapper input[type=text] {
 		box-sizing: border-box;
-		height: 30px;
+		min-height: 30px;min-height: 30px;
 	}
 	
     .header-icon, .header-icon-logout {
