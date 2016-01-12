@@ -1697,6 +1697,10 @@
     .forge-espace .hide-in-mobile {
         display: none
     }
+	
+	.forge-espace .all-content-wrapper {        
+		padding: 0px;
+    }
 
 }
 @media (max-width:979px) {
