@@ -1,6 +1,5 @@
 .all-content-wrapper {
-    min-height: 400px;
-	padding: 0 10px;
+    min-height: 400px;	
 }
 .searchview-close, .with-search .header-logo, .with-search .menu-entries {
     visibility: hidden
@@ -3701,6 +3700,7 @@ div.Feedback_AjaxWait img {
 @media (max-width:767px) {
     .all-content-wrapper {
         min-height: initial;
+		padding: 0 10px;
     }
     .header-icon, .header-icon-logout {
         margin-left: 0
