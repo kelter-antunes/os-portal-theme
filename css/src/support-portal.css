@@ -954,7 +954,7 @@
     box-sizing: border-box;
     color: #596669;
     font-family: Arial;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
     border: 1px solid #bdc5c7;
     border-radius: 2px;
@@ -1272,6 +1272,10 @@
 .supportportal-espace .conversationHistory {
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.byline {
+    font-size: 14px;
 }
 
 @media (max-width:767px) {
