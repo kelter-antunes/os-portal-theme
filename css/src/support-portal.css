@@ -1280,6 +1280,58 @@
     font-size: 14px;
 }
 
+.supportportal-espace .homeFiltersText {
+    width: 10px;
+    height: 15px;
+    color: #7a878b;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    padding-bottom: 7px;
+} 
+
+.supportportal-espace .popuptitle {
+    color: #333;
+    font-family: myriad-pro,Arial,sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 32px;
+}
+
+.supportportal-espace .popuptitlehelp {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    width: 98%;
+}
+
+
+.supportportal-espace .popupinputtitle {
+    margin: 38px 0px 11px 0px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 13px;
+    color: #384142;
+
+}
+
+.supportportal-espace .popupinputhelp {
+    color: #c20;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 28px;
+    margin-top: -8px;
+}
+
+.supportportal-espace .TableRecords_Header1 {
+    font-family: myriad-pro,Arial,sans-serif;
+}
+
+
 @media (max-width:767px) {
     .supportportal-espace div.title-container {
         background-size: cover;
