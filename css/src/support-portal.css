@@ -1332,6 +1332,34 @@
 }
 
 
+/*breadcrumb redefinition*/
+
+
+.breadcrumb {
+    color: #FFF;
+    margin: -5px 0 20px 0px;
+}
+
+.breadcrumb a:link,.breadcrumb a:visited {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline
+}
+
+.breadcrumb .active,.breadcrumb a.active:hover {
+    color: #FFF;
+    text-decoration: none!important
+}
+
+.breadcrumb a.active:hover {
+    cursor: default
+}
+
+
+
 @media (max-width:767px) {
     .supportportal-espace div.title-container {
         background-size: cover;
