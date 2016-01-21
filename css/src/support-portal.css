@@ -611,11 +611,12 @@
     box-sizing: border-box;
     padding-top: 40px;
     vertical-align: middle;
-    background-image: url("/SupportPortal/img/head_kb.jpg");
-    background-repeat: repeat-x;
+    background-image: url("/SupportPortal/img/support_header.png");
+    background-repeat: no-repeat;
     background-position: center top;
     background-color: transparent;
     background-size: cover;
+    background-color: #0066AA;
 }
 
 .supportportal-espace .table-header {
@@ -1387,6 +1388,16 @@
     with:100%;
     cursor: pointer;
 }
+
+.supportportal-espace .filterCombo .select2-container--default .select2-selection--single {
+    border: 2px solid #08c;
+}
+
+.supportportal-espace .filterBorders {
+    border: 2px solid #08c !important;;
+}
+
+
 
 @media (max-width:767px) {
     .supportportal-espace div.title-container {
