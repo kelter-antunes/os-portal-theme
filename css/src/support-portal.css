@@ -973,16 +973,16 @@
 }
 
 .supportportal-espace .ProblemsResults {
-    z-index: 9;
+     z-index: 9;
     top: 65px;
     overflow-wrap: break-word;
     margin-bottom: 15px;
     position: absolute;
     margin-top: 5px;
-    min-width: 100%;
+    min-width: 70%;
     box-sizing: border-box;
     background: #FFF;
-    border: 3px solid rgba(0, 0, 0, 0.7);
+    border: 3px solid rgba(0,0,0,.7);
     border-radius: 4px;
 }
 
@@ -1013,10 +1013,15 @@
 }
 
 .supportportal-espace .auto-complete-section-wrapper {
-    padding: 25px 25px 0 25px;
+    padding: 15px 25px 0;
     border-bottom: 2px solid #ECEFF1;
 }
 
+.supportportal-espace .auto-complete-title {
+    padding: 25px 25px 10px ;
+    font-weight: 600 ;
+    border-bottom: 2px solid #ECEFF1 ;
+}
 .supportportal-espace .ProblemsResults h2 {
     font-size: 22px;
     color: #263238;
@@ -1025,13 +1030,20 @@
 
 .supportportal-espace .ProblemsResults a {
     color: #08C;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 14px;    
     margin-bottom: 5px;
+    font-weight: inherit;
 }
 
 .supportportal-espace .ProblemsResults span.caseId {
-    margin-right: 10px;
+    margin-right: 0px;
+    float: right;
+}
+.supportportal-espace .BlueInfo {
+    background-color: #08c;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 0px;
 }
 
 .supportportal-espace .autocomplete-overlay {
@@ -1331,6 +1343,15 @@
     font-family: myriad-pro,Arial,sans-serif;
 }
 
+.supportportal-espace .results-snippet-wrapper {
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+
+.supportportal-espace .results-snippet-rc {
+    position: relative;
+    font-weight: 700;
+}
 
 @media (max-width:767px) {
     .supportportal-espace div.title-container {
