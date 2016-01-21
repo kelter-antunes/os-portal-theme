@@ -1353,6 +1353,41 @@
     font-weight: 700;
 }
 
+
+.supportportal-espace .subtitle16 {
+    color: #263238;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.supportportal-espace .subtitle14 {
+    color: #263238;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.supportportal-espace .subtitle24 {
+    height: 33px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.supportportal-espace .optionsContainer {
+
+}
+
+.supportportal-espace .optionsContainer:hover {
+    background-color: #E8EDEE;
+    with:100%;
+    cursor: pointer;
+}
+
 @media (max-width:767px) {
     .supportportal-espace div.title-container {
         background-size: cover;
