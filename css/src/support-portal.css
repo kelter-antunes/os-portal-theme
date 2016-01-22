@@ -1410,6 +1410,7 @@
 
 .supportportal-espace .cases-container .divFlag{
     margin-left:-35px; 
+    position: absolute;
 }
 
 
@@ -1453,6 +1454,7 @@
         text-align: left;
         margin-bottom: 10px;
         margin-left: 0px;
+        position: relative;
     }
     .supportportal-espace .cases-container > div:first-child {}
     .supportportal-espace .cases-container > div:first-child:before {
