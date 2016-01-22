@@ -1448,6 +1448,7 @@
         width: 100% !important;
         text-align: left;
         margin-bottom: 10px;
+        margin-left: 0px;
     }
     .supportportal-espace .cases-container > div:first-child {}
     .supportportal-espace .cases-container > div:first-child:before {
