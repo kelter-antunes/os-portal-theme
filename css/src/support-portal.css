@@ -1408,9 +1408,10 @@
     border: 2px solid #08c !important;;
 }
 
-.supportportal-espace .cases-container div {
-        margin-left: -35px;
+.supportportal-espace .cases-container .divFlag{
+    margin-left:-35px; 
 }
+
 
 
 @media (max-width:767px) {
