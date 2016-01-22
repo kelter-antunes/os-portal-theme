@@ -1444,16 +1444,16 @@
         text-align: center;
         margin-bottom: 0;
     }
-    .supportportal-espace .cases-container span {
+    .supportportal-espace .cases-container div {
         width: 100% !important;
         text-align: left;
         margin-bottom: 10px;
     }
-    .supportportal-espace .cases-container > span:first-child {}
-    .supportportal-espace .cases-container > span:first-child:before {
+    .supportportal-espace .cases-container > div:first-child {}
+    .supportportal-espace .cases-container > div:first-child:before {
         content: "Created at: ";
     }
-    .supportportal-espace .cases-container > span:nth-last-child(+2):before {
+    .supportportal-espace .cases-container > div:nth-last-child(+2):before {
         content: "Updated at: ";
     }
     .supportportal-espace .cases-container {
