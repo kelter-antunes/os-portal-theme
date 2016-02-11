@@ -1531,3 +1531,195 @@
 
 
 }
+
+.supportportal-espace .select2-container .select2-choice div {
+    -webkit-border-radius: 0 2px 2px 0;
+    -moz-border-radius: 0 2px 2px 0;
+    border-radius: 0 2px 2px 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #FFF;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 18px;
+    border-left: none;
+}
+
+
+.supportportal-espace .select2-container .select2-choice {
+    background-color: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #bdc5c7;
+    border-radius: 2px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    height: 34px;
+    line-height: 32px;
+    padding: 0 0 0 8px;
+    color: #444;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.supportportal-espace .footer-landscape {
+  background-color: #ECEFF1;
+  margin-top: 0px !important;
+}
+.supportportal-espace .select2-container {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;    
+}
+.supportportal-espace span.select2-dropdown.select2-dropdown--below {
+    width: auto !important;
+    border-top: 1px solid #aaa;
+}
+.supportportal-espace span.select2-selection.select2-selection--single[aria-expanded="true"] {
+    border-bottom: none;
+}
+
+.supportportal-espace .select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #aaa;
+    height: 30px;
+    margin: 7px 3px;
+    width: 98%;
+}
+
+.supportportal-espace .breadcrumb {
+    color: #FFF;
+    margin: -5px 0 20px
+}
+
+.supportportal-espace .breadcrumb a:link,.breadcrumb a:visited {
+    color: #FFF;
+    text-decoration: underline
+}
+
+.supportportal-espace .breadcrumb a:hover {
+    text-decoration: underline
+}
+
+.supportportal-espace .breadcrumb .active,.breadcrumb a.active:hover {
+    color: #FFF;
+    text-decoration: none!important
+}
+
+.supportportal-espace .cases-container .divFlag {
+    margin: 0;
+    position: absolute;
+    color: #08C;
+    top: -6px;    
+    right: -14px;
+}
+
+.supportportal-espace .breadcrumb a.active:hover {
+    cursor: default
+}
+
+.supportportal-espace .container .notice {
+    color: #949fa3;
+    font-family: myriad-pro,Arial,sans-serif;
+    font-weight: 700;
+    margin-bottom: 18px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.supportportal-espace .container .notice:before, .container .notice:after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 .5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 1px solid #cfd8dc;
+}
+
+.supportportal-espace .container .notice:after {
+  margin: 0 -55% 0 .5em;
+}
+
+.supportportal-espace .line-separator {
+    line-height: 30px;  
+}
+
+.supportportal-espace .line-separator:before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  margin: -12px 0 0 0;
+  vertical-align: middle;
+  border-bottom: 1px dashed #cfd8dc;  
+}
+
+.supportportal-espace .container .notice:after {
+  margin: 0 -55% 0 .5em;
+}
+
+.supportportal-espace .custom-select2 .select2 {
+    width: 100% !important;
+}
+
+ .filter-buttons {
+    width: 20%;
+    margin-left: 2%;
+    padding-top: 21px;
+}
+
+.filter-elements {
+    width: 78%;
+}
+
+.supportportal-espace .table-header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.11);
+    background-color: #E7ECED;
+}
+
+.supportportal-espace .TableRecords_Header1 {    
+    border-left: 1px solid #cfd8dc;
+}
+
+.supportportal-espace .TableRecords_Header1:last-child {    
+    border-left: 1px solid #cfd8dc;
+    border-right: 1px solid #cfd8dc;
+}
+
+@media (max-width:979px) { 
+    .supportportal-espace .filter-buttons {
+        width: 100%;
+        display: block;
+        margin-left: 0px;
+    }
+    
+    .supportportal-espace .filter-elements {
+        display: block;
+        width: 100%;
+    }
+}
+
+.supportportal-espace .search-wrapperTicket {
+    color: #222;
+}
+
+@media (max-width:767px) {
+    .supportportal-espace .cases-container .divFlag {
+        top: -75px;
+        right: -6px;
+    }
+}
