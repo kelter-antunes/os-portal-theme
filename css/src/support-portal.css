@@ -1594,6 +1594,10 @@
     width: 98%;
 }
 
+.supportportal-espace .select2-container .select2-choice div b {
+    margin-top: 4px;
+}
+
 .supportportal-espace .breadcrumb {
     color: #FFF;
     margin: -5px 0 20px
