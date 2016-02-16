@@ -1599,12 +1599,10 @@
 }
 
 .supportportal-espace .breadcrumb {
-    color: #FFF;
-    margin: -5px 0 20px
+        margin: -5px 0 20px
 }
 
-.supportportal-espace .breadcrumb a:link,.breadcrumb a:visited {
-    color: #FFF;
+.supportportal-espace .breadcrumb a:link,.breadcrumb a:visited {    
     text-decoration: underline
 }
 
