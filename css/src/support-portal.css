@@ -1598,12 +1598,12 @@
     margin-top: 4px;
 }
 
-.supportportal-espace .breadcrumb {
+.supportportal-espace .title-container .breadcrumb {
     color: #FFF;
     margin: -5px 0 20px
 }
 
-.supportportal-espace .title-container .breadcrumb a:link,.breadcrumb a:visited {
+.supportportal-espace .title-container .breadcrumb a:link,.supportportal-espace .title-container .breadcrumb a:visited {
     color: #FFF;
     text-decoration: underline
 }
@@ -1612,7 +1612,7 @@
     text-decoration: underline
 }
 
-.supportportal-espace .title-container .breadcrumb .active,.breadcrumb a.active:hover {
+.supportportal-espace .title-container .breadcrumb .active,.supportportal-espace .title-container .breadcrumb a.active:hover {
     color: #FFF;
     text-decoration: none!important
 }
