@@ -253,6 +253,577 @@ body.videos {
     color: rgba(255, 255, 255, .3);
     font-family: Verdana
 }
+
+
+.learn-espace .sideblock-greybackground{
+    background-color: #e7eced!important;
+    text-align: center;
+}
+
+.learn-espace .sideblock-holder-noheader{
+    background-color: #FFFFFF!important;
+    margin-bottom: 40px;
+}
+
+.learn-espace .timeBlock_days {
+    border-radius: 4px 0 0 4px;
+    background-color: #384142;
+    width: 36px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 1px;
+}
+
+.learn-espace .timeBlock_date {
+    border-radius: 0 4px 4px 0;
+    background-color: #384142;
+    width: 130px;
+    height: 40px;
+    padding: 5px;
+}
+
+.learn-espace .timeBlock_days_value { 
+    color: white;
+    font-family: myriad-pro,Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.learn-espace .timeBlock_days_text { 
+    color: white;
+    color: #e6e6e6;
+    font-family: myriad-pro,Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.learn-espace .timeBlock_date_subblock {
+
+}
+
+.learn-espace .loader {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.learn-espace .percentageLoader17 {
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 17px;
+}
+
+.learn-espace .percentageLoader20 {
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.learn-espace .percentageLoader13 {
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 13px;
+}
+
+.learn-espace .courseHeader {
+    color: #7a878b;
+    font-family: myriad-pro,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    padding: 0px 5px 0px 5px;
+}
+
+.learn-espace .courseSubHeader {
+    color: #596669;
+    font-family: myriad-pro,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;   
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.learn-espace .resumeblock {
+    color: #7a878b;
+    background-color: #eaedef;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    line-height: 22px;
+}
+
+.learn-espace .resumeblock-whitebackground {
+    background-color: #ffffff;
+    vertical-align: middle;
+    margin-left: 10px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 4px;
+}
+
+.learn-espace .resumeblock-btn{
+    float: right;
+    padding-right: 10px;
+}
+
+.learn-espace .resumeblock-Text{
+    display: inline-block;    
+    line-height: 30px;     
+    padding-left: 10px;
+}
+
+.learn-espace .courseListLine {
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+
+.learn-espace .courseListDate {
+    width: 40px;
+    height: 40px;
+    background-color: #eceff1;
+    margin-left: 10px;
+}
+
+.learn-espace .courseListDateNumber {
+    color: #949fa3;
+}
+
+.learn-espace .courseListDateText{
+    text-transform: uppercase;
+    color: #596669;
+}
+
+.learn-espace .courseListText {
+    height: 19px;
+    color: #37474f;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.learn-espace .courseListSubText {
+    height: 15px;
+    color: #949fa3;
+    font-size: 10px;
+    font-family: Arial;
+    font-weight: 700;
+}
+
+.learn-espace .surveyResultsLabel {
+    color: #545454;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.learn-espace .surveyValid {
+
+}
+
+.learn-espace .surveyValid30 {
+    margin-bottom: 30px;
+}
+
+.learn-espace .surveyValid20 {
+    margin-bottom: 20px;
+}
+
+.learn-espace .surveyInvalid {
+    border: 1px solid #bf1601;
+    border-radius: 0;
+}
+
+.learn-espace .surveyInvalid30 {
+    margin-bottom: 30px; 
+    border: 1px solid #bf1601;
+    border-radius: 0;
+}
+
+.learn-espace .surveyInvalid20 {
+    margin-bottom: 20px; 
+    border: 1px solid #bf1601;
+    border-radius: 0;
+}
+
+.learn-espace .bottomFirstRow {
+    background-color: #505050;
+}
+
+.learn-espace .bottomRowBtn {
+    background-color: rgba(255, 255, 255, 0.09);
+    margin-bottom: 20px;
+    padding: 5px 0px 5px 0px;
+    border-radius: 4px;
+}
+
+.learn-espace .bottomRowBtn a{
+    color: white;
+}
+
+.learn-espace .bottomSecondRow {
+    background-color: #e7eced;
+    border: 1px solid #e7eced;
+    border-radius: 4px;
+}
+
+.learn-espace .courseLink {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-left: -4px;
+}
+
+.learn-espace .courseLinkTitle {
+    color: #333;
+    font-family: myriad-pro,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.learn-espace .bottomSecondRowText {
+    color: #7a878b;
+    font-family: myriad-pro,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 50px;
+    margin-left: 32px;
+    line-height: 70px;   
+}
+
+.learn-espace .bottomSecondRowSeparator {
+    background-color: white;
+    min-height: 70px;
+    width: 1px;
+}
+
+.learn-espace .bottomSecondRowLastColumn {
+    line-height: 70px;
+}
+
+
+.learn-espace .bottomSecondRowLastColumn a {
+    color: white;
+}
+
+
+.learn-espace .HtmlContent {
+    list-style-type:disc;
+    font-size:15px;
+    font-family:Arial;
+    color:#000000;
+    background-color:white;
+    font-weight:normal;
+    font-style:normal;
+    font-variant:normal;
+    text-decoration:none;
+    vertical-align:baseline;
+    padding: 10px 20px;
+}
+
+.learn-espace .HtmlContent ul, 
+.learn-espace .HtmlContent ol {
+    margin-left: 30px;
+}
+
+.learn-espace .HtmlContent li {
+    list-style-type:disc;
+    font-size:15px;
+}
+
+.learn-espace .HtmlContent p {
+    line-height:1.15;
+    margin-top:6pt;
+    margin-bottom:6pt;
+}
+
+.learn-espace .HtmlContent .KeyConcepts{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.learn-espace .HtmlContent .SectionTitle {
+    font-size: 19px;
+    color: #c00000;
+}
+
+.learn-espace .VideoLink {
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.learn-espace .VideoLink:hover {
+    cursor: pointer;
+    border: 1px dotted #888;
+}
+
+.learn-espace .VideoLink a {
+    font-size:13px;
+    font-family:Arial;
+    color:#f00000;
+    background-color:transparent;
+    font-weight:normal;
+    font-style:normal;
+    font-variant:normal;
+    text-decoration:underline;
+    vertical-align:baseline;
+    white-space:pre-wrap;
+}
+
+.learn-espace .LineLink,
+.learn-espace .LineLink a{
+    color: #000;
+}
+
+.learn-espace .TableCourses a:hover,
+.learn-espace .LineLink a:hover {
+    cursor: pointer;
+    color: #C00000;
+    text-decoration: none;
+}
+
+.learn-espace .LineLink:hover {
+    color: #C00000;
+    cursor: pointer;
+}
+
+
+
+/* Callouts to Q&A chapters from Lesson contents */
+.learn-espace .LessonCallout {
+    display: inline-block;
+    height: 60px;
+}
+
+.learn-espace .LessonCallout>span {
+    position: absolute;
+    padding: 5px 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    min-width: 400px;
+    line-height: 16px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-box-shadow: 6px 6px 10px #CCC;
+    -webkit-box-shadow: 6px 6px 10px #CCC;
+    box-shadow: 6px 6px 10px #CCC;
+    font-family: Calibri, Tahoma, Geneva, sans-serif;
+    background: #FFEEAB; /* #B2BED6 */
+    border: 1px solid #001857;
+}
+
+.learn-espace .LessonCallout img {
+    border: 0; 
+    margin: -22px 0 0 -26px;
+    float: left;
+    padding: 5px;
+    text-decoration: none;
+    text-outline: none;
+    border: none;
+}
+
+.learn-espace .MainContent {
+    padding-bottom: 75px;
+}
+
+.learn-espace .MHeader {    
+    line-height: 4;
+    background-color: #555555;
+    color: white;
+    border-radius: 2px 2px 0 0;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.learn-espace .MTable {
+    background-color: #ECECEC;
+    color:  #555555;
+    line-height: 3;
+}
+
+.learn-espace .MInnerTable {
+    background-color: rgba(236, 236, 236, 0.32);
+    color:  #555555;
+    line-height: 3;
+}
+
+.learn-espace .Lessons .Heading2 {
+    font-size: 15px
+}
+
+.learn-espace .Lessons {
+    background-color: white;
+    padding: 10px 10px;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(194, 194, 194, 0.63);
+}
+
+.learn-espace .Lessons .TableRecords_Header {
+    color: #999;
+    border-bottom: 1px solid rgba(194, 194, 194, 0.63);
+    padding: 0px 0px 5px 5px;
+}
+
+.learn-espace .Lessons .TableRecords {
+    background: white;
+    padding: 5px 40px 0px 40px;
+    margin-top: 20px;
+    border: none;
+}
+
+.learn-espace .Lessons .a, .Lessons a:link, .Lessons a:visited {
+    color: #396185;
+}
+
+.learn-espace .Label {
+    border-radius: 2px;
+    width: 100%;
+    color: white;
+    line-height: 2;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.learn-espace .Label.Intro {
+    background-color: gray;
+}
+
+.learn-espace .Label.Video {
+    background-color: #C33C2D;
+}
+
+
+.learn-espace .Label.Assignment {
+    background-color: #C7A414;
+}
+
+
+.learn-espace .Label.Checkpoint {
+    background-color: #396185;
+}
+
+
+.learn-espace .Label.Milestone {
+
+    background-color: #087944;
+}
+
+.learn-espace .Label.BorderGreen {
+    color: rgba(3, 78, 3, 0.9);
+}
+
+.learn-espace .Label.BorderRed {
+    color: rgba(195, 60, 45, 0.9);
+}
+
+
+.learn-espace .Label.BorderOutdated {
+    color: #E49400;
+}
+
+.learn-espace .Outdated {
+    color: #E49400;
+}
+
+.learn-espace .White {
+    color: white !important;
+}
+
+.learn-espace .Card {
+    background-color: #FFF;
+    border: 1px solid #dadbde;
+    box-shadow: 0 1px 3px rgba(211, 211, 211, 0.5);
+    padding: 10px;
+    width: 100%;
+}
+
+
+.learn-espace .Bold {
+    font-weight: bold;
+}
+
+.learn-espace .MarginLeft5 {
+    margin-left: 5px;
+}
+
+
+.learn-espace iframe {
+    width: 100%;   
+}
+
+.learn-espace .chapter {
+    box-shadow: 0px 0px 1px 0px #aaa;   
+    margin-bottom: 5px;
+}
+
+.learn-espace .chapter-block {
+    /*padding: 15px 48px;*/
+    padding: 15px 15px;
+    position: relative;
+    color: #333;
+    font-family: myriad-pro,sans-serif;
+    font-weight: 600;
+    line-height: 18px;    
+    font-size: 14px;
+    cursor: pointer;    
+}
+
+.learn-espace .chapter-block .expand {
+    color: #7a878b;
+}
+
+.learn-espace .chapter.open .expand .fa-chevron-down:before {
+    content: "\f077";
+}
+
+.learn-espace .chapter-block .lock {
+    position: absolute;
+    left: 14px;
+    top: 15px;
+}
+
+.learn-espace .chapter-block .expand {
+    position: absolute;
+    right: 14px;
+    top: 15px;
+}
+
+.learn-espace .chapter-content {
+    margin: 0px;
+    padding: 0px 48px 15px 48px;
+    display: none;
+}
+
+.learn-espace .chapter-content .description {
+    border-bottom: 1px solid #eceff1;
+    padding-bottom: 10px;
+    margin-bottom: 15px;    
+}
+
+.learn-espace .InvisibleImage {
+    opacity: 0;   
+}
+
+.learn-espace .InvisibleImage:hover {
+    opacity: 0.5;   
+}
+
+.learn-espace .chapter-padding5 {
+    padding: 5px;   
+    box-sizing: border-box;
+}
+
+
+.learn-espace .chapter-padding5-btn {
+    padding-right: 0px;
+    line-height: 30px;
+    float: right;
+}
+
+
+
+
 @media (max-width:767px) {
     .learn-espace .initialBackground {
         padding: 10px
@@ -260,6 +831,9 @@ body.videos {
     .learn-espace .middleBackground {
         height: auto;
         padding: 0 10px
+    }
+    .learn-espace .resumeblock-whitebackground {
+        width: 150px;
     }
 
     /**    .learn-espace .headerBackground {
@@ -273,6 +847,12 @@ body.videos {
             padding: 0 10px
         }
     **/
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+    .learn-espace .resumeblock-whitebackground {
+        width: 280px;
+    }
 }
 
 /**.learn-espace .middleBackground {
