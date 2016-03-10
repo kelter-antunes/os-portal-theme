@@ -769,6 +769,20 @@ body.videos {
     cursor: pointer;    
 }
 
+.learn-espace .chapter-block-oneLesson {
+    padding: 15px;
+    position: relative;
+    color: #333;
+    font-family: myriad-pro,sans-serif;
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 14px;
+    cursor: pointer;
+    background: #6699CC;
+    color: white;
+    border: none;
+}
+
 .learn-espace .chapter-block .expand {
     color: #7a878b;
 }
