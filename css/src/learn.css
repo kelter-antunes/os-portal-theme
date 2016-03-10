@@ -254,17 +254,6 @@ body.videos {
     font-family: Verdana
 }
 
-
-.learn-espace .sideblock-greybackground{
-    background-color: #e7eced!important;
-    text-align: center;
-}
-
-.learn-espace .sideblock-holder-noheader{
-    background-color: #FFFFFF!important;
-    margin-bottom: 40px;
-}
-
 .learn-espace .timeBlock_days {
     border-radius: 4px 0 0 4px;
     background-color: #384142;
@@ -301,11 +290,6 @@ body.videos {
 
 .learn-espace .timeBlock_date_subblock {
 
-}
-
-.learn-espace .loader {
-    width: 60px !important;
-    height: 60px !important;
 }
 
 .learn-espace .percentageLoader17 {
