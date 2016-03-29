@@ -950,7 +950,7 @@
 }
 
 .partnerarea-espace .opportunity-container>.row>div:first-child,
-.partnerarea-espace .quote-container>.row>div:first-child {
+.partnerarea-espace .quote-container>.row-fluid>div:first-child {
     width: 125px;
     height: 70px;
     line-height: 1.3;
