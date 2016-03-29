@@ -961,14 +961,14 @@
 }
 
 .partnerarea-espace .opportunity-container>.row>.span8 .span1,
-.partnerarea-espace .quote-container>.row>.span8 .span1 {
+.partnerarea-espace .quote-container>.row-fluid>.span9 .span1 {
     width: 50px;
     margin-left: 10px;
     margin-top: 15px
 }
 
 .partnerarea-espace .opportunity-container>.row>.span8 .span2,
-.partnerarea-espace .quote-container>.row>.span8 .span2 {
+.partnerarea-espace .quote-container>.row-fluid>.span9 .span2 {
     width: 90px;
     margin-left: 10px;
     margin-top: 15px
