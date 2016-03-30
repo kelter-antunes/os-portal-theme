@@ -650,7 +650,7 @@ input[type=search].inpage-search-input {
     color: #666;
     display: block
 }
-.menu-item a:hover, .menu-item.active a.menu-academy-overview, .menu-item.active a.menu-download, .menu-item.active a.menu-faq, .menu-item.active a.menu-forge, .menu-item.active a.menu-forums, .menu-item.active a.menu-home, .menu-item.active a.menu-ideas, .menu-item.active a.menu-ipp, .menu-item.active a.menu-knowledgebase, .menu-item.active a.menu-leaderboard, .menu-item.active a.menu-licensing, .menu-item.active a.menu-portal, .menu-item.active a.menu-support, .menu-item.active a.menu-training, .menu-item.active a.menu-sizing, .menu-item.active a.menu-isv {
+.menu-item a:hover, .menu-item.active a.menu-academy-overview, .menu-item.active a,.menu-item.active a.menu-download, .menu-item.active a.menu-faq, .menu-item.active a.menu-forge, .menu-item.active a.menu-forums, .menu-item.active a.menu-home, .menu-item.active a.menu-ideas, .menu-item.active a.menu-ipp, .menu-item.active a.menu-knowledgebase, .menu-item.active a.menu-leaderboard, .menu-item.active a.menu-licensing, .menu-item.active a.menu-portal, .menu-item.active a.menu-support, .menu-item.active a.menu-training, .menu-item.active a.menu-sizing, .menu-item.active a.menu-isv {
     color: #333
 }
 .menu-item a.menu-forums:before {
