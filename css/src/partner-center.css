@@ -500,11 +500,14 @@
 }
 
 .partnerarea-espace .profile-pic-background {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     background-color: #fff;
-    height: 100%;
-    width: 100%;
+    padding: 10px 0px;
+    width: 70%;
     border-radius: 1px;
-    position: relative
+    position: relative;
 }
 
 .partnerarea-espace .profile-pic-background a {
