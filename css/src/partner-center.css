@@ -343,7 +343,9 @@
     text-overflow: ellipsis;
     color: #263238;
     font-size: 12px;
-    font-weight: 400
+    font-weight: 400;
+    display: inline-block;
+    max-width: 88%;
 }
 
 .partnerarea-espace .section.big {
@@ -517,7 +519,7 @@
 
 
 .partnerarea-espace .profile-pic-background a {
-    width: 120px;                                                           
+    width: 120px;
     height: 120px;
     display: block
 }
@@ -1038,7 +1040,7 @@
     width: 25px;
     height: 25px;
     top: -1px;
-    right: 197px;    
+    right: 197px;
     background-size: 25px 25px;
 }
 
@@ -1096,7 +1098,7 @@
         padding-bottom: 60px
     }
     .partnerarea-espace div.Tabs_TabOff,
-    .partnerarea-espace div.Tabs_TabOn    
+    .partnerarea-espace div.Tabs_TabOn
     /**.partnerarea-espace li.Tabs_TabOff**/    /**.partnerarea-espace li.Tabs_TabOn**/ {
         width: 24%;
         overflow: hidden;
@@ -1175,16 +1177,16 @@
         padding-left: 30px;
     }
 
-    .partnerarea-espace .content-separator.certList {    
+    .partnerarea-espace .content-separator.certList {
         padding-bottom: 0px;
     }
 
-    .partnerarea-espace .AllianceDiv {    
+    .partnerarea-espace .AllianceDiv {
         vertical-align: middle;
         display: table-cell;
     }
 
-    .partnerarea-espace .AllianceDivContent {    
+    .partnerarea-espace .AllianceDivContent {
         vertical-align: middle;
         line-height: 0;
         /*padding-right: 40px;*/
@@ -1199,7 +1201,7 @@
         width: 50px;
         margin-top: 15px;
         margin-left: 10px;
-        
+
     }
     .partnerarea-espace .opportunity-container>.row>.span8 .span2 {
         width: 70px;
