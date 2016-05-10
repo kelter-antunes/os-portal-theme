@@ -1,5 +1,5 @@
 .all-content-wrapper {
-    min-height: 400px;	
+    min-height: 400px;
 }
 .searchview-close, .with-search .header-logo, .with-search .menu-entries {
     visibility: hidden
@@ -611,24 +611,16 @@ input[type=search].inpage-search-input {
 .top-menu-arrow, .top-menu-home, .top-menu-learn {
     content: "";
     border-style: solid;
-    border-width: 10px;
     bottom: 0;
-    left: 50%;
     position: absolute;
-    margin-left: -10px;
-    border-color: transparent transparent #BCC5CC;
+    width: 100%;
+   border: 0px solid white;
+   height: 4px;
+   background-color: white;
+
 }
 
-.menu-arrow {
-    content: "";
-    border-style: solid;
-    border-width: 6px;
-    bottom: -0px;
-    left: 50%;
-    position: absolute; 
-    margin-left: -6px;   
-    border-color: transparent transparent #fff;
-}
+
 .top-menu-item a {
     color: #AAA;
     display: inline-block;
@@ -813,8 +805,8 @@ input[type=search].inpage-search-input {
     content: "";
     float: left
 }
-.menu-item a.menu-support:hover:before, 
-.menu-item.active a.menu-support:before, 
+.menu-item a.menu-support:hover:before,
+.menu-item.active a.menu-support:before,
 .menu-item.active a.menu-support:hover:before {
     background: url(/PortalTheme/img/suppor_case_icon_active.png) center no-repeat;
     width: 20px;
@@ -833,8 +825,8 @@ input[type=search].inpage-search-input {
     content: "";
     float: left
 }
-.menu-item a.menu-isv:hover:before, 
-.menu-item.active a.menu-isv:before, 
+.menu-item a.menu-isv:hover:before,
+.menu-item.active a.menu-isv:before,
 .menu-item.active a.menu-isv:hover:before {
     background: url(/PortalTheme/img/isv_active.png) center no-repeat;
     width: 20px;
@@ -3732,12 +3724,12 @@ div.Feedback_AjaxWait img {
         min-height: initial;
 		padding: 0 10px;
     }
-	
+
 	.all-content-wrapper input[type=text] {
 		box-sizing: border-box;
 		min-height: 30px;
 	}
-	
+
     .header-icon, .header-icon-logout {
         margin-left: 0
     }
