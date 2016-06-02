@@ -556,6 +556,10 @@
 
 /** common **/
 
+.select2-container .select2-choice .select2-arrow b {
+    background-position: inherit !important;
+}
+
 .supportportal-espace a.channel-box {
     background: #FFFFFF;
     border: 1px solid #BDC5C7;
